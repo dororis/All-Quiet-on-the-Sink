@@ -1,0 +1,272 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "30670826a71a75e6"
+	group: "3363CE859CE20561"
+	icon: {
+		id: "mekmm:large_wind_generator"
+	}
+	id: "30670826A71A75E6"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "mekmm:solar_heat_generator"
+			}
+			id: "19F7EE382A415EF5"
+			tasks: [
+				{
+					id: "32D0613431D4854C"
+					item: { count: 1, id: "mekmm:solar_heat_generator" }
+					type: "item"
+				}
+				{
+					id: "77BA3F63AE81CCBF"
+					item: { count: 1, id: "mekmm:reflector" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			id: "4494DAE522180E9A"
+			tasks: [{
+				id: "191453EBEFD4794A"
+				item: { count: 1, id: "mekmm:large_heat_generator" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			id: "77262F38CCE16C04"
+			tasks: [{
+				id: "7A975010EF54513A"
+				item: { count: 1, id: "mekmm:large_wind_generator" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			id: "6D987BA52E1A9F71"
+			tasks: [{
+				id: "0CC0C24E6C6ED201"
+				item: { count: 1, id: "mekmm:large_gas_burning_generator" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			id: "10923B71986DC99C"
+			tasks: [{
+				id: "5D3419DB85D3A13E"
+				item: { count: 1, id: "powah:thermo_generator_nitro" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			id: "33CB15BE7D68D377"
+			tasks: [{
+				id: "1DC9767443076A18"
+				item: { count: 1, id: "generatorgalore:netherstar_generator_64x" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			icon: {
+				id: "enderio_evolution:stellar_infinity_generator"
+			}
+			id: "10AE680DD7B2CA14"
+			tasks: [
+				{
+					id: "5EFF8B77B2018B7E"
+					item: { count: 1, id: "enderio_evolution:stellar_infinity_generator" }
+					type: "item"
+				}
+				{
+					id: "203B952241C8D160"
+					item: { count: 1, id: "enderio_evolution:double_compressed_infinity_dust_block" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			id: "14B519B8970B45EF"
+			tasks: [{
+				id: "5775BFEF59CC90AE"
+				item: { count: 1, id: "appgen:flux_generator_256m" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			id: "3CDE708B05458899"
+			tasks: [{
+				id: "59B078E708A1B833"
+				item: { count: 1, id: "appgen:singularity_generator_256m" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			disable_toast: true
+			id: "566BD3AAE40E12C4"
+			tasks: [{
+				id: "658EDE2C4321BCBC"
+				item: { count: 1, id: "oritech:reactor_controller" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			disable_toast: true
+			id: "11FC5DBE955B6370"
+			tasks: [{
+				id: "50AD90E150328060"
+				item: { count: 1, id: "industrialforegoing:mycelial_reactor" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			disable_toast: true
+			icon: {
+				id: "mekanismgenerators:fission_reactor_port"
+			}
+			id: "0685EDD49B2A121E"
+			tasks: [
+				{
+					id: "28F8A598E7EA497B"
+					item: { count: 1, id: "mekanismgenerators:fission_reactor_port" }
+					type: "item"
+				}
+				{
+					id: "1BAB77863BCF88EF"
+					item: { count: 1, id: "mekanismgenerators:turbine_blade" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			disable_toast: true
+			id: "3934B2CC20B9FD88"
+			tasks: [{
+				id: "4D0DFD2C66D74D8A"
+				item: { count: 1, id: "draconicevolution:reactor_core" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			disable_toast: true
+			id: "058BFB6299EB58F0"
+			tasks: [{
+				id: "32949668C20A5B74"
+				item: { count: 1, id: "mekanismgenerators:fusion_reactor_controller" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			disable_toast: true
+			id: "6C49BDC2EFF4A1C2"
+			tasks: [{
+				id: "0001213ACC28B2AB"
+				item: { count: 1, id: "mekanism_extras:naquadah_reactor_controller" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			id: "7F36043662A16273"
+			tasks: [{
+				id: "0EA6F55BF399B01F"
+				item: { count: 1, id: "mekanismsun:artificial_sun_port" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			id: "20597D68A2AB06B1"
+			tasks: [{
+				id: "7BE7207F8710DE55"
+				item: { count: 1, id: "dysoncubeproject:ray_receiver_controller" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			id: "49C64682B52D3228"
+			tasks: [{
+				id: "405AF325080EDABE"
+				item: { count: 1, id: "dysoncubeproject:em_railejector_controller" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			icon: {
+				id: "dysoncubeproject:dyson_hub"
+			}
+			id: "6AA6ED7ED4F2EE0B"
+			tasks: [
+				{
+					id: "550B704359AE80DA"
+					item: { count: 1, id: "dysoncubeproject:dyson_guidebook" }
+					type: "item"
+				}
+				{
+					id: "708138010E3C0B31"
+					item: { count: 1, id: "dysoncubeproject:dyson_hub" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			id: "26BECA16B4E7631E"
+			tasks: [{
+				id: "38C4799021E15CB9"
+				item: { count: 1, id: "fluxnetworks:ultimate_flux_storage" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			id: "19BA72E1D6040239"
+			tasks: [{
+				id: "70E99841C99D6671"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -5.5d
+		}
+	]
+}

@@ -1,0 +1,27 @@
+#Enable short visual-only hover and selection transitions in the RTS UI.
+enableUiAnimations = true
+#Render translucent block ghost models for placement previews before the player confirms placement.
+useBlockGhostPreview = false
+#Render translucent grow-in block ghosts after server-confirmed block placement.
+usePlaceBlockGhostAnimation = true
+#Render translucent shrink-out block ghosts after server-confirmed block destruction.
+useDestroyBlockGhostAnimation = true
+#Render wireframe outlines for placement previews before the player confirms placement.
+useWireframePreview = false
+#Render grow-in wireframe outlines after server-confirmed block placement.
+usePlaceWireframeAnimation = false
+#Render shrink-out wireframe outlines after server-confirmed block destruction.
+useDestroyWireframeAnimation = false
+#Render merged skeleton borders for non-chain range destroy previews. Chain mining always uses the skeleton style.
+useRangeDestroySkeleton = true
+#Show the RTS plugin button on the vanilla inventory screen.
+showInventoryRtsButton = true
+#Require a configurable keyboard key for the final multi-block placement/destroy confirmation instead of confirming with the mouse click used to select the range.
+requireKeyboardBatchConfirm = true
+#Show the developer scenario task entry and write local diagnostic logs.
+developerMode = false
+
+[diagnostics]
+	#RTS operation diagnostics. BASIC records bounded lifecycle events; VERBOSE keeps additional detail.
+	#Allowed Values: OFF, BASIC, VERBOSE
+	level = "BASIC"

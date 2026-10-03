@@ -1,0 +1,415 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_4"
+	group: "4D3AA524F989001F"
+	icon: {
+		id: "mbd2:moon_mineral_extractor"
+	}
+	id: "0F0040212E492014"
+	images: [
+		{
+			height: 1.0d
+			id: "088A0A1D38B871DB"
+			image: "ftblibrary:icons/dropdown_out"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: -2.5d
+		}
+		{
+			click_action: "open_quest:58E24B18B047159F"
+			height: 1.0d
+			id: "0E8916BD35CA870F"
+			image: "brandonscore:textures/gui/dark/arrow_right.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 18.5d
+			y: -1.0d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1EB6F942B4873168"]
+			id: "1AACE7FE1C1A404C"
+			size: 2.0d
+			tasks: [{
+				id: "73449E6E99EAAD58"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1AACE7FE1C1A404C"]
+			id: "27F229B7A734BB8E"
+			rewards: [{
+				id: "6321A67CF13413BC"
+				item: {
+					count: 1
+					id: "ad_astra:moon_globe"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A6ED557E82BF554"
+				item: { count: 1, id: "mbd2:moon_mineral_extractor" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["27F229B7A734BB8E"]
+			icon: {
+				id: "ad_astra:ice_shard"
+			}
+			id: "79767671B3B189AF"
+			tasks: [
+				{
+					id: "5394D0EC69F102F2"
+					item: { count: 1, id: "ad_astra:ice_shard" }
+					type: "item"
+				}
+				{
+					fluid: {
+						amount: 1000
+						id: "ad_astra:cryo_fuel"
+					}
+					id: "38A5E89F6A518572"
+					optional_task: true
+					type: "fluid"
+				}
+			]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["27F229B7A734BB8E"]
+			id: "35520E62EDF3F8CC"
+			tasks: [{
+				id: "5CFF758B51668E16"
+				item: { count: 1, id: "ad_astra:desh_ingot" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["27F229B7A734BB8E"]
+			id: "5C639DAC22F3D17A"
+			tasks: [{
+				id: "45E6556E77CB5527"
+				item: { count: 1, id: "mekanism_extras:ingot_naquadah" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["35520E62EDF3F8CC"]
+			id: "327E3C65CAA44BF0"
+			size: 2.0d
+			tasks: [{
+				id: "4C6A00173D3E1D46"
+				item: { count: 1, id: "mysticalagriculture:awakening_altar" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["327E3C65CAA44BF0"]
+			id: "394B78FB8DF039C3"
+			tasks: [{
+				id: "6EEFCA6404633215"
+				item: { count: 1, id: "draconicevolution:awakened_draconium_block" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"394B78FB8DF039C3"
+				"1E4B61F787CBD986"
+			]
+			id: "79588466C70C23CF"
+			tasks: [{
+				id: "5B46E1A322DED5F6"
+				item: { count: 1, id: "mysticalagriculture:cognizant_dust" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			id: "1E4B61F787CBD986"
+			tasks: [{
+				id: "2F54E85BAFC22DF4"
+				item: { count: 1, id: "draconicevolution:awakened_draconium_ingot" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			id: "60787E4079999A23"
+			tasks: [{
+				id: "32693A2469D72464"
+				item: { count: 1, id: "draconicevolution:awakened_core" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"79588466C70C23CF"
+				"60787E4079999A23"
+			]
+			id: "5CC1014646DADD6E"
+			tasks: [{
+				id: "01524850786C94FF"
+				item: { count: 1, id: "draconicevolution:awakened_crafting_injector" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["79767671B3B189AF"]
+			id: "4CFB1EAADCF42E2A"
+			optional: true
+			tasks: [{
+				fluid: {
+					amount: 1000
+					id: "neoecoae:cryotheum_solution"
+				}
+				id: "28F5F4F2AA8C8DE3"
+				type: "fluid"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5C639DAC22F3D17A"]
+			id: "02C2227786131546"
+			optional: true
+			tasks: [
+				{
+					id: "49ECB06E36E07DA2"
+					type: "checkmark"
+				}
+				{
+					fluid: {
+						amount: 1000
+						id: "mekanism_extras:fluorinated_naquadah_uranium_fuel"
+					}
+					id: "757430AD4A0E28A8"
+					optional_task: true
+					type: "fluid"
+				}
+			]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["79588466C70C23CF"]
+			id: "1363DC1F2C436A48"
+			tasks: [{
+				id: "36F812D068B5955A"
+				item: { count: 1, id: "ae2ltpp:ma_awakening_altar_packaged_core" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["59005537C08EEC6F"]
+			id: "75158072776B2AD5"
+			tasks: [{
+				count: 10L
+				id: "25794E3C82CFBB19"
+				item: { count: 1, id: "draconicevolution:chaotic_crafting_injector" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5CC1014646DADD6E"]
+			icon: {
+				components: {
+					"!ftbquests:icon": { }
+					"ftbquests:entity_face": "minecraft:pig"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "18329BD333146C1D"
+			rewards: [{
+				command: "/tp @s 10000 100 0"
+				id: "67BD12FA6F2F92BC"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "2286756FC95C49A9"
+				type: "checkmark"
+			}]
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["59005537C08EEC6F"]
+			icon: {
+				id: "industrialforegoing:ore_laser_base"
+			}
+			id: "5332A7F8112FED32"
+			tasks: [
+				{
+					id: "1F6EFD2DA7B00B11"
+					item: { count: 1, id: "industrialforegoing:ore_laser_base" }
+					type: "item"
+				}
+				{
+					id: "77875EF0A2157321"
+					item: { count: 1, id: "industrialforegoing:black_laser_lens" }
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["37760F7145AA853F"]
+			id: "43F2BC83147544F5"
+			tasks: [{
+				id: "7CAB2DE27EE881F3"
+				item: { count: 1, id: "draconicevolution:small_chaos_frag" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5332A7F8112FED32"]
+			id: "2B9ECFA4381C6414"
+			tasks: [{
+				id: "2DD9785EA6744F25"
+				item: { count: 1, id: "draconicevolution:chaos_shard" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["75158072776B2AD5"]
+			id: "37760F7145AA853F"
+			tasks: [{
+				id: "2BB079C24AFEFAB3"
+				item: { count: 1, id: "mbd2:chaos_laser_base" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["18329BD333146C1D"]
+			id: "59005537C08EEC6F"
+			tasks: [{
+				id: "4C51ABC0EA840ABF"
+				observation_type: "block"
+				observe_type: 0
+				timer: 0L
+				to_observe: "draconicevolution:draconic_guardian"
+				type: "observation"
+			}]
+			x: 10.5d
+			y: -1.0d
+		}
+		{
+			id: "6F7708428057069A"
+			tasks: [{
+				id: "6D5EE056DEC0987A"
+				type: "checkmark"
+			}]
+			x: 10.5d
+			y: -2.0d
+		}
+		{
+			id: "05DAC5501340B882"
+			tasks: [{
+				id: "6CBEEB4ADDB36050"
+				type: "checkmark"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B9ECFA4381C6414"]
+			id: "73DA6E90942A574C"
+			size: 2.0d
+			tasks: [{
+				id: "2B148C90D4B4E7B8"
+				item: { count: 1, id: "draconicevolution:reactor_core" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5CC1014646DADD6E"]
+			id: "6C3F097FBFB1DDD2"
+			tasks: [{
+				id: "67BFBCC59322962D"
+				item: { count: 1, id: "ae2ltpp:de_fusion_packaged_core" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			id: "573AA0D4AE89FA62"
+			tasks: [{
+				id: "2B912D89EEED0B29"
+				item: { count: 1, id: "mekanism:cardboard_box" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"573AA0D4AE89FA62"
+				"73DA6E90942A574C"
+			]
+			id: "093B3B5E40CCCF0F"
+			tasks: [{
+				id: "658A3A20552747D2"
+				item: { components: { "mekanism:block_data": { block_entity_tag: { bc_managed_data: { anim_extract_state: 0.0d, component_position0: [I; 0, 0, 0 ], component_position1: [I; 0, 0, 0 ], component_position2: [I; 0, 0, 0 ], component_position3: [I; 0, 0, 0 ], component_position4: [I; 0, 0, 0 ], component_position5: [I; 0, 0, 0 ], converted_fuel: 0.0d, explosion_countdown: -1, fail_safe_mode: 0b, field_drain: 0, field_input_rate: 0.0d, fuel_use_rate: 0.0d, generation_rate: 0.0d, max_saturation: 0L, max_shield_charge: 0.0d, reactable_fuel: 0.0d, reactor_state: { value: 0b }, saturation: 0L, shader_animation_state: 0.0d, shield_charge: 0.0d, stabilizer_axis: { value: 1b }, startup_initialized: 0b, structure_error: "", structure_valid: 0b, temp_drain_factor: 0.0d, temperature: 20.0d }, id: "draconicevolution:reactor_core", x: -54, y: 253, z: -66 }, state: { Name: "draconicevolution:reactor_core" } } }, count: 1, id: "mekanism:cardboard_box" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"093B3B5E40CCCF0F"
+				"757430AD4A0E28A8"
+			]
+			id: "520883DBD546EE72"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "3138DB55244B71DE"
+				item: { count: 1, id: "ad_astra:tier_2_rocket" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: -1.0d
+		}
+	]
+}

@@ -1,0 +1,65 @@
+{
+  "credit": "Amethyst growth accelerator",
+  "ambientocclusion": true,
+  "textures": {
+    "side": "kubejs:block/amethyst_growth_accelerator_side",
+    "top": "kubejs:block/amethyst_growth_accelerator_top",
+    "bottom": "kubejs:block/amethyst_growth_accelerator_bottom",
+    "crystal": "kubejs:block/amethyst_growth_accelerator_crystal",
+    "particle": "kubejs:block/amethyst_growth_accelerator_side"
+  },
+  "elements": [
+    {
+      "from": [0, 0, 0],
+      "to": [16, 14, 16],
+      "faces": {
+        "down": {"texture": "#bottom"},
+        "up": {"texture": "#top"},
+        "north": {"texture": "#side"},
+        "south": {"texture": "#side"},
+        "west": {"texture": "#side"},
+        "east": {"texture": "#side"}
+      }
+    },
+    {
+      "from": [3, 14, 3],
+      "to": [13, 16, 13],
+      "faces": {
+        "up": {"texture": "#crystal"},
+        "north": {"texture": "#crystal"},
+        "south": {"texture": "#crystal"},
+        "west": {"texture": "#crystal"},
+        "east": {"texture": "#crystal"}
+      }
+    },
+    {
+      "from": [6, 14, 6],
+      "to": [10, 16, 10],
+      "faces": {
+        "up": {"texture": "#crystal"},
+        "north": {"texture": "#crystal"},
+        "south": {"texture": "#crystal"},
+        "west": {"texture": "#crystal"},
+        "east": {"texture": "#crystal"}
+      }
+    }
+  ],
+  "display": {
+    "gui": { "rotation": [30, 225, 0], "translation": [0, 0, 0], "scale": [0.625, 0.625, 0.625] },
+		"thirdperson_righthand": {
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"thirdperson_lefthand": {
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_righthand": {
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_lefthand": {
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"ground": {
+			"scale": [0.5, 0.5, 0.5]
+		}
+	}
+}

@@ -1,0 +1,212 @@
+#Maximum radius of giant anvil's shock behavior
+# Default: 16
+# Range: 4 ~ 16
+giant_anvil_max_shock_radius = 16
+#Maximum depth a lightning strike can reach
+# Default: 2
+# Range: 1 ~ 16
+lightning_strike_depth = 2
+#Maximum radius a lightning strike can reach
+lightning_strike_radius = 1
+#Maximum length a magnet attracts
+# Default: 5
+# Range: 0 ~ 8
+magnet_attracts_distance = 5
+#Maximum radius a handheld magnet attracts
+# Default: 8.0
+# Range: 1.0 ~ 16.0
+magnet_item_attracts_radius = 8.0
+#Redstone EMP length generated per block dropped by the anvil
+# Default: 6
+# Range: 1 ~ 64
+redstone_emp_radius = 6
+#Maximum length of redstone EMP
+# Default: 24
+# Range: 1 ~ 64
+redstone_emp_max_radius = 24
+#Maximum cooldown time of chute (in ticks)
+# Default: 8
+# Range: 1 ~ 80
+chute_max_cooldown = 8
+#Maximum cooldown time of batch crafter (in ticks)
+# Default: 8
+# Range: 1 ~ 80
+batch_crafter_cooldown = 8
+#The maximum search radius of the geode
+# Default: 64
+# Range: 64 ~ 512
+geode_radius = 64
+#The search interval of the geode
+# Default: 4
+# Range: 1 ~ 8
+geode_interval = 4
+#The search cooldown of the geode (in seconds)
+# Default: 5
+# Range: 5 ~ 30
+geode_cooldown = 5
+#Power grid range of power transmitter
+# Default: 8
+# Range: 1 ~ 64
+power_transmitter_range = 8
+#Power grid range of remote power transmitter
+# Default: 16
+# Range: 1 ~ 64
+remote_power_transmitter_range = 16
+#The maximum number of logs that can be cut per level of Felling enchantment
+# Default: 4
+# Range: 2 ~ 24
+felling_block_per_level = 2
+#Should show anvil levitate animation
+display_anvil_animation = true
+#Maximum cooldown of load monitor
+# Default: 10
+# Range: 1 ~ 60
+load_monitor = 10
+#Maximum size for connecting transparent crafting table to form matrix
+# Default: 15
+# Range: 3 ~ 32
+transparent_crafting_table_max_matrix_size = 15
+#Is laser do impact checking
+is_laser_do_impact_checking = true
+#Induction light block ripening cooldown
+induction_light_block_ripening_cooldown = 400
+#Induction light block ripening range
+# Default: 5
+# Range: 0 ~ 100
+induction_light_block_ripening_range = 5
+#The number of ticks between heliostat detections
+# Default: 4
+# Range: 1 ~ 20
+heliostats_detection_interval = 4
+#Giant anvil maxCount fall damage
+# Default: 40
+# Range: 0 ~ 100
+giant_anvil_fall_damage_max = 40
+#Block Devourer upward chain devouring blocks within tag #anvilcraft:block_devourer_chain_devouring
+block_devourer_upward_chain_devouring = true
+#Block Devourer upward chain devouring maxCount distance
+# Default: 8
+# Range: 0 ~ 15
+block_devourer_upward_chain_devouring_distance = 8
+#Block Placer recursive retrieval of container max distance
+# Default: 7
+# Range: 0 ~ 20
+block_placer_recursive_retrieval_distance_max = 7
+#Combining items with Enchanted Books beyond max level in Royal Anvil
+royal_anvil_beyond_max_level = false
+#Combining items with Enchanted Books beyond max level in Ember Anvil
+ember_anvil_beyond_max_level = false
+#Combining items with Enchanted Books beyond max level in Transcendence Anvil
+transcendence_anvil_beyond_max_level = true
+#Anvil collision craft speed (m/tick)
+anvil_collision_craft_speed = 16
+#Press shift and right click to take out all totem stored in the holding amulet box
+amulet_box_take_out_all_totem = true
+#Pushing or pulling a sliding rail will chain to other rails
+sliding_rail_stick_to_each_other = false
+#Orbital integration substeps per tick for freely falling items and blocks; 1 restores legacy motion
+# Default: 8
+# Range: 1 ~ 64
+orbit_integration_substeps = 8
+#Enable weak Schwarzschild periapsis advance around attractive gravity sources of strength at least 10
+relativistic_precession = true
+#Maximum duration of Plasma Jets (in ticks)
+# Default: 12000
+# Range: 200 ~ 1728000
+plasma_jets_max_duration = 12000
+#Amount of fuel consumed per cycle by Plasma Jets based on Cauldrons (in Layer)
+# Default: 1
+# Range: 1 ~ 4
+plasma_jets_cauldron_consume_amount = 1
+#Extended duration of a single consumption of Plasma Jets based on Cauldrons (in ticks)
+# Default: 6000
+# Range: 100 ~ 864000
+plasma_jets_cauldron_extra_duration = 6000
+#Amount of fuel consumed per cycle by Plasma Jets based on Fish Tanks (in mB)
+# Default: 1
+# Range: 1 ~ 1000
+plasma_jets_fish_tank_consume_amount = 1
+#Extended duration of a single consumption of Plasma Jets based on Fish Tanks (in ticks)
+# Default: 24
+# Range: 1 ~ 864000
+plasma_jets_fish_tank_extra_duration = 24
+#Effective speed of light in blocks per tick for orbital precession; larger values weaken the effect
+# Default: 64
+# Range: 16 ~ 4096
+orbital_speed_of_light = 64
+#Maximum cooldown time of batch cutter (in ticks)
+# Default: 8
+# Range: 1 ~ 80
+batch_cutter_cooldown = 8
+#Maximum number of connected ore blocks collected by a laser gun
+# Default: 64
+# Range: 1 ~ 4096
+laser_ore_cluster_max_size = 64
+#Working interval of mineral fountain
+# Default: 20
+# Range: 2 ~ 1200
+mineral_fountain_interval = 20
+#Working interval of the auto enchanting table (in ticks)
+# Default: 80
+# Range: 1 ~ 1000
+auto_enchanting_table_interval = 80
+#Maximum valid bookshelves of the auto enchanting table
+# Default: 15
+# Range: 1 ~ 80
+auto_enchanting_table_max_bookshelf = 15
+#Maximum selectable level in auto enchanting table's liquid enchantment mode
+# Default: 15
+# Range: 1 ~ 15
+liquid_enchantment_max_level = 15
+#Block Devourer will not devour containers (blocks that can store items) when enabled
+block_devourer_protect_containers = false
+#Combining items with Enchanted Books beyond max level in Frost Anvil
+frost_anvil_beyond_max_level = false
+#Allow eternal items to be killed by the void (falling out of the world)
+eternal_items_void_killable = false
+#The max size of the entries in storages' recover station
+storage_recover_max_size = 20
+
+[power_converter]
+	#The working interval of power converters
+	# Default: 10
+	# Range: 1 ~ 60
+	power_converter_countdown = 10
+	#Energy efficiency of energy converters (1 kW => xx FE/t)
+	# Default: 100
+	# Range: 1 ~ 1000
+	power_converter_efficiency = 100
+	#Power loss of energy converters
+	power_converter_loss = 0.1
+
+[storage_port]
+	#Working interval of the storage port (in ticks): the performance wall that limits how often it scans and moves items
+	# Default: 5
+	# Range: 1 ~ 1200
+	work_interval = 5
+	#Maximum items the storage port moves per scan
+	# Default: 64
+	# Range: 1 ~ 1024
+	max_items_per_scan = 64
+
+[hyperdimension_uploader]
+	#Working interval of the hyperdimension uploader (in ticks)
+	# Default: 5
+	# Range: 1 ~ 1200
+	work_interval = 5
+	#Maximum items the hyperdimension uploader moves to the bound storage per scan
+	# Default: 64
+	# Range: 1 ~ 1024
+	max_items_per_scan = 64
+
+[spacetime_supercomputer_command]
+	#Allow /locate biome command
+	allow_locate_biome_command = true
+	#Allow /locate structure command
+	allow_locate_structure_command = true
+	#Allow /locate poi command
+	allow_locate_poi_command = true
+	#Allow /time add command
+	allow_time_add_command = true
+	#Allow /tick sprint command
+	allow_tick_sprint_command = true

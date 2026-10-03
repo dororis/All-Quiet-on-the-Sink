@@ -1,0 +1,106 @@
+{
+  "config_version": "2.0.9",
+  "config_datetime": "2026-09-08_19-38-22",
+  "global": {
+    "disable_all_placed_features": false
+  },
+  "placed_features": [
+    {
+      "name": "mekanism:ore_fluorite_buried",
+      "is_disabled": true
+    },
+    {
+      "name": "mekanism:ore_fluorite_buried_retrogen",
+      "is_disabled": true
+    },
+    {
+      "name": "mekanism:ore_fluorite_normal",
+      "is_disabled": true
+    },
+    {
+      "name": "mekanism:ore_fluorite_normal_retrogen",
+      "is_disabled": true
+    },
+    {
+      "name": "mekanism:ore_lead_normal",
+      "is_disabled": true
+    },
+    {
+      "name": "mekanism:ore_lead_normal_retrogen",
+      "is_disabled": true
+    },
+    {
+      "name": "mekanism:ore_osmium_middle",
+      "is_disabled": true
+    },
+    {
+      "name": "mekanism:ore_osmium_middle_retrogen",
+      "is_disabled": true
+    },
+    {
+      "name": "mekanism:ore_osmium_small",
+      "is_disabled": true
+    },
+    {
+      "name": "mekanism:ore_osmium_small_retrogen",
+      "is_disabled": true
+    },
+    {
+      "name": "mekanism:ore_osmium_upper",
+      "is_disabled": true
+    },
+    {
+      "name": "mekanism:ore_osmium_upper_retrogen",
+      "is_disabled": true
+    },
+    {
+      "name": "mekanism:ore_tin_large",
+      "is_disabled": true
+    },
+    {
+      "name": "mekanism:ore_tin_large_retrogen",
+      "is_disabled": true
+    },
+    {
+      "name": "mekanism:ore_tin_small",
+      "is_disabled": true
+    },
+    {
+      "name": "mekanism:ore_tin_small_retrogen",
+      "is_disabled": true
+    },
+    {
+      "name": "mekanism:ore_uranium_buried",
+      "is_disabled": true
+    },
+    {
+      "name": "mekanism:ore_uranium_buried_retrogen",
+      "is_disabled": true
+    },
+    {
+      "name": "mekanism:ore_uranium_small",
+      "is_disabled": true
+    },
+    {
+      "name": "mekanism:ore_uranium_small_retrogen",
+      "is_disabled": true
+    },
+    {
+      "name": "mekanismsun:ore_silver_normal",
+      "is_disabled": true
+    },
+    {
+      "name": "mekanismsun:ore_silver_normal_retrogen",
+      "is_disabled": true
+    },
+    {
+      "name": "mekmm:ore_silver_large",
+      "is_disabled": true
+    },
+    {
+      "name": "mekmm:ore_silver_small",
+      "is_disabled": true
+    }
+  ],
+  "biomes": []
+}

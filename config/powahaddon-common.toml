@@ -1,0 +1,414 @@
+#Powah Addon Configuration
+[general]
+
+	#Radiant Tier Configuration (Pink)
+	[general.radiant]
+		#Cable Transfer Rate (FE/t)
+		# Default: 1000000
+		# Range: 1 ~ 9223372036854775807
+		cable_transfer = 1000000
+		#Rod Capacity (FE)
+		# Default: 100000000
+		# Range: 1 ~ 9223372036854775807
+		rod_capacity = 100000000
+		#Rod Transfer Rate (FE/t)
+		# Default: 1000000
+		# Range: 1 ~ 9223372036854775807
+		rod_transfer = 1000000
+		#Solar Panel Capacity (FE)
+		# Default: 500000
+		# Range: 1 ~ 9223372036854775807
+		solar_capacity = 500000
+		#Solar Panel Generation Rate (FE/t)
+		# Default: 100000
+		# Range: 1 ~ 9223372036854775807
+		solar_gen = 100000
+		#Energy Cell Capacity (FE)
+		# Default: 5000000000
+		# Range: 1 ~ 9223372036854775807
+		energy_cell_capacity = 5000000000
+		#Energy Cell Transfer Rate (FE/t)
+		# Default: 2500000
+		# Range: 1 ~ 9223372036854775807
+		energy_cell_transfer = 2500000
+		#Thermo Generator Capacity (FE)
+		# Default: 50000000
+		# Range: 1 ~ 9223372036854775807
+		thermo_capacity = 50000000
+		#Thermo Generator Base Gen (FE/t)
+		# Default: 500000
+		# Range: 1 ~ 9223372036854775807
+		thermo_gen = 500000
+		#Magmator Capacity (FE)
+		# Default: 200000000
+		# Range: 1 ~ 9223372036854775807
+		magmator_capacity = 200000000
+		#Magmator Gen Rate (FE/t)
+		# Default: 200000
+		# Range: 1 ~ 9223372036854775807
+		magmator_gen = 200000
+		#Magmator Transfer Rate (FE/t)
+		# Default: 1000000
+		# Range: 1 ~ 9223372036854775807
+		magmator_transfer = 1000000
+		#Furnator Capacity (FE)
+		# Default: 200000000
+		# Range: 1 ~ 9223372036854775807
+		furnator_capacity = 200000000
+		#Furnator Gen Rate (FE/t)
+		# Default: 200000
+		# Range: 1 ~ 9223372036854775807
+		furnator_gen = 200000
+		#Furnator Transfer Rate (FE/t)
+		# Default: 1000000
+		# Range: 1 ~ 9223372036854775807
+		furnator_transfer = 1000000
+		#Reactor Capacity (FE)
+		# Default: 2500000000
+		# Range: 1 ~ 9223372036854775807
+		reactor_capacity = 2500000000
+		#Reactor Gen Rate (FE/t)
+		# Default: 1250000
+		# Range: 1 ~ 9223372036854775807
+		reactor_gen = 1250000
+		#Reactor Transfer Rate (FE/t)
+		# Default: 100000000
+		# Range: 1 ~ 9223372036854775807
+		reactor_transfer = 100000000
+		#Ender Cell Capacity (FE)
+		# Default: 5000000000
+		# Range: 1 ~ 9223372036854775807
+		ender_cell_capacity = 5000000000
+		#Ender Cell Transfer Rate (FE/t)
+		# Default: 2500000
+		# Range: 1 ~ 9223372036854775807
+		ender_cell_transfer = 2500000
+		#Ender Gate Transfer Rate (FE/t)
+		# Default: 2500000
+		# Range: 1 ~ 9223372036854775807
+		ender_gate_transfer = 2500000
+		#Player Transmitter Capacity (FE)
+		# Default: 200000000
+		# Range: 1 ~ 9223372036854775807
+		transmitter_capacity = 200000000
+		#Player Transmitter Transfer Rate (FE/t)
+		# Default: 1000000
+		# Range: 1 ~ 9223372036854775807
+		transmitter_transfer = 1000000
+		#Battery Capacity (FE)
+		# Default: 500000000
+		# Range: 1 ~ 9223372036854775807
+		battery_capacity = 500000000
+		#Battery Transfer Rate (FE/t)
+		# Default: 2500000
+		# Range: 1 ~ 9223372036854775807
+		battery_transfer = 2500000
+
+	#Astral Tier Configuration (Light Purple)
+	[general.astral]
+		#Cable Transfer Rate (FE/t)
+		# Default: 10000000
+		# Range: 1 ~ 9223372036854775807
+		cable_transfer = 10000000
+		#Rod Capacity (FE)
+		# Default: 1000000000
+		# Range: 1 ~ 9223372036854775807
+		rod_capacity = 1000000000
+		#Rod Transfer Rate (FE/t)
+		# Default: 10000000
+		# Range: 1 ~ 9223372036854775807
+		rod_transfer = 10000000
+		#Solar Panel Capacity (FE)
+		# Default: 5000000
+		# Range: 1 ~ 9223372036854775807
+		solar_capacity = 5000000
+		#Solar Panel Generation Rate (FE/t)
+		# Default: 1000000
+		# Range: 1 ~ 9223372036854775807
+		solar_gen = 1000000
+		#Energy Cell Capacity (FE)
+		# Default: 50000000000
+		# Range: 1 ~ 9223372036854775807
+		energy_cell_capacity = 50000000000
+		#Energy Cell Transfer Rate (FE/t)
+		# Default: 25000000
+		# Range: 1 ~ 9223372036854775807
+		energy_cell_transfer = 25000000
+		#Thermo Generator Capacity (FE)
+		# Default: 500000000
+		# Range: 1 ~ 9223372036854775807
+		thermo_capacity = 500000000
+		#Thermo Generator Base Gen (FE/t)
+		# Default: 5000000
+		# Range: 1 ~ 9223372036854775807
+		thermo_gen = 5000000
+		#Magmator Capacity (FE)
+		# Default: 2000000000
+		# Range: 1 ~ 9223372036854775807
+		magmator_capacity = 2000000000
+		#Magmator Gen Rate (FE/t)
+		# Default: 2000000
+		# Range: 1 ~ 9223372036854775807
+		magmator_gen = 2000000
+		#Magmator Transfer Rate (FE/t)
+		# Default: 10000000
+		# Range: 1 ~ 9223372036854775807
+		magmator_transfer = 10000000
+		#Furnator Capacity (FE)
+		# Default: 2000000000
+		# Range: 1 ~ 9223372036854775807
+		furnator_capacity = 2000000000
+		#Furnator Gen Rate (FE/t)
+		# Default: 2000000
+		# Range: 1 ~ 9223372036854775807
+		furnator_gen = 2000000
+		#Furnator Transfer Rate (FE/t)
+		# Default: 10000000
+		# Range: 1 ~ 9223372036854775807
+		furnator_transfer = 10000000
+		#Reactor Capacity (FE)
+		# Default: 25000000000
+		# Range: 1 ~ 9223372036854775807
+		reactor_capacity = 25000000000
+		#Reactor Gen Rate (FE/t)
+		# Default: 12500000
+		# Range: 1 ~ 9223372036854775807
+		reactor_gen = 12500000
+		#Reactor Transfer Rate (FE/t)
+		# Default: 1000000000
+		# Range: 1 ~ 9223372036854775807
+		reactor_transfer = 1000000000
+		#Ender Cell Capacity (FE)
+		# Default: 50000000000
+		# Range: 1 ~ 9223372036854775807
+		ender_cell_capacity = 50000000000
+		#Ender Cell Transfer Rate (FE/t)
+		# Default: 25000000
+		# Range: 1 ~ 9223372036854775807
+		ender_cell_transfer = 25000000
+		#Ender Gate Transfer Rate (FE/t)
+		# Default: 25000000
+		# Range: 1 ~ 9223372036854775807
+		ender_gate_transfer = 25000000
+		#Player Transmitter Capacity (FE)
+		# Default: 2000000000
+		# Range: 1 ~ 9223372036854775807
+		transmitter_capacity = 2000000000
+		#Player Transmitter Transfer Rate (FE/t)
+		# Default: 10000000
+		# Range: 1 ~ 9223372036854775807
+		transmitter_transfer = 10000000
+		#Battery Capacity (FE)
+		# Default: 5000000000
+		# Range: 1 ~ 9223372036854775807
+		battery_capacity = 5000000000
+		#Battery Transfer Rate (FE/t)
+		# Default: 25000000
+		# Range: 1 ~ 9223372036854775807
+		battery_transfer = 25000000
+
+	#Galaxy Tier Configuration (Dark Purple)
+	[general.galaxy]
+		#Cable Transfer Rate (FE/t)
+		# Default: 100000000
+		# Range: 1 ~ 9223372036854775807
+		cable_transfer = 100000000
+		#Rod Capacity (FE)
+		# Default: 10000000000
+		# Range: 1 ~ 9223372036854775807
+		rod_capacity = 10000000000
+		#Rod Transfer Rate (FE/t)
+		# Default: 100000000
+		# Range: 1 ~ 9223372036854775807
+		rod_transfer = 100000000
+		#Solar Panel Capacity (FE)
+		# Default: 50000000
+		# Range: 1 ~ 9223372036854775807
+		solar_capacity = 50000000
+		#Solar Panel Generation Rate (FE/t)
+		# Default: 10000000
+		# Range: 1 ~ 9223372036854775807
+		solar_gen = 10000000
+		#Energy Cell Capacity (FE)
+		# Default: 500000000000
+		# Range: 1 ~ 9223372036854775807
+		energy_cell_capacity = 500000000000
+		#Energy Cell Transfer Rate (FE/t)
+		# Default: 250000000
+		# Range: 1 ~ 9223372036854775807
+		energy_cell_transfer = 250000000
+		#Thermo Generator Capacity (FE)
+		# Default: 5000000000
+		# Range: 1 ~ 9223372036854775807
+		thermo_capacity = 5000000000
+		#Thermo Generator Base Gen (FE/t)
+		# Default: 50000000
+		# Range: 1 ~ 9223372036854775807
+		thermo_gen = 50000000
+		#Magmator Capacity (FE)
+		# Default: 20000000000
+		# Range: 1 ~ 9223372036854775807
+		magmator_capacity = 20000000000
+		#Magmator Gen Rate (FE/t)
+		# Default: 20000000
+		# Range: 1 ~ 9223372036854775807
+		magmator_gen = 20000000
+		#Magmator Transfer Rate (FE/t)
+		# Default: 100000000
+		# Range: 1 ~ 9223372036854775807
+		magmator_transfer = 100000000
+		#Furnator Capacity (FE)
+		# Default: 20000000000
+		# Range: 1 ~ 9223372036854775807
+		furnator_capacity = 20000000000
+		#Furnator Gen Rate (FE/t)
+		# Default: 20000000
+		# Range: 1 ~ 9223372036854775807
+		furnator_gen = 20000000
+		#Furnator Transfer Rate (FE/t)
+		# Default: 100000000
+		# Range: 1 ~ 9223372036854775807
+		furnator_transfer = 100000000
+		#Reactor Capacity (FE)
+		# Default: 250000000000
+		# Range: 1 ~ 9223372036854775807
+		reactor_capacity = 250000000000
+		#Reactor Gen Rate (FE/t)
+		# Default: 125000000
+		# Range: 1 ~ 9223372036854775807
+		reactor_gen = 125000000
+		#Reactor Transfer Rate (FE/t)
+		# Default: 10000000000
+		# Range: 1 ~ 9223372036854775807
+		reactor_transfer = 10000000000
+		#Ender Cell Capacity (FE)
+		# Default: 500000000000
+		# Range: 1 ~ 9223372036854775807
+		ender_cell_capacity = 500000000000
+		#Ender Cell Transfer Rate (FE/t)
+		# Default: 250000000
+		# Range: 1 ~ 9223372036854775807
+		ender_cell_transfer = 250000000
+		#Ender Gate Transfer Rate (FE/t)
+		# Default: 250000000
+		# Range: 1 ~ 9223372036854775807
+		ender_gate_transfer = 250000000
+		#Player Transmitter Capacity (FE)
+		# Default: 20000000000
+		# Range: 1 ~ 9223372036854775807
+		transmitter_capacity = 20000000000
+		#Player Transmitter Transfer Rate (FE/t)
+		# Default: 100000000
+		# Range: 1 ~ 9223372036854775807
+		transmitter_transfer = 100000000
+		#Battery Capacity (FE)
+		# Default: 50000000000
+		# Range: 1 ~ 9223372036854775807
+		battery_capacity = 50000000000
+		#Battery Transfer Rate (FE/t)
+		# Default: 250000000
+		# Range: 1 ~ 9223372036854775807
+		battery_transfer = 250000000
+
+	#Creative Tier Configuration (Black & Enchanted)
+	[general.creative]
+		#Cable Transfer Rate (FE/t)
+		# Default: 10000000000
+		# Range: 1 ~ 9223372036854775807
+		cable_transfer = 10000000000
+		#Rod Capacity (FE)
+		# Default: 1000000000000
+		# Range: 1 ~ 9223372036854775807
+		rod_capacity = 1000000000000
+		#Rod Transfer Rate (FE/t)
+		# Default: 10000000000
+		# Range: 1 ~ 9223372036854775807
+		rod_transfer = 10000000000
+		#Solar Panel Capacity (FE)
+		# Default: 100000000000
+		# Range: 1 ~ 9223372036854775807
+		solar_capacity = 100000000000
+		#Solar Panel Generation Rate (FE/t)
+		# Default: 10000000000
+		# Range: 1 ~ 9223372036854775807
+		solar_gen = 10000000000
+		#Energy Cell Capacity (FE)
+		# Default: 8000000000000000000
+		# Range: 1 ~ 9223372036854775807
+		energy_cell_capacity = 8000000000000000000
+		#Energy Cell Transfer Rate (FE/t)
+		# Default: 100000000000
+		# Range: 1 ~ 9223372036854775807
+		energy_cell_transfer = 100000000000
+		#Thermo Generator Capacity (FE)
+		# Default: 100000000000
+		# Range: 1 ~ 9223372036854775807
+		thermo_capacity = 100000000000
+		#Thermo Generator Base Gen (FE/t)
+		# Default: 10000000000
+		# Range: 1 ~ 9223372036854775807
+		thermo_gen = 10000000000
+		#Magmator Capacity (FE)
+		# Default: 100000000000
+		# Range: 1 ~ 9223372036854775807
+		magmator_capacity = 100000000000
+		#Magmator Gen Rate (FE/t)
+		# Default: 10000000000
+		# Range: 1 ~ 9223372036854775807
+		magmator_gen = 10000000000
+		#Magmator Transfer Rate (FE/t)
+		# Default: 100000000000
+		# Range: 1 ~ 9223372036854775807
+		magmator_transfer = 100000000000
+		#Furnator Capacity (FE)
+		# Default: 100000000000
+		# Range: 1 ~ 9223372036854775807
+		furnator_capacity = 100000000000
+		#Furnator Gen Rate (FE/t)
+		# Default: 10000000000
+		# Range: 1 ~ 9223372036854775807
+		furnator_gen = 10000000000
+		#Furnator Transfer Rate (FE/t)
+		# Default: 100000000000
+		# Range: 1 ~ 9223372036854775807
+		furnator_transfer = 100000000000
+		#Reactor Capacity (FE)
+		# Default: 8000000000000000000
+		# Range: 1 ~ 9223372036854775807
+		reactor_capacity = 8000000000000000000
+		#Reactor Gen Rate (FE/t)
+		# Default: 10000000000
+		# Range: 1 ~ 9223372036854775807
+		reactor_gen = 10000000000
+		#Reactor Transfer Rate (FE/t)
+		# Default: 100000000000
+		# Range: 1 ~ 9223372036854775807
+		reactor_transfer = 100000000000
+		#Ender Cell Capacity (FE)
+		# Default: 8000000000000000000
+		# Range: 1 ~ 9223372036854775807
+		ender_cell_capacity = 8000000000000000000
+		#Ender Cell Transfer Rate (FE/t)
+		# Default: 100000000000
+		# Range: 1 ~ 9223372036854775807
+		ender_cell_transfer = 100000000000
+		#Ender Gate Transfer Rate (FE/t)
+		# Default: 100000000000
+		# Range: 1 ~ 9223372036854775807
+		ender_gate_transfer = 100000000000
+		#Player Transmitter Capacity (FE)
+		# Default: 8000000000000000000
+		# Range: 1 ~ 9223372036854775807
+		transmitter_capacity = 8000000000000000000
+		#Player Transmitter Transfer Rate (FE/t)
+		# Default: 100000000000
+		# Range: 1 ~ 9223372036854775807
+		transmitter_transfer = 100000000000
+		#Battery Capacity (FE)
+		# Default: 8000000000000000000
+		# Range: 1 ~ 9223372036854775807
+		battery_capacity = 8000000000000000000
+		#Battery Transfer Rate (FE/t)
+		# Default: 100000000000
+		# Range: 1 ~ 9223372036854775807
+		battery_transfer = 100000000000

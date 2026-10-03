@@ -1,0 +1,193 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "34ce508fe134d63f"
+	group: ""
+	icon: {
+		components: {
+			"!ftbquests:icon": { }
+			"ftbquests:entity_face": "minecraft:pig"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "34CE508FE134D63F"
+	images: [
+		{
+			height: 1.0d
+			id: "380ABA1B33D7FE2B"
+			image: "ftblibrary:icons/up"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			click_action: "none:"
+			height: 7.0d
+			id: "7E7B9F5CEA10F95C"
+			image: "aqs:textures/minecraft_title.png"
+			rotation: 0.0d
+			width: 24.0d
+			x: 0.5d
+			y: 6.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["749134B191E50F5C"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "ae2lt:pigmee_fumo"
+			}
+			id: "1A083FF9C0B83E1F"
+			rewards: [
+				{
+					id: "3241B12893A66992"
+					item: {
+						components: {
+							"minecraft:custom_data": {
+								wand_options: { }
+							}
+						}
+						count: 1
+						id: "constructionwand:infinity_wand"
+					}
+					type: "item"
+				}
+				{
+					id: "4F16D11D506DED7B"
+					item: {
+						count: 1
+						id: "constructionwand:core_destruction"
+					}
+					type: "item"
+				}
+				{
+					id: "0CA524373216C13C"
+					item: {
+						count: 1
+						id: "justdirethings:blazejet_wand"
+					}
+					type: "item"
+				}
+				{
+					id: "2EC9157E65922E05"
+					item: {
+						count: 1
+						id: "oritech:exo_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "2EE3CFA6DC5BC363"
+					item: {
+						count: 1
+						id: "oritech:exo_boots"
+					}
+					type: "item"
+				}
+			]
+			shape: "heart"
+			size: 3.0d
+			tasks: [{
+				consume_items: true
+				id: "08F0A445B86EAB92"
+				item: { count: 1, id: "ae2lt:pigmee_fumo" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["749134B191E50F5C"]
+			hide_until_deps_complete: true
+			id: "5F79DCFD8C98EDBF"
+			rewards: [{
+				command: "/gamerule keepInventory true"
+				exclude_from_claim_all: true
+				id: "3AE79DD3C8ABC710"
+				type: "command"
+			}]
+			tasks: [{
+				id: "7E81EAB2130E706E"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["749134B191E50F5C"]
+			hide_until_deps_complete: true
+			id: "7077A63EE9EA6035"
+			tasks: [{
+				id: "5ABEB0F8474AC37D"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["749134B191E50F5C"]
+			hide_until_deps_complete: true
+			id: "2075CC1FF4496731"
+			tasks: [{
+				id: "6975B7052E45740E"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["749134B191E50F5C"]
+			hide_until_deps_complete: true
+			id: "33EC04375AED8171"
+			rewards: [{
+				auto: "disabled"
+				command: "/kill @e[type=item]"
+				exclude_from_claim_all: true
+				id: "7E8A469307141019"
+				type: "command"
+			}]
+			tasks: [{
+				id: "199AAF23839725B4"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			id: "749134B191E50F5C"
+			rewards: [{
+				command: "/difficulty peaceful"
+				id: "6741499055658073"
+				type: "command"
+			}]
+			tasks: [{
+				id: "47EBCB0700BBB0DB"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["749134B191E50F5C"]
+			hide_until_deps_complete: true
+			id: "3E66B430F68ABD19"
+			rewards: [{
+				command: "/ae2 channelmode infinite"
+				id: "287B8168E7061F42"
+				type: "command"
+			}]
+			tasks: [{
+				id: "3F1FC54E8443B070"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+	]
+}

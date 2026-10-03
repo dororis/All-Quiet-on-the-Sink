@@ -1,0 +1,20 @@
+#Do breadcrumbs record jumps from sidebar tabs
+bread_crumbs_has_label = false
+#Show line numbers in code blocks
+show_code_block_line_numbers = true
+#Allow line breaks in code block content
+allow_code_block_line_content_line_breaks = true
+#Whether to enable preview mode (enabling it will allow real-time previews of changes to documents in the specified path)
+enable_preview = false
+#Preview mode path
+preview_path = "ageratum_preview"
+#Share your guide only with player from the same team
+share_guide_only_in_team = false
+#Hold duration (milliseconds) for W-key item binding navigation, default 750ms
+# Default: 750
+# Range: 100 ~ 5000
+item_binding_hold_duration_ms = 750
+#The scaling ratio of the interface
+# Default: 2
+# Range: 1 ~ 4
+scale = 2

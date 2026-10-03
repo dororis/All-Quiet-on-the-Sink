@@ -1,0 +1,10 @@
+#number of rows used for last modified history pins
+# Default: 5
+# Range: 1 ~ 12
+historyRows = 5
+#ae consumed per tick by the me logger to function (1 ae = 2 fe)
+# Default: 10.0
+# Range: 0.0 ~ 2.147483647E9
+meLoggerEnergyPerTick = 10.0
+#show debug classification logs in minecraft chat
+debugChat = false

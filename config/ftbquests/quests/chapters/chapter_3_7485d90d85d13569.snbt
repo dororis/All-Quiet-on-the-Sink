@@ -1,0 +1,726 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_3_7485d90d85d13569"
+	group: "4D3AA524F989001F"
+	icon: {
+		components: {
+			"hostilenetworks:data_model": "hostilenetworks:cod"
+		}
+		id: "hostilenetworks:data_model"
+	}
+	id: "7485D90D85D13569"
+	images: [
+		{
+			height: 1.0d
+			id: "3EE27242F678368F"
+			image: "ftblibrary:icons/dropdown_out"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			click_action: "open_quest:1AACE7FE1C1A404C"
+			height: 1.0d
+			id: "75A4167B508A693A"
+			image: "brandonscore:textures/gui/dark/arrow_right.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 17.0d
+			y: 0.0d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["018390147085379B"]
+			id: "61575C4AF2015193"
+			size: 2.0d
+			tasks: [{
+				id: "754789683AD0F439"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"224B62DD3F679F47"
+				"7474338860CFA30C"
+			]
+			id: "61A03AFDFC4A03BE"
+			tasks: [{
+				id: "07457C7384E0BEC2"
+				item: { count: 1, id: "cataclysm:ignitium_ingot" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"224B62DD3F679F47"
+				"41DA02FBA5CBF022"
+			]
+			id: "64CCF5FF1B2FFA1C"
+			tasks: [{
+				id: "4ED07AEC2F19C3A6"
+				item: { count: 1, id: "cataclysm:cursium_ingot" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1C13C59AD78A8A0A"]
+			id: "1198112426929239"
+			tasks: [{
+				id: "17EC14D6AB3CF658"
+				item: { count: 1, id: "allthemodium:allthemodium_ingot" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["228BC8000B8AB1FC"]
+			id: "28F31D640F9C1145"
+			tasks: [{
+				id: "52C5364C6B8D68CC"
+				item: { count: 1, id: "allthemodium:vibranium_ingot" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["768036697421F4A5"]
+			id: "27D4C407BA6753E5"
+			tasks: [{
+				id: "6F0EE3842952415F"
+				item: { count: 1, id: "allthemodium:unobtainium_ingot" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"7474338860CFA30C"
+				"41DA02FBA5CBF022"
+			]
+			id: "365B4360CCC1EE59"
+			tasks: [{
+				id: "006EF752F60C25D0"
+				item: { count: 1, id: "cataclysm:witherite_ingot" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"61575C4AF2015193"
+				"25626CAA25166AEE"
+			]
+			id: "7EA500DF408A62EB"
+			tasks: [{
+				id: "326EDEFBBB8E55B5"
+				item: { count: 1, id: "hostilenetworks:data_model" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["36E4F1836C825F33"]
+			id: "25626CAA25166AEE"
+			tasks: [{
+				id: "50C30DFAED3A1068"
+				item: { count: 1, id: "cataclysm:void_core" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7EA500DF408A62EB"]
+			id: "3AEDB9C417DA985F"
+			tasks: [{
+				id: "10E3D8AC44BA8384"
+				item: { count: 1, id: "allthemodium:piglich_heart" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"3AEDB9C417DA985F"
+				"44DAEB1ACB3069B8"
+			]
+			id: "1C13C59AD78A8A0A"
+			size: 2.0d
+			tasks: [{
+				id: "24F3447E781BA195"
+				item: { components: { "hostilenetworks:data": 1354, "hostilenetworks:data_model": "hostilenetworks:allthemodium/piglich" }, count: 1, id: "hostilenetworks:data_model" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["10324A80779CF1F4"]
+			id: "228BC8000B8AB1FC"
+			size: 2.0d
+			tasks: [{
+				id: "319E6015D43B404E"
+				item: { components: { "hostilenetworks:data": 1354, "hostilenetworks:data_model": "hostilenetworks:wither" }, count: 1, id: "hostilenetworks:data_model" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["45BE2E4D9302EA27"]
+			id: "768036697421F4A5"
+			size: 2.0d
+			tasks: [{
+				id: "5050CB8BE8FB2D17"
+				item: { components: { "hostilenetworks:data": 1354, "hostilenetworks:data_model": "hostilenetworks:ender_dragon" }, count: 1, id: "hostilenetworks:data_model" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7EA500DF408A62EB"]
+			id: "10324A80779CF1F4"
+			tasks: [{
+				id: "5A72002FFD59694E"
+				item: { count: 1, id: "minecraft:nether_star" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7EA500DF408A62EB"]
+			id: "45BE2E4D9302EA27"
+			tasks: [{
+				id: "12218DA2A942D969"
+				item: { count: 1, id: "draconicevolution:dragon_heart" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "36E4F1836C825F33"
+			tasks: [{
+				id: "73A6C4865763488E"
+				item: { count: 1, id: "powah:ender_gate_nitro" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			icon: {
+				id: "ae2lt:electromagnetic_railgun"
+			}
+			id: "655015C95287045A"
+			optional: true
+			tasks: [
+				{
+					id: "424F0F99BCA43BC8"
+					item: { count: 1, id: "ae2lt:electromagnetic_railgun" }
+					type: "item"
+				}
+				{
+					id: "0CD6E062D9F6556E"
+					item: { count: 1, id: "ae2lt:overload_device_workbench" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			id: "31A48BE04769C9D2"
+			tasks: [{
+				id: "1AB003FB08AA7510"
+				item: { count: 1, id: "hostilenetworks:sim_chamber" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			id: "76716681F8D67F72"
+			tasks: [{
+				id: "7458E3B2F62F1D6B"
+				item: { count: 1, id: "hostilenetworks:loot_fabricator" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			id: "4F77DE6692EDECAB"
+			tasks: [{
+				id: "71047F9014B40E92"
+				item: { count: 1, id: "extrahnn:ultimate_sim_chamber_v1" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			id: "51F5CDE02A42AF42"
+			tasks: [{
+				id: "46AEBE8EC9C47E34"
+				item: { count: 1, id: "extrahnn:ultimate_sim_chamber_v2" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			id: "5B6F856DE825EA0B"
+			tasks: [{
+				id: "524A047A1903A559"
+				item: { count: 1, id: "extrahnn:ultimate_sim_chamber_v3" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			id: "3BE590B22E4893D3"
+			tasks: [{
+				id: "4B00D2A9FD93C7E0"
+				item: { count: 1, id: "extrahnn:ultimate_sim_chamber_v4" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			id: "04BDE6BF07C27598"
+			tasks: [{
+				id: "73CA754E2237C944"
+				item: { count: 1, id: "extrahnn:ultimate_loot_fabricator_v1" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			id: "24693941D0817D92"
+			tasks: [{
+				id: "5128502F89B53302"
+				item: { count: 1, id: "extrahnn:ultimate_loot_fabricator_v3" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			id: "62532C3889C04ED6"
+			tasks: [{
+				id: "79B0EB353E0E8593"
+				item: { count: 1, id: "extrahnn:ultimate_loot_fabricator_v2" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			id: "5B13E557A2A2B9AA"
+			tasks: [{
+				id: "06151712DBE8F30E"
+				item: { count: 1, id: "extrahnn:ultimate_loot_fabricator_v4" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			id: "2910DF4253A6FA31"
+			tasks: [{
+				id: "3C8A0CEB31611A50"
+				item: { count: 1, id: "extrahnn:blank_extra_data_model" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			id: "71EB5B88BE7407EE"
+			tasks: [{
+				id: "77BC5F3EA22E0CF4"
+				item: { count: 1, id: "extrahnn:upgrade_speed" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			id: "26FB19899E4CD24A"
+			tasks: [{
+				id: "0D007BFCE6EAAFB1"
+				item: { count: 1, id: "extrahnn:merger_camera" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"61A03AFDFC4A03BE"
+				"64CCF5FF1B2FFA1C"
+				"365B4360CCC1EE59"
+				"4AFA779CE99B0A16"
+			]
+			id: "1FD3CD7AF6BF6D4F"
+			rewards: [{
+				id: "1254F32E90AFB7EF"
+				item: {
+					count: 1
+					id: "allthemodium:alloy_paxel"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "42D48D0618598A64"
+				item: { count: 1, id: "cataclysm:abyssal_sacrifice" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"27D4C407BA6753E5"
+				"1198112426929239"
+			]
+			id: "7474338860CFA30C"
+			tasks: [{
+				id: "024F333B1AB90DC7"
+				item: { count: 1, id: "allthemodium:unobtainium_allthemodium_alloy_ingot" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"28F31D640F9C1145"
+				"27D4C407BA6753E5"
+			]
+			id: "41DA02FBA5CBF022"
+			tasks: [{
+				id: "1EC0351509F20246"
+				item: { count: 1, id: "allthemodium:unobtainium_vibranium_alloy_ingot" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"1198112426929239"
+				"28F31D640F9C1145"
+			]
+			id: "224B62DD3F679F47"
+			tasks: [{
+				id: "4A5CED99EA80431B"
+				item: { count: 1, id: "allthemodium:vibranium_allthemodium_alloy_ingot" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			id: "452AC09F18616B1C"
+			tasks: [{
+				id: "294AC065D41EFE92"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			id: "1CC6C2BBD2F09E6F"
+			tasks: [{
+				id: "437DC0A4F3620B18"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			id: "01DA02B2FC139499"
+			tasks: [{
+				id: "5221F57A516E2743"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			id: "7CB146D078D3D791"
+			tasks: [{
+				id: "68C5FCD2E90BF7AC"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			id: "4AFA779CE99B0A16"
+			tasks: [{
+				id: "29F208D9A226395C"
+				item: { count: 1, id: "oritech:dubios_container" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1FD3CD7AF6BF6D4F"]
+			id: "1FC79126F33EEEE8"
+			tasks: [{
+				id: "3BC34228237077CE"
+				item: { count: 1, id: "oritech:unholy_intelligence" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1FC79126F33EEEE8"]
+			id: "051622D5B7C78FC2"
+			size: 1.0d
+			tasks: [{
+				id: "05CC9FACB8A175EB"
+				item: { count: 1, id: "oritech:heisenberg_compensator" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 2.0d
+		}
+		{
+			id: "78265D1AE2616E80"
+			tasks: [{
+				id: "1A6858A7E0E6627D"
+				item: { count: 1, id: "oritech:overcharged_crystal" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"051622D5B7C78FC2"
+				"78265D1AE2616E80"
+			]
+			id: "7A8F4B6C0A91711C"
+			tasks: [{
+				id: "6189331F7AEDF359"
+				item: { count: 1, id: "oritech:prometheum_ingot" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7A8F4B6C0A91711C"
+				"3F2E0535640DB144"
+			]
+			icon: {
+				id: "ad_astra:tier_1_rocket"
+			}
+			id: "2ED659E2B5C1C698"
+			rewards: [
+				{
+					id: "04C6FFE1DC68C545"
+					item: {
+						count: 1
+						id: "anvilcraft:weatherproof_spacesuit_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "5722F27833554711"
+					item: {
+						components: {
+							"anvilcraft:stored_energy": 157355000
+						}
+						count: 1
+						id: "anvilcraft:weatherproof_spacesuit_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "1043FE9B14B26E90"
+					item: {
+						count: 1
+						id: "anvilcraft:weatherproof_spacesuit_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "6F13478303B45893"
+					item: {
+						count: 1
+						id: "anvilcraft:weatherproof_spacesuit_boots"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					id: "1EB6F942B4873168"
+					item: { count: 1, id: "ad_astra:tier_1_rocket" }
+					type: "item"
+				}
+				{
+					id: "158E790C19DE1551"
+					item: { count: 1, id: "ad_astra:launch_pad" }
+					type: "item"
+				}
+			]
+			x: 15.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["21D6B7BB23744F2F"]
+			id: "44DAEB1ACB3069B8"
+			tasks: [{
+				id: "42DB8315E8059378"
+				item: { count: 1, id: "anvilcraft:corrupted_beacon" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["52C5364C6B8D68CC"]
+			id: "21D6B7BB23744F2F"
+			tasks: [{
+				id: "61A24C70933BE57B"
+				item: { count: 1, id: "anvilcraft:cursed_gold_ingot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			id: "3F2E0535640DB144"
+			tasks: [
+				{
+					id: "4017ED5BECA7B67D"
+					type: "checkmark"
+				}
+				{
+					fluid: {
+						amount: 3000
+						id: "mekanism_extras:rich_uranium_fuel"
+					}
+					id: "11FA750D8A6C5B15"
+					optional_task: true
+					type: "fluid"
+				}
+			]
+			x: 15.5d
+			y: -2.0d
+		}
+		{
+			icon: {
+				id: "allthemodium:piglich_heart_block"
+			}
+			id: "52E402036A5EE490"
+			tasks: [
+				{
+					id: "56A61FE18605A4D7"
+					item: { count: 1, id: "allthemodium:unobtainium_allthemodium_alloy_block" }
+					type: "item"
+				}
+				{
+					id: "033E74B32D190A5A"
+					item: { count: 1, id: "allthemodium:unobtainium_vibranium_alloy_block" }
+					type: "item"
+				}
+				{
+					id: "33B0C1FDA1C20357"
+					item: { count: 1, id: "allthemodium:vibranium_allthemodium_alloy_block" }
+					type: "item"
+				}
+				{
+					id: "719843B8E1A308EA"
+					item: { count: 1, id: "allthemodium:piglich_heart_block" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -5.5d
+		}
+		{
+			icon: {
+				id: "alltheores:sulfur_block"
+			}
+			id: "29BC41EA95F59CFE"
+			tasks: [
+				{
+					id: "342C4B26937816E0"
+					item: { count: 1, id: "alltheores:uranium_block" }
+					type: "item"
+				}
+				{
+					id: "510CC5DF54019F3B"
+					item: { count: 1, id: "alltheores:sulfur_block" }
+					type: "item"
+				}
+				{
+					id: "1EB4199AD4428EE9"
+					item: { count: 1, id: "alltheores:platinum_block" }
+					type: "item"
+				}
+				{
+					id: "4BFA3795B085E8B3"
+					item: { count: 1, id: "alltheores:lead_block" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -5.5d
+		}
+		{
+			id: "32A0336AA0401E31"
+			tasks: [{
+				id: "57B278A0FBC41B20"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: -5.5d
+		}
+		{
+			id: "18C988B0963CAF25"
+			tasks: [{
+				id: "016EE3A2706F2BBB"
+				item: { count: 1, id: "mbd2:compact_thermal" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -4.0d
+		}
+	]
+}

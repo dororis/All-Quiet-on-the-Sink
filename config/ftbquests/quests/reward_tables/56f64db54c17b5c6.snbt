@@ -1,0 +1,111 @@
+{
+	id: "56F64DB54C17B5C6"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			count: 9
+			id: "4DDCBA5EBA5E0C63"
+			item: {
+				count: 1
+				id: "mysticalagriculture:dye_seeds"
+			}
+		}
+		{
+			count: 9
+			id: "487C2CDD6BD15508"
+			item: {
+				count: 1
+				id: "mysticalagriculture:dirt_seeds"
+			}
+		}
+		{
+			count: 9
+			id: "51F5FDEBB457A2B6"
+			item: {
+				count: 1
+				id: "mysticalagriculture:stone_seeds"
+			}
+		}
+		{
+			count: 9
+			id: "1318EA528EC1A839"
+			item: {
+				count: 1
+				id: "mysticalagriculture:wood_seeds"
+			}
+		}
+		{
+			count: 9
+			id: "6C995BE5B79803AE"
+			item: {
+				count: 1
+				id: "mysticalagriculture:ice_seeds"
+			}
+		}
+		{
+			count: 9
+			id: "54E9D375A4F7A893"
+			item: {
+				count: 1
+				id: "mysticalagriculture:water_seeds"
+			}
+		}
+		{
+			count: 9
+			id: "7D363AAC0CD64A32"
+			item: {
+				count: 1
+				id: "mysticalagriculture:fire_seeds"
+			}
+		}
+		{
+			count: 9
+			id: "28A89EE88BF40ECF"
+			item: {
+				count: 1
+				id: "mysticalagriculture:coal_seeds"
+			}
+		}
+		{
+			count: 9
+			id: "6DCD65CE44EDD205"
+			item: {
+				count: 1
+				id: "mysticalagriculture:silicon_seeds"
+			}
+		}
+		{
+			count: 9
+			id: "7562F3AED4F5C000"
+			item: {
+				count: 1
+				id: "mysticalagriculture:nether_seeds"
+			}
+		}
+		{
+			count: 9
+			id: "48E0DFC42C11DB47"
+			item: {
+				count: 1
+				id: "mysticalagriculture:end_seeds"
+			}
+		}
+		{
+			count: 9
+			id: "0389D46AEA40892A"
+			item: {
+				count: 1
+				id: "mysticalagriculture:sculk_seeds"
+			}
+		}
+		{
+			count: 9
+			id: "004A63EBE52E47B2"
+			item: {
+				count: 1
+				id: "mysticalagriculture:obsidian_seeds"
+			}
+		}
+	]
+}

@@ -1,0 +1,257 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "mbd2"
+	group: "3363CE859CE20561"
+	icon: {
+		components: {
+			"mbd2:gadget_mode": "multiblock_debugger"
+			"mbd2:gadget_recipe": "mbd2:test/recipe_0"
+		}
+		id: "mbd2:mbd_gadgets"
+	}
+	id: "5B71D32DBE6BFB5B"
+	images: [ ]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			id: "2A7D958B704849D4"
+			tasks: [{
+				id: "12D07FF24F963E50"
+				item: { count: 1, id: "mbd2:3x3input" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			disable_toast: true
+			id: "5DED66336F18EC77"
+			tasks: [{
+				id: "624BC69697D4E255"
+				item: { count: 1, id: "mbd2:3x3output" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			disable_toast: true
+			id: "6F5759FD6167C0FB"
+			tasks: [{
+				id: "446AD2B84BD4F922"
+				item: { count: 1, id: "mbd2:rainbow_generator" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			id: "0E26E39C8C6DF510"
+			tasks: [{
+				id: "04673F6C6C2FCD89"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			id: "63FC1CC64113D865"
+			tasks: [{
+				id: "177C66572E2AC4EE"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			id: "15AE1A0BA8447217"
+			tasks: [{
+				id: "679653D9B3A6BED3"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			disable_toast: true
+			id: "4B62099DE58E001A"
+			optional: true
+			tasks: [{
+				id: "55619710ABA652C1"
+				item: { count: 1, id: "mbd2:frame_sandblaster" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			disable_toast: true
+			id: "767A5E06A40EDC65"
+			tasks: [{
+				id: "386039F3246665EF"
+				item: { count: 1, id: "mbd2:life_extractor" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			disable_toast: true
+			icon: {
+				id: "mbd2:configurable"
+			}
+			id: "4B406D2CE896E9FB"
+			tasks: [
+				{
+					id: "6A42F40EB7DF2111"
+					item: { count: 1, id: "mbd2:configurable" }
+					type: "item"
+				}
+				{
+					id: "26F344A6F17A311A"
+					item: { count: 1, id: "mbd2:basic_configurable" }
+					type: "item"
+				}
+				{
+					id: "4FA8C9CDE5C44F2B"
+					item: { count: 1, id: "mbd2:advanced_configurable" }
+					type: "item"
+				}
+				{
+					id: "6042A32B25DBC17A"
+					item: { count: 1, id: "mbd2:elite_configurable" }
+					type: "item"
+				}
+				{
+					id: "0ECAD032027F39BB"
+					item: { count: 1, id: "mbd2:ultimate_configurable" }
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			disable_toast: true
+			id: "4F0C44937351914E"
+			tasks: [{
+				id: "6225234643991D52"
+				item: { count: 1, id: "mbd2:apotheosis_slayer_factory" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			disable_toast: true
+			id: "3FCE11A9EC7C77F9"
+			tasks: [{
+				id: "14D49EF54243FB46"
+				item: { count: 1, id: "mbd2:dimensional_stabilimentum" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			disable_toast: true
+			id: "6742BAE8CC9FB67E"
+			tasks: [{
+				id: "49AD1CCEF5AC205D"
+				item: { count: 1, id: "mbd2:middle_wind_generate" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			disable_toast: true
+			id: "19B33F721646F2A3"
+			tasks: [{
+				id: "1ACB089CBA0ADDE8"
+				item: { count: 1, id: "mbd2:compact_amethyst_growth" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			disable_toast: true
+			id: "61FD90A944A8B06E"
+			tasks: [{
+				id: "46D2CDC048A4FFFF"
+				item: { count: 1, id: "mbd2:seed_aggregator" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			disable_toast: true
+			id: "1ABDCFBDA3EE061E"
+			tasks: [{
+				id: "33E8E97B843D96B1"
+				item: { count: 1, id: "mbd2:advanced_seed_aggregator" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.5d
+		}
+		{
+			disable_toast: true
+			id: "4260D5BF2D15D11B"
+			tasks: [{
+				id: "6CD682B42FB29B7C"
+				item: { count: 1, id: "mbd2:compact_fissile_fuel" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			disable_toast: true
+			id: "0C9C085682E352D4"
+			tasks: [{
+				id: "03A7F25FB9689477"
+				item: { count: 1, id: "mbd2:moon_mineral_extractor" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -0.5d
+		}
+		{
+			disable_toast: true
+			id: "550D95CEEE0A6921"
+			tasks: [{
+				id: "4FEEABC53EBD3D7F"
+				item: { count: 1, id: "mbd2:compact_thermal" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: -0.5d
+		}
+		{
+			id: "70159AB550F524F3"
+			tasks: [{
+				id: "3D936C0F7A748947"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			id: "4753BA0F617999E2"
+			tasks: [{
+				id: "6BC212E708FCC77A"
+				item: { count: 1, id: "mbd2:atomic_reconstructor" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 1.5d
+		}
+	]
+}

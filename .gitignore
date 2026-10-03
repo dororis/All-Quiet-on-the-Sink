@@ -1,0 +1,81 @@
+# === Minecraft Modpack - Runtime / User Files ===
+# 主版本 jar 和本地库
+*.jar
+*-natives/
+
+# 日志和崩溃报告
+logs/
+crash-reports/
+debug/
+
+# 备份文件
+ftbbackups3/
+
+# 下载文件
+downloads/
+
+# 运行时数据
+data/
+fancymenu_data/
+
+# ProbeJS 生成文件
+.probe/
+
+# PCL 启动器文件
+PCL/
+
+# 存档
+saves/
+
+# Xaero 地图数据（用户特定）
+xaero/
+
+# 资源包和光影包（二进制大文件，非源代码）
+resourcepacks/
+shaderpacks/
+
+# 截图
+screenshots/
+
+# 本地 / 用户数据
+local/
+usernamecache.json
+usercache.json
+patchouli_data.json
+servers.dat
+servers.dat_old
+observable_announce
+
+# 性能分析
+observable_profiles/
+
+# JEI 世界特定数据（书签、历史记录等）
+config/jei/world/
+
+# TabTPS 用户数据
+config/tabtps/userdata/
+
+# 状态和缓存文件
+*.nbt
+*.bak
+*.log
+TrashSlotSaveState.json
+command_history.txt
+export_config.txt
+options.txt
+optionsof.txt
+
+# === IDE / Editor ===
+.vscode/
+*.swp
+*.swo
+*~
+
+# === OS ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Node / KubeJS dev ===
+node_modules/
+.kubejs/

@@ -1,0 +1,240 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5493a7d8b2e29ec5"
+	group: "71416BA8E9B4491E"
+	icon: {
+		id: "ae2lt:creative_pigmee_fumo"
+	}
+	id: "5493A7D8B2E29EC5"
+	images: [
+		{
+			click_action: "none:"
+			height: 20.0d
+			id: "2B91BFC56C029AC0"
+			image: "ae2lt:block/pigmee_molecular_assembler_lights"
+			rotation: 0.0d
+			width: 20.0d
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			click_action: "none:"
+			height: 6.0d
+			id: "7318E5C021D54140"
+			image: "anvilcraft:block/black_hole"
+			rotation: 0.0d
+			width: 6.0d
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			click_action: "none:"
+			height: 7.0d
+			id: "74223E3A15A462E6"
+			image: "anvilcraft:block/celestial_body/white_hole"
+			rotation: 0.0d
+			width: 7.0d
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			click_action: "none:"
+			height: 4.0d
+			id: "04648BE4FCFFBFD3"
+			image: "anvilcraft:block/celestial_forging_anvil_gate_inner"
+			rotation: 180.0d
+			width: 4.0d
+			x: 4.5d
+			y: -6.5d
+		}
+		{
+			click_action: "none:"
+			height: 2.0d
+			id: "617DA4945872CBCA"
+			image: "anvilcraft:textures/gui/jei/arrow_block_conversion.png"
+			rotation: 135.0d
+			width: 1.0d
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			click_action: "none:"
+			height: 2.0d
+			id: "5F355CC6EBC35B32"
+			image: "anvilcraft:textures/gui/jei/arrow_block_conversion.png"
+			rotation: 90.0d
+			width: 1.0d
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			click_action: "none:"
+			height: 2.0d
+			id: "098E5AB28F40DE23"
+			image: "anvilcraft:textures/gui/jei/arrow_block_conversion.png"
+			rotation: -90.0d
+			width: 1.0d
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			click_action: "none:"
+			height: 2.0d
+			id: "266F84FB550F3A3F"
+			image: "anvilcraft:textures/gui/jei/arrow_block_conversion.png"
+			rotation: -135.0d
+			width: 1.0d
+			x: 2.5d
+			y: -1.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4ACA4AB3E65F4F59"]
+			id: "69D9B052EBFEB997"
+			rewards: [{
+				id: "3E5B0E25A8CE1576"
+				item: {
+					components: {
+						"minecraft:custom_data": {
+							Consumed: 0b
+							Descriptions: [
+								"item.ae2lt.pigmee_core"
+								"item.ae2lt.module_undying"
+								"item.ae2lt.module_phase_lock"
+								"ae2lt.research_note.desc.mekanism_extras.infinite_induction_provider.0"
+								"ae2lt.research_note.desc.advanced_ae.quantum_multi_threader.0"
+								"ae2lt.research_note.desc.megacells.cell_component_256m.0"
+								"ae2lt.research_note.desc.minecraft.heart_of_the_sea.0"
+								"ae2lt.research_note.desc.mekanism.pellet_antimatter.0"
+								"ae2lt.research_note.desc.mekanism_extras.qio_drive_singularity.1"
+							]
+							Goal: "HYPERDIMENSIONAL_PIGMEE"
+							RecipeItems: [
+								"ae2lt:pigmee_core"
+								"ae2lt:module_undying"
+								"ae2lt:module_phase_lock"
+								"mekanism_extras:infinite_induction_provider"
+								"advanced_ae:quantum_multi_threader"
+								"megacells:cell_component_256m"
+								"minecraft:heart_of_the_sea"
+								"mekanism:pellet_antimatter"
+								"mekanism_extras:qio_drive_singularity"
+							]
+							RitualSeed: "54f70397-9654-400c-8512-b56758590831"
+						}
+						"minecraft:written_book_content": {
+							author: "佚名研究员"
+							pages: [
+								{
+									raw: "{\"extra\":[\"\\n\",{\"translate\":\"ae2lt.research_note.page.author\"},\"\\n\",{\"translate\":\"ae2lt.research_note.page.goal_line\",\"with\":[{\"translate\":\"ae2lt.research_note.goal.hyperdimensional_pigmee\"}]}],\"translate\":\"ae2lt.research_note.page.cover\",\"with\":[\"54F7\"]}"
+								}
+								{
+									raw: "{\"translate\":\"ae2lt.research_note.page.intro\",\"with\":[{\"translate\":\"ae2lt.research_note.goal.hyperdimensional_pigmee\"}]}"
+								}
+								{
+									raw: "{\"extra\":[\"1. \",{\"translate\":\"item.ae2lt.pigmee_core\"},\"\\n\",\"2. \",{\"translate\":\"item.ae2lt.module_undying\"},\"\\n\",\"3. \",{\"translate\":\"item.ae2lt.module_phase_lock\"},\"\\n\",\"4. \",{\"translate\":\"ae2lt.research_note.desc.mekanism_extras.infinite_induction_provider.0\"},\"\\n\",\"5. \",{\"translate\":\"ae2lt.research_note.desc.advanced_ae.quantum_multi_threader.0\"}],\"text\":\"\"}"
+								}
+								{
+									raw: "{\"extra\":[\"6. \",{\"translate\":\"ae2lt.research_note.desc.megacells.cell_component_256m.0\"},\"\\n\",\"7. \",{\"translate\":\"ae2lt.research_note.desc.minecraft.heart_of_the_sea.0\"},\"\\n\",\"8. \",{\"translate\":\"ae2lt.research_note.desc.mekanism.pellet_antimatter.0\"},\"\\n\",\"9. \",{\"translate\":\"ae2lt.research_note.desc.mekanism_extras.qio_drive_singularity.1\"}],\"text\":\"\"}"
+								}
+								{
+									raw: "{\"extra\":[{\"translate\":\"ae2lt.research_note.page.warning\"}],\"text\":\"\"}"
+								}
+							]
+							resolved: 1b
+							title: {
+								raw: "研究札记 #54F7"
+							}
+						}
+					}
+					count: 1
+					id: "ae2lt:research_note"
+				}
+				type: "item"
+			}]
+			shape: "heart"
+			size: 5.0d
+			tasks: [{
+				id: "77F58D5497D20E28"
+				item: { count: 1, id: "ae2lt:creative_pigmee_fumo" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"5A4838787F643833"
+				"5AB855C6C9753CD9"
+			]
+			id: "1AE721F87AA5DA5F"
+			size: 3.0d
+			tasks: [{
+				id: "6027D768038670E5"
+				item: { count: 1, id: "anvilcraft:celestial_forging_anvil" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			id: "5EC83524270FEABD"
+			size: 2.0d
+			tasks: [{
+				id: "36EF1477FED7A11A"
+				item: { count: 1, id: "anvilcraft:confined_time_anvilon" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			id: "0C7AB1EE6AF86019"
+			size: 2.0d
+			tasks: [{
+				id: "37B180961051C5F3"
+				item: { count: 1, id: "anvilcraft:confined_space_anvilon" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "622F4FC3913857FF"
+			size: 2.0d
+			tasks: [{
+				id: "124CB3FF27E0C1A1"
+				item: { count: 1, id: "anvilcraft:confined_mass_anvilon" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			id: "32E127BF10E0C542"
+			size: 2.0d
+			tasks: [{
+				id: "352ABBB7D59CC152"
+				item: { count: 1, id: "anvilcraft:confined_energy_anvilon" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5DD4F4D2A22F907F"]
+			id: "69E4D5A4F4FDC999"
+			tasks: [{
+				dimension: "aqs:pigmee_world"
+				id: "093E24C6ADAF76F5"
+				type: "dimension"
+			}]
+			x: 4.5d
+			y: -7.0d
+		}
+	]
+}

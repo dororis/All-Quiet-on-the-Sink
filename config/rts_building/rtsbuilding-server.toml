@@ -1,0 +1,113 @@
+[diagnostics]
+	#RTS operation diagnostics. VERBOSE adds one-second task progress samples; gameplay is unchanged.
+	#Allowed Values: OFF, BASIC, VERBOSE
+	level = "BASIC"
+
+[mining]
+	#Maximum blocks collected by one RTS chain mining request.
+	# Default: 256
+	# Range: 1 ~ 4096
+	ultimineMaxBlocks = 256
+	#Maximum block count per dimension for RTS area mining selections.
+	# Default: 36
+	# Range: 1 ~ 64
+	areaMineMaxSize = 36
+	#Maximum covered volume, width * height * depth, accepted by one RTS area mining selection.
+	# Default: 46656
+	# Range: 1 ~ 262144
+	areaMineMaxVolume = 46656
+	#Maximum X-axis width accepted by one RTS area mining selection.
+	# Default: 36
+	# Range: 1 ~ 256
+	areaMineMaxWidth = 36
+	#Maximum Y-axis height accepted by one RTS area mining selection.
+	# Default: 36
+	# Range: 1 ~ 256
+	areaMineMaxHeight = 36
+	#Maximum Z-axis depth accepted by one RTS area mining selection.
+	# Default: 36
+	# Range: 1 ~ 256
+	areaMineMaxDepth = 36
+	#Server ceiling for harvest-tier plugins used by non-chain RTS range mining.
+	#Allowed Values: STONE, IRON, DIAMOND, UNLIMITED
+	areaMineMaxHarvestTier = "UNLIMITED"
+	#Maximum explicit positions accepted by one RTS area destroy request.
+	# Default: 98304
+	# Range: 1 ~ 262144
+	areaDestroyMaxTargets = 98304
+	#Maximum queued mining targets processed by one mining task slice.
+	# Default: 32
+	# Range: 1 ~ 128
+	ultimineBlocksPerTick = 32
+	#Radius used to absorb drops around remotely mined blocks.
+	# Default: 1.25
+	# Range: 0.25 ~ 8.0
+	dropScanRadius = 1.25
+
+[storage]
+	#Number of storage cache refresh cycles between expensive AE2 network snapshots.
+	# Default: 10
+	# Range: 1 ~ 200
+	ae2NetworkRefreshThrottle = 10
+	#Number of storage cache refresh cycles between expensive Refined Storage network snapshots.
+	# Default: 10
+	# Range: 1 ~ 200
+	refinedStorageNetworkRefreshThrottle = 10
+	#Maximum player count retained by the storage page LRU cache.
+	# Default: 256
+	# Range: 1 ~ 4096
+	pageCacheMaxPlayers = 256
+	#Default number of item/fluid entries shown per RTS storage page.
+	# Default: 90
+	# Range: 1 ~ 4096
+	defaultStoragePageSize = 90
+	#Maximum allowed item/fluid entries per RTS storage page request.
+	# Default: 180
+	# Range: 1 ~ 8192
+	maxStoragePageSize = 180
+
+[placement]
+	#Maximum queued remote placement targets processed per player per server tick.
+	# Default: 64
+	# Range: 1 ~ 512
+	buildBatchBlocksPerTick = 64
+	#Maximum queued quick-build placement jobs per player.
+	# Default: 4
+	# Range: 1 ~ 32
+	buildBatchMaxQueuedJobs = 4
+	#Maximum RTS remote block action sounds sent per player per tick. Excess sounds are dropped.
+	# Default: 16
+	# Range: 0 ~ 16
+	remoteBlockActionSoundsPerTick = 16
+
+[taskEngine]
+	#Hard global RTS work-unit limit across all players in one server tick.
+	# Default: 256
+	# Range: 1 ~ 4096
+	maxUnitsPerTick = 256
+	#Maximum RTS work units granted to one player before rotating to another player.
+	# Default: 32
+	# Range: 1 ~ 512
+	maxUnitsPerSlice = 32
+	#Cooperative RTS main-thread time budget per server tick in nanoseconds.
+	# Default: 8000000
+	# Range: 250000 ~ 20000000
+	maxNanosPerTick = 8000000
+
+[interaction]
+	#Temporary interaction reach used while RTSBuilding replays a remote player action.
+	# Default: 4.0
+	# Range: 1.0 ~ 16.0
+	remotePovBlockReach = 4.0
+
+[fluid]
+	#Fallback internal fluid buffer capacity in buckets when progression data is unavailable.
+	# Default: 100
+	# Range: 1 ~ 4096
+	internalFluidCapacityBuckets = 100
+
+[internal]
+	#Internal RTSBuilding server configuration migration revision. Do not edit manually.
+	# Default: 0
+	# Range: 0 ~ 1
+	configRevision = 1

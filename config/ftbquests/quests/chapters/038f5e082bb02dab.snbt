@@ -1,0 +1,568 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "038f5e082bb02dab"
+	group: "71416BA8E9B4491E"
+	icon: {
+		id: "anvilcraft:transcendence_anvil"
+	}
+	id: "038F5E082BB02DAB"
+	images: [
+		{
+			click_action: "none:"
+			height: 7.0d
+			id: "7CF14FF641F3819D"
+			image: "anvilcraft:block/celestial_forging_anvil_gate_inner"
+			rotation: 0.0d
+			width: 7.0d
+			x: 15.5d
+			y: -6.0d
+		}
+		{
+			height: 1.0d
+			id: "7CE88916848470A7"
+			image: "fancymenu:textures/layout_editor/widgets/layers/move_down.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.0d
+			y: -7.0d
+		}
+		{
+			height: 1.0d
+			id: "3C9BFB0B08293992"
+			image: "brandonscore:textures/gui/dark/arrow_right.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.0d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			id: "60B6BC1253142CC1"
+			image: "ftblibrary:icons/dropdown_out"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: -6.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "485292EAED0C198E"
+			image: "fancymenu:textures/layout_editor/widgets/layers/move_down.png"
+			rotation: -90.0d
+			width: 1.0d
+			x: 9.0d
+			y: -5.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "16C05C98339D4C4E"
+			rewards: [{
+				id: "6A909A7F36072493"
+				item: {
+					count: 1
+					id: "anvilcraft:neoforge"
+				}
+				type: "item"
+			}]
+			size: 4.0d
+			tasks: [{
+				id: "5A4838787F643833"
+				item: { count: 1, id: "anvilcraft:celestial_forging_anvil" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: -5.0d
+		}
+		{
+			id: "55F37D3C29614EE8"
+			tasks: [{
+				id: "5DCA52644FB97241"
+				item: { count: 1, id: "anvilcraft:guide_book" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["24F3447E781BA195"]
+			id: "395BD649C5993C98"
+			size: 3.0d
+			tasks: [{
+				id: "798B707C1222FB68"
+				item: { count: 1, id: "anvilcraft:giant_anvil" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -9.0d
+		}
+		{
+			icon: {
+				id: "anvilcraft:acceleration_ring"
+			}
+			id: "2A76820E711B7666"
+			rewards: [{
+				id: "534D0F0F89EF3394"
+				item: {
+					count: 1
+					id: "oritech:accelerator_controller"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [
+				{
+					id: "5DC898C2B36F006A"
+					item: { count: 1, id: "anvilcraft:acceleration_ring" }
+					type: "item"
+				}
+				{
+					id: "1C110CF1E25E34DB"
+					item: { count: 1, id: "anvilcraft:deflection_ring" }
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -5.0d
+		}
+		{
+			id: "64F3FA67B7E9FC97"
+			tasks: [{
+				id: "1FEE1E0D85C5337E"
+				item: { count: 1, id: "anvilcraft:negative_matter_block" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			id: "42CFC7052FC4CFEA"
+			tasks: [{
+				id: "77BEF70AE6814EC0"
+				item: { count: 1, id: "anvilcraft:space_overcompressor" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			id: "15DD92E5EC27EC3D"
+			tasks: [{
+				id: "5261654E147EC5C9"
+				item: { count: 1, id: "anvilcraft:spacetime_supercomputer" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -4.0d
+		}
+		{
+			id: "768DC1F877C515AB"
+			tasks: [{
+				id: "21BFE40CDE856675"
+				item: { count: 1, id: "anvilcraft:mass_energy_inverter" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -5.0d
+		}
+		{
+			id: "3A9B3CCE627CF85C"
+			tasks: [{
+				id: "0FDD7A763D26E71A"
+				item: { count: 1, id: "anvilcraft:void_matter_block" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			id: "6918C32E850209F4"
+			tasks: [{
+				id: "78D8716F424F58D5"
+				item: { count: 1, id: "anvilcraft:neutronium_ingot" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			id: "74C999887A1023FE"
+			tasks: [{
+				count: 4L
+				id: "653A451787B37CA5"
+				item: { count: 1, id: "minecraft:shulker_box" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.5d
+		}
+		{
+			id: "333DD9E658314BD0"
+			tasks: [{
+				id: "58043A003A2E56D5"
+				item: { count: 1, id: "anvilcraft:transcendium_ingot" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -5.0d
+		}
+		{
+			id: "135C1CEF9C8DC231"
+			tasks: [{
+				id: "31106E25C025821A"
+				item: { count: 1, id: "anvilcraft:overheated_ember_metal_block" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			id: "2E64F7A2676D6713"
+			tasks: [{
+				id: "4ABFC28392BC4845"
+				item: { count: 1, id: "anvilcraft:ember_metal_block" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.5d
+		}
+		{
+			icon: {
+				id: "anvilcraft:tungsten_ingot"
+			}
+			id: "6A2CF951464F8AB3"
+			tasks: [
+				{
+					id: "32FDA64AADC2F179"
+					item: { count: 1, id: "anvilcraft:tungsten_ingot" }
+					type: "item"
+				}
+				{
+					id: "12E85DBA5FB17E0A"
+					item: { count: 1, id: "neoecoae:tungsten_ingot" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: -5.0d
+		}
+		{
+			id: "50960D4F6D9CE95C"
+			tasks: [{
+				id: "1F10E922B027F511"
+				item: { count: 1, id: "anvilcraft:negative_matter_nugget" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			id: "771EA7A8EAC51882"
+			size: 2.0d
+			tasks: [{
+				id: "513218C11CC35B97"
+				item: { count: 1, id: "anvilcraft:transcendence_anvil" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -5.0d
+		}
+		{
+			id: "5C0F0D4679016960"
+			tasks: [{
+				id: "37F8C6AE3B793ED7"
+				item: { count: 1, id: "anvilcraft:end_dust" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -8.5d
+		}
+		{
+			icon: {
+				id: "anvilcraft:levitation_powder"
+			}
+			id: "2771BEAEE1DB5F8E"
+			tasks: [
+				{
+					id: "4AC58F65BA0995B9"
+					item: { count: 1, id: "ae2lt:floating_matter" }
+					type: "item"
+				}
+				{
+					id: "392A2DCADCDF2050"
+					item: { count: 1, id: "anvilcraft:levitation_powder" }
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -7.5d
+		}
+		{
+			id: "23316EDA696F723D"
+			tasks: [{
+				id: "4B6B0C03D9477841"
+				item: { count: 1, id: "anvilcraft:levitation_powder_block" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -6.5d
+		}
+		{
+			id: "7B2B015AB30EB402"
+			tasks: [{
+				id: "31E29B96D9A38026"
+				item: { count: 1, id: "anvilcraft:neutron_irradiator" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["15DD92E5EC27EC3D"]
+			id: "5DA5D4250FE3ACD9"
+			tasks: [{
+				id: "5DD4F4D2A22F907F"
+				item: { components: { "minecraft:unbreakable": { } }, count: 1, id: "anvilcraft:celestial_forging_anvil_portal" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["15DD92E5EC27EC3D"]
+			id: "7E31DF8BA3391C8B"
+			tasks: [{
+				id: "5AB855C6C9753CD9"
+				item: { count: 1, id: "anvilcraft:celestial_forging_anvil_logistics_interface" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			id: "330376845F780C89"
+			tasks: [{
+				id: "14967FA2DCD2B910"
+				item: { count: 1, id: "anvilcraft:transcendium_block" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			id: "4DE8C85E11442684"
+			tasks: [{
+				id: "530DD955A203CA92"
+				item: { count: 1, id: "anvilcraft:negative_matter_block" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -6.0d
+		}
+		{
+			id: "3FD27463B62589EE"
+			tasks: [{
+				id: "27E5E9FB65D09B00"
+				item: { count: 1, id: "anvilcraft:confinement_chamber" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["15DD92E5EC27EC3D"]
+			id: "04BE0F831FCA8E89"
+			tasks: [{
+				id: "4ACA4AB3E65F4F59"
+				item: { count: 1, id: "anvilcraft:celestial_forging_anvil_amplifier" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			id: "17DDE6BECAACD8FD"
+			tasks: [{
+				id: "77A8E495A21BD639"
+				item: { count: 1, id: "anvilcraft:enchanted_gold_block" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -5.0d
+		}
+		{
+			id: "12639EBAD710489F"
+			tasks: [{
+				id: "20DA7BB9D7C1C8F6"
+				item: { count: 1, id: "anvilcraft:transcendium_block" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -4.0d
+		}
+		{
+			id: "7A21815D65412999"
+			tasks: [{
+				id: "238A867BAC69A948"
+				item: { count: 1, id: "anvilcraft:enchanted_gold_block" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -5.0d
+		}
+		{
+			id: "6B211DD41340460B"
+			tasks: [{
+				id: "2C5A7B716D1054F7"
+				item: { count: 1, id: "anvilcraft:confinement_chamber" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -6.0d
+		}
+		{
+			id: "1782014E0B3642BA"
+			tasks: [{
+				id: "49D32D6185CF3709"
+				item: { count: 1, id: "anvilcraft:fe_collector" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -5.0d
+		}
+		{
+			id: "1F4DB0122900C86C"
+			tasks: [{
+				id: "7C7F2808D3B0AC3B"
+				item: { count: 1, id: "anvilcraft:magnet_block" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -9.0d
+		}
+		{
+			id: "7CF8EE1244FB35DE"
+			tasks: [{
+				id: "5344AFEB2E76DF99"
+				item: { count: 1, id: "anvilcraft:royal_steel_block" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -9.0d
+		}
+		{
+			id: "7C30FE8058076284"
+			tasks: [{
+				id: "738891083D24C0B5"
+				item: { count: 1, id: "anvilcraft:ember_metal_ingot" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -9.0d
+		}
+		{
+			id: "3F56A8F99B6E177B"
+			tasks: [{
+				id: "67FC65A269EA69DB"
+				item: { count: 1, id: "anvilcraft:frost_metal_ingot" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -9.0d
+		}
+		{
+			id: "79740E4652EA3DB6"
+			tasks: [{
+				id: "641631160E3A89EC"
+				item: { count: 1, id: "powah:energizing_orb" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -10.5d
+		}
+		{
+			id: "0D26577E48207DB5"
+			tasks: [{
+				id: "3299E036D6B01A58"
+				item: { count: 1, id: "mbd2:smelting_furnace" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -10.5d
+		}
+		{
+			id: "302B592C3D151122"
+			tasks: [{
+				id: "1C8B310BFFA5771E"
+				item: { count: 1, id: "ad_astra:calorite_ingot" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -10.5d
+		}
+		{
+			id: "0200D281076F4A9C"
+			tasks: [{
+				id: "3F29FCBEC59D67DD"
+				item: { count: 1, id: "ad_astra:ostrum_ingot" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -10.5d
+		}
+		{
+			id: "6D26895291583A3D"
+			tasks: [{
+				id: "7FF7FB684D58AE7B"
+				item: { count: 1, id: "irons_spellbooks:eldritch_manuscript" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -10.5d
+		}
+		{
+			id: "20F8EFCAAF29B44A"
+			tasks: [{
+				id: "5DAD979DAB5D305E"
+				item: { count: 1, id: "anvilcraft:cursed_gold_ingot" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -9.0d
+		}
+		{
+			id: "76988BB4A8365341"
+			tasks: [{
+				id: "49D4BDEB687637CF"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ { id: "irons_spellbooks:fang_strike", index: 0, level: 6, locked: 1b }, { id: "irons_spellbooks:fang_ward", index: 1, level: 4, locked: 1b }, { id: "irons_spellbooks:summon_vex", index: 2, level: 4, locked: 1b } ], maxSpells: 10, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:evoker_spell_book" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -10.5d
+		}
+		{
+			id: "56653E4E810C8736"
+			tasks: [{
+				id: "3ACB8D117C97C73B"
+				item: { count: 1, id: "anvilcraft:enchanted_gold_ingot" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -9.0d
+		}
+		{
+			id: "0CFBEDDFBD259F5D"
+			tasks: [{
+				id: "522EFA1D108766D8"
+				item: { count: 1, id: "mekanism:module_gravitational_modulating_unit" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.5d
+		}
+	]
+}

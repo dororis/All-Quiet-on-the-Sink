@@ -1,0 +1,9 @@
+{
+	id: "03001BE1FDC0EA9D"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ id: "7A376A1227A4C785", item: { count: 1, id: "sophisticatedbackpacks:advanced_magnet_upgrade" } }
+		{ id: "5766F5857EFF2872", item: { count: 1, id: "sophisticatedstorage:advanced_magnet_upgrade" } }
+	]
+}

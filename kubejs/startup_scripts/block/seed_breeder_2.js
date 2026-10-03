@@ -1,0 +1,11 @@
+StartupEvents.registry('block', event => {
+    event.create('seed_breeder_2')
+        .displayName('种子培育器 II')
+        .parentModel('kubejs:block/seed_breeder_2')
+        .property(BlockProperties.HORIZONTAL_FACING)
+        .placementState(ctx => ctx.horizontalDirection.opposite())
+        .hardness(2.5)
+        .resistance(6.0)
+        .tagBlock('minecraft:mineable/pickaxe')
+        .requiresTool(true)
+})

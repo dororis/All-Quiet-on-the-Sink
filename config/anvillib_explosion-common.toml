@@ -1,0 +1,4 @@
+#The maximum number of blocks that can be deleted per tick.
+max_remove_blocks_per_tick = 2048
+#The default number of blocks that can be deleted per tick.
+default_remove_blocks_per_tick = 128

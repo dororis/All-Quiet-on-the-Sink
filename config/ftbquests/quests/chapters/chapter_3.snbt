@@ -1,0 +1,358 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_3"
+	group: "4D3AA524F989001F"
+	icon: {
+		id: "ae2lt:lightning_collector"
+	}
+	id: "510B5A80D695ECAA"
+	images: [
+		{
+			click_action: "none:"
+			height: 5.0d
+			id: "3A4AD7E0BB9EF455"
+			image: "ae2lt:block/firmament_conversion_core_flash"
+			rotation: 0.0d
+			width: 5.0d
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			click_action: "none:"
+			height: 2.0d
+			id: "67A3E2A498A2E85E"
+			image: "ae2lt:textures/gui/easter_egg.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			click_action: "none:"
+			height: 2.0d
+			id: "60133C14F7CEBA61"
+			image: "ae2lt:item/high_voltage_lightning"
+			rotation: 0.0d
+			width: 2.0d
+			x: -8.0d
+			y: -1.5d
+		}
+		{
+			click_action: "none:"
+			height: 3.0d
+			id: "2C88A7EEEF32CC6B"
+			image: "ae2lt:block/lightning_assembler/lightnings"
+			rotation: 0.0d
+			width: 3.0d
+			x: -2.0d
+			y: 0.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6D27F907053A9567"]
+			id: "767DD7FC0B583E79"
+			rewards: [{
+				id: "02E5BEBC34F5B370"
+				item: {
+					count: 1
+					id: "anvilcraft:topaz_amulet"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "066745628CEE996B"
+				type: "checkmark"
+			}]
+			x: -12.0d
+			y: 0.0d
+		}
+		{
+			id: "5AA66A330DB2E3AB"
+			tasks: [{
+				id: "66CB728986D574A4"
+				item: { components: { "industrialforegoing:infinity_can_charge": 1b, "industrialforegoing:infinity_item_power": 0L, "industrialforegoing:infinity_item_selected_tier": "poor", "industrialforegoing:infinity_item_special": 0b, "industrialforegoing:infinity_trident_channeling": 0b, "industrialforegoing:infinity_trident_loyalty": 0, "industrialforegoing:infinity_trident_riptide": 0 }, count: 1, id: "industrialforegoing:infinity_trident" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"767DD7FC0B583E79"
+				"24E5304DCF2C50F5"
+				"60AF1B092BB1E5C2"
+				"631475009325B178"
+				"56B1B3870437F83A"
+			]
+			dependency_requirement: "one_started"
+			icon: {
+				id: "ae2lt:lightning_collector"
+			}
+			id: "6C20CE341FBA6D38"
+			optional: true
+			rewards: [{
+				count: 64
+				id: "5BA1A78EB682527B"
+				item: {
+					count: 1
+					id: "powah:charged_snowball"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [
+				{
+					id: "7DC298B1D14FBAAE"
+					item: { count: 1, id: "ae2lt:lightning_collector" }
+					type: "item"
+				}
+				{
+					id: "4C42D3AD70E10A83"
+					item: { count: 1, id: "minecraft:lightning_rod" }
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1257ABF846F89DCA"]
+			dependency_requirement: "one_started"
+			id: "0AC75CF3CA724096"
+			size: 2.0d
+			tasks: [{
+				id: "67C517ACAA9C850A"
+				item: { count: 1, id: "ae2lt:tesla_coil" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0AC75CF3CA724096"]
+			id: "47A4FE76628F3F2D"
+			tasks: [{
+				id: "5C1DA86B9507F187"
+				item: { count: 1, id: "ae2lt:overloaded_pattern_provider" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0AC75CF3CA724096"]
+			id: "57CAD5805D1523C9"
+			tasks: [{
+				id: "5BB6BEA0DA858CB4"
+				item: { count: 1, id: "ae2lt:overloaded_interface" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0AC75CF3CA724096"]
+			id: "520A56FBA77AE00C"
+			tasks: [{
+				id: "3CEBBF542222EABD"
+				item: { count: 1, id: "ae2lt:overloaded_power_supply" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5AA66A330DB2E3AB"]
+			id: "631475009325B178"
+			optional: true
+			tasks: [{
+				icon: {
+					components: {
+						"!ftbquests:icon": { }
+						"ftbquests:entity_face": "minecraft:iron_golem"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "72B7E063B0686574"
+				observation_type: "entity_type"
+				observe_type: 5
+				optional_task: true
+				timer: 0L
+				to_observe: "minecraft:iron_golem"
+				type: "observation"
+			}]
+			x: -8.0d
+			y: -1.5d
+		}
+		{
+			id: "24E5304DCF2C50F5"
+			tasks: [{
+				id: "4C39162EC08A5EE1"
+				item: { count: 1, id: "draconicevolution:celestial_manipulator" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			id: "56B1B3870437F83A"
+			tasks: [{
+				id: "373AEE21670FDEAB"
+				item: { count: 1, id: "industrialforegoing:stasis_chamber" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.5d
+		}
+		{
+			id: "60AF1B092BB1E5C2"
+			tasks: [{
+				id: "2D402527A5F3307B"
+				item: { count: 1, id: "ae2lt:electro_chime_crystal" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4A4B8D7CF9E715C8"]
+			dependency_requirement: "one_started"
+			id: "4DE75AB513B49570"
+			tasks: [{
+				id: "1A9B4534DCC64EC7"
+				item: { count: 1, id: "extendedae:void_cell" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			id: "2C54AC4101E66F3F"
+			optional: true
+			tasks: [{
+				id: "24D015B30C58702B"
+				item: { count: 1, id: "dysoncubeproject:em_railejector_controller" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			id: "67F491F5BF976DBC"
+			optional: true
+			tasks: [{
+				id: "3539669DD9ADBF6C"
+				item: { count: 1, id: "dysoncubeproject:ray_receiver_controller" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["27B69BF2EB42573E"]
+			id: "623D6254772F6798"
+			rewards: [{
+				id: "2F02EAED9440C219"
+				item: {
+					count: 1
+					id: "ae2lt:lightning_collapse_matrix"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "0FC81CAE3149CD80"
+				item: { count: 1, id: "ae2lt:lightning_collapse_matrix" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["201CA10E4B507A0B"]
+			id: "73B650122642A00E"
+			optional: true
+			size: 1.0d
+			tasks: [{
+				id: "67A6DA6CDCECE88C"
+				item: { count: 1, id: "mbd2:advanced_seed_aggregator" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2D054B453126BAD3"]
+			dependency_requirement: "all_started"
+			id: "27B69BF2EB42573E"
+			tasks: [{
+				id: "31FE2386E2B9F2BB"
+				item: { count: 1, id: "ae2lt:overload_processing_factory" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C20CE341FBA6D38"]
+			id: "1257ABF846F89DCA"
+			tasks: [{
+				id: "5D4A395DA2894B94"
+				item: { count: 1, id: "ae2lt:lightning_simulation_room" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0AC75CF3CA724096"]
+			id: "2D054B453126BAD3"
+			tasks: [{
+				id: "1BBE1FD358640536"
+				item: { count: 1, id: "ae2lt:lightning_assembly_chamber" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "03A621C6C70CE245"
+			tasks: [{
+				id: "152E0FE274815A04"
+				item: { count: 1, id: "ae2lt:lightning_item_cell_housing" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0FC81CAE3149CD80"]
+			id: "5173A9725FBC8539"
+			size: 0.7d
+			tasks: [{
+				id: "4433C805AFC91C64"
+				item: { components: { "minecraft:custom_data": { CellType: 1b } }, count: 1, id: "ae2lt:mysterious_cell" }
+				type: "item"
+			}]
+			x: 6.75d
+			y: -0.2d
+		}
+		{
+			dependencies: ["0FC81CAE3149CD80"]
+			id: "44E1B15C1965DE11"
+			size: 0.7d
+			tasks: [{
+				id: "2FC6EEC6928F328B"
+				item: { components: { "minecraft:custom_data": { CellType: 3b } }, count: 1, id: "ae2lt:mysterious_cell" }
+				type: "item"
+			}]
+			x: 7.35d
+			y: -0.2d
+		}
+	]
+}

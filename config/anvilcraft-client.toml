@@ -1,0 +1,109 @@
+#The mode of the anvil hammer goggle info
+#Allowed Values: ALWAYS_SHOW, WEARING_HAMMER, HOLDING_HAMMER, WEARING_OR_HOLDING_HAMMER, TOGGLE_WITH_KEY
+goggle_mode = "WEARING_HAMMER"
+#Render distance of heliostats block entity
+# Default: 128
+# Range: 32 ~ 512
+heliostats_render_distance = 128
+#Heliostats render sunflower head model in Sunflower Plains biome
+heliostats_sunflower_model = true
+#Do not render power component tooltip when jade present
+do_not_show_tooltip_when_jade_present = false
+#Render lines between power transmitters
+render_power_transmitter_lines = true
+#Bloom effect on laser and power transmitter lines.
+render_bloom_effect = false
+#A vertical item frame vertically displays items
+vertical_item_frame = false
+#Building rod blueprint controls
+#Allowed Values: TRADITIONAL, OPTIMIZED
+building_rod_controls = "OPTIMIZED"
+#Scale of the anvil hammer radial menu
+# Default: 1.0
+# Range: 0.0 ~ 2.0
+anvil_hammer_radial_menu_scale = 1.0
+#Swap insert/collect to left-click and keep extract/place on right-click (Left Collect, Right Place)
+invert_override_action = false
+#Add a tooltip line that shows storage stored ID
+show_storage_stored_id = false
+#Use the legacy flat creative inventory layout instead of the sectioned layout with banners
+use_legacy_creative_tab = false
+#Fold 16-color item families into one representative item with a right-click variant picker in the creative inventory
+creative_variant_picker_enabled = false
+#Enable ground heave shockwave particles and sound when giant anvil triggers shock mechanism
+ground_heave_particles_enabled = true
+#Number of particles per block spawned by ground heave effect
+# Default: 1
+# Range: 0 ~ 5
+ground_heave_particle_count = 1
+#Probability (0.0-1.0) each block spawns ground heave particles
+# Default: 0.8
+# Range: 0.0 ~ 1.0
+ground_heave_particle_chance = 0.8
+#Enable redstone EMP particle effects
+display_redstone_emp_particles = true
+#Scanline post-processing effect on 3D structure previews.
+render_scan_preview_effect = true
+#Render the shared orbital rings in the overworld-like dimension
+render_overworld_like_sky = true
+#Vanilla keeps the original Overworld sky. Special replaces only the sun and moon with models, including libration and a continuous eight-day lunar phase cycle. World lighting is unchanged.
+#Allowed Values: VANILLA, SPECIAL
+overworld_sky_mode = "VANILLA"
+#Mun lighting: Potato uses Standard lighting and ambient occlusion without custom shadows, retaining vanilla entity shadows; Standard adds terrain, animated entity, and colored translucent shadows; Vanilla uses the vanilla rendering pipeline without Mun shaders, retaining the cloudless Mun sky, Overworld and moving stars. Rendering failures switch this setting to Vanilla. Shadow range is limited by render distance.
+#Allowed Values: POTATO, STANDARD, OFF
+mun_lighting_quality = "STANDARD"
+#Vanilla restores the original stellar surface and layered halos; Standard enables temperature-based emission and smooth halos. Rendering failures fall back to Vanilla until resources reload. Changes take effect immediately.
+#Allowed Values: VANILLA, STANDARD
+stellar_rendering_mode = "STANDARD"
+#Vanilla restores the original translucent atmosphere shell; Standard enables a thicker volume atmosphere. Rendering failures fall back to Vanilla until resources reload. Changes take effect immediately.
+#Allowed Values: VANILLA, STANDARD
+planet_atmosphere_rendering_mode = "STANDARD"
+#Render block-state items in sifting and unpacking tables with the enlarged block model pick
+sifting_unpacking_block_render_enabled = true
+#Enable exhaust particles when flying with Ionocraft Backpack
+ionocraft_backpack_exhaust_particles_enabled = true
+#Show levels above 10 as Roman numerals in auto enchanting table's liquid enchantment mode
+liquid_enchantment_roman_numerals = true
+#Preview mode when placing multipart blocks (large crate, hyperdimension storage station...)
+#Allowed Values: GHOST, OUTLINE, OFF
+multi_part_preview_mode = "OUTLINE"
+#Opacity of the ghost (solid) preview when placing multipart blocks
+# Default: 0.3
+# Range: 0.0 ~ 1.0
+multi_part_preview_ghost_opacity = 0.3
+#Opacity of the outline preview when placing multipart blocks
+# Default: 0.5
+# Range: 0.0 ~ 1.0
+multi_part_preview_outline_opacity = 0.5
+#In the storage screen, swap the fluid port bucket actions: by default left-click pours the held fluid bucket into a fluid port and right-click stores the bucket as a normal item; enable this to swap them
+invert_fluid_port_bucket_action = false
+
+[gravitational_lens]
+	#Gravitational lensing post-processing effect near black holes
+	render_black_hole_lensing = false
+	#Maximum number of black/white holes rendered (2-256). Higher = more holes, lower = better performance.
+	# Default: 8
+	# Range: 2 ~ 256
+	max_hole_count = 8
+	#Lens distortion strength (higher = stronger bending, 0.002 default)
+	lens_strength = 0.001953125
+	#Event horizon radius (screen UV units, 0.083 default)
+	event_horizon_radius = 0.08333333333333333
+	#Reference distance for perspective scaling. At this distance, effect = config size. Closer = bigger.
+	lens_perspective_scale = 10.0
+	#Lens direction: >0 = convex (gravitational pull toward center), <0 = concave (push away). Magnitude scales strength.
+	lens_direction = 1.0
+
+[weatherproof_chestplate_hud]
+	#If true, will show Weatherproof Chestplate current power in hud
+	enabled = true
+	#If true, will show charged capacitor counts in hud
+	capacitor_count_enabled = true
+	#The Gui Hud Scale
+	# Default: 0.75
+	# Range: 0.0 ~ 8.0
+	hud_scale = 0.75
+	#The gui hud x position
+	hud_x = 8
+	#The gui hud y position
+	hud_y = 8

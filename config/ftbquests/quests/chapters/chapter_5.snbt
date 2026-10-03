@@ -1,0 +1,239 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_5"
+	group: "4D3AA524F989001F"
+	icon: {
+		id: "mbd2:atomic_reconstructor"
+	}
+	id: "586D1880049A3C11"
+	images: [
+		{
+			height: 1.0d
+			id: "33F385E91874516D"
+			image: "ftblibrary:icons/dropdown_out"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			click_action: "open_quest:771EA7A8EAC51882"
+			height: 1.0d
+			id: "2576A43653522EF3"
+			image: "brandonscore:textures/gui/dark/arrow_right.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 17.5d
+			y: -0.5d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "58E24B18B047159F"
+			size: 2.0d
+			tasks: [{
+				id: "636B38E42EACF5EC"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["58E24B18B047159F"]
+			id: "706AC6BFE6DBF777"
+			optional: true
+			tasks: [{
+				id: "1ECD615A83100F80"
+				item: { count: 1, id: "mbd2:atomic_reconstructor" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["58E24B18B047159F"]
+			id: "2E15D5DE75F132D6"
+			tasks: [{
+				id: "140B3FBF774015E4"
+				item: { count: 1, id: "ad_astra:mars_ostrum_ore" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"2E15D5DE75F132D6"
+				"63D7440B082F72EF"
+			]
+			id: "4E3A49B682F0F9EE"
+			tasks: [{
+				id: "2EF961E78B415980"
+				item: { count: 1, id: "ad_astra:ostrum_ingot" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			id: "63D7440B082F72EF"
+			tasks: [{
+				id: "4325A13AB514A5FE"
+				item: { count: 1, id: "neoecoae:cryotheum_crystal" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4E3A49B682F0F9EE"]
+			id: "5F115DACB73107D6"
+			tasks: [{
+				id: "160C28245D50CB51"
+				item: { count: 1, id: "anvilcraft:frost_metal_ingot" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5F115DACB73107D6"]
+			id: "136DF97DFDF0CCF3"
+			tasks: [{
+				id: "45B2D2E4E4C20937"
+				item: { count: 1, id: "anvilcraft:frost_metal_block" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"136DF97DFDF0CCF3"
+				"1F21D475289AC078"
+			]
+			id: "4CC8A0EC57BB4726"
+			size: 2.0d
+			tasks: [{
+				id: "58412CBC9C0A9ADC"
+				item: { count: 1, id: "ad_astra:tier_3_rocket" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"4CC8A0EC57BB4726"
+				"5333B5E804774A3D"
+			]
+			id: "6ECA8BDBFC9ACA4F"
+			tasks: [{
+				id: "5AB5590C5FD95DF5"
+				item: { count: 1, id: "ad_astra:calorite_ingot" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			id: "5333B5E804774A3D"
+			tasks: [{
+				id: "3402AA72FE6DBB73"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6ECA8BDBFC9ACA4F"]
+			id: "47BCB434125E01D1"
+			tasks: [{
+				id: "08815F60963C70C4"
+				item: { count: 1, id: "anvilcraft:ember_metal_ingot" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6ECA8BDBFC9ACA4F"]
+			id: "570E4B1050FEED34"
+			tasks: [{
+				id: "6437901EB9758107"
+				item: { count: 1, id: "anvilcraft:ember_metal_block" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"570E4B1050FEED34"
+				"6F70887D6EDF6656"
+			]
+			id: "20E44A9CA4C976BF"
+			size: 2.0d
+			tasks: [{
+				id: "698320EACF7B0B05"
+				item: { count: 1, id: "ad_astra:tier_4_rocket" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["20E44A9CA4C976BF"]
+			id: "7825003F03CFE197"
+			rewards: [{
+				id: "250E566F199A096E"
+				item: {
+					count: 1
+					id: "anvilcraft:multiphase_transcendium"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "25756E5E4455DE32"
+					type: "checkmark"
+				}
+				{
+					id: "264193E42B4F35A2"
+					observation_type: "entity_type"
+					observe_type: 5
+					timer: 0L
+					to_observe: "ad_astra:glacian_ram"
+					type: "observation"
+				}
+			]
+			x: 16.0d
+			y: -0.5d
+		}
+		{
+			id: "6F70887D6EDF6656"
+			tasks: [{
+				count: 3L
+				id: "2C0A175BD8EF5703"
+				item: { count: 1, id: "anvilcraft:helium_bucket" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: -2.5d
+		}
+		{
+			id: "1F21D475289AC078"
+			tasks: [{
+				count: 3L
+				id: "67C1C8F793F98A81"
+				item: { count: 1, id: "neoecoae:cryotheum_solution_bucket" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.5d
+		}
+	]
+}

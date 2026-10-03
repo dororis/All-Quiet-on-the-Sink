@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "up": "kubejs:block/seed_breeder_2_top",
+    "down": "kubejs:block/seed_breeder_2_bottom",
+    "north": "kubejs:block/seed_breeder_2_front",
+    "south": "kubejs:block/seed_breeder_2_side",
+    "east": "kubejs:block/seed_breeder_2_side",
+    "west": "kubejs:block/seed_breeder_2_side",
+    "particle": "kubejs:block/seed_breeder_2_side"
+  }
+}
