@@ -1,0 +1,19 @@
+{
+  "values": {
+    "#c:lava": {
+      "temperature": 1000
+    },
+    "allthemodium:soul_lava": {
+      "temperature": 6666
+    },
+    "justdirethings:refined_t2_fluid_source":{
+        "temperature": 2000
+    },
+    "justdirethings:refined_t3_fluid_source":{
+        "temperature": 10000
+    },
+    "justdirethings:refined_t4_fluid_source":{
+        "temperature": 40000
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "values": {
+    "kubejs:unrefined_t2_fluid_source": {
+      "burn_time": 40,
+      "energy": 1410
+    },
+    "kubejs:unrefined_t3_fluid_source": {
+      "burn_time": 40,
+      "energy": 2115
+    },
+    "kubejs:unrefined_t4_fluid_source": {
+      "burn_time": 40,
+      "energy": 2820
+    }
+  }
+}

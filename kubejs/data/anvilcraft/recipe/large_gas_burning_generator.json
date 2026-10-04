@@ -1,0 +1,60 @@
+{
+  "type": "anvilcraft:multiblock_conversion",
+  "inputPattern": {
+    "grid": [
+      [
+        "010",
+        "111",
+        "010"
+      ],
+      [
+        "010",
+        "111",
+        "010"
+      ],
+      [
+        "030",
+        "313",
+        "030"
+      ]
+    ],
+    "mapping": {
+      "0": {
+        "blocks": "mekanism:ultimate_chemical_tank"
+      },
+      "1": {
+        "blocks": "anvilcraft:polished_heavy_iron_block"
+      },
+      "3": {
+        "blocks": "anvilcraft:polished_heavy_iron_slab"
+      }
+    }
+  },
+  "outputPattern": {
+    "grid": [
+      [
+        "111",
+        "101",
+        "111"
+      ],
+      [
+        "111",
+        "111",
+        "111"
+      ],
+      [
+        "111",
+        "111",
+        "111"
+      ]
+    ],
+    "mapping": {
+      "0": {
+        "blocks": "mekmm:large_gas_burning_generator"
+      },
+      "1": {
+        "blocks": "minecraft:air"
+      }
+    }
+  }
+}

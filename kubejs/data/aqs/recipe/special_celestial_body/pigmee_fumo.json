@@ -1,0 +1,27 @@
+{
+  "type": "anvilcraft:special_celestial_body",
+  "name": "aqs.pigmee_fumo",
+  "time": 13,
+  "space": 15,
+  "mass": 12,
+  "energy": 19,
+  "model": "aqs:block/celestial_body/pigmee_fumo",
+  "needs_custom_model": true,
+  "has_atmosphere": false,
+  "liquid_coverage": "none",
+  "magnetic_field": 0,
+  "rotation_speed": 3,
+  "axial_tilt": 0,
+  "seed_items": [
+    "ae2lt:pigmee_fumo"
+  ],
+  "resources": {
+    "minerals": [
+      {
+        "id": "ae2lt:rainbow_pigmee_fumo",
+        "weight": 100
+      }
+    ],
+    "fluids": []
+  }
+}

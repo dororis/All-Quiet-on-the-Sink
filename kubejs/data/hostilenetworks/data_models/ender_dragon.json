@@ -1,0 +1,45 @@
+{
+    "entity": "minecraft:ender_dragon",
+    "variants": [],
+    "name_color": "#CC00CC",
+    "display": {
+        "y_offset": 0.5,
+        "scale": 0.25
+    },
+    "sim_cost": 4096,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:end_prediction"
+    },
+    "trivia": "哈基龙手办",
+    "fabricator_drops": [
+        {
+            "id": "minecraft:dragon_breath",
+            "count": 4
+        },
+        {
+            "id": "minecraft:dragon_egg",
+            "count": 1
+        },
+        {
+            "id": "draconicevolution:dragon_heart",
+            "count": 1
+        },
+        {
+            "id": "draconicevolution:draconium_ingot",
+            "count": 16
+        },
+        {
+            "id": "allthemodium:unobtainium_ingot",
+            "count": 4
+        }
+    ],
+    "data_gained": {
+        "faulty": 3,
+        "basic": 12,
+        "advanced": 30,
+        "superior": 45
+    }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "aqs:pigmee_world",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "layers": [
+        {
+          "block": "minecraft:pink_wool",
+          "height": 1
+        }
+      ],
+      "biome": "aqs:pigmee",
+      "features": false,
+      "lakes": false
+    }
+  }
+}

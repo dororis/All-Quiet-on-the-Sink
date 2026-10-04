@@ -1,88 +1,57 @@
-# === Minecraft Modpack - Runtime / User Files ===
-# 主版本 jar 和本地库
-*.jar
-*-natives/
+# === 白名单模式：只跟踪核心源代码目录 ===
+# 先忽略所有文件
+*
 
-# 日志和崩溃报告
-logs/
-crash-reports/
-debug/
+# === 保留 Git 配置和仓库文件 ===
+!.gitignore
+!.github/
+!.github/**
+!LICENSE
+!README.md
 
-# 备份文件
-ftbbackups3/
+# === 核心源代码目录（每次更新同步这些） ===
+!config/
+!config/**
+!kubejs/
+!kubejs/**
+!ldlib2/
+!ldlib2/**
+!docs/
+!docs/**
 
-# 下载文件
-downloads/
+# === 在以上目录中仍需排除的用户/运行时数据 ===
 
-# 运行时数据
-data/
-fancymenu_data/
-
-# ProbeJS 生成文件
-.probe/
-
-# PCL 启动器文件
-PCL/
-
-# 存档
-saves/
-
-# Xaero 地图数据（用户特定）
-xaero/
-XaeroWaypoints_BACKUP*/
-
-# Mixin 输出（运行时生成）
-.mixin.out/
-
-# 默认配置（运行时生成，由 mod 自动创建）
-defaultconfigs/
-
-# 资源包和光影包（二进制大文件，非源代码）
-resourcepacks/
-shaderpacks/
-
-# 截图
-screenshots/
-
-# 本地 / 用户数据
-local/
-usernamecache.json
-usercache.json
-patchouli_data.json
-servers.dat
-servers.dat_old
-observable_announce
-
-# 性能分析
-observable_profiles/
-
-# JEI 世界特定数据（书签、历史记录等）
+# JEI 世界特定数据（书签、历史记录等用户数据）
 config/jei/world/
+config/jei_mekanism_multiblocks-saved_data.nbt
 
 # TabTPS 用户数据
 config/tabtps/userdata/
 
-# 状态和缓存文件
-*.nbt
+# Xaero 地图数据（用户特定）
+config/xaero/
+
+# FancyMenu 用户变量数据库
+config/fancymenu/user_variables.db
+config/fancymenu/options.txt
+
+# DrippyLoadingScreen 用户选项
+config/drippyloadingscreen/options.txt
+
+# 备份文件
 *.bak
-*.log
-TrashSlotSaveState.json
-command_history.txt
-export_config.txt
-options.txt
-optionsof.txt
 
-# === IDE / Editor ===
-.vscode/
-*.swp
-*.swo
-*~
+# KubeJS 运行时生成的数据
+kubejs/exported/
 
-# === OS ===
-.DS_Store
-Thumbs.db
-desktop.ini
+# === ldlib2 / MBD2 运行时生成文件 ===
+# NBT 格式的运行时资源（渲染器、蓝图、谓词等，由编辑器自动生成）
+*.nbt
 
-# === Node / KubeJS dev ===
-node_modules/
-.kubejs/
+# ldlib2 编辑器布局和备份
+ldlib2/editor_layouts/
+ldlib2/backups/
+
+# ldlib2 自动生成的资源文件（保留 .sm .mb .rt 机器定义文件）
+ldlib2/assets/ldlib2/resources/
+ldlib2/assets/mbd2/blueprint/
