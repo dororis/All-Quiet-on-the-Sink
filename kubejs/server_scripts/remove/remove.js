@@ -112,5 +112,8 @@ ServerEvents.recipes(event => {
     event.remove({ id:'anvilcraft:mesh/end_dust'})
     event.remove({ id:'dimstorage:dimensional_chest'})
     event.remove({ id:'dimstorage:dimensional_tank'})
+    event.remove({ output:'oritech:biosteel_block'})
+    event.remove({ id:'mysticalagriculture:essence/common/silicon'})
+    event.remove({ id:'mekanism:crushing/biofuel/melon'})
     
 })

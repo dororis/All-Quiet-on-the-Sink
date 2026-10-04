@@ -1,0 +1,11 @@
+[client]
+	#Show owner team information in Jade tooltip
+	jadeShowOwnerInfo = true
+	#Show task completion progress in Jade tooltip
+	jadeShowTaskProgress = true
+	#How to format the owner team in Jade:
+	#NAME_AND_SHORT_ID — display name plus short id (e.g. MyTeam#A1B2C3D4)
+	#NAME_ONLY — resolved team display name only
+	#SHORT_ID_ONLY — short id derived from team UUID only
+	#Allowed Values: NAME_AND_SHORT_ID, NAME_ONLY, SHORT_ID_ONLY
+	teamNameDisplayMode = "NAME_AND_SHORT_ID"

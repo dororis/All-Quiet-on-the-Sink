@@ -24,7 +24,7 @@ ServerEvents.recipes(event => {
         "type": "advanced_ae:reaction",
         "input_energy": 20000,
         "input_fluid": {
-        "amount": 1000,
+        "amount": 100,
         "ingredient": {
         "fluid": "justdirethings:refined_t2_fluid_source"
         }

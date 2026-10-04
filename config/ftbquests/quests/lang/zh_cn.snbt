@@ -25,7 +25,7 @@
 	quest.018390147085379B.quest_desc: ["灾变的起点"]
 	quest.018390147085379B.quest_subtitle: "灌注的终点"
 	quest.02C2227786131546.quest_subtitle: "二阶火箭的燃料"
-	quest.04BD07002F19A144.quest_subtitle: "富集"
+	quest.03A621C6C70CE245.quest_desc: ["热知识：量子盘也能存闪电"]
 	quest.04BD9BD959BBB9B3.quest_subtitle: "耐久128"
 	quest.058BFB6299EB58F0.quest_subtitle: "氘氚燃料→200M/t"
 	quest.066DCE023BEE9BAF.quest_subtitle: "部分"
@@ -42,12 +42,13 @@
 		"就是4000item/s"
 	]
 	quest.0A65FFF7CD56D617.quest_subtitle: "种你想种的"
-	quest.0AC75CF3CA724096.quest_subtitle: "8个极高压从哪来"
+	quest.0AC75CF3CA724096.quest_subtitle: "8个极高压-漫长的等待"
 	quest.0C7AB1EE6AF86019.quest_subtitle: "O"
 	quest.0EC8873A9F44900F.quest_desc: [
 		"只接受神融珍珠的处理"
 		"初始自带&d16并行&r-最高&a提速32%&r"
 		"现仅充当中间合成材料"
+		"&l&d注意：高并行带来高耗电&r&r"
 	]
 	quest.0EC8873A9F44900F.quest_subtitle: "LV-4"
 	quest.0F22676C5C2A660B.quest_subtitle: "粉碎"
@@ -82,6 +83,7 @@
 	quest.1AE721F87AA5DA5F.quest_subtitle: "测试产品不代表最终品质"
 	quest.1B891558E8D778A1.quest_subtitle: "爆"
 	quest.1CC8709ED6F9C4B4.quest_desc: ["如果你缺&5黑曜石&r"]
+	quest.1CD2A2B1CEDB3341.quest_subtitle: "富集"
 	quest.1E25B1D960DB36FC.quest_desc: ["大规模使用可能造成卡顿"]
 	quest.1E25B1D960DB36FC.quest_subtitle: "产能大，利用率较小"
 	quest.2075CC1FF4496731.quest_desc: [
@@ -90,7 +92,6 @@
 	]
 	quest.2075CC1FF4496731.quest_subtitle: "更便捷的开局"
 	quest.2075CC1FF4496731.title: "传送"
-	quest.211785CA65BB8F3D.quest_subtitle: "富集"
 	quest.215A7E111F7BB2D0.quest_subtitle: "你先别急"
 	quest.22FC3A3DB8AEE2BD.quest_desc: ["空手蹲下右键草方块"]
 	quest.22FC3A3DB8AEE2BD.quest_subtitle: "锄大地"
@@ -107,7 +108,6 @@
 	quest.28334DD7A5DF8110.quest_subtitle: "LV-2"
 	quest.2A76820E711B7666.quest_desc: ["保留原汁风味"]
 	quest.2A76820E711B7666.quest_subtitle: "暂不考虑使用奥瑞"
-	quest.2B5787089F648A74.quest_subtitle: "粉碎"
 	quest.2E4B78360DE9BF82.quest_desc: [""]
 	quest.2E4B78360DE9BF82.quest_subtitle: "已无法从异界获取"
 	quest.2E85A5B676DCC905.quest_subtitle: "←消耗种子"
@@ -136,7 +136,6 @@
 	quest.37D820CE9F6D9040.quest_desc: ["如果你没找到锻造模板"]
 	quest.37D820CE9F6D9040.quest_subtitle: "后备方案"
 	quest.3934B2CC20B9FD88.quest_subtitle: "2.5M/t"
-	quest.3A8BE2A2AF7421F5.title: "锯木后离心"
 	quest.3C7F71DB6F5744F2.quest_desc: ["[ { \"text\": \"任你所选\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0060804E069A7BDE\" } } ]"]
 	quest.3C7F71DB6F5744F2.quest_subtitle: "精妙之外的选择"
 	quest.3CA8DBBE2082F2C1.quest_desc: ["简陋但是专属配方"]
@@ -147,6 +146,7 @@
 	quest.3E66B430F68ABD19.title: "无限频道"
 	quest.3F2E0535640DB144.quest_subtitle: "满满3桶"
 	quest.3F5B7335114E4578.quest_subtitle: "魔法史上最严重的事故"
+	quest.3F708EB6DEC4C034.quest_subtitle: "富集"
 	quest.3F7CE31C1A599C3D.quest_subtitle: "似乎不必去"
 	quest.401539790B8C4293.quest_subtitle: "墙的后面"
 	quest.401712D40DB35B47.quest_subtitle: "预留空间一键成型"
@@ -176,6 +176,7 @@
 	quest.4E79AD4D1317530D.quest_subtitle: "warden的礼物"
 	quest.5007BF3D24C94BD5.quest_desc: ["乙烯已经淘汰"]
 	quest.5007BF3D24C94BD5.quest_subtitle: "4.62M/t"
+	quest.50849BEB94CAD46E.quest_subtitle: "合融"
 	quest.515D0A854251729E.quest_desc: ["不过你真的需要夜视卡吗"]
 	quest.515D0A854251729E.quest_subtitle: "放副手"
 	quest.520883DBD546EE72.quest_subtitle: "盒动力火箭"
@@ -190,9 +191,9 @@
 	quest.55C45426B36C5521.quest_subtitle: "1.43M/t"
 	quest.55F37D3C29614EE8.quest_desc: ["一切解释权归这本书所有"]
 	quest.55F37D3C29614EE8.quest_subtitle: "此章节仅供参考"
+	quest.566694A7BBCE454B.quest_subtitle: "烧"
 	quest.566BD3AAE40E12C4.quest_subtitle: "每个能量端口25k/t"
-	quest.56C865AFB06A13CE.quest_desc: ["防止你没注意到"]
-	quest.56C865AFB06A13CE.quest_subtitle: "变废为宝"
+	quest.56B1B3870437F83A.quest_desc: ["[ { \"text\": \"跳转小技巧\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"089272EF31DDA297\" } } ]"]
 	quest.572E80824BE3B9F5.quest_desc: ["如果你缺&c熔岩&r"]
 	quest.5744453A64416998.quest_desc: ["3并行"]
 	quest.5744453A64416998.quest_subtitle: "LV-1"
@@ -202,6 +203,7 @@
 	quest.59005537C08EEC6F.quest_subtitle: "两种打法↕︎"
 	quest.59005537C08EEC6F.title: "观察：混沌龙"
 	quest.5AA66A330DB2E3AB.quest_subtitle: "需要史诗级解锁引雷"
+	quest.5AC1B775B61F76B1.quest_subtitle: "="
 	quest.5B982B9282E3271A.quest_desc: ["[ { \"text\": \"查看小技巧\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3F5B7335114E4578\" } } ]"]
 	quest.5B982B9282E3271A.quest_subtitle: "魔法史上最严重的事故"
 	quest.5BB9F1330C2D9190.quest_subtitle: "做处理器"
@@ -210,6 +212,7 @@
 	quest.5D62196F2C47719A.quest_subtitle: "努力与汗水"
 	quest.5DBAF402373B77C0.quest_subtitle: "提供了配方？"
 	quest.5EC83524270FEABD.quest_subtitle: "M"
+	quest.5EF3C7AF83078083.quest_desc: ["丢进水里也能长"]
 	quest.5EF3C7AF83078083.quest_subtitle: "超级爆爆回"
 	quest.5EF3C7AF83078083.title: "水晶科技"
 	quest.5F4BA7935D879B0B.quest_subtitle: "直接挖"
@@ -309,6 +312,7 @@
 	quest.7B7F661554CB3DB1.quest_subtitle: "大多数情况下"
 	quest.7BA68CF9E698C2B2.quest_subtitle: "大多数情况下"
 	quest.7CB146D078D3D791.quest_desc: ["实则是jdte↓"]
+	quest.7D11930885FF2118.quest_subtitle: "融合"
 	quest.7F36043662A16273.quest_desc: ["最大燃烧效率100→&clong&rM/t"]
 	quest.7F36043662A16273.quest_subtitle: "默认燃烧效率→819.2M/t"
 	reward_table.03001BE1FDC0EA9D.title: "磁铁"
@@ -378,6 +382,7 @@
 	task.6CBEEB4ADDB36050.title: "直接一炮轰死↓"
 	task.6D5EE056DEC0987A.title: "直接一把抓住顷刻炼化↑"
 	task.6E4329653CF416A4.title: "营养糊剂"
+	task.704BAEF5D445AF85.title: "→"
 	task.708677AAAEE032E5.title: "血"
 	task.70B65CECA75764C4.title: "营养液"
 	task.70E99841C99D6671.title: "多种发电选择↓"

@@ -162,6 +162,9 @@
     "entity": true,
     "entity_variant": true
   },
+  "ae2_ftbquest_detector": {
+    "detector": true
+  },
   "oritech": {
     "machine_core_controller": true
   },

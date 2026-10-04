@@ -3,14 +3,12 @@ ServerEvents.recipes(event => {
     event.recipes.mekanism.metallurgic_infusing(
         'apotheosis:god_fused_pearl',                 
         'apotheosis:godforged_pearl',         
-        'kubejs:unrefined_t2_fluid_source',                 
-        false                                          
+        '20x kubejs:unrefined_t2_fluid_source',                                                           
     )
     event.recipes.mekanism.metallurgic_infusing(
         'irons_spellbooks:bloody_vellum',                 
         'apotheosis:timeworn_fabric',         
-        'kubejs:blood',                 
-        false                                          
+        '20x kubejs:blood',                                                           
     )
     event.recipes.mekanism.metallurgic_infusing(
         'anvilcraft:ember_metal_ingot',                 

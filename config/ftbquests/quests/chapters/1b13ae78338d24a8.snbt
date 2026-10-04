@@ -669,6 +669,14 @@
 					}
 					type: "item"
 				}
+				{
+					id: "0C9930353E5D8146"
+					item: {
+						count: 1
+						id: "ae2_ftbquest_detector:me_quests_detector"
+					}
+					type: "item"
+				}
 			]
 			size: 2.0d
 			tasks: [{
@@ -747,6 +755,7 @@
 		}
 		{
 			dependencies: ["310B1461CAD580D9"]
+			disable_toast: true
 			id: "54CCE5BC881932B4"
 			optional: true
 			rewards: [{
@@ -979,6 +988,7 @@
 		}
 		{
 			dependencies: ["310B1461CAD580D9"]
+			disable_toast: true
 			id: "55C45426B36C5521"
 			optional: true
 			tasks: [{
@@ -991,6 +1001,7 @@
 		}
 		{
 			dependencies: ["310B1461CAD580D9"]
+			disable_toast: true
 			id: "5007BF3D24C94BD5"
 			optional: true
 			rewards: [{
@@ -1078,46 +1089,6 @@
 			]
 			x: -1.0d
 			y: 0.5d
-		}
-		{
-			dependencies: ["5D62196F2C47719A"]
-			icon: {
-				id: "ae2:certus_quartz_crystal"
-			}
-			id: "56C865AFB06A13CE"
-			optional: true
-			rewards: [
-				{
-					id: "311DFFFBB2CC8F1E"
-					item: {
-						count: 1
-						id: "apotheosis:luminous_crystal_shard"
-					}
-					type: "item"
-				}
-				{
-					id: "059BBD42A3DDA394"
-					item: {
-						count: 1
-						id: "apotheosis:arcane_sands"
-					}
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "2576A900FD6ACFFF"
-					item: { count: 1, id: "ae2:certus_quartz_crystal" }
-					type: "item"
-				}
-				{
-					id: "54D80B26669CDAB1"
-					item: { count: 1, id: "ae2:fluix_dust" }
-					type: "item"
-				}
-			]
-			x: 0.5d
-			y: 3.5d
 		}
 		{
 			dependencies: ["634CECCF60798CEF"]
@@ -1317,7 +1288,7 @@
 					type: "item"
 				}
 			]
-			x: -0.5d
+			x: 0.0d
 			y: 3.5d
 		}
 		{
@@ -1477,6 +1448,7 @@
 					type: "checkmark"
 				}
 				{
+					consume_fluid: "DEFAULT"
 					fluid: {
 						amount: 1000
 						id: "justdirethings:polymorphic_fluid_source"
@@ -1486,6 +1458,7 @@
 					type: "fluid"
 				}
 				{
+					consume_fluid: "DEFAULT"
 					fluid: {
 						amount: 1000
 						id: "justdirethings:xp_fluid_source"
@@ -1501,6 +1474,11 @@
 		{
 			dependencies: ["7B73762CE1237357"]
 			id: "6532385747E147FA"
+			rewards: [{
+				command: "/apoth set_world_tier @s pinnacle"
+				id: "7372C1DEA6D36F3D"
+				type: "command"
+			}]
 			shape: "gear"
 			size: 2.0d
 			tasks: [{

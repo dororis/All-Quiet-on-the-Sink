@@ -1,0 +1,5 @@
+[jadeTaskProgress]
+	#Exclude tasks from hidden FTB Quests quests from Jade completed/total counts
+	ignoreHiddenTasks = true
+	#Exclude tasks from repeatable FTB Quests quests from Jade completed/total counts
+	ignoreRepeatableTasks = true

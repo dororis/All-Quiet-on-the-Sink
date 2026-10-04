@@ -160,6 +160,7 @@
 		{
 			disable_toast: true
 			id: "6742BAE8CC9FB67E"
+			optional: true
 			tasks: [{
 				id: "49AD1CCEF5AC205D"
 				item: { count: 1, id: "mbd2:middle_wind_generate" }
@@ -171,6 +172,7 @@
 		{
 			disable_toast: true
 			id: "19B33F721646F2A3"
+			optional: true
 			tasks: [{
 				id: "1ACB089CBA0ADDE8"
 				item: { count: 1, id: "mbd2:compact_amethyst_growth" }
@@ -182,6 +184,7 @@
 		{
 			disable_toast: true
 			id: "61FD90A944A8B06E"
+			optional: true
 			tasks: [{
 				id: "46D2CDC048A4FFFF"
 				item: { count: 1, id: "mbd2:seed_aggregator" }
@@ -193,6 +196,7 @@
 		{
 			disable_toast: true
 			id: "1ABDCFBDA3EE061E"
+			optional: true
 			tasks: [{
 				id: "33E8E97B843D96B1"
 				item: { count: 1, id: "mbd2:advanced_seed_aggregator" }
@@ -245,6 +249,7 @@
 		}
 		{
 			id: "4753BA0F617999E2"
+			optional: true
 			tasks: [{
 				id: "6BC212E708FCC77A"
 				item: { count: 1, id: "mbd2:atomic_reconstructor" }

@@ -5,7 +5,7 @@ ServerEvents.recipes(event => {
         'minecraft:amethyst_shard'       
     ),
     event.recipes.mekanismCrushing(
-        'minecraft:clay_ball',
+        '4x minecraft:clay_ball',
         'apotheosis:arcane_sands'
     )
     event.recipes.mekanismCrushing(
@@ -15,5 +15,13 @@ ServerEvents.recipes(event => {
     event.recipes.mekanismCrushing(
         '4x minecraft:string',
         'apotheosis:timeworn_fabric'
+    )
+    event.recipes.mekanismCrushing(
+        'ae2:ender_dust',
+        'ae2cs:purified_ender_quartz'
+    )
+    event.recipes.mekanismCrushing(
+        'minecraft:redstone',
+        'ae2cs:redstone_crystal_dust'
     )
 })

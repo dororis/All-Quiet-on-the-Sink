@@ -74,6 +74,7 @@
 					type: "item"
 				}
 				{
+					consume_fluid: "DEFAULT"
 					fluid: {
 						amount: 1000
 						id: "ad_astra:cryo_fuel"
@@ -184,6 +185,7 @@
 			id: "4CFB1EAADCF42E2A"
 			optional: true
 			tasks: [{
+				consume_fluid: "DEFAULT"
 				fluid: {
 					amount: 1000
 					id: "neoecoae:cryotheum_solution"
@@ -204,6 +206,7 @@
 					type: "checkmark"
 				}
 				{
+					consume_fluid: "DEFAULT"
 					fluid: {
 						amount: 1000
 						id: "mekanism_extras:fluorinated_naquadah_uranium_fuel"

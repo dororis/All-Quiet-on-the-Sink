@@ -460,16 +460,6 @@
 			y: -2.0d
 		}
 		{
-			id: "04BD07002F19A144"
-			tasks: [{
-				id: "7E0ADD91F1D78925"
-				item: { count: 1, id: "ae2:fluix_dust" }
-				type: "item"
-			}]
-			x: -7.0d
-			y: -2.0d
-		}
-		{
 			disable_toast: true
 			id: "4980D736FC8C1F04"
 			tasks: [{
@@ -548,38 +538,6 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["358561D8F0D823CD"]
-			id: "211785CA65BB8F3D"
-			tasks: [{
-				id: "72C351C085AECF9D"
-				item: { count: 1, id: "ae2:certus_quartz_crystal" }
-				type: "item"
-			}]
-			x: -8.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["1EDA504FF58A6C07"]
-			id: "2B5787089F648A74"
-			tasks: [{
-				id: "07BB2EE510AD02C1"
-				item: { count: 1, id: "apotheosis:gem_dust" }
-				type: "item"
-			}]
-			x: -5.0d
-			y: -4.0d
-		}
-		{
-			id: "1EDA504FF58A6C07"
-			tasks: [{
-				id: "2DD8EC488B3DCF88"
-				item: { count: 1, id: "minecraft:amethyst_shard" }
-				type: "item"
-			}]
-			x: -7.0d
-			y: -4.0d
-		}
-		{
 			id: "6F7D73DA729D82B0"
 			tasks: [{
 				id: "42F0ED62B0CE6F1C"
@@ -614,20 +572,6 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: -6.0d
-		}
-		{
-			id: "3A8BE2A2AF7421F5"
-			optional: true
-			tasks: [{
-				fluid: {
-					amount: 1000
-					id: "industrialforegoing:latex"
-				}
-				id: "5A49A03E36921CDF"
-				type: "fluid"
-			}]
-			x: -6.0d
 			y: -6.0d
 		}
 		{
@@ -745,24 +689,93 @@
 			y: -2.0d
 		}
 		{
-			id: "0C00182E99B53B89"
+			id: "68675433F7278664"
 			tasks: [{
-				id: "209C4BDD68E80352"
-				item: { count: 1, id: "jdte:upgrade_storage" }
+				id: "704BAEF5D445AF85"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: -4.0d
+		}
+		{
+			id: "566694A7BBCE454B"
+			tasks: [{
+				id: "43991ECAACB81637"
+				item: { count: 1, id: "ae2cs:purified_nether_quartz_crystal" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -4.0d
+		}
+		{
+			id: "1CD2A2B1CEDB3341"
+			tasks: [{
+				id: "0A3370B6CEE00FF8"
+				item: { count: 1, id: "ae2cs:purified_certus_quartz_crystal" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -4.0d
+		}
+		{
+			id: "50849BEB94CAD46E"
+			tasks: [{
+				id: "2B46DB2666A1132B"
+				item: { count: 1, id: "ae2cs:purified_ender_quartz" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			id: "5AC1B775B61F76B1"
+			tasks: [{
+				id: "76F45BD259031F29"
+				item: { count: 1, id: "mysticalagriculture:nature_essence" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6B279DD466788AEA"]
+			id: "6C074D5249F052B0"
+			tasks: [{
+				id: "4F12E94D3CEE3027"
+				item: { count: 1, id: "ae2lt:overloaded_io_port" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -4.0d
+		}
+		{
+			id: "6B279DD466788AEA"
+			tasks: [{
+				id: "4BE38766A94EF9CF"
+				item: { count: 1, id: "ae2:io_port" }
 				type: "item"
 			}]
 			x: 7.5d
 			y: -4.0d
 		}
 		{
-			dependencies: ["0C00182E99B53B89"]
-			id: "5F012D00BDA9D574"
+			id: "3F708EB6DEC4C034"
 			tasks: [{
-				id: "597ACB094E834CF4"
-				item: { count: 1, id: "jdte:advanced_upgrade_storage" }
+				id: "083FB70F60227EB4"
+				item: { count: 1, id: "ae2:fluix_dust" }
 				type: "item"
 			}]
-			x: 9.0d
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			id: "7D11930885FF2118"
+			tasks: [{
+				id: "07F2556682738198"
+				item: { count: 1, id: "ae2cs:purified_meteor_crystal" }
+				type: "item"
+			}]
+			x: -6.0d
 			y: -4.0d
 		}
 	]

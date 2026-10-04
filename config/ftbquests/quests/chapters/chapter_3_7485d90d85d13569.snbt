@@ -631,6 +631,7 @@
 					type: "checkmark"
 				}
 				{
+					consume_fluid: "DEFAULT"
 					fluid: {
 						amount: 3000
 						id: "mekanism_extras:rich_uranium_fuel"

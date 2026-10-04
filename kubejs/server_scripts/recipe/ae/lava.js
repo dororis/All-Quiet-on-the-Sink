@@ -3,16 +3,16 @@ ServerEvents.recipes(event => {
         "type": "advanced_ae:reaction",
         "input_energy": 20000,
         "input_fluid": {
-        "amount": 1000,
+        "amount": 20,
         "ingredient": {
         "fluid": "justdirethings:refined_t2_fluid_source"
         }
         },
         "input_items": [
         {
-        "amount": 64,
+        "amount": 1,
         "ingredient": {
-        "item": "ae2:sky_stone_block"
+        "item": "ae2cs:purified_meteor_crystal"
         }
         }
         ],

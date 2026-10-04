@@ -96,11 +96,11 @@
 			id: "6C20CE341FBA6D38"
 			optional: true
 			rewards: [{
-				count: 64
-				id: "5BA1A78EB682527B"
+				count: 2
+				id: "019A91E8DF671CB0"
 				item: {
 					count: 1
-					id: "powah:charged_snowball"
+					id: "extendedae_plus:wireless_transceiver"
 				}
 				type: "item"
 			}]
@@ -353,6 +353,25 @@
 			}]
 			x: 7.35d
 			y: -0.2d
+		}
+		{
+			id: "334BA2C1064E098C"
+			rewards: [{
+				count: 64
+				id: "0624BFD3B6E3FA5C"
+				item: {
+					count: 1
+					id: "powah:charged_snowball"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "214DE215B21E887D"
+				item: { count: 1, id: "ae2lt:overload_alloy_blank" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 0.0d
 		}
 	]
 }

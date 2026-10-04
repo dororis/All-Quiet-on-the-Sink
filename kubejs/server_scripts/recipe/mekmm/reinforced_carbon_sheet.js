@@ -15,7 +15,7 @@ ServerEvents.recipes(event => {
         },
         "output": {
             "count": 4,          // 输出数量
-            "id": "oritech:reinforced_carbon_sheet"
+            "id": "oritech:carbon_fibre_strands"
         }
     })
 })

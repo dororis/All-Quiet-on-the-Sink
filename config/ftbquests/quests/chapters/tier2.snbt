@@ -72,6 +72,7 @@
 					type: "checkmark"
 				}
 				{
+					consume_fluid: "DEFAULT"
 					fluid: {
 						amount: 1000
 						id: "allthemodium:soul_lava"
@@ -166,6 +167,7 @@
 					type: "checkmark"
 				}
 				{
+					consume_fluid: "DEFAULT"
 					fluid: {
 						amount: 1000
 						id: "justdirethings:refined_t2_fluid_source"
@@ -211,6 +213,14 @@
 		{
 			dependencies: ["6D27F907053A9567"]
 			id: "5BB9F1330C2D9190"
+			rewards: [{
+				id: "7C293E192510B1CF"
+				item: {
+					count: 1
+					id: "ae2omnicells:quantum_crafting_storage_64k_block"
+				}
+				type: "item"
+			}]
 			size: 1.0d
 			tasks: [{
 				id: "5DC6B6F460464A52"
@@ -275,6 +285,15 @@
 					item: {
 						count: 1
 						id: "ae2cs:meteorite_pattern_provider"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "52543B5A49DEB36E"
+					item: {
+						count: 1
+						id: "ae2lt:pigmee_mentalmath_unit"
 					}
 					type: "item"
 				}
@@ -503,6 +522,7 @@
 					type: "checkmark"
 				}
 				{
+					consume_fluid: "DEFAULT"
 					fluid: {
 						amount: 1000
 						id: "irons_spellbooks:blood"
@@ -669,6 +689,7 @@
 					type: "checkmark"
 				}
 				{
+					consume_fluid: "DEFAULT"
 					fluid: {
 						amount: 1000
 						id: "justdirethings:refined_t3_fluid_source"
@@ -690,6 +711,7 @@
 					type: "checkmark"
 				}
 				{
+					consume_fluid: "DEFAULT"
 					fluid: {
 						amount: 1000
 						id: "justdirethings:refined_t4_fluid_source"
@@ -715,6 +737,7 @@
 					type: "item"
 				}
 				{
+					consume_fluid: "DEFAULT"
 					fluid: {
 						amount: 1000
 						id: "alltheores:molten_silver"
@@ -751,6 +774,7 @@
 					type: "checkmark"
 				}
 				{
+					consume_fluid: "DEFAULT"
 					fluid: {
 						amount: 1000
 						id: "justdirethings:time_fluid_source"
@@ -1030,6 +1054,7 @@
 					type: "checkmark"
 				}
 				{
+					consume_fluid: "DEFAULT"
 					fluid: {
 						amount: 1000
 						id: "irons_spellbooks:timeless_slurry"
@@ -1051,6 +1076,7 @@
 					type: "checkmark"
 				}
 				{
+					consume_fluid: "DEFAULT"
 					fluid: {
 						amount: 1
 						id: "anvilcraft:melt_gem"

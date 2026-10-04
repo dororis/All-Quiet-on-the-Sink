@@ -28,3 +28,9 @@ ItemEvents.modification(event => {
         item.maxStackSize = 64
     })
 })
+ItemEvents.modification(event => {
+    event.modify('powah:charged_snowball', item => {
+        // 直接赋值，不要写成 item.maxStackSize(64)
+        item.maxStackSize = 64
+    })
+})
