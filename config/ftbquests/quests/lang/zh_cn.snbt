@@ -51,7 +51,7 @@
 	]
 	quest.0EC8873A9F44900F.quest_subtitle: "LV-4"
 	quest.0F22676C5C2A660B.quest_subtitle: "粉碎"
-	quest.0F4A581F66A68082.quest_desc: ["药水放主手"]
+	quest.0F4A581F66A68082.quest_desc: ["炼药台pass"]
 	quest.0F4A581F66A68082.quest_subtitle: "/fly"
 	quest.100ABAFA55537980.quest_desc: [""]
 	quest.10919B3D2974F0F0.quest_desc: [
@@ -125,7 +125,7 @@
 	quest.32E127BF10E0C542.quest_subtitle: "IEE"
 	quest.33CB15BE7D68D377.quest_subtitle: "26.1888k/t"
 	quest.33EC04375AED8171.quest_subtitle: "更性能的开局"
-	quest.34AFB07F96CBE1EC.quest_subtitle: "变废为宝-1"
+	quest.34AFB07F96CBE1EC.quest_subtitle: "变废为宝"
 	quest.34E15D8E39194BD2.quest_desc: [""]
 	quest.34E15D8E39194BD2.quest_subtitle: "三幻神"
 	quest.3596A8CEB0A4CEA2.quest_desc: [""]
@@ -192,7 +192,7 @@
 	quest.55F37D3C29614EE8.quest_subtitle: "此章节仅供参考"
 	quest.566BD3AAE40E12C4.quest_subtitle: "每个能量端口25k/t"
 	quest.56C865AFB06A13CE.quest_desc: ["防止你没注意到"]
-	quest.56C865AFB06A13CE.quest_subtitle: "变废为宝-4"
+	quest.56C865AFB06A13CE.quest_subtitle: "变废为宝"
 	quest.572E80824BE3B9F5.quest_desc: ["如果你缺&c熔岩&r"]
 	quest.5744453A64416998.quest_desc: ["3并行"]
 	quest.5744453A64416998.quest_subtitle: "LV-1"
@@ -225,7 +225,10 @@
 	quest.622F4FC3913857FF.quest_subtitle: "AK"
 	quest.631475009325B178.quest_subtitle: "凋灵在休假"
 	quest.632CC29794C05109.quest_subtitle: "连连看"
-	quest.634CECCF60798CEF.quest_desc: ["&m新版神化是史&r"]
+	quest.634CECCF60798CEF.quest_desc: [
+		"&m新版神化是史&r"
+		"[ { \"text\": \"跳转至&6神化科技&r\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6CB21F5E016AC75A\" } } ]"
+	]
 	quest.634CECCF60798CEF.quest_subtitle: "引爆or雷劈"
 	quest.637A838DF516F4D1.quest_desc: [""]
 	quest.637A838DF516F4D1.quest_subtitle: "雷劈"

@@ -395,6 +395,11 @@
 				id: "pylons:infusion_pylon"
 			}
 			id: "0F4A581F66A68082"
+			rewards: [{
+				command: "/fly"
+				id: "5A98BA984309FEC9"
+				type: "command"
+			}]
 			size: 2.0d
 			tasks: [
 				{
@@ -415,12 +420,6 @@
 				{
 					id: "2A780CAB7F2C216F"
 					item: { count: 1, id: "minecraft:popped_chorus_fruit" }
-					type: "item"
-				}
-				{
-					count: 3L
-					id: "3DDAA1201B831F9C"
-					item: { components: { "minecraft:potion_contents": { potion: "apothic_attributes:extra_long_flying" } }, count: 1, id: "minecraft:potion" }
 					type: "item"
 				}
 			]
@@ -703,6 +702,24 @@
 					item: {
 						count: 1
 						id: "jdte:range_blocker"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "3916253DF2D31F54"
+					item: {
+						count: 1
+						id: "mob_grinding_utils:saw_upgrade_sharpness"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "683D8D934C371CA8"
+					item: {
+						count: 1
+						id: "mob_grinding_utils:saw_upgrade_looting"
 					}
 					type: "item"
 				}
@@ -1041,12 +1058,24 @@
 			dependency_requirement: "one_started"
 			id: "401539790B8C4293"
 			optional: true
-			tasks: [{
-				count: 4L
-				id: "7D658D4800443EB8"
-				item: { count: 1, id: "ae2lt:overload_crystal_block" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					count: 4L
+					id: "7D658D4800443EB8"
+					item: { count: 1, id: "ae2lt:overload_crystal_block" }
+					type: "item"
+				}
+				{
+					id: "52F9A204AC062E6C"
+					item: { count: 1, id: "ae2:quartz_block" }
+					type: "item"
+				}
+				{
+					id: "5F91AC5DFDD2E843"
+					item: { count: 1, id: "ae2:fluix_block" }
+					type: "item"
+				}
+			]
 			x: -1.0d
 			y: 0.5d
 		}
@@ -1251,15 +1280,26 @@
 		{
 			dependencies: ["5D62196F2C47719A"]
 			id: "34E15D8E39194BD2"
-			rewards: [{
-				count: 64
-				id: "410B5D3410D8223C"
-				item: {
-					count: 1
-					id: "alltheores:steel_ingot"
+			rewards: [
+				{
+					count: 64
+					id: "4D0022B8746FC795"
+					item: {
+						count: 1
+						id: "mekanism:upgrade_speed"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 64
+					id: "15379BAB86F43054"
+					item: {
+						count: 1
+						id: "mekanism:upgrade_energy"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "386863880CCDDC0B"
@@ -1473,6 +1513,7 @@
 		}
 		{
 			dependencies: ["2310D3054423D474"]
+			disable_toast: true
 			icon: {
 				id: "hostilenetworks:overworld_prediction"
 			}
@@ -1544,14 +1585,6 @@
 		{
 			id: "3F7CE31C1A599C3D"
 			optional: true
-			rewards: [{
-				id: "2D0F5259F37ED995"
-				item: {
-					count: 1
-					id: "cataclysm:ignitium_boots"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				dimension: "minecraft:the_nether"
 				id: "3400ABA5313108A7"

@@ -1,7 +1,7 @@
 const SLAYER_STATUS_MACHINE = 'mbd2:apotheosis_slayer_factory'
 const SLAYER_MAX_HEAT = 24000.0
 const SLAYER_BONUS_AT_MAX_HEAT = 8.0222
-const SLAYER_BASE_ENERGY_PER_TICK = 4096.0
+const SLAYER_BASE_ENERGY_PER_TICK = 8192.0
 const SlayerSupplierDataSource = Java.loadClass('com.lowdragmc.lowdraglib2.gui.sync.bindings.impl.SupplierDataSource')
 
 function getSlayerStatus(machine) {

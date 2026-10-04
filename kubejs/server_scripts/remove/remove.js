@@ -110,5 +110,7 @@ ServerEvents.recipes(event => {
     event.remove({ id:'mysticalagriculture:awakening_altar'})
     event.remove({ id:'ad_astra:desh_block'})
     event.remove({ id:'anvilcraft:mesh/end_dust'})
+    event.remove({ id:'dimstorage:dimensional_chest'})
+    event.remove({ id:'dimstorage:dimensional_tank'})
     
 })

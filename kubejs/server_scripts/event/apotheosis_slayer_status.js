@@ -3,7 +3,7 @@ const AQS_SLAYER_STATUS_MAX_HEAT = 24000.0
 const AQS_SLAYER_STATUS_COOL_PER_TICK = 8.0
 const AQS_SLAYER_STATUS_IDLE_DELAY = 5
 const AQS_SLAYER_STATUS_BONUS = 8.0222
-const AQS_SLAYER_STATUS_BASE_ENERGY = 4096.0
+const AQS_SLAYER_STATUS_BASE_ENERGY = 8192.0
 
 function getAqsSlayerState(machine, formed) {
     if (!formed) return '未成型'

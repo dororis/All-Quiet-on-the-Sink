@@ -29,6 +29,13 @@ saves/
 
 # Xaero 地图数据（用户特定）
 xaero/
+XaeroWaypoints_BACKUP*/
+
+# Mixin 输出（运行时生成）
+.mixin.out/
+
+# 默认配置（运行时生成，由 mod 自动创建）
+defaultconfigs/
 
 # 资源包和光影包（二进制大文件，非源代码）
 resourcepacks/

@@ -261,6 +261,15 @@
 					type: "item"
 				}
 				{
+					count: 64
+					id: "0E7A6685B0EFC7FF"
+					item: {
+						count: 1
+						id: "ae2:interface"
+					}
+					type: "item"
+				}
+				{
 					count: 3
 					id: "254DE975B22B624D"
 					item: {
@@ -292,44 +301,15 @@
 				id: "ae2cs:resonating_crystal_dust"
 			}
 			id: "5EF3C7AF83078083"
-			rewards: [
-				{
-					count: 64
-					id: "5358392E23DB1D94"
-					item: {
-						count: 1
-						id: "ae2:calculation_processor"
-					}
-					type: "item"
+			rewards: [{
+				count: 64
+				id: "5DCFA6E7B4535B47"
+				item: {
+					count: 1
+					id: "ae2cs:resonating_processor"
 				}
-				{
-					count: 64
-					id: "0CADE083B63A3C27"
-					item: {
-						count: 1
-						id: "ae2:logic_processor"
-					}
-					type: "item"
-				}
-				{
-					count: 64
-					id: "0DD1E132F40A9DBA"
-					item: {
-						count: 1
-						id: "ae2:engineering_processor"
-					}
-					type: "item"
-				}
-				{
-					count: 64
-					id: "5DCFA6E7B4535B47"
-					item: {
-						count: 1
-						id: "ae2cs:resonating_processor"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			size: 1.0d
 			tasks: [
 				{
@@ -371,36 +351,45 @@
 				"5B982B9282E3271A"
 				"2E4B78360DE9BF82"
 			]
+			dependency_requirement: "one_completed"
 			icon: {
 				id: "ae2:singularity"
 			}
 			id: "1B891558E8D778A1"
-			rewards: [{
-				id: "3C3F1C46F2AE09A2"
-				item: {
-					count: 1
-					id: "ae2wtlib:quantum_bridge_card"
-				}
-				type: "item"
-			}]
-			tasks: [
+			rewards: [
 				{
-					id: "10ACCE173FA51FE0"
-					item: { count: 1, id: "ae2:singularity" }
+					count: 64
+					id: "0E69094117263EBC"
+					item: {
+						count: 1
+						id: "ae2:calculation_processor"
+					}
 					type: "item"
 				}
 				{
-					count: 8L
-					id: "16178D04A24D7C42"
-					item: { count: 1, id: "ae2:quantum_ring" }
+					count: 64
+					id: "33360804DC0C5971"
+					item: {
+						count: 1
+						id: "ae2:logic_processor"
+					}
 					type: "item"
 				}
 				{
-					id: "57282B97B9873678"
-					item: { count: 1, id: "ae2:quantum_link" }
+					count: 64
+					id: "214DFF977EA2005F"
+					item: {
+						count: 1
+						id: "ae2:engineering_processor"
+					}
 					type: "item"
 				}
 			]
+			tasks: [{
+				id: "10ACCE173FA51FE0"
+				item: { count: 1, id: "ae2:singularity" }
+				type: "item"
+			}]
 			x: -14.0d
 			y: -6.0d
 		}
@@ -1174,6 +1163,35 @@
 			}]
 			x: -6.0d
 			y: -6.0d
+		}
+		{
+			icon: {
+				id: "ae2:quantum_ring"
+			}
+			id: "244DD1CBB9104C9F"
+			rewards: [{
+				id: "46219B201ADABED5"
+				item: {
+					count: 1
+					id: "ae2wtlib:quantum_bridge_card"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 8L
+					id: "67AF89EA7F3D9723"
+					item: { count: 1, id: "ae2:quantum_ring" }
+					type: "item"
+				}
+				{
+					id: "77AAB3DE8A68F850"
+					item: { count: 1, id: "ae2:quantum_link" }
+					type: "item"
+				}
+			]
+			x: -13.0d
+			y: -7.5d
 		}
 	]
 }

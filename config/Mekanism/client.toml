@@ -172,9 +172,9 @@
 	#The last position the Side Config window was in when it was closed, and whether it was pinned.
 	[window.side_config]
 		#The x component of this window's last position.
-		x = -54
+		x = -179
 		#The y component of this window's last position.
-		y = 86
+		y = 31
 		#Determines whether this window is pinned, and should open automatically when the GUI is reopened.
 		pinned = false
 

@@ -154,15 +154,6 @@
 		}
 		{
 			id: "3E94771BFB7ACE38"
-			rewards: [{
-				count: 64
-				id: "5575D72099E36C2F"
-				item: {
-					count: 1
-					id: "mekanism:basic_universal_cable"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "752C350B533D378B"
 				item: { count: 1, id: "mekanism:basic_universal_cable" }
@@ -193,6 +184,15 @@
 		}
 		{
 			id: "72DB76AA051D06A0"
+			rewards: [{
+				count: 64
+				id: "748EA4E59CC4D148"
+				item: {
+					count: 1
+					id: "mekanism:ultimate_universal_cable"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "33E1D4EDC654DCF6"
 				item: { count: 1, id: "mekanism:ultimate_universal_cable" }
