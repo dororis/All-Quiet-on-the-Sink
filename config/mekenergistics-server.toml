@@ -7,7 +7,7 @@ patternPages = 2
 #Prefer FE stored in Applied Flux cells when an ME machine is connected to an AE network.
 #When enabled, Applied Flux FE is drained before AE network energy.
 #When disabled, AE network energy is drained before Applied Flux FE.
-preferAppliedFluxNetworkFe = false
+preferAppliedFluxNetworkFe = true
 #Prefer network energy when an ME machine is connected to an AE network.
 #When enabled, AE/Applied Flux energy is drained before the machine's local FE buffer.
 #When disabled, the local FE buffer is drained before network energy.

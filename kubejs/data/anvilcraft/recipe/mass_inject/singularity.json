@@ -1,0 +1,7 @@
+{
+  "type": "anvilcraft:mass_inject",
+  "ingredient": {
+    "item": "ae2:singularity"
+  },
+  "mass": 4000
+}

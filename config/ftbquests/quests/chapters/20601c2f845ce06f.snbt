@@ -1,0 +1,28 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "20601c2f845ce06f"
+	group: "4D3AA524F989001F"
+	id: "20601C2F845CE06F"
+	images: [ ]
+	order_index: 6
+	quest_links: [ ]
+	quests: [{
+		id: "71AE9F699BF2E08F"
+		rewards: [{
+			id: "6C70F61B1C24DE64"
+			item: {
+				count: 1
+				id: "constructionwand:core_angel"
+			}
+			type: "item"
+		}]
+		shape: "heart"
+		tasks: [{
+			id: "30A087350883F923"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: -1.0d
+	}]
+}

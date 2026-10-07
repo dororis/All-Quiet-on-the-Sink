@@ -114,10 +114,10 @@ myriadCreationsEnabled = true
 	#过滤模式
 	#可选模式：禁用、黑名单、白名单
 	#Allowed Values: DISABLED, BLACKLIST, WHITELIST
-	filterMode = "DISABLED"
+	filterMode = "WHITELIST"
 	#过滤的蜜蜂类型列表
 	#格式: modID:beeType
-	filteredBeeTypes = []
+	filteredBeeTypes = ["productivebees:allthemodium", "productivebees:diamond", "productivebees:copper", "productivebees:fluorite", "productivebees:iron", "productivebees:aluminum", "productivebees:netherite", "productivebees:vibranium", "productivebees:fluix", "productivebees:life_fluid", "productivebees:nickel", "productivebees:osmium", "productivebees:lead", "productivebees:prometheum", "productivebees:platinum", "productivebees:nitro_crystal", "productivebees:desh", "productivebees:silver", "productivebees:calorite", "productivebees:silicon", "productivebees:lithium", "productivebees:iridium", "productivebees:crystalline", "productivebees:lapis", "productivebees:gold", "productivebees:unobtainium", "productivebees:emerald", "productivebees:obsidian", "productivebees:zinc", "productivebees:redstone", "productivebees:wasted_radioactive", "productivebees:ostrum", "productivebees:spacial", "productivebees:tin", "productivebees:stellar_alloy", "productivebees:time_crystal", "productivebees:mithril"]
 
 #万象创世蜜蜂属性覆盖配置（服务端生效）
 [bee_attributes]

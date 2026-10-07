@@ -33,7 +33,15 @@
         },
         {
             "id": "allthemodium:unobtainium_ingot",
-            "count": 4
+            "count": 16
+        },
+        {
+            "id": "hostilenetworks:data_model",
+            "components": {
+            "hostilenetworks:data_model": "hostilenetworks:ender_dragon",
+                "hostilenetworks:data": 1354
+            },
+            "count": 1
         }
     ],
     "data_gained": {

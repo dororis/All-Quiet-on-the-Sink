@@ -1,0 +1,288 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "chapter_35"
+	group: "4D3AA524F989001F"
+	icon: {
+		id: "anvilcraft:giant_anvil"
+	}
+	id: "39FB74A613896B6A"
+	images: [
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "53527B755833BF27"
+			image: "fancymenu:textures/layout_editor/widgets/layers/move_down.png"
+			rotation: -90.0d
+			width: 1.0d
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "0DFA1AB1CA21F709"
+			image: "fancymenu:textures/layout_editor/widgets/layers/move_down.png"
+			rotation: -90.0d
+			width: 1.0d
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "64F2F30BD6F9ED91"
+			image: "fancymenu:textures/layout_editor/widgets/layers/move_down.png"
+			rotation: -90.0d
+			width: 1.0d
+			x: -3.5d
+			y: -6.0d
+		}
+		{
+			height: 1.0d
+			id: "62121B9EB4F1424D"
+			image: "minecraft:textures/gui/sprites/dialog/warning_button.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: -7.0d
+		}
+		{
+			height: 1.0d
+			id: "66826D324E76BBF9"
+			image: "ldlib2:textures/gui/icon/magnet.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			id: "32387F2E4EE8A75E"
+			image: "minecraft:block/grass_block_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			id: "5AAE34B4FD11F1C1"
+			image: "allthemodium:block/teleport_pad_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			id: "7FEE225105CFBEC5"
+			image: "ftbteams:textures/add.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "7EED89F3B1396312"
+			image: "fancymenu:textures/layout_editor/widgets/layers/move_down.png"
+			rotation: 90.0d
+			width: 1.0d
+			x: 0.25d
+			y: -6.0d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0B3458F6894E3A3D"
+			size: 3.0d
+			tasks: [{
+				id: "4459B248E7D3D571"
+				item: { count: 1, id: "anvilcraft:giant_anvil" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			id: "32B6CF7A6F6AF881"
+			size: 3.0d
+			tasks: [{
+				id: "24615E4E9468B21B"
+				item: { count: 1, id: "anvilcraft:acceleration_ring" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			id: "45D49F9C1E75D865"
+			size: 3.0d
+			tasks: [{
+				id: "7FFCB871E75BA921"
+				item: { count: 1, id: "anvilcraft:acceleration_ring" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			id: "16E484887606D8D4"
+			tasks: [{
+				id: "22DAC4F398807A96"
+				item: { count: 1, id: "anvilcraft:sifting_table" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			id: "40F2D029C2066226"
+			tasks: [{
+				id: "66AAD6A25A70989C"
+				item: { count: 1, id: "anvilcraft:sifting_table" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			id: "4D6DD5684A65670F"
+			tasks: [{
+				id: "0FA3F67746A26C7A"
+				item: { count: 1, id: "anvilcraft:sifting_table" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			id: "3F2F15234AFE46D9"
+			size: 2.0d
+			tasks: [{
+				id: "44CCB472BAB3F89B"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			id: "00ADE78B3E9CE3AC"
+			tasks: [{
+				id: "45B26176D872E580"
+				item: { count: 1, id: "anvilcraft:space_overcompressor" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -6.0d
+		}
+		{
+			id: "40584E8D52DC6578"
+			tasks: [{
+				id: "066583E54E1D6AD7"
+				item: { count: 1, id: "allthemodium:vibranium_allthemodium_alloy_block" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			id: "408721C8EF4530B4"
+			tasks: [{
+				id: "7F097600CC6686BA"
+				item: { count: 1, id: "allthemodium:unobtainium_allthemodium_alloy_block" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			id: "7014F2314A965A13"
+			tasks: [{
+				id: "2D880D87397EA8D5"
+				item: { count: 1, id: "allthemodium:unobtainium_vibranium_alloy_block" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			id: "4DF4E65BA579AB00"
+			rewards: [
+				{
+					id: "244F55A091E677DE"
+					item: {
+						count: 1
+						id: "jdte:advanced_item_collector"
+					}
+					type: "item"
+				}
+				{
+					id: "3F26BA8BF3BD0D30"
+					item: {
+						components: {
+							"ae2:wireless_link_target": {
+								dimension: "minecraft:overworld"
+								pos: [I;
+									-779
+									135
+									213
+								]
+							}
+						}
+						count: 1
+						id: "jdte:ae_output_upgrade"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2A42C7496D4C14A9"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			id: "1143155291AA4145"
+			tasks: [{
+				id: "2DF360D9EA0B3837"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			id: "78A57AE6D65D0806"
+			tasks: [{
+				id: "2C0AB312A15E378F"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			id: "19EA2FF648835BAA"
+			tasks: [{
+				id: "62A186EB74B01751"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "2652440368CA758B"
+			tasks: [{
+				id: "2EF669055BD7DD37"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+	]
+}

@@ -1,0 +1,12 @@
+{
+  "primaryColor": "#fa9310",
+  "secondaryColor": "#064f2c",
+  "tertiaryColor": "#d4700e",
+  "particleColor": "#fa9310",
+  "flowerType": "entity_types",
+  "flowerTag": "",
+  "postPollination": "amber_encase",
+  "createComb": false,
+  "size": 0.7,
+  "renderer": "default_crystal"
+}

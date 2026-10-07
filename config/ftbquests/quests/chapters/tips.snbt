@@ -8,16 +8,48 @@
 		id: "mbd2:compact_fissile_fuel"
 	}
 	id: "6F8FFD92118ED1DB"
-	images: [{
-		click_action: "open_uri:123"
-		height: 4.0d
-		id: "20391865903B20C8"
-		image: "ae2lt:textures/gui/buttons/lightning_high_voltage.png"
-		rotation: 0.0d
-		width: 4.0d
-		x: -12.5d
-		y: -4.0d
-	}]
+	images: [
+		{
+			click_action: "open_uri:123"
+			height: 4.0d
+			id: "20391865903B20C8"
+			image: "ae2lt:textures/gui/buttons/lightning_high_voltage.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -13.0d
+			y: -4.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.3d
+			id: "315F0D63629BC215"
+			image: "productivebeesgenesis:block/infinitycreation_comb_block"
+			rotation: 0.0d
+			width: 1.3d
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			click_action: "none:"
+			height: 2.0d
+			id: "6947240BE3B41CB7"
+			image: "enderio:textures/gui/sprites/icon/alloy_smelter_mode/furnace.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -8.5d
+			y: -9.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.5d
+			id: "706D771ED28F9AD2"
+			image: "mekanism:block/factory/enriching/enriching_factory_front_active"
+			rotation: 0.0d
+			width: 1.5d
+			x: -7.0d
+			y: -9.5d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -348,46 +380,6 @@
 			y: -8.0d
 		}
 		{
-			id: "63E4BCB39CBDF614"
-			tasks: [{
-				id: "2090707A1DFD1471"
-				item: { count: 1, id: "minecraft:iron_ingot" }
-				type: "item"
-			}]
-			x: -8.0d
-			y: -8.0d
-		}
-		{
-			id: "2402E2C3E0F4B3C5"
-			tasks: [{
-				id: "69B6DAE761B18659"
-				item: { count: 1, id: "alltheores:osmium_ingot" }
-				type: "item"
-			}]
-			x: -7.0d
-			y: -8.0d
-		}
-		{
-			id: "6ECB8EEEF0BEF033"
-			tasks: [{
-				id: "04C63E38BC8FDD96"
-				item: { count: 1, id: "alltheores:silver_ingot" }
-				type: "item"
-			}]
-			x: -6.0d
-			y: -8.0d
-		}
-		{
-			id: "11B3E053666CE429"
-			tasks: [{
-				id: "0AE61B61AC5458AE"
-				item: { count: 1, id: "oritech:small_nickel_dust" }
-				type: "item"
-			}]
-			x: -5.0d
-			y: -8.0d
-		}
-		{
 			disable_toast: true
 			id: "0E9D3C1272FABD3B"
 			tasks: [{
@@ -396,36 +388,6 @@
 				type: "item"
 			}]
 			x: -10.0d
-			y: -6.0d
-		}
-		{
-			id: "3D8B7FDCE023030A"
-			tasks: [{
-				id: "3DB00EF285F22D45"
-				item: { count: 1, id: "minecraft:green_dye" }
-				type: "item"
-			}]
-			x: -8.0d
-			y: -6.0d
-		}
-		{
-			icon: {
-				id: "anvilcraft:wood_fiber"
-			}
-			id: "4C18174C728150DB"
-			tasks: [
-				{
-					id: "55FF4436451DA162"
-					item: { count: 1, id: "anvilcraft:wood_fiber" }
-					type: "item"
-				}
-				{
-					id: "0D4DAED935285EE1"
-					item: { count: 1, id: "anvilcraft:resin" }
-					type: "item"
-				}
-			]
-			x: -7.0d
 			y: -6.0d
 		}
 		{
@@ -446,7 +408,7 @@
 				item: { count: 1, id: "enderio:grains_of_infinity" }
 				type: "item"
 			}]
-			x: -8.0d
+			x: -8.5d
 			y: -2.0d
 		}
 		{
@@ -456,7 +418,7 @@
 				item: { count: 1, id: "fluxnetworks:flux_dust" }
 				type: "item"
 			}]
-			x: -6.0d
+			x: -5.5d
 			y: -2.0d
 		}
 		{
@@ -467,7 +429,7 @@
 				item: { count: 1, id: "apotheosis:godforged_pearl" }
 				type: "item"
 			}]
-			x: -9.5d
+			x: -10.0d
 			y: 0.0d
 		}
 		{
@@ -479,7 +441,7 @@
 				item: { count: 1, id: "apotheosis:god_fused_pearl" }
 				type: "item"
 			}]
-			x: -7.5d
+			x: -8.0d
 			y: 0.0d
 		}
 		{
@@ -491,7 +453,7 @@
 				item: { count: 1, id: "ae2:singularity" }
 				type: "item"
 			}]
-			x: -5.5d
+			x: -6.0d
 			y: 0.5d
 		}
 		{
@@ -503,7 +465,7 @@
 				item: { count: 1, id: "apotheosis:godforged_pearl" }
 				type: "item"
 			}]
-			x: -5.5d
+			x: -6.0d
 			y: -0.5d
 		}
 		{
@@ -518,16 +480,6 @@
 			y: -8.0d
 		}
 		{
-			id: "0F22676C5C2A660B"
-			tasks: [{
-				id: "4BC4A45AA5A43336"
-				item: { count: 1, id: "minecraft:clay_ball" }
-				type: "item"
-			}]
-			x: -5.0d
-			y: -2.0d
-		}
-		{
 			id: "358561D8F0D823CD"
 			tasks: [{
 				id: "174CEF621D543869"
@@ -536,52 +488,6 @@
 			}]
 			x: -10.0d
 			y: -4.0d
-		}
-		{
-			id: "6F7D73DA729D82B0"
-			tasks: [{
-				id: "42F0ED62B0CE6F1C"
-				type: "checkmark"
-			}]
-			x: -9.0d
-			y: -2.0d
-		}
-		{
-			id: "583C9ADB9A1E2164"
-			tasks: [{
-				id: "757F5DF6EBE5B1FD"
-				type: "checkmark"
-			}]
-			x: -9.0d
-			y: -6.0d
-		}
-		{
-			id: "76C520783A0E3D3C"
-			tasks: [{
-				id: "68E4F21CBA694FC6"
-				type: "checkmark"
-			}]
-			x: -9.0d
-			y: -8.0d
-		}
-		{
-			id: "650C6B62366242F2"
-			tasks: [{
-				id: "48718FB77F5F5A5F"
-				item: { count: 1, id: "minecraft:string" }
-				type: "item"
-			}]
-			x: -5.0d
-			y: -6.0d
-		}
-		{
-			id: "6CB21F5E016AC75A"
-			tasks: [{
-				id: "56A4F17EEE3F9F52"
-				type: "checkmark"
-			}]
-			x: -7.5d
-			y: -9.5d
 		}
 		{
 			id: "633DF18A216636E1"
@@ -689,76 +595,6 @@
 			y: -2.0d
 		}
 		{
-			id: "68675433F7278664"
-			tasks: [{
-				id: "704BAEF5D445AF85"
-				type: "checkmark"
-			}]
-			x: -9.0d
-			y: -4.0d
-		}
-		{
-			id: "566694A7BBCE454B"
-			tasks: [{
-				id: "43991ECAACB81637"
-				item: { count: 1, id: "ae2cs:purified_nether_quartz_crystal" }
-				type: "item"
-			}]
-			x: -8.0d
-			y: -4.0d
-		}
-		{
-			id: "1CD2A2B1CEDB3341"
-			tasks: [{
-				id: "0A3370B6CEE00FF8"
-				item: { count: 1, id: "ae2cs:purified_certus_quartz_crystal" }
-				type: "item"
-			}]
-			x: -7.0d
-			y: -4.0d
-		}
-		{
-			id: "50849BEB94CAD46E"
-			tasks: [{
-				id: "2B46DB2666A1132B"
-				item: { count: 1, id: "ae2cs:purified_ender_quartz" }
-				type: "item"
-			}]
-			x: -5.0d
-			y: -4.0d
-		}
-		{
-			id: "5AC1B775B61F76B1"
-			tasks: [{
-				id: "76F45BD259031F29"
-				item: { count: 1, id: "mysticalagriculture:nature_essence" }
-				type: "item"
-			}]
-			x: -6.0d
-			y: -6.0d
-		}
-		{
-			dependencies: ["6B279DD466788AEA"]
-			id: "6C074D5249F052B0"
-			tasks: [{
-				id: "4F12E94D3CEE3027"
-				item: { count: 1, id: "ae2lt:overloaded_io_port" }
-				type: "item"
-			}]
-			x: 9.0d
-			y: -4.0d
-		}
-		{
-			id: "6B279DD466788AEA"
-			tasks: [{
-				id: "4BE38766A94EF9CF"
-				item: { count: 1, id: "ae2:io_port" }
-				type: "item"
-			}]
-			x: 7.5d
-			y: -4.0d
-		}
-		{
 			id: "3F708EB6DEC4C034"
 			tasks: [{
 				id: "083FB70F60227EB4"
@@ -769,14 +605,129 @@
 			y: -2.0d
 		}
 		{
-			id: "7D11930885FF2118"
+			id: "2283682C22B80D1F"
 			tasks: [{
-				id: "07F2556682738198"
-				item: { count: 1, id: "ae2cs:purified_meteor_crystal" }
+				id: "1DF32126ACD53ED5"
+				item: { count: 1, id: "mysticalagriculture:nature_essence" }
 				type: "item"
 			}]
-			x: -6.0d
+			x: -5.5d
+			y: -6.0d
+		}
+		{
+			id: "07EEABDC7A8B1C20"
+			tasks: [{
+				id: "6696AA7E15157E7A"
+				item: { count: 1, id: "hostilenetworks:overworld_prediction" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -6.0d
+		}
+		{
+			id: "63983FB80A784805"
+			tasks: [{
+				id: "4DDD9710E38B1D8A"
+				item: { count: 1, id: "applied_oritech:me_dock" }
+				type: "item"
+			}]
+			x: 7.5d
 			y: -4.0d
+		}
+		{
+			dependencies: ["63983FB80A784805"]
+			id: "3E7523E7BB2C1B41"
+			tasks: [
+				{
+					id: "194550742F533310"
+					item: { count: 1, id: "applied_oritech:me_pattern_provider_addon" }
+					type: "item"
+				}
+				{
+					id: "5DA5DC904F226ECE"
+					item: { count: 1, id: "applied_oritech:me_extended_pattern_provider_addon" }
+					type: "item"
+				}
+				{
+					id: "142CA463DC3D07D5"
+					item: { count: 1, id: "applied_oritech:me_interface_addon" }
+					type: "item"
+				}
+				{
+					id: "3B917325C05FE1A1"
+					item: { count: 1, id: "applied_oritech:me_extended_interface_addon" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: -4.0d
+		}
+		{
+			id: "37EBFA55C068F2E4"
+			tasks: [{
+				id: "11F2FE6A83742DEC"
+				item: { count: 1, id: "alltheores:osmium_ingot" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -8.0d
+		}
+		{
+			id: "2A35E6C2561EB87F"
+			tasks: [{
+				id: "35423F397B470E33"
+				item: { count: 1, id: "alltheores:silver_ingot" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -8.0d
+		}
+		{
+			id: "45C86CB3E4FA12CB"
+			tasks: [{
+				id: "5DD964CA7C427D98"
+				item: { count: 1, id: "ae2cs:purified_nether_quartz_crystal" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -4.0d
+		}
+		{
+			id: "2509114D50B16ED4"
+			tasks: [{
+				id: "4D57C594FC8B0574"
+				item: { count: 1, id: "ae2cs:purified_certus_quartz_crystal" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"4D8E0F7624A74294"
+				"358561D8F0D823CD"
+				"4CFDC99F1162864E"
+				"4980D736FC8C1F04"
+			]
+			id: "29489A5660C5E6B3"
+			size: 2.0d
+			tasks: [{
+				id: "72D62A07496F215C"
+				item: { count: 1, id: "anvilcraft:sifting_table" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: -4.0d
+		}
+		{
+			id: "139B31AAB46274DF"
+			tasks: [{
+				id: "14EBA81300EFC054"
+				item: { count: 1, id: "mysticalagriculture:dye_essence" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -6.0d
 		}
 	]
 }

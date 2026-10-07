@@ -1,7 +1,7 @@
 ServerEvents.recipes(event => {
     
     event.recipes.minecraft.smelting(
-        'minecraft:iron_ingot',          
+        'alltheores:silver_ingot',          
         'apotheosis:mysterious_scrap_metal'       
     )
 })

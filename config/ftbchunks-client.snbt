@@ -138,31 +138,31 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"minecraft:donkey": true
-			"minecraft:glow_squid": true
 			"minecraft:salmon": false
-			"minecraft:iron_golem": true
-			"minecraft:horse": true
-			"productivebees:mason_bee": true
-			"cataclysm:the_prowler": true
-			"minecraft:armadillo": true
-			"minecraft:cat": true
-			"productivebees:yellow_black_carpenter_bee": true
-			"minecraft:bat": true
 			"productivebees:green_carpenter_bee": true
-			"cataclysm:the_harbinger": true
-			"minecraft:squid": true
+			"irons_spellbooks:pyromancer": true
+			"productivebees:chocolate_mining_bee": true
+			"minecraft:donkey": true
 			"minecraft:chicken": true
+			"minecraft:glow_squid": true
+			"minecraft:wolf": true
+			"minecraft:hoglin": true
 			"minecraft:pig": true
+			"minecraft:cat": true
+			"minecraft:bat": true
+			"cataclysm:the_prowler": true
+			"minecraft:rabbit": true
+			"cataclysm:the_harbinger": true
+			"productivebees:yellow_black_carpenter_bee": true
+			"productivebees:bumble_bee": true
+			"minecraft:armadillo": true
+			"minecraft:horse": true
+			"minecraft:iron_golem": true
 			"minecraft:sheep": true
 			"minecraft:cow": true
-			"irons_spellbooks:pyromancer": true
+			"minecraft:squid": true
+			"productivebees:mason_bee": true
 			"minecraft:villager": true
-			"productivebees:chocolate_mining_bee": true
-			"minecraft:hoglin": true
-			"minecraft:wolf": true
-			"minecraft:rabbit": true
-			"productivebees:bumble_bee": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)

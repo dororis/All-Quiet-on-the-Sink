@@ -24,8 +24,8 @@
 				item: { count: 1, id: "mbd2:3x3input" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: -3.0d
+			x: -1.0d
+			y: -2.5d
 		}
 		{
 			disable_toast: true
@@ -35,8 +35,8 @@
 				item: { count: 1, id: "mbd2:3x3output" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: -2.0d
+			x: 0.0d
+			y: -2.5d
 		}
 		{
 			disable_toast: true
@@ -85,19 +85,8 @@
 				item: { count: 1, id: "mbd2:frame_sandblaster" }
 				type: "item"
 			}]
-			x: 5.5d
+			x: 7.5d
 			y: 1.5d
-		}
-		{
-			disable_toast: true
-			id: "767A5E06A40EDC65"
-			tasks: [{
-				id: "386039F3246665EF"
-				item: { count: 1, id: "mbd2:life_extractor" }
-				type: "item"
-			}]
-			x: 5.5d
-			y: -0.5d
 		}
 		{
 			disable_toast: true
@@ -183,37 +172,13 @@
 		}
 		{
 			disable_toast: true
-			id: "61FD90A944A8B06E"
-			optional: true
-			tasks: [{
-				id: "46D2CDC048A4FFFF"
-				item: { count: 1, id: "mbd2:seed_aggregator" }
-				type: "item"
-			}]
-			x: 7.5d
-			y: 1.5d
-		}
-		{
-			disable_toast: true
-			id: "1ABDCFBDA3EE061E"
-			optional: true
-			tasks: [{
-				id: "33E8E97B843D96B1"
-				item: { count: 1, id: "mbd2:advanced_seed_aggregator" }
-				type: "item"
-			}]
-			x: 9.5d
-			y: 1.5d
-		}
-		{
-			disable_toast: true
 			id: "4260D5BF2D15D11B"
 			tasks: [{
 				id: "6CD682B42FB29B7C"
 				item: { count: 1, id: "mbd2:compact_fissile_fuel" }
 				type: "item"
 			}]
-			x: 7.5d
+			x: 5.5d
 			y: -0.5d
 		}
 		{
@@ -224,7 +189,7 @@
 				item: { count: 1, id: "mbd2:moon_mineral_extractor" }
 				type: "item"
 			}]
-			x: 9.5d
+			x: 7.5d
 			y: -0.5d
 		}
 		{
@@ -235,7 +200,7 @@
 				item: { count: 1, id: "mbd2:compact_thermal" }
 				type: "item"
 			}]
-			x: 11.5d
+			x: 9.5d
 			y: -0.5d
 		}
 		{
@@ -248,14 +213,13 @@
 			y: -4.5d
 		}
 		{
-			id: "4753BA0F617999E2"
-			optional: true
+			id: "5468575CE1E33CA9"
 			tasks: [{
-				id: "6BC212E708FCC77A"
-				item: { count: 1, id: "mbd2:atomic_reconstructor" }
+				id: "7773CBD46FEF0A4D"
+				item: { count: 1, id: "mbd2:smelting_furnace" }
 				type: "item"
 			}]
-			x: 11.5d
+			x: 5.5d
 			y: 1.5d
 		}
 	]

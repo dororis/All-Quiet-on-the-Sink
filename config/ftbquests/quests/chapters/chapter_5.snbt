@@ -14,7 +14,7 @@
 			image: "ftblibrary:icons/dropdown_out"
 			rotation: 0.0d
 			width: 1.0d
-			x: -4.5d
+			x: -2.0d
 			y: -2.0d
 		}
 		{
@@ -27,8 +27,28 @@
 			x: 17.5d
 			y: -0.5d
 		}
+		{
+			click_action: "none:"
+			height: 3.0d
+			id: "0E10948D9571AA09"
+			image: "ad_astra:block/polished_venus_stone"
+			rotation: 0.0d
+			width: 3.0d
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			click_action: "none:"
+			height: 3.0d
+			id: "76B24579B7330193"
+			image: "ad_astra:textures/environment/glacio.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 13.5d
+			y: -0.5d
+		}
 	]
-	order_index: 5
+	order_index: 8
 	quest_links: [ ]
 	quests: [
 		{
@@ -37,18 +57,6 @@
 			tasks: [{
 				id: "636B38E42EACF5EC"
 				type: "checkmark"
-			}]
-			x: -4.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["58E24B18B047159F"]
-			id: "706AC6BFE6DBF777"
-			optional: true
-			tasks: [{
-				id: "1ECD615A83100F80"
-				item: { count: 1, id: "mbd2:atomic_reconstructor" }
-				type: "item"
 			}]
 			x: -2.0d
 			y: -0.5d

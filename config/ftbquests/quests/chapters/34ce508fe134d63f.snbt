@@ -44,6 +44,14 @@
 			id: "1A083FF9C0B83E1F"
 			rewards: [
 				{
+					id: "1AB18446271FF900"
+					item: {
+						count: 1
+						id: "ae2lt:rainbow_pigmee_fumo"
+					}
+					type: "item"
+				}
+				{
 					id: "3241B12893A66992"
 					item: {
 						components: {

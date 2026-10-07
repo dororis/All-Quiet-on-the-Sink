@@ -25,14 +25,66 @@
 			height: 1.0d
 			id: "75A4167B508A693A"
 			image: "brandonscore:textures/gui/dark/arrow_right.png"
+			order: 1
 			rotation: 0.0d
 			width: 1.0d
 			x: 17.0d
 			y: 0.0d
 		}
+		{
+			height: 1.0d
+			id: "0875603AEDC4EC8E"
+			image: "hostilenetworks:block/data_center_north"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			id: "001A373C14221686"
+			image: "hostilenetworks:block/loot_fabricator_north"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			id: "0338A359336C9608"
+			image: "fancymenu:textures/contextmenu/icons/arrow_up.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			id: "5702E5225564283F"
+			image: "fancymenu:textures/contextmenu/icons/arrow_up.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			click_action: "none:"
+			height: 3.0d
+			id: "01BE423E5364503E"
+			image: "ad_astra:textures/environment/moon.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 15.5d
+			y: 0.0d
+		}
 	]
-	order_index: 3
-	quest_links: [ ]
+	order_index: 4
+	quest_links: [{
+		id: "4DE0D8B402F13A17"
+		linked_quest: "7854A7B6A3AD5EFC"
+		x: 8.0d
+		y: -4.0d
+	}]
 	quests: [
 		{
 			dependencies: ["018390147085379B"]
@@ -455,33 +507,6 @@
 			y: 4.5d
 		}
 		{
-			id: "1CC6C2BBD2F09E6F"
-			tasks: [{
-				id: "437DC0A4F3620B18"
-				type: "checkmark"
-			}]
-			x: 4.0d
-			y: -4.0d
-		}
-		{
-			id: "01DA02B2FC139499"
-			tasks: [{
-				id: "5221F57A516E2743"
-				type: "checkmark"
-			}]
-			x: 6.0d
-			y: -4.0d
-		}
-		{
-			id: "7CB146D078D3D791"
-			tasks: [{
-				id: "68C5FCD2E90BF7AC"
-				type: "checkmark"
-			}]
-			x: 8.0d
-			y: -4.0d
-		}
-		{
 			id: "4AFA779CE99B0A16"
 			tasks: [{
 				id: "29F208D9A226395C"
@@ -645,75 +670,6 @@
 			y: -2.0d
 		}
 		{
-			icon: {
-				id: "allthemodium:piglich_heart_block"
-			}
-			id: "52E402036A5EE490"
-			tasks: [
-				{
-					id: "56A61FE18605A4D7"
-					item: { count: 1, id: "allthemodium:unobtainium_allthemodium_alloy_block" }
-					type: "item"
-				}
-				{
-					id: "033E74B32D190A5A"
-					item: { count: 1, id: "allthemodium:unobtainium_vibranium_alloy_block" }
-					type: "item"
-				}
-				{
-					id: "33B0C1FDA1C20357"
-					item: { count: 1, id: "allthemodium:vibranium_allthemodium_alloy_block" }
-					type: "item"
-				}
-				{
-					id: "719843B8E1A308EA"
-					item: { count: 1, id: "allthemodium:piglich_heart_block" }
-					type: "item"
-				}
-			]
-			x: 5.0d
-			y: -5.5d
-		}
-		{
-			icon: {
-				id: "alltheores:sulfur_block"
-			}
-			id: "29BC41EA95F59CFE"
-			tasks: [
-				{
-					id: "342C4B26937816E0"
-					item: { count: 1, id: "alltheores:uranium_block" }
-					type: "item"
-				}
-				{
-					id: "510CC5DF54019F3B"
-					item: { count: 1, id: "alltheores:sulfur_block" }
-					type: "item"
-				}
-				{
-					id: "1EB4199AD4428EE9"
-					item: { count: 1, id: "alltheores:platinum_block" }
-					type: "item"
-				}
-				{
-					id: "4BFA3795B085E8B3"
-					item: { count: 1, id: "alltheores:lead_block" }
-					type: "item"
-				}
-			]
-			x: 7.0d
-			y: -5.5d
-		}
-		{
-			id: "32A0336AA0401E31"
-			tasks: [{
-				id: "57B278A0FBC41B20"
-				type: "checkmark"
-			}]
-			x: 6.0d
-			y: -5.5d
-		}
-		{
 			id: "18C988B0963CAF25"
 			tasks: [{
 				id: "016EE3A2706F2BBB"
@@ -722,6 +678,64 @@
 			}]
 			x: 10.0d
 			y: -4.0d
+		}
+		{
+			dependencies: [
+				"44DAEB1ACB3069B8"
+				"3DF7A4ABA48B2781"
+			]
+			disable_toast: true
+			id: "1B81FFE4060619C0"
+			optional: true
+			tasks: [{
+				id: "07CE17A42CB511AE"
+				item: { count: 1, id: "anvilcraft:giant_anvil" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			icon: {
+				id: "allthemodium:vibranium_allthemodium_alloy_block"
+			}
+			id: "3DF7A4ABA48B2781"
+			tasks: [
+				{
+					id: "4CD82A13B7651F6C"
+					item: { count: 1, id: "allthemodium:vibranium_allthemodium_alloy_block" }
+					type: "item"
+				}
+				{
+					id: "03D037E365D80453"
+					item: { count: 1, id: "allthemodium:unobtainium_allthemodium_alloy_block" }
+					type: "item"
+				}
+				{
+					id: "0C13CFEA61F5FE4E"
+					item: { count: 1, id: "allthemodium:unobtainium_vibranium_alloy_block" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			id: "51809C9ADEF74AB6"
+			size: 0.8d
+			tasks: [{
+				icon: {
+					components: {
+						"!ftbquests:icon": { }
+						"ftbquests:entity_face": "minecraft:pig"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "18C0D7D9425AAF86"
+				type: "custom"
+			}]
+			x: 2.0d
+			y: -5.0d
 		}
 	]
 }

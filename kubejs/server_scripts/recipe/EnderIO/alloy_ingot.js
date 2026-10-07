@@ -11,7 +11,7 @@ ServerEvents.recipes(event => {
     },
     {
       "count": 1,
-      "item": "irons_spellbooks:divine_soulshard"
+      "item": "cataclysm:black_steel_ingot"
     },
     {
       "count": 1,
@@ -36,7 +36,7 @@ ServerEvents.recipes(event => {
     },
     {
       "count": 1,
-      "item": "irons_spellbooks:divine_soulshard"
+      "item": "cataclysm:black_steel_ingot"
     },
     {
       "count": 1,
@@ -61,7 +61,7 @@ ServerEvents.recipes(event => {
     },
     {
       "count": 1,
-      "item": "irons_spellbooks:divine_soulshard"
+      "item": "cataclysm:black_steel_ingot"
     },
     {
       "count": 1,

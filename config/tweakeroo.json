@@ -569,7 +569,7 @@
       }
     },
     "disableFirstPersonEffectParticles": {
-      "enabled": false,
+      "enabled": true,
       "hotkey": {
         "keys": ""
       }

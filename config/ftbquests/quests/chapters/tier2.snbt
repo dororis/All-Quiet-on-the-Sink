@@ -27,9 +27,81 @@
 			x: -19.0d
 			y: -7.5d
 		}
+		{
+			height: 1.0d
+			id: "7253E6DEB72B5D72"
+			image: "ae2cs:item/certus_quartz_seed_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: -8.0d
+		}
+		{
+			height: 1.0d
+			id: "7D5248CD78B91A33"
+			image: "ae2cs:item/certus_quartz_seed_1"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -8.0d
+		}
+		{
+			height: 1.0d
+			id: "382609AFDC2F2B3F"
+			image: "ae2cs:item/certus_quartz_seed_2"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -8.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.5d
+			id: "05593E2210208430"
+			image: "minecraft:misc/underwater"
+			rotation: 0.0d
+			width: 3.0d
+			x: -6.0d
+			y: -8.0d
+		}
+		{
+			click_action: "none:"
+			height: 3.0d
+			id: "7113A5261DB03C0D"
+			image: "anvilcraft:textures/gui/jei/arrow_block_conversion.png"
+			rotation: -90.0d
+			width: 1.0d
+			x: -6.0d
+			y: -9.0d
+		}
+		{
+			click_action: "none:"
+			height: 2.0d
+			id: "08ADF17798811DFA"
+			image: "anvilcraft:textures/gui/jei/explosion.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -12.0d
+			y: -6.0d
+		}
+		{
+			click_action: "none:"
+			height: 2.0d
+			id: "05D448D7532F6FA3"
+			image: "extendedae_plus:block/wireless_transceiver"
+			rotation: 0.0d
+			width: 2.0d
+			x: -6.0d
+			y: -3.0d
+		}
 	]
-	order_index: 1
-	quest_links: [ ]
+	order_index: 2
+	quest_links: [{
+		id: "456FB4108301E073"
+		linked_quest: "10998DFF4866FE2F"
+		x: -6.0d
+		y: -3.0d
+	}]
 	quests: [
 		{
 			dependencies: [
@@ -84,16 +156,6 @@
 			]
 			x: -16.0d
 			y: -6.0d
-		}
-		{
-			dependencies: ["575DBA70DABFFDC3"]
-			id: "00815F6AC3A75D6A"
-			tasks: [{
-				id: "6586A3EFEBFFF08C"
-				type: "checkmark"
-			}]
-			x: -16.0d
-			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -254,6 +316,15 @@
 			id: "6D27F907053A9567"
 			rewards: [
 				{
+					count: 4
+					id: "26D79C48BFF2DA61"
+					item: {
+						count: 1
+						id: "ae2cs:ender_emitter"
+					}
+					type: "item"
+				}
+				{
 					id: "3140C41F25C9F7C2"
 					item: {
 						count: 1
@@ -288,29 +359,13 @@
 					}
 					type: "item"
 				}
-				{
-					count: 64
-					id: "52543B5A49DEB36E"
-					item: {
-						count: 1
-						id: "ae2lt:pigmee_mentalmath_unit"
-					}
-					type: "item"
-				}
 			]
 			size: 2.0d
-			tasks: [
-				{
-					id: "06B08D1FEC83910E"
-					item: { count: 1, id: "ae2cs:ender_broadcaster" }
-					type: "item"
-				}
-				{
-					id: "6D71C865274ED3D4"
-					item: { count: 1, id: "ae2cs:ender_emitter" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "06B08D1FEC83910E"
+				item: { count: 1, id: "ae2cs:ender_broadcaster" }
+				type: "item"
+			}]
 			x: -10.0d
 			y: -6.0d
 		}
@@ -567,14 +622,6 @@
 			id: "0A65FFF7CD56D617"
 			rewards: [
 				{
-					id: "1EB2F6708D0DDC7E"
-					item: {
-						count: 1
-						id: "mysticalagriculture:dye_seeds"
-					}
-					type: "item"
-				}
-				{
 					id: "56029DFCC22E381F"
 					item: {
 						count: 1
@@ -587,14 +634,6 @@
 					item: {
 						count: 1
 						id: "mysticalagriculture:stone_seeds"
-					}
-					type: "item"
-				}
-				{
-					id: "159A36D4DFB8B68C"
-					item: {
-						count: 1
-						id: "mysticalagriculture:wood_seeds"
 					}
 					type: "item"
 				}
@@ -623,14 +662,6 @@
 					type: "item"
 				}
 				{
-					id: "7C0CCF1D3EC6CA03"
-					item: {
-						count: 1
-						id: "mysticalagriculture:coal_seeds"
-					}
-					type: "item"
-				}
-				{
 					id: "15DCC5E6A4437584"
 					item: {
 						count: 1
@@ -651,22 +682,6 @@
 					item: {
 						count: 1
 						id: "mysticalagriculture:end_seeds"
-					}
-					type: "item"
-				}
-				{
-					id: "2258407CF59C444C"
-					item: {
-						count: 1
-						id: "mysticalagriculture:sculk_seeds"
-					}
-					type: "item"
-				}
-				{
-					id: "025338BC679142D1"
-					item: {
-						count: 1
-						id: "mysticalagriculture:obsidian_seeds"
 					}
 					type: "item"
 				}
@@ -806,10 +821,7 @@
 			y: -6.0d
 		}
 		{
-			dependencies: [
-				"601E5EBFB1551B8A"
-				"14D1E14E263E058D"
-			]
+			dependencies: ["601E5EBFB1551B8A"]
 			id: "4BCC1A3B7D27D4AA"
 			tasks: [{
 				id: "0C3C759FC79280AE"
@@ -855,17 +867,6 @@
 			}]
 			x: 2.0d
 			y: -9.75d
-		}
-		{
-			id: "1CC8709ED6F9C4B4"
-			optional: true
-			tasks: [{
-				id: "719885A5DBA4FE35"
-				item: { count: 1, id: "ae2cs:entropy_variation_reaction_chamber" }
-				type: "item"
-			}]
-			x: -9.5d
-			y: -9.5d
 		}
 		{
 			dependencies: [
@@ -978,20 +979,8 @@
 					type: "item"
 				}
 			]
-			x: -0.5d
+			x: -1.0d
 			y: -4.0d
-		}
-		{
-			dependencies: ["10919B3D2974F0F0"]
-			id: "43FB7258F7076B92"
-			size: 2.0d
-			tasks: [{
-				id: "201CA10E4B507A0B"
-				item: { count: 1, id: "mbd2:seed_aggregator" }
-				type: "item"
-			}]
-			x: -6.0d
-			y: -3.0d
 		}
 		{
 			id: "10919B3D2974F0F0"
@@ -1023,27 +1012,6 @@
 			]
 			x: 2.0d
 			y: -2.0d
-		}
-		{
-			icon: {
-				id: "enderio:drain"
-			}
-			id: "572E80824BE3B9F5"
-			optional: true
-			tasks: [
-				{
-					id: "475B281502B693C0"
-					item: { count: 1, id: "enderio:drain" }
-					type: "item"
-				}
-				{
-					id: "110124A7D2AD8ACA"
-					item: { count: 1, id: "enderio_evolution:reinforced_drain" }
-					type: "item"
-				}
-			]
-			x: -10.5d
-			y: -9.5d
 		}
 		{
 			dependencies: ["7937616AD97BEF7B"]
@@ -1195,14 +1163,25 @@
 				id: "ae2:quantum_ring"
 			}
 			id: "244DD1CBB9104C9F"
-			rewards: [{
-				id: "46219B201ADABED5"
-				item: {
-					count: 1
-					id: "ae2wtlib:quantum_bridge_card"
+			rewards: [
+				{
+					id: "46219B201ADABED5"
+					item: {
+						count: 1
+						id: "ae2wtlib:quantum_bridge_card"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 64
+					id: "4534403B7722B2E6"
+					item: {
+						count: 1
+						id: "ae2:speed_card"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					count: 8L
@@ -1217,7 +1196,18 @@
 				}
 			]
 			x: -13.0d
-			y: -7.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5DB3AD1FAA406216"]
+			id: "7854A7B6A3AD5EFC"
+			tasks: [{
+				id: "598D7F9FEE74E82D"
+				item: { count: 1, id: "jdte:loot_fabricator" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
 		}
 	]
 }

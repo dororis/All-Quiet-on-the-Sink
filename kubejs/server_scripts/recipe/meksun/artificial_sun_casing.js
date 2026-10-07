@@ -8,8 +8,8 @@ ServerEvents.recipes(event => {
         ],
         {
             A: 'mekanism_extras:infinite_tier_installer',  
-            B: 'dysoncubeproject:compressed_sail[dysoncubeproject_addon:compression_level="10"]',
-            D:'dysoncubeproject:compressed_beam[dysoncubeproject_addon:compression_level="10"]'                       
+            B: 'dysoncubeproject:compressed_sail[dysoncubeproject_addon:compression_level="5"]',
+            D:'dysoncubeproject:compressed_beam[dysoncubeproject_addon:compression_level="5"]'                       
         }
     )
 })

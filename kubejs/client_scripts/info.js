@@ -1,9 +1,10 @@
 RecipeViewerEvents.addInformation('item', event => {
 	event.add('mekmm:large_gas_burning_generator', [
-		'发电量：乙烯4.62M/t',
-		'        烈焰燃液9.24M/t',
-		'        虚炎燃液13.86M/t',
-		'        蚀空燃液18.48M/t'
+		'乙烯4.62M/t',
+		'烈焰燃液18.48M/t',
+		'虚炎燃液36.96M/t',
+		'蚀空燃液73.92M/t',
+		'1倍 → 4倍 → 8倍 → 16倍'
 	]),
 	event.add('mysticalagriculture:infusion_altar', [
 		'这份力量'

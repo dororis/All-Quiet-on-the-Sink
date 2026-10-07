@@ -21,7 +21,15 @@
         },
         {
             "id": "allthemodium:vibranium_ingot",
-            "count": 4
+            "count": 16
+        },
+        {
+            "id": "hostilenetworks:data_model",
+            "components": {
+            "hostilenetworks:data_model": "hostilenetworks:wither",
+                "hostilenetworks:data": 1354
+            },
+            "count": 1
         }
     ]
 }

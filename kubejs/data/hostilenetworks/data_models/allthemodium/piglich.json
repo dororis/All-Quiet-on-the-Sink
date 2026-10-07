@@ -27,7 +27,19 @@
         },
         {
             "id": "allthemodium:allthemodium_ingot",
-            "count": 4
+            "count": 16
+        },
+        {
+            "id": "irons_spellbooks:ancient_knowledge_fragment",
+            "count": 48
+        },
+        {
+            "id": "hostilenetworks:data_model",
+            "components": {
+            "hostilenetworks:data_model": "hostilenetworks:allthemodium/piglich",
+                "hostilenetworks:data": 1354
+            },
+            "count": 1
         }
     ]
 }

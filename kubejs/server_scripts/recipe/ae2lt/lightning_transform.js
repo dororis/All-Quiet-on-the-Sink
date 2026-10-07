@@ -130,4 +130,31 @@ ServerEvents.recipes(event => {
         "id": "ae2lt:lightning_simulation_room",
         }
     })
+    event.custom(
+    {
+        "type": "ae2lt:lightning_transform",
+        "priority": 0,
+        "inputs": [
+        {
+      "ingredient": {
+        "item": "ae2lt:railgun_module_ehv_beam"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "item": "productivebees:amber"
+      },
+      "count": 1
+    }
+        ],
+        "result": {
+        "count": 1,
+        "id": "productivebees:amber",
+        "components": {
+            // 1.21.1 数据组件格式；字符串按 SNBT 解析，可保留 1s/1b 类型
+            "entity_data":'{id:"minecraft:lightning_bolt",name:"闪电"}'
+        }
+    }
+})
 })

@@ -5,15 +5,11 @@ ServerEvents.recipes(event => {
         'minecraft:amethyst_shard'       
     ),
     event.recipes.mekanismCrushing(
-        '4x minecraft:clay_ball',
-        'apotheosis:arcane_sands'
-    )
-    event.recipes.mekanismCrushing(
         'mekanism:block_bio_fuel',
         'minecraft:melon'
     )
     event.recipes.mekanismCrushing(
-        '4x minecraft:string',
+        '4x mysticalagriculture:nature_essence',
         'apotheosis:timeworn_fabric'
     )
     event.recipes.mekanismCrushing(
@@ -23,5 +19,25 @@ ServerEvents.recipes(event => {
     event.recipes.mekanismCrushing(
         'minecraft:redstone',
         'ae2cs:redstone_crystal_dust'
+    )
+    event.recipes.mekanismCrushing(
+        'allthecompressed:gravel_3x',
+        'allthecompressed:cobblestone_3x'
+    )
+    event.recipes.mekanismCrushing(
+        'allthecompressed:sand_3x',
+        'allthecompressed:gravel_3x'
+    )
+    event.recipes.mekanismCrushing(
+        'anvilcraft:gunpowder_block',
+        'allthecompressed:flint_block'
+    )
+    event.recipes.mekanismCrushing(
+        '3x mysticalagriculture:sculk_essence',
+        'minecraft:echo_shard'
+    )
+    event.recipes.mekanismCrushing(
+        '3x irons_spellbooks:ancient_knowledge_fragment',
+        'allthecompressed:bone_block_3x'
     )
 })

@@ -4,6 +4,7 @@ ServerEvents.recipes(event => {
         [                                               
             'apotheosis:arcane_sands',
             'minecraft:redstone',
+            'mekanism:dust_obsidian'
         ]
     )
 })

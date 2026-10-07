@@ -11,16 +11,12 @@ ServerEvents.recipes(event => {
         'ae2:fluix_dust',           
         'apotheosis:arcane_sands'       
     )
-})
-ServerEvents.recipes(event => {    
-    event.recipes.mekanism.combining(
-        'ae2cs:purified_meteor_crystal', 
-        'apotheosis:luminous_crystal_shard', 
-        'rftoolsbase:dimensionalshard'
+    event.recipes.mekanismEnriching(
+        'allthecompressed:flint_block_3x',           
+        'allthecompressed:gravel_3x'       
     )
-    event.recipes.mekanism.combining(
-        'ae2cs:purified_ender_quartz', 
-        'rftoolsbase:dimensionalshard', 
-        'apotheosis:luminous_crystal_shard'
+    event.recipes.mekanismEnriching(
+        '3x mysticalagriculture:dye_essence',           
+        'apotheosis:timeworn_fabric'       
     )
 })

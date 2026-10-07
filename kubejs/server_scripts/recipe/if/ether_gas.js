@@ -9,14 +9,7 @@ ServerEvents.recipes(event => {
   ],
   "type": "industrialforegoing:laser_drill_fluid",
   "catalyst": {
-    "item": "industrialforegoing:yellow_laser_lens"
-  },
-  "entity_data": {
-    "data": {},
-    "display": "",
-    "entity": {
-      "type": "irons_spellbooks:priest"
-    }
+    "item": "minecraft:nether_star"
   },
   "output": {
     "amount": 10,
@@ -32,9 +25,9 @@ ServerEvents.recipes(event => {
       "depth_min": -64,
       "dimension_filter": {
         "blacklist": [],
-        "whitelist": []
+        "whitelist": ["minecraft:nether"]
       },
-      "weight": 8
+      "weight": 16
     }
   ]
 }

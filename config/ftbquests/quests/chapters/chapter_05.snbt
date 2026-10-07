@@ -1,0 +1,439 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_05"
+	group: "4D3AA524F989001F"
+	icon: {
+		id: "minecraft:oak_log"
+	}
+	id: "10C34FEE6C514138"
+	images: [
+		{
+			click_action: "none:"
+			height: 3.0d
+			id: "6CE7DF4B7AD76EA0"
+			image: "ae2lt:block/pigmee_molecular_assembler_lights"
+			rotation: 0.0d
+			width: 3.0d
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			click_action: "show_recipe:pylons:potion_filter"
+			height: 1.5d
+			id: "6A45EBB965B00C54"
+			image: "anvilcraft:block/processing_table_top"
+			rotation: 0.0d
+			width: 1.5d
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			id: "18BF034B053A6F95"
+			image: "ftblibrary:icons/dropdown_out"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			click_action: "none:"
+			height: 2.5d
+			id: "489DCE93786448DF"
+			image: "allthemodium:block/fluid/atm_molten_still"
+			rotation: 0.0d
+			width: 2.5d
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "4C0CAC58CDC6F887"
+			image: "minecraft:block/lava_still"
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.0d
+			y: 1.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:oak_log"
+			}
+			id: "22A9E75FE2309FE2"
+			rewards: [
+				{
+					id: "3E45F720F108A6A3"
+					item: {
+						components: {
+							"sophisticatedcore:number_of_inventory_slots": 108
+							"sophisticatedcore:number_of_upgrade_slots": 5
+						}
+						count: 1
+						id: "sophisticatedbackpacks:diamond_backpack"
+					}
+					type: "item"
+				}
+				{
+					id: "05DC7AFBF545D5E9"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:crafting_upgrade"
+					}
+					type: "item"
+				}
+				{
+					id: "49B6057A8C278DA4"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:smelting_upgrade"
+					}
+					type: "item"
+				}
+				{
+					id: "239321707232230C"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:stonecutter_upgrade"
+					}
+					type: "item"
+				}
+				{
+					id: "41EE09F99CFEB8E0"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:smithing_upgrade"
+					}
+					type: "item"
+				}
+				{
+					id: "4826F9FBF568C895"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:anvil_upgrade"
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "17112DE521C0DDEA"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:logs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["22A9E75FE2309FE2"]
+			disable_toast: true
+			icon: {
+				id: "hostilenetworks:overworld_prediction"
+			}
+			id: "706CF3B109166B93"
+			rewards: [{
+				id: "48A332CFF01891B9"
+				item: {
+					count: 1
+					id: "tiab:time_in_a_bottle"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1537E0A35DDF79D9"
+					item: { count: 1, id: "hostilenetworks:overworld_prediction" }
+					type: "item"
+				}
+				{
+					id: "11BD33B1DA3130AE"
+					item: { count: 1, id: "hostilenetworks:nether_prediction" }
+					type: "item"
+				}
+				{
+					id: "629B0903BD5A97E0"
+					item: { count: 1, id: "hostilenetworks:end_prediction" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["706CF3B109166B93"]
+			dependency_requirement: "one_completed"
+			id: "07282622A35A8AE3"
+			size: 2.0d
+			tasks: [{
+				id: "6511111476EFF61D"
+				item: { count: 1, id: "justdirethings:gooblock_tier1" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["07282622A35A8AE3"]
+			dependency_requirement: "one_completed"
+			id: "4F7BDB595D3E3D41"
+			size: 2.0d
+			tasks: [{
+				id: "7BFA56114FD8D8A3"
+				item: { count: 1, id: "justdirethings:gooblock_tier2" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3DC8455378E09DE5"]
+			dependency_requirement: "one_completed"
+			id: "11C0501C49142E6F"
+			rewards: [{
+				id: "511ABFDB79143A79"
+				item: {
+					components: {
+						"pylons:potion": {
+							amplifier: 0
+							duration: 72000
+							effect: "minecraft:night_vision"
+						}
+					}
+					count: 1
+					id: "pylons:potion_filter"
+				}
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "44D4C74CAECD8761"
+				item: { count: 1, id: "pylons:potion_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4F7BDB595D3E3D41"]
+			dependency_requirement: "one_completed"
+			icon: {
+				id: "pylons:infusion_pylon"
+			}
+			id: "3DC8455378E09DE5"
+			rewards: [{
+				command: "/fly"
+				id: "43E87E19F72393B6"
+				type: "command"
+			}]
+			size: 2.0d
+			tasks: [
+				{
+					id: "66CD9631453772FB"
+					item: { count: 1, id: "pylons:infusion_pylon" }
+					type: "item"
+				}
+				{
+					id: "1B36492E21F54E80"
+					item: { count: 1, id: "minecraft:phantom_membrane" }
+					type: "item"
+				}
+				{
+					id: "47BFD5963C1F907B"
+					item: { count: 1, id: "minecraft:fermented_spider_eye" }
+					type: "item"
+				}
+				{
+					id: "169F50928DCABAFC"
+					item: { count: 1, id: "minecraft:popped_chorus_fruit" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["12E4E365A4795B24"]
+			dependency_requirement: "all_started"
+			icon: {
+				id: "allthemodium:raw_allthemodium"
+			}
+			id: "4C9E05551A1E5F44"
+			size: 2.0d
+			tasks: [{
+				id: "26A3E9DE4A34C70F"
+				item: { count: 1, id: "allthemodium:raw_allthemodium" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4C9E05551A1E5F44"]
+			dependency_requirement: "one_completed"
+			id: "1BB9B4566CB56E5C"
+			rewards: [
+				{
+					id: "5E2130DCCE47F556"
+					item: {
+						count: 1
+						id: "anvilcraft:large_crate"
+					}
+					type: "item"
+				}
+				{
+					id: "407C1F7A24A418BF"
+					item: {
+						count: 1
+						id: "anvilcraft:local_terminal"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "669757F573F82022"
+				item: { count: 1, id: "allthemodium:teleport_pad" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["07282622A35A8AE3"]
+			dependency_requirement: "one_completed"
+			id: "2CAE856720146172"
+			optional: true
+			size: 1.0d
+			tasks: [{
+				id: "4BAAEEF97382ABD6"
+				item: { count: 1, id: "explorerscompass:explorerscompass" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4C9E05551A1E5F44"]
+			id: "0BF609512C89452B"
+			tasks: [{
+				id: "071D1EC18AEADD78"
+				item: { count: 1, id: "kubejs:atm_ore_hammer" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3DC8455378E09DE5"]
+			dependency_requirement: "one_completed"
+			id: "41FA582AF271E3E7"
+			optional: true
+			rewards: [{
+				id: "0EEA42959708C361"
+				item: {
+					components: {
+						"minecraft:stored_enchantments": {
+							levels: {
+								"apothic_enchanting:stable_footing": 1
+							}
+						}
+					}
+					count: 1
+					id: "minecraft:enchanted_book"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "3E8B6EB748DBB831"
+				item: { count: 1, id: "justdirethings:blazejet_wand" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			id: "18EEA49C0481635A"
+			tasks: [
+				{
+					id: "23CBB01A2922E06E"
+					item: { count: 1, id: "minecraft:netherite_pickaxe" }
+					match_components: "fuzzy"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6B1044C281E86DC5"
+					item: { count: 1, id: "mekanismtools:refined_obsidian_pickaxe" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			id: "3DE294D267FCD97E"
+			tasks: [{
+				id: "45B6B5BF165EDECF"
+				item: { count: 1, id: "allthemodium:allthemodium_upgrade_smithing_template" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			id: "29C3B334CDF1B812"
+			rewards: [{
+				id: "05F3BDC5B0FC24A2"
+				item: {
+					components: {
+						"mekanism:fluids": {
+							fluid_tanks: [{
+								amount: 256000
+								id: "minecraft:lava"
+							}]
+						}
+						"mekanism:owner": [I;
+							1455079702
+							407980707
+							-1284390491
+							-860683578
+						]
+					}
+					count: 1
+					id: "mekanism:ultimate_fluid_tank"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "47208A6E9BD0FCBC"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4F7BDB595D3E3D41"]
+			icon: {
+				id: "allthemodium:allthemodium_slate_ore"
+			}
+			id: "12E4E365A4795B24"
+			tasks: [{
+				id: "615BCFEFC8CEC21C"
+				observation_type: "block"
+				observe_type: 0
+				timer: 0L
+				to_observe: "allthemodium:allthemodium_slate_ore"
+				type: "observation"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+	]
+}

@@ -27,8 +27,18 @@
 			x: 18.5d
 			y: -1.0d
 		}
+		{
+			click_action: "none:"
+			height: 3.0d
+			id: "533225ACD1BD4CCC"
+			image: "ad_astra:textures/environment/mars.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 17.0d
+			y: -1.0d
+		}
 	]
-	order_index: 4
+	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{

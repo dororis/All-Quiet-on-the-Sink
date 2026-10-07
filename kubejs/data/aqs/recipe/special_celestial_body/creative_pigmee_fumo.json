@@ -13,12 +13,24 @@
   "rotation_speed": 3,
   "axial_tilt": 0,
   "seed_items": [
-    "ae2lt:rainbow_pigmee_fumo"
+    "ae2lt:creative_pigmee_fumo"
   ],
   "resources": {
     "minerals": [
       {
-        "id": "ae2lt:creative_pigmee_fumo",
+        "id": "ae2:creative_storage_cell",
+        "weight": 100
+      },
+      {
+        "id": "ae2:creative_energy_cell",
+        "weight": 100
+      },
+      {
+        "id": "anvilcraft:creative_generator",
+        "weight": 100
+      },
+      {
+        "id": "appgen:creative_flux_cell",
         "weight": 100
       }
     ],

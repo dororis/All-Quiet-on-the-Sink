@@ -1,0 +1,7 @@
+{
+  "type": "anvilcraft:mass_inject",
+  "ingredient": {
+    "item": "ae2omnicells:singularity_block"
+  },
+  "mass": 36000
+}

@@ -9,19 +9,19 @@ ServerEvents.recipes(event => {
   },
   "inputItems": [
     {
-      "count": 64,
+      "count": 4,
       "item": "ae2omnicells:omni_cell_component_256m"
     },
     {
-      "count": 64,
+      "count": 4,
       "item": "ae2omnicells:complex_omni_cell_component_256m"
     },
     {
-      "count": 64,
+      "count": 4,
       "item": "ae2omnicells:quantum_omni_cell_component_256m"
     },
     {
-      "count": 64,
+      "count": 4,
       "item": "appgen:generating_component_256m"
     },
     {
@@ -29,19 +29,19 @@ ServerEvents.recipes(event => {
       "item": "ae2lt:pigmee_storage_component"
     },
     {
-      "count": 64,
+      "count": 4,
       "item": "appflux:core_256m"
     },
     {
-      "count": 64,
+      "count": 4,
       "item": "neoecoae:eco_cell_component_256m"
     },
     {
-      "count": 64,
+      "count": 4,
       "item": "ae2lt:bulk_lightning_cell_component"
     },
     {
-      "count": 64,
+      "count": 4,
       "item": "megacells:cell_component_256m"
     }
   ],

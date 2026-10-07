@@ -15,7 +15,7 @@ ServerEvents.recipes(event => {
         count: 1
       }
     ]
-  })
+  }).id('kubejs:potion_filter')
   event.custom({
     type: "anvilcraft:stamping",
     ingredients: [

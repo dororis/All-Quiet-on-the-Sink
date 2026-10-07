@@ -28,7 +28,7 @@
 				item: { count: 1, id: "pipez:item_pipe" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.5d
 			y: -4.5d
 		}
 		{
@@ -48,7 +48,7 @@
 				item: { count: 1, id: "pipez:fluid_pipe" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 3.5d
 			y: -4.5d
 		}
 		{
@@ -68,7 +68,7 @@
 				item: { count: 1, id: "pipez:energy_pipe" }
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.5d
 			y: -4.5d
 		}
 		{
@@ -88,7 +88,7 @@
 				item: { count: 1, id: "pipez:universal_pipe" }
 				type: "item"
 			}]
-			x: 6.0d
+			x: 5.5d
 			y: -4.5d
 		}
 		{
@@ -107,7 +107,7 @@
 				item: { count: 1, id: "mekanism:basic_mechanical_pipe" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 2.5d
 			y: -3.0d
 		}
 		{
@@ -117,7 +117,7 @@
 				item: { count: 1, id: "mekanism:advanced_mechanical_pipe" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 3.5d
 			y: -3.0d
 		}
 		{
@@ -127,7 +127,7 @@
 				item: { count: 1, id: "mekanism:elite_mechanical_pipe" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 4.5d
 			y: -3.0d
 		}
 		{
@@ -138,7 +138,7 @@
 				item: { count: 1, id: "mekanism:ultimate_mechanical_pipe" }
 				type: "item"
 			}]
-			x: 5.0d
+			x: 5.5d
 			y: -3.0d
 		}
 		{
@@ -159,7 +159,7 @@
 				item: { count: 1, id: "mekanism:basic_universal_cable" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.5d
 			y: -1.5d
 		}
 		{
@@ -169,7 +169,7 @@
 				item: { count: 1, id: "mekanism:advanced_universal_cable" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 3.5d
 			y: -1.5d
 		}
 		{
@@ -179,7 +179,7 @@
 				item: { count: 1, id: "mekanism:elite_universal_cable" }
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.5d
 			y: -1.5d
 		}
 		{
@@ -198,7 +198,7 @@
 				item: { count: 1, id: "mekanism:ultimate_universal_cable" }
 				type: "item"
 			}]
-			x: 6.0d
+			x: 5.5d
 			y: -1.5d
 		}
 		{
@@ -208,7 +208,7 @@
 				item: { count: 1, id: "mekanism:basic_pressurized_tube" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 2.5d
 			y: 0.0d
 		}
 		{
@@ -218,7 +218,7 @@
 				item: { count: 1, id: "mekanism:advanced_pressurized_tube" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 3.5d
 			y: 0.0d
 		}
 		{
@@ -228,7 +228,7 @@
 				item: { count: 1, id: "mekanism:elite_pressurized_tube" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 4.5d
 			y: 0.0d
 		}
 		{
@@ -238,7 +238,7 @@
 				item: { count: 1, id: "mekanism:ultimate_pressurized_tube" }
 				type: "item"
 			}]
-			x: 5.0d
+			x: 5.5d
 			y: 0.0d
 		}
 		{
@@ -282,7 +282,7 @@
 				id: "067E02CA8AC27A1B"
 				type: "checkmark"
 			}]
-			x: 1.0d
+			x: 1.5d
 			y: 0.0d
 		}
 		{
@@ -291,7 +291,7 @@
 				id: "52A22EED94F85075"
 				type: "checkmark"
 			}]
-			x: 2.0d
+			x: 1.5d
 			y: -4.5d
 		}
 		{
@@ -529,7 +529,7 @@
 				id: "4D9F9A115CCABEB6"
 				type: "checkmark"
 			}]
-			x: 1.0d
+			x: 1.5d
 			y: -3.0d
 		}
 		{
@@ -538,7 +538,7 @@
 				id: "1A0D74DAFAFCD38F"
 				type: "checkmark"
 			}]
-			x: 2.0d
+			x: 1.5d
 			y: -1.5d
 		}
 		{

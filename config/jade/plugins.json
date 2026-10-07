@@ -168,6 +168,10 @@
   "oritech": {
     "machine_core_controller": true
   },
+  "applied_oritech": {
+    "grid_node_state": true,
+    "pattern_provider": true
+  },
   "apotheosis": {
     "adventure": true
   },

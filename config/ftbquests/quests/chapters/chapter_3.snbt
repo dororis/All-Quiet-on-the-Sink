@@ -49,7 +49,7 @@
 			y: 0.0d
 		}
 	]
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -135,6 +135,7 @@
 		}
 		{
 			dependencies: ["0AC75CF3CA724096"]
+			disable_toast: true
 			id: "47A4FE76628F3F2D"
 			tasks: [{
 				id: "5C1DA86B9507F187"
@@ -146,6 +147,7 @@
 		}
 		{
 			dependencies: ["0AC75CF3CA724096"]
+			disable_toast: true
 			id: "57CAD5805D1523C9"
 			tasks: [{
 				id: "5BB6BEA0DA858CB4"
@@ -257,6 +259,7 @@
 			dependencies: ["27B69BF2EB42573E"]
 			id: "623D6254772F6798"
 			rewards: [{
+				count: 2
 				id: "2F02EAED9440C219"
 				item: {
 					count: 1
@@ -272,19 +275,6 @@
 			}]
 			x: 3.0d
 			y: 0.0d
-		}
-		{
-			dependencies: ["201CA10E4B507A0B"]
-			id: "73B650122642A00E"
-			optional: true
-			size: 1.0d
-			tasks: [{
-				id: "67A6DA6CDCECE88C"
-				item: { count: 1, id: "mbd2:advanced_seed_aggregator" }
-				type: "item"
-			}]
-			x: -5.0d
-			y: 1.0d
 		}
 		{
 			dependencies: ["2D054B453126BAD3"]
@@ -333,6 +323,7 @@
 		{
 			dependencies: ["0FC81CAE3149CD80"]
 			id: "5173A9725FBC8539"
+			optional: true
 			size: 0.7d
 			tasks: [{
 				id: "4433C805AFC91C64"
@@ -345,6 +336,7 @@
 		{
 			dependencies: ["0FC81CAE3149CD80"]
 			id: "44E1B15C1965DE11"
+			optional: true
 			size: 0.7d
 			tasks: [{
 				id: "2FC6EEC6928F328B"
@@ -356,15 +348,6 @@
 		}
 		{
 			id: "334BA2C1064E098C"
-			rewards: [{
-				count: 64
-				id: "0624BFD3B6E3FA5C"
-				item: {
-					count: 1
-					id: "powah:charged_snowball"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "214DE215B21E887D"
 				item: { count: 1, id: "ae2lt:overload_alloy_blank" }

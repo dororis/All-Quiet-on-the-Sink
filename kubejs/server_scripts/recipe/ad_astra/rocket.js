@@ -58,19 +58,73 @@ ServerEvents.recipes(event => {
       "item": "ad_astra:rocket_nose_cone"
     },
     {
-      "tag": "anvilcraft:ember_metal_block"
+      "item": "oritech:prometheum_ingot"
     },
     {
-      "tag": "anvilcraft:ember_metal_block"
+      "item": "oritech:prometheum_ingot"
     },
     {
-      "tag": "anvilcraft:ember_metal_block"
+      "item": "oritech:prometheum_ingot"
     },
     {
-      "tag": "anvilcraft:ember_metal_block"
+      "item": "oritech:prometheum_ingot"
     },
     {
-      "tag": "anvilcraft:ember_metal_block"
+      "item": "oritech:prometheum_ingot"
+    },
+    {
+      "item": "oritech:prometheum_ingot"
+    },
+    {
+      "item": "ad_astra:rocket_fin"
+    },
+    {
+      "item": "ad_astra:steel_tank"
+    },
+    {
+      "item": "ad_astra:steel_tank"
+    },
+    {
+      "item": "ad_astra:rocket_fin"
+    },
+    {
+      "item": "ad_astra:rocket_fin"
+    },
+    {
+      "item": "ad_astra:steel_engine"
+    },
+    {
+      "item": "ad_astra:rocket_fin"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "ad_astra:tier_4_rocket"
+  }
+}
+)})
+ServerEvents.recipes(event => {
+    event.custom(
+        {
+  "type": "ad_astra:nasa_workbench",
+  "ingredients": [
+    {
+      "item": "ad_astra:rocket_nose_cone"
+    },
+    {
+      "item": "anvilcraft:ember_metal_block"
+    },
+    {
+      "item": "anvilcraft:ember_metal_block"
+    },
+    {
+      "item": "anvilcraft:ember_metal_block"
+    },
+    {
+      "item": "anvilcraft:ember_metal_block"
+    },
+    {
+      "item": "anvilcraft:ember_metal_block"
     },
     {
       "item": "anvilcraft:ember_metal_block"
@@ -100,6 +154,60 @@ ServerEvents.recipes(event => {
   "result": {
     "count": 1,
     "id": "ad_astra:tier_4_rocket"
+  }
+}
+)})
+ServerEvents.recipes(event => {
+    event.custom(
+        {
+  "type": "ad_astra:nasa_workbench",
+  "ingredients": [
+    {
+      "item": "ad_astra:rocket_nose_cone"
+    },
+    {
+      "item": "anvilcraft:frost_metal_block"
+    },
+    {
+      "item": "anvilcraft:frost_metal_block"
+    },
+    {
+      "item": "anvilcraft:frost_metal_block"
+    },
+    {
+      "item": "anvilcraft:frost_metal_block"
+    },
+    {
+      "item": "anvilcraft:frost_metal_block"
+    },
+    {
+      "item": "anvilcraft:frost_metal_block"
+    },
+    {
+      "item": "ad_astra:rocket_fin"
+    },
+    {
+      "item": "ad_astra:desh_tank"
+    },
+    {
+      "item": "ad_astra:desh_tank"
+    },
+    {
+      "item": "ad_astra:rocket_fin"
+    },
+    {
+      "item": "ad_astra:rocket_fin"
+    },
+    {
+      "item": "ad_astra:desh_engine"
+    },
+    {
+      "item": "ad_astra:rocket_fin"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "ad_astra:tier_3_rocket"
   }
 }
 )})
