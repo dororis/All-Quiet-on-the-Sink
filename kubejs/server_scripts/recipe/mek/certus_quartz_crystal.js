@@ -19,4 +19,8 @@ ServerEvents.recipes(event => {
         '3x mysticalagriculture:dye_essence',           
         'apotheosis:timeworn_fabric'       
     )
+    event.recipes.mekanismEnriching(
+        '8x extendedae:silicon_block',           
+        'allthecompressed:certus_quartz_block_1x'   
+    )
 })

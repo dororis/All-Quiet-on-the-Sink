@@ -6,22 +6,22 @@ ServerEvents.recipes(event => {
             "inputs": [
             {
             "ingredient": {
-            "item": "ae2lt:basic_topological_lattice"
+            "item": "justdirethings:time_crystal"
             },
-            "count": 64
+            "count": 4
             }],
             "inputFluid": {
-            "id": "minecraft:lava",
-            "amount": 1000000
+            "id": "irons_spellbooks:timeless_slurry",
+            "amount": 1000
             },
             "results": [
             {
-            "id": "kubejs:lava_cell",
-            "count": 1
+            "id": "irons_spellbooks:divine_soulshard",
+            "count": 4
             }
             ],
-            "totalEnergy": 10000000,
-            "lightningCost": 1,
+            "totalEnergy": 400000,
+            "lightningCost": 4,
             "lightningTier": "high_voltage"
     })
 })

@@ -282,21 +282,37 @@ ServerEvents.recipes(event => {
         "n": 1.0,
         "p": 0.5
       },
-      "id": "anvilcraft:end_dust"
+      "id": "mysticalagriculture:end_essence"
     },
     {
       "count": {
         "type": "minecraft:binomial",
         "n": 1.0,
-        "p": 0.005
+        "p": 0.5
       },
-      "id": "minecraft:chorus_flower"
+      "id": "minecraft:ender_pearl"
     },
     {
       "count": {
         "type": "minecraft:binomial",
         "n": 1.0,
-        "p": 0.1
+        "p": 0.4
+      },
+      "id": "alltheores:sapphire_dust"
+    },
+    {
+      "count": {
+        "type": "minecraft:binomial",
+        "n": 1.0,
+        "p": 0.3
+      },
+      "id": "minecraft:shulker_shell"
+    },
+    {
+      "count": {
+        "type": "minecraft:binomial",
+        "n": 1.0,
+        "p": 0.2
       },
       "id": "anvilcraft:titanium_nugget"
     },

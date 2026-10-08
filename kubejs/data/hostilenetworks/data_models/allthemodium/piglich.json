@@ -16,8 +16,8 @@
         "item": "hostilenetworks:prediction_matrix"
     },
     "base_drop": {
-        "id": "hostilenetworks:end_prediction",
-        "count": 1
+        "id": "hostilenetworks:overworld_prediction",
+        "count": 8
     },
     "trivia": "坏群友",
     "fabricator_drops": [

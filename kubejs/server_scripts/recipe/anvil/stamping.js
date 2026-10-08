@@ -36,4 +36,38 @@ ServerEvents.recipes(event => {
       }
     ]
   })
+  event.custom({
+    type: "anvilcraft:stamping",
+    ingredients: [
+      {
+        items: "anvilcraft:royal_steel_upgrade_smithing_template"
+      },
+      {
+        items:"allthemodium:allthemodium_ingot"
+      }
+    ],
+    results: [
+      {
+        id: "allthemodium:allthemodium_upgrade_smithing_template",
+        count: 1
+      }
+    ]
+  })
+  event.custom({
+    type: "anvilcraft:stamping",
+    ingredients: [
+      {
+        items: "anvilcraft:royal_steel_upgrade_smithing_template"
+      },
+      {
+        items:"allthemodium:unobtainium_ingot"
+      }
+    ],
+    results: [
+      {
+        id: "allthemodium:unobtainium_upgrade_smithing_template",
+        count: 1
+      }
+    ]
+  })
 })

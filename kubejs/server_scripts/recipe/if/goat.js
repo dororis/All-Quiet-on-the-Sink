@@ -43,5 +43,5 @@ ServerEvents.recipes(event => {
     }
   ]
 }
-
-)})
+).id('kubejs:goat')
+})

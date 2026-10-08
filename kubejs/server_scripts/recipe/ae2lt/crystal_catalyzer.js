@@ -6,12 +6,6 @@ ServerEvents.recipes(event => {
   "inputs": [
     {
       "ingredient": {
-        "item": "mbd2:advanced_seed_aggregator"
-      },
-      "count": 16
-    },
-    {
-      "ingredient": {
         "item": "jdte:crystal_incubator"
       },
       "count": 16

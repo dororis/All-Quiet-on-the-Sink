@@ -29,6 +29,22 @@ ServerEvents.recipes(event => {
         'allthecompressed:gravel_3x'
     )
     event.recipes.mekanismCrushing(
+        'allthecompressed:gravel_2x',
+        'allthecompressed:cobblestone_2x'
+    )
+    event.recipes.mekanismCrushing(
+        'allthecompressed:sand_2x',
+        'allthecompressed:gravel_2x'
+    )
+    event.recipes.mekanismCrushing(
+        'allthecompressed:gravel_1x',
+        'allthecompressed:cobblestone_1x'
+    )
+    event.recipes.mekanismCrushing(
+        'allthecompressed:sand_1x',
+        'allthecompressed:gravel_1x'
+    )
+    event.recipes.mekanismCrushing(
         'anvilcraft:gunpowder_block',
         'allthecompressed:flint_block'
     )
@@ -39,5 +55,9 @@ ServerEvents.recipes(event => {
     event.recipes.mekanismCrushing(
         '3x irons_spellbooks:ancient_knowledge_fragment',
         'allthecompressed:bone_block_3x'
+    )
+    event.recipes.mekanismCrushing(
+        'extendedae:silicon_block',
+        'allthecompressed:sand_1x'
     )
 })

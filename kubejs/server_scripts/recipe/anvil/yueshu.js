@@ -7,7 +7,7 @@ ServerEvents.recipes(event => {
   },
   "consume": true,
   "hitBlock": {
-    "blocks": "jdte:extended_time_freezer"
+    "blocks": "ae2lt:tianshu_multidimensional_main_core"
   },
   "output_items": [],
   "speed": 32,
@@ -33,7 +33,7 @@ ServerEvents.recipes(event => {
   },
   "consume": true,
   "hitBlock": {
-    "blocks": "jdte:extended_time_freezer"
+    "blocks": "ae2lt:tianshu_multidimensional_main_core"
   },
   "output_items": [],
   "speed": 128,
@@ -59,7 +59,7 @@ ServerEvents.recipes(event => {
   },
   "consume": true,
   "hitBlock": {
-    "blocks": "extendedae_plus:c-h716"
+    "blocks": "extendedae:fishbig"
   },
   "output_items": [],
   "speed": 32,
@@ -85,7 +85,7 @@ ServerEvents.recipes(event => {
   },
   "consume": true,
   "hitBlock": {
-    "blocks": "extendedae_plus:c-h716"
+    "blocks": "extendedae:fishbig"
   },
   "output_items": [],
   "speed": 128,

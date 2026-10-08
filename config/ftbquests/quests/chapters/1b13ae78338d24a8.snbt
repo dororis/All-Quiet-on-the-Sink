@@ -320,8 +320,8 @@
 			]
 			size: 2.0d
 			tasks: [{
-				id: "73FF37F9F073DCB8"
-				item: { count: 1, id: "ae2:mysterious_cube" }
+				id: "4EC1D7C073F7F444"
+				item: { count: 1, id: "ae2:guide" }
 				type: "item"
 			}]
 			x: -7.0d
@@ -588,8 +588,8 @@
 			id: "3F9BA84D24EC40AD"
 			optional: true
 			tasks: [{
-				id: "14DE14DBE5F368B1"
-				item: { count: 1, id: "ae2:not_so_mysterious_cube" }
+				id: "63A34EBF4E068150"
+				item: { count: 1, id: "ae2:mysterious_cube" }
 				type: "item"
 			}]
 			x: -6.0d
@@ -647,6 +647,7 @@
 			dependencies: [
 				"4A522D00F13D456B"
 				"6FC2E6884BDD2775"
+				"3A7A90B4A861209D"
 			]
 			dependency_requirement: "one_completed"
 			icon: {
@@ -1346,6 +1347,60 @@
 			}]
 			x: -4.0d
 			y: 2.0d
+		}
+		{
+			id: "42C50DFD60266805"
+			tasks: [
+				{
+					id: "78389A1392472244"
+					item: { count: 1, id: "anvilcraft:cinerite" }
+					type: "item"
+				}
+				{
+					id: "70F044A9B0614C72"
+					item: { count: 1, id: "anvilcraft:nether_dust" }
+					type: "item"
+				}
+				{
+					id: "0E53E21216CAD0C5"
+					item: { count: 1, id: "anvilcraft:end_dust" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			id: "3A7A90B4A861209D"
+			rewards: [
+				{
+					count: 2
+					id: "597CBB3484D170FB"
+					item: {
+						components: {
+							"sophisticatedstorage:wood_type": "oak"
+						}
+						count: 1
+						id: "sophisticatedstorage:diamond_chest"
+					}
+					type: "item"
+				}
+				{
+					id: "0A9A8004F93A1B55"
+					item: {
+						count: 1
+						id: "sophisticatedstorage:crafting_upgrade"
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "3B8F171C03B352CE"
+				type: "checkmark"
+			}]
+			x: -13.0d
+			y: -4.0d
 		}
 	]
 }

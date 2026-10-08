@@ -10,7 +10,7 @@
 	id: "6F8FFD92118ED1DB"
 	images: [
 		{
-			click_action: "open_uri:123"
+			click_action: "none:123"
 			height: 4.0d
 			id: "20391865903B20C8"
 			image: "ae2lt:textures/gui/buttons/lightning_high_voltage.png"
@@ -61,7 +61,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -4.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["08BBEECEB0E72C7D"]
@@ -72,7 +72,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -4.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["5B816F739C3AB7B3"]
@@ -83,7 +83,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -4.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["01DB31671A972596"]
@@ -93,7 +93,7 @@
 				type: "checkmark"
 			}]
 			x: 5.0d
-			y: -4.0d
+			y: -3.5d
 		}
 		{
 			id: "4F8C00E9148B2CE5"
@@ -115,7 +115,7 @@
 				}
 			]
 			x: -1.0d
-			y: -6.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["4F8C00E9148B2CE5"]
@@ -138,7 +138,7 @@
 				}
 			]
 			x: 1.0d
-			y: -6.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["7D88B0E985B0B494"]
@@ -161,7 +161,7 @@
 				}
 			]
 			x: 3.0d
-			y: -6.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["319E6015D43B404E"]
@@ -172,7 +172,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: -6.0d
+			y: -5.0d
 		}
 		{
 			id: "33F63CDF2E3F8AA0"
@@ -181,7 +181,7 @@
 				type: "checkmark"
 			}]
 			x: -2.5d
-			y: -4.0d
+			y: -3.5d
 		}
 		{
 			id: "089272EF31DDA297"
@@ -190,7 +190,7 @@
 				type: "checkmark"
 			}]
 			x: -2.5d
-			y: -6.0d
+			y: -5.0d
 		}
 		{
 			id: "2C37B02C1266B771"
@@ -200,7 +200,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -8.0d
+			y: -6.5d
 		}
 		{
 			id: "3E12A826845EA65E"
@@ -210,7 +210,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -8.0d
+			y: -6.5d
 		}
 		{
 			id: "3FA690198FEB17DF"
@@ -220,7 +220,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: -8.0d
+			y: -6.5d
 		}
 		{
 			id: "50808DFB945584B1"
@@ -229,7 +229,7 @@
 				type: "checkmark"
 			}]
 			x: -2.5d
-			y: -8.0d
+			y: -6.5d
 		}
 		{
 			id: "0960A821D9BEAD54"
@@ -278,7 +278,7 @@
 				type: "checkmark"
 			}]
 			x: -2.5d
-			y: 0.0d
+			y: -0.5d
 		}
 		{
 			id: "0A5EDF9BFC3DF0F2"
@@ -307,7 +307,7 @@
 				}
 			]
 			x: -1.0d
-			y: 0.0d
+			y: -0.5d
 		}
 		{
 			icon: {
@@ -327,7 +327,7 @@
 				}
 			]
 			x: 1.0d
-			y: 0.0d
+			y: -0.5d
 		}
 		{
 			icon: {
@@ -347,7 +347,7 @@
 				}
 			]
 			x: 3.0d
-			y: 0.0d
+			y: -0.5d
 		}
 		{
 			icon: {
@@ -367,7 +367,7 @@
 				}
 			]
 			x: 5.0d
-			y: 0.0d
+			y: -0.5d
 		}
 		{
 			id: "1280C7F87410A34B"
@@ -377,7 +377,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -8.0d
+			y: -6.5d
 		}
 		{
 			disable_toast: true
@@ -519,6 +519,14 @@
 		}
 		{
 			id: "53726FF9738EFFF2"
+			rewards: [{
+				id: "7D0A94CA5C0E8B47"
+				item: {
+					count: 1
+					id: "anvilcraft:pulse_generator"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "70BB5D987315AA99"
 				item: { count: 1, id: "ae2cs:quartz_oscillator_clock" }
@@ -557,14 +565,25 @@
 				"19587D0FC9EE4CA7"
 			]
 			id: "69F29ECE0ECADD70"
-			rewards: [{
-				id: "729DD9617B23A85A"
-				item: {
-					count: 1
-					id: "kubejs:infinities_factory_cell"
+			rewards: [
+				{
+					id: "729DD9617B23A85A"
+					item: {
+						count: 1
+						id: "kubejs:infinities_factory_cell"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "2AACECF93D38717F"
+					item: {
+						count: 1
+						id: "minecraft:bee_spawn_egg"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "332EA994B1763B68"
 				item: { count: 1, id: "molecularmanipulator:transfinite_compute_nexus" }
@@ -709,6 +728,7 @@
 				"4CFDC99F1162864E"
 				"4980D736FC8C1F04"
 			]
+			disable_toast: true
 			id: "29489A5660C5E6B3"
 			size: 2.0d
 			tasks: [{
@@ -728,6 +748,63 @@
 			}]
 			x: -7.0d
 			y: -6.0d
+		}
+		{
+			id: "29BDB80635F4D837"
+			rewards: [{
+				id: "640CC393AE4BCB77"
+				item: {
+					count: 1
+					id: "mekanism_card:guide_book"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "605C44062B55B06F"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -8.0d
+		}
+		{
+			id: "18B35392764E1929"
+			tasks: [{
+				id: "6604CBB9381173A8"
+				item: { count: 1, id: "mekanism_card:memory_card" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -8.0d
+		}
+		{
+			id: "7D4BF66F081860C6"
+			tasks: [{
+				id: "6B2AD1B9B13FCC91"
+				item: { count: 1, id: "mekanism_card:mass_upgrade_configurator" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -8.0d
+		}
+		{
+			id: "2C1EF503E710B0B5"
+			tasks: [{
+				id: "7532DBDCC11B37B9"
+				item: { count: 1, id: "mekanism_card:super_fusion_card" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -8.0d
+		}
+		{
+			id: "588AAE272325AABA"
+			tasks: [{
+				id: "0595E93C2FB07CEE"
+				item: { count: 1, id: "mekanism_card:ultimate_tier_installer" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -8.0d
 		}
 	]
 }

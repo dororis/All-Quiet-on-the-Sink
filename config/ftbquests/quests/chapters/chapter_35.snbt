@@ -36,17 +36,8 @@
 			image: "fancymenu:textures/layout_editor/widgets/layers/move_down.png"
 			rotation: -90.0d
 			width: 1.0d
-			x: -3.5d
+			x: -3.25d
 			y: -6.0d
-		}
-		{
-			height: 1.0d
-			id: "62121B9EB4F1424D"
-			image: "minecraft:textures/gui/sprites/dialog/warning_button.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -4.5d
-			y: -7.0d
 		}
 		{
 			height: 1.0d
@@ -94,6 +85,15 @@
 			x: 0.25d
 			y: -6.0d
 		}
+		{
+			height: 1.0d
+			id: "665260B3460CBD9B"
+			image: "minecraft:textures/gui/sprites/widget/locked_button.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: -6.0d
+		}
 	]
 	order_index: 5
 	quest_links: [ ]
@@ -132,6 +132,7 @@
 			y: 1.0d
 		}
 		{
+			disable_toast: true
 			id: "16E484887606D8D4"
 			tasks: [{
 				id: "22DAC4F398807A96"
@@ -142,6 +143,7 @@
 			y: -1.0d
 		}
 		{
+			disable_toast: true
 			id: "40F2D029C2066226"
 			tasks: [{
 				id: "66AAD6A25A70989C"
@@ -152,6 +154,7 @@
 			y: -1.0d
 		}
 		{
+			disable_toast: true
 			id: "4D6DD5684A65670F"
 			tasks: [{
 				id: "0FA3F67746A26C7A"
@@ -168,7 +171,7 @@
 				id: "44CCB472BAB3F89B"
 				type: "checkmark"
 			}]
-			x: 1.5d
+			x: -4.5d
 			y: -6.0d
 		}
 		{
@@ -178,7 +181,7 @@
 				item: { count: 1, id: "anvilcraft:space_overcompressor" }
 				type: "item"
 			}]
-			x: -4.5d
+			x: 1.5d
 			y: -6.0d
 		}
 		{

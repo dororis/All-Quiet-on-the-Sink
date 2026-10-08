@@ -16,9 +16,6 @@
     "recipe_type.mbd2.apotheosis_slayer_factory":"神化屠宰",
     "recipe_type.mbd2.configurable_factory":"神化离心",
     "block.mbd2.compact_amethyst_growth":"紧凑型紫水晶催生器",
-    "block.mbd2.seed_aggregator":"基础种子培育器",
-    "block.mbd2.advanced_seed_aggregator":"进阶种子培育器",
-    "recipe_type.mbd2.seed_cultivation":"种子培育",
     "recipe_type.mbd2.amethyst_growth":"紫水晶催生",
     "block.mbd2.smelting_furnace":"熔铸炉",
     "recipe_type.mbd2.smelting_furnace":"熔融",
@@ -30,8 +27,6 @@
     "block.mbd2.compact_thermal":"紧凑型热力蒸馏装置",
     "recipe_type.mbd2.chaos_laser":"混沌镭射",
     "block.mbd2.chaos_laser_base":"混沌镭射基座",
-    "recipe_type.mbd2.atomic_reconstructor":"原子重组",
-    "block.mbd2.atomic_reconstructor":"原子重组炉",
     "screen.anvilcraft.cfa.class.special.aqs.creative_pigmee_fumo": "猪咪星",
     "biome.aqs.pigmee":"猪咪星"
 }

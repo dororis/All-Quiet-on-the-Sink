@@ -11,7 +11,8 @@
         "item": "hostilenetworks:prediction_matrix"
     },
     "base_drop": {
-        "id": "hostilenetworks:end_prediction"
+        "id": "hostilenetworks:nether_prediction",
+        "count": 4
     },
     "trivia": "它有个温暖的心",
     "fabricator_drops": [

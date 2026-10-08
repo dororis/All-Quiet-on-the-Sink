@@ -28,51 +28,60 @@
 			y: -7.5d
 		}
 		{
+			alpha: 220
+			click_action: "none:"
 			height: 1.0d
 			id: "7253E6DEB72B5D72"
 			image: "ae2cs:item/certus_quartz_seed_0"
 			rotation: 0.0d
 			width: 1.0d
-			x: -7.0d
-			y: -8.0d
+			x: -11.0d
+			y: -9.5d
 		}
 		{
+			alpha: 220
+			click_action: "none:"
 			height: 1.0d
 			id: "7D5248CD78B91A33"
 			image: "ae2cs:item/certus_quartz_seed_1"
 			rotation: 0.0d
 			width: 1.0d
-			x: -6.0d
-			y: -8.0d
+			x: -10.0d
+			y: -9.5d
 		}
 		{
+			alpha: 220
+			click_action: "none:"
 			height: 1.0d
 			id: "382609AFDC2F2B3F"
 			image: "ae2cs:item/certus_quartz_seed_2"
 			rotation: 0.0d
 			width: 1.0d
-			x: -5.0d
-			y: -8.0d
+			x: -9.0d
+			y: -9.5d
 		}
 		{
 			click_action: "none:"
 			height: 1.5d
 			id: "05593E2210208430"
 			image: "minecraft:misc/underwater"
+			order: -2
 			rotation: 0.0d
 			width: 3.0d
-			x: -6.0d
-			y: -8.0d
+			x: -10.0d
+			y: -9.5d
 		}
 		{
+			alpha: 128
 			click_action: "none:"
-			height: 3.0d
+			height: 2.5d
 			id: "7113A5261DB03C0D"
 			image: "anvilcraft:textures/gui/jei/arrow_block_conversion.png"
+			order: -1
 			rotation: -90.0d
 			width: 1.0d
-			x: -6.0d
-			y: -9.0d
+			x: -10.25d
+			y: -9.5d
 		}
 		{
 			click_action: "none:"
@@ -91,16 +100,36 @@
 			image: "extendedae_plus:block/wireless_transceiver"
 			rotation: 0.0d
 			width: 2.0d
-			x: -6.0d
-			y: -3.0d
+			x: -10.0d
+			y: -2.0d
+		}
+		{
+			click_action: "none:"
+			height: 3.0d
+			id: "0E5A771C7FDC1D2D"
+			image: "minecraft:textures/gui/sprites/hud/effect_background_ambient.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			click_action: "none:"
+			height: 3.0d
+			id: "31E419420A1BF832"
+			image: "minecraft:textures/gui/sprites/hud/effect_background.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 2.0d
+			y: -9.75d
 		}
 	]
 	order_index: 2
 	quest_links: [{
 		id: "456FB4108301E073"
 		linked_quest: "10998DFF4866FE2F"
-		x: -6.0d
-		y: -3.0d
+		x: -10.0d
+		y: -2.0d
 	}]
 	quests: [
 		{
@@ -620,72 +649,14 @@
 		}
 		{
 			id: "0A65FFF7CD56D617"
-			rewards: [
-				{
-					id: "56029DFCC22E381F"
-					item: {
-						count: 1
-						id: "mysticalagriculture:dirt_seeds"
-					}
-					type: "item"
+			rewards: [{
+				id: "03B326DDEB168C8D"
+				item: {
+					count: 1
+					id: "kubejs:infinities_WFD_cell"
 				}
-				{
-					id: "2B100D84A5C7CC80"
-					item: {
-						count: 1
-						id: "mysticalagriculture:stone_seeds"
-					}
-					type: "item"
-				}
-				{
-					id: "064B99DF698F2431"
-					item: {
-						count: 1
-						id: "mysticalagriculture:ice_seeds"
-					}
-					type: "item"
-				}
-				{
-					id: "54F293CA13297344"
-					item: {
-						count: 1
-						id: "mysticalagriculture:water_seeds"
-					}
-					type: "item"
-				}
-				{
-					id: "46BFCD6AFDACB6C4"
-					item: {
-						count: 1
-						id: "mysticalagriculture:fire_seeds"
-					}
-					type: "item"
-				}
-				{
-					id: "15DCC5E6A4437584"
-					item: {
-						count: 1
-						id: "mysticalagriculture:silicon_seeds"
-					}
-					type: "item"
-				}
-				{
-					id: "5B790A7CC99705D3"
-					item: {
-						count: 1
-						id: "mysticalagriculture:nether_seeds"
-					}
-					type: "item"
-				}
-				{
-					id: "58753AF919B06C73"
-					item: {
-						count: 1
-						id: "mysticalagriculture:end_seeds"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			size: 1.0d
 			tasks: [{
 				id: "4160F20373FA2961"
@@ -803,15 +774,8 @@
 			y: -9.75d
 		}
 		{
+			disable_toast: true
 			id: "601E5EBFB1551B8A"
-			rewards: [{
-				id: "267A398684697543"
-				item: {
-					count: 1
-					id: "jdte:advanced_infusion_machine"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "1E513899D3D1A208"
 				item: { count: 1, id: "apotheosis:luminous_crystal_shard" }
@@ -953,11 +917,16 @@
 		{
 			dependencies: ["5DB3AD1FAA406216"]
 			icon: {
-				id: "jdte:greenhouse"
+				id: "jdte:loot_fabricator"
 			}
 			id: "1E25B1D960DB36FC"
 			optional: true
 			tasks: [
+				{
+					id: "7B9DF3AD4062DD1E"
+					item: { count: 1, id: "jdte:loot_fabricator" }
+					type: "item"
+				}
 				{
 					id: "2F82F97E18C6FFE9"
 					item: { count: 1, id: "jdte:greenhouse" }
@@ -969,28 +938,13 @@
 					type: "item"
 				}
 				{
-					id: "7B9DF3AD4062DD1E"
-					item: { count: 1, id: "jdte:loot_fabricator" }
-					type: "item"
-				}
-				{
 					id: "08E923CAC486F3D3"
 					item: { count: 1, id: "jdte:bio_factory" }
 					type: "item"
 				}
 			]
-			x: -1.0d
+			x: -0.5d
 			y: -4.0d
-		}
-		{
-			id: "10919B3D2974F0F0"
-			tasks: [{
-				id: "2AF253C2F56830BC"
-				item: { count: 1, id: "mbd2:compact_amethyst_growth" }
-				type: "item"
-			}]
-			x: -6.0d
-			y: -5.0d
 		}
 		{
 			icon: {
@@ -1087,29 +1041,6 @@
 		}
 		{
 			dependencies: ["22320BFC667531AE"]
-			id: "00A18D7DE06C32EB"
-			tasks: [
-				{
-					id: "34CF3FB95F664C68"
-					item: { count: 1, id: "mysticalagriculture:ruby_seeds" }
-					type: "item"
-				}
-				{
-					id: "491D2A09064628F4"
-					item: { count: 1, id: "mysticalagriculture:sapphire_seeds" }
-					type: "item"
-				}
-				{
-					id: "21082924306F2A11"
-					item: { count: 1, id: "mysticalagriculture:peridot_seeds" }
-					type: "item"
-				}
-			]
-			x: -10.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["22320BFC667531AE"]
 			id: "2F6FDB97B27F4D52"
 			tasks: [{
 				id: "41E5564BA20331F5"
@@ -1128,25 +1059,6 @@
 			}]
 			x: -14.0d
 			y: -3.0d
-		}
-		{
-			can_repeat: true
-			id: "09CF155168FA0ECC"
-			optional: true
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "10668D95ACE17833"
-				table_id: 6266281372593665478L
-				type: "all_table"
-			}]
-			tasks: [{
-				consume_items: true
-				id: "29867EAA354CA446"
-				item: { count: 1, id: "ae2lt:pigmee_fumo" }
-				type: "item"
-			}]
-			x: 0.5d
-			y: -2.0d
 		}
 		{
 			id: "4232C3FE5DCF5473"
@@ -1197,17 +1109,6 @@
 			]
 			x: -13.0d
 			y: -7.0d
-		}
-		{
-			dependencies: ["5DB3AD1FAA406216"]
-			id: "7854A7B6A3AD5EFC"
-			tasks: [{
-				id: "598D7F9FEE74E82D"
-				item: { count: 1, id: "jdte:loot_fabricator" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: -4.0d
 		}
 	]
 }

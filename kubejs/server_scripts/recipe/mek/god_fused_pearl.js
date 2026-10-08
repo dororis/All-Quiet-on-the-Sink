@@ -16,4 +16,20 @@ ServerEvents.recipes(event => {
         'mekanismsun:helium',                 
         false                                          
     )
+    event.recipes.mekanism.metallurgic_infusing(
+        '4x minecraft:echo_shard',                 
+        '4x apotheosis:luminous_crystal_shard',         
+        'kubejs:unrefined_t4_fluid_source',   
+        false                                                        
+    )
+    event.recipes.mekanism.metallurgic_infusing(                 
+        'industrialforegoing:pink_slime',
+        'minecraft:slime_ball',         
+        '90x mekanism:pink'                                                         
+    )
+    event.recipes.mekanism.metallurgic_infusing(                 
+        'industrialforegoing:pink_slime_block',
+        'minecraft:slime_block',         
+        '900x mekanism:pink'                                                         
+    )
 })

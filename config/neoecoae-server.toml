@@ -10,6 +10,13 @@ postCraftingEvent = false
 # Default: 1
 # Range: 1 ~ 8
 craftingPatternBusPages = 1
+#允许大型集成工作站处理受支持模组的联动配方，默认关闭。
+#关闭时仅处理本模组的集成工作站配方。
+#修改后重新进入世界或重启服务器，以刷新配方浏览器。
+#Allow the large integrated workstation to process supported mods' recipes. Disabled by default.
+#When disabled, only native integrated workstation recipes are available.
+#Reopen the world or restart the server after changing this option to refresh recipe viewers.
+largeWorkstationCompatRecipesEnabled = false
 
 #多方块结构尺寸限制。
 #Multiblock structure size limits.
@@ -82,6 +89,11 @@ craftingPatternBusPages = 1
 	# Default: 5000000
 	# Range: > 1
 	ecoPlanningMaxWork = 5000000
+	#循环求解保留数据的估算内存预算（MiB），覆盖矩阵和搜索状态；超限显示未解。
+	#Estimated retained memory budget in MiB for cycle matrices and search states; exhaustion remains unknown.
+	# Default: 64
+	# Range: > 1
+	ecoPlanningMaxMemoryMiB = 64
 
 #仅用于排查问题的调试选项。正常游玩时建议保持关闭。
 #Debug options intended only for troubleshooting. Keep these disabled during normal play.

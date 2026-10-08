@@ -80,8 +80,8 @@
 	]
 	order_index: 4
 	quest_links: [{
-		id: "4DE0D8B402F13A17"
-		linked_quest: "7854A7B6A3AD5EFC"
+		id: "6EDBAECA81689A49"
+		linked_quest: "1E25B1D960DB36FC"
 		x: 8.0d
 		y: -4.0d
 	}]
@@ -630,9 +630,12 @@
 			dependencies: ["21D6B7BB23744F2F"]
 			id: "44DAEB1ACB3069B8"
 			tasks: [{
-				id: "42DB8315E8059378"
-				item: { count: 1, id: "anvilcraft:corrupted_beacon" }
-				type: "item"
+				id: "02E57CFD61465CFF"
+				observation_type: "block"
+				observe_type: 0
+				timer: 0L
+				to_observe: "anvilcraft:corrupted_beacon"
+				type: "observation"
 			}]
 			x: 2.0d
 			y: -4.0d

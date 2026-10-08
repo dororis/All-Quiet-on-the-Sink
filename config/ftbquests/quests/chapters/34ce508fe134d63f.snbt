@@ -31,6 +31,17 @@
 			x: 0.5d
 			y: 6.0d
 		}
+		{
+			click_action: "none:"
+			height: 30.0d
+			id: "175913378CF75795"
+			image: "minecraft:textures/gui/title/background/panorama_4.png"
+			order: -1
+			rotation: 0.0d
+			width: 35.0d
+			x: 0.5d
+			y: 2.5d
+		}
 	]
 	order_index: 0
 	quest_links: [ ]

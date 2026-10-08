@@ -11,7 +11,8 @@
         "item": "hostilenetworks:prediction_matrix"
     },
     "base_drop": {
-        "id": "hostilenetworks:end_prediction"
+        "id": "hostilenetworks:end_prediction",
+        "count": 2
     },
     "trivia": "哈基龙手办",
     "fabricator_drops": [
@@ -26,10 +27,6 @@
         {
             "id": "draconicevolution:dragon_heart",
             "count": 1
-        },
-        {
-            "id": "draconicevolution:draconium_ingot",
-            "count": 16
         },
         {
             "id": "allthemodium:unobtainium_ingot",

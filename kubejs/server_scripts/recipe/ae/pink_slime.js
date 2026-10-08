@@ -29,9 +29,9 @@ ServerEvents.recipes(event => {
         },
         ],
         "output": {
-        "#": 3000,
-        "#t": "ae2:f",
-        "id": "industrialforegoing:pink_slime"
+        "#": 64,
+        "#t": "ae2:i",
+        "id": "anvilcraft:exp_gem"
         }
     })
 })

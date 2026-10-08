@@ -24,6 +24,7 @@ RecipeViewerEvents.addInformation('item', event => {
 	event.add('allthemodium:allthemodium_upgrade_smithing_template', [
 		'大概率能从远古城市战利品箱中获得',
 		'包括时运5，熔炼5和精准采集',
+		'甚至大地恩惠5',
 		'（因为监守者今天不在家）'
 	]),
 	event.add('ae2lt:pigmee_fumo', [

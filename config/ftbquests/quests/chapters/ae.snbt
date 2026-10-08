@@ -820,8 +820,8 @@
 				item: { count: 1, id: "molecularmanipulator:matter_fabrication_controller" }
 				type: "item"
 			}]
-			x: 17.5d
-			y: -3.5d
+			x: 17.0d
+			y: -5.0d
 		}
 		{
 			id: "7DC842E387B26BB0"
@@ -831,8 +831,8 @@
 				item: { count: 1, id: "molecularmanipulator:molecular_center_controller" }
 				type: "item"
 			}]
-			x: 17.5d
-			y: -1.0d
+			x: 17.0d
+			y: -2.5d
 		}
 		{
 			id: "19587D0FC9EE4CA7"
@@ -842,8 +842,19 @@
 				item: { count: 1, id: "molecularmanipulator:omni_computation_controller" }
 				type: "item"
 			}]
-			x: 17.5d
-			y: 1.5d
+			x: 17.0d
+			y: 0.0d
+		}
+		{
+			id: "3A9CCF80CC087D0F"
+			size: 2.0d
+			tasks: [{
+				id: "6094AE68335CDD37"
+				item: { count: 1, id: "molecularmanipulator:event_horizon_singularity_hub" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 2.5d
 		}
 	]
 }

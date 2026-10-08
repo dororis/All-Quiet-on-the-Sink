@@ -10,23 +10,24 @@ ServerEvents.recipes(event => {
     }, 
         "count": 64
     },
+    
     {
         "ingredient": {
-        "item": "mekmm:uu_matter"
+        "item": "anvilcraft:void_matter_block"
       },
         "count": 64
     },
     {
         "ingredient": {
-        "item": "anvilcraft:void_matter_block"
+        "item": "anvilcraft:negative_matter_block"
       },
-        "count": 16
+        "count": 64
     },
     {
         "ingredient": {
-        "item": "anvilcraft:negative_matter_block"
+        "item": "mekmm:uu_matter"
       },
-        "count": 16
+        "count": 64
     },
     {
         "ingredient": {
@@ -62,20 +63,20 @@ ServerEvents.recipes(event => {
         "ingredient": {
         "item": "anvilcraft:hypercube"
       },
-        "count": 16
+        "count": 4
     },
     {
         "ingredient": {
         "item": "anvilcraft:spacetime_supercomputer"
       },
-        "count": 64
+        "count": 4
     },
     
     {
         "ingredient": {
         "item": "anvilcraft:singularity_crystal"
       },
-        "count": 16
+        "count": 4
     },
     {
         "ingredient": {

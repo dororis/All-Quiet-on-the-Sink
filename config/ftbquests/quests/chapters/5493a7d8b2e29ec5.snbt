@@ -50,50 +50,28 @@
 		}
 		{
 			click_action: "none:"
-			height: 2.0d
-			id: "617DA4945872CBCA"
-			image: "anvilcraft:textures/gui/jei/arrow_block_conversion.png"
-			rotation: 135.0d
-			width: 1.0d
-			x: 6.5d
-			y: -1.5d
-		}
-		{
-			click_action: "none:"
-			height: 2.0d
-			id: "5F355CC6EBC35B32"
-			image: "anvilcraft:textures/gui/jei/arrow_block_conversion.png"
-			rotation: 90.0d
-			width: 1.0d
-			x: 7.5d
+			height: 30.0d
+			id: "1E726659CD93068A"
+			image: "minecraft:textures/gui/title/background/panorama_4.png"
+			order: -1
+			rotation: 0.0d
+			width: 35.0d
+			x: 4.5d
 			y: -3.0d
-		}
-		{
-			click_action: "none:"
-			height: 2.0d
-			id: "098E5AB28F40DE23"
-			image: "anvilcraft:textures/gui/jei/arrow_block_conversion.png"
-			rotation: -90.0d
-			width: 1.0d
-			x: 1.5d
-			y: -3.0d
-		}
-		{
-			click_action: "none:"
-			height: 2.0d
-			id: "266F84FB550F3A3F"
-			image: "anvilcraft:textures/gui/jei/arrow_block_conversion.png"
-			rotation: -135.0d
-			width: 1.0d
-			x: 2.5d
-			y: -1.5d
 		}
 	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["4ACA4AB3E65F4F59"]
+			dependencies: [
+				"4ACA4AB3E65F4F59"
+				"5EC83524270FEABD"
+				"0C7AB1EE6AF86019"
+				"32E127BF10E0C542"
+				"622F4FC3913857FF"
+				"1AE721F87AA5DA5F"
+			]
 			id: "69D9B052EBFEB997"
 			rewards: [{
 				id: "3E5B0E25A8CE1576"
@@ -226,7 +204,10 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["5DD4F4D2A22F907F"]
+			dependencies: [
+				"5DD4F4D2A22F907F"
+				"69D9B052EBFEB997"
+			]
 			id: "69E4D5A4F4FDC999"
 			tasks: [{
 				dimension: "aqs:pigmee_world"

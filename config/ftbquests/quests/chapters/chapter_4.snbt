@@ -44,6 +44,14 @@
 		{
 			dependencies: ["1EB6F942B4873168"]
 			id: "1AACE7FE1C1A404C"
+			rewards: [{
+				id: "005226787B76A6E8"
+				item: {
+					count: 1
+					id: "ad_astra:moon_globe"
+				}
+				type: "item"
+			}]
 			size: 2.0d
 			tasks: [{
 				id: "73449E6E99EAAD58"
@@ -55,14 +63,6 @@
 		{
 			dependencies: ["1AACE7FE1C1A404C"]
 			id: "27F229B7A734BB8E"
-			rewards: [{
-				id: "6321A67CF13413BC"
-				item: {
-					count: 1
-					id: "ad_astra:moon_globe"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "2A6ED557E82BF554"
 				item: { count: 1, id: "mbd2:moon_mineral_extractor" }

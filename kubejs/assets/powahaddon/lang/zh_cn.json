@@ -39,7 +39,7 @@
   "block.powahaddon.reactor_astral": "反应堆（群星）",
   "block.powahaddon.ender_cell_astral": "末影电池（群星）",
   "block.powahaddon.ender_gate_astral": "末影门（群星）",
-  "block.powahaddon.player_transmitter_astral": "玩家传送器（群星）",
+  "block.powahaddon.player_transmitter_astral": "玩家供电仪（群星）",
   "item.powahaddon.battery_astral": "电池（群星）",
 
   "item.powahaddon.crystal_galaxy": "银河水晶",
@@ -54,7 +54,7 @@
   "block.powahaddon.reactor_galaxy": "反应堆（银河）",
   "block.powahaddon.ender_cell_galaxy": "末影电池（银河）",
   "block.powahaddon.ender_gate_galaxy": "末影门（银河）",
-  "block.powahaddon.player_transmitter_galaxy": "玩家传送器（银河）",
+  "block.powahaddon.player_transmitter_galaxy": "玩家供电仪（银河）",
   "item.powahaddon.battery_galaxy": "电池（银河）",
   "item.powahaddon.crystal_creative": "创造水晶",
   "block.powahaddon.creative_crystal_block": "创造水晶块",
@@ -68,6 +68,6 @@
   "block.powahaddon.reactor_creative": "反应堆（创造）",
   "block.powahaddon.ender_cell_creative": "末影电池（创造）",
   "block.powahaddon.ender_gate_creative": "末影门（创造）",
-  "block.powahaddon.player_transmitter_creative": "玩家传送器（创造）",
+  "block.powahaddon.player_transmitter_creative": "玩家供电仪（创造）",
   "item.powahaddon.battery_creative": "电池（创造）"
 }

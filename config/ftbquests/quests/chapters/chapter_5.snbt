@@ -4,7 +4,7 @@
 	filename: "chapter_5"
 	group: "4D3AA524F989001F"
 	icon: {
-		id: "mbd2:atomic_reconstructor"
+		id: "ad_astra:mars_globe"
 	}
 	id: "586D1880049A3C11"
 	images: [
@@ -14,7 +14,7 @@
 			image: "ftblibrary:icons/dropdown_out"
 			rotation: 0.0d
 			width: 1.0d
-			x: -2.0d
+			x: 0.0d
 			y: -2.0d
 		}
 		{
@@ -47,35 +47,58 @@
 			x: 13.5d
 			y: -0.5d
 		}
+		{
+			click_action: "show_recipe:kubejs:goat"
+			height: 1.0d
+			id: "7435FD4344BF3421"
+			image: "anvilcraft:item/negative_matter_nugget"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.0d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			id: "30CEC9BA5D932485"
+			image: "anvilcraft:block/spectral_anvil"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.0d
+			y: -2.5d
+		}
 	]
 	order_index: 8
 	quest_links: [ ]
 	quests: [
 		{
 			id: "58E24B18B047159F"
-			size: 2.0d
-			tasks: [{
-				id: "636B38E42EACF5EC"
-				type: "checkmark"
-			}]
-			x: -2.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["58E24B18B047159F"]
-			id: "2E15D5DE75F132D6"
-			tasks: [{
-				id: "140B3FBF774015E4"
-				item: { count: 1, id: "ad_astra:mars_ostrum_ore" }
+			rewards: [{
+				id: "6CC21EFCA647308D"
+				item: {
+					count: 1
+					id: "ad_astra:mars_globe"
+				}
 				type: "item"
 			}]
+			size: 2.0d
+			tasks: [
+				{
+					id: "636B38E42EACF5EC"
+					type: "checkmark"
+				}
+				{
+					id: "509A82665B62D81B"
+					item: { count: 1, id: "mbd2:atomic_reconstructor" }
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: -0.5d
 		}
 		{
 			dependencies: [
-				"2E15D5DE75F132D6"
 				"63D7440B082F72EF"
+				"58E24B18B047159F"
 			]
 			id: "4E3A49B682F0F9EE"
 			tasks: [{
@@ -124,6 +147,14 @@
 				"1F21D475289AC078"
 			]
 			id: "4CC8A0EC57BB4726"
+			rewards: [{
+				id: "3E5D02068D6683C7"
+				item: {
+					count: 1
+					id: "ad_astra:venus_globe"
+				}
+				type: "item"
+			}]
 			size: 2.0d
 			tasks: [{
 				id: "58412CBC9C0A9ADC"
@@ -184,6 +215,14 @@
 				"6F70887D6EDF6656"
 			]
 			id: "20E44A9CA4C976BF"
+			rewards: [{
+				id: "39F85F345DB70B07"
+				item: {
+					count: 1
+					id: "ad_astra:glacio_globe"
+				}
+				type: "item"
+			}]
 			size: 2.0d
 			tasks: [{
 				id: "698320EACF7B0B05"

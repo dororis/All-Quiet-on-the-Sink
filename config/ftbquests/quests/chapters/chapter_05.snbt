@@ -191,24 +191,8 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["3DC8455378E09DE5"]
 			dependency_requirement: "one_completed"
 			id: "11C0501C49142E6F"
-			rewards: [{
-				id: "511ABFDB79143A79"
-				item: {
-					components: {
-						"pylons:potion": {
-							amplifier: 0
-							duration: 72000
-							effect: "minecraft:night_vision"
-						}
-					}
-					count: 1
-					id: "pylons:potion_filter"
-				}
-				type: "item"
-			}]
 			size: 1.0d
 			tasks: [{
 				id: "44D4C74CAECD8761"
@@ -219,8 +203,10 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["4F7BDB595D3E3D41"]
-			dependency_requirement: "one_completed"
+			dependencies: [
+				"4F7BDB595D3E3D41"
+				"11C0501C49142E6F"
+			]
 			icon: {
 				id: "pylons:infusion_pylon"
 			}

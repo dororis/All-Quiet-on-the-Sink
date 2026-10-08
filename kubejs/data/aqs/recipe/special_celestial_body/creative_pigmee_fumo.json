@@ -28,10 +28,6 @@
       {
         "id": "anvilcraft:creative_generator",
         "weight": 100
-      },
-      {
-        "id": "appgen:creative_flux_cell",
-        "weight": 100
       }
     ],
     "fluids": []
