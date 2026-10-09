@@ -69,6 +69,24 @@
 		}
 		{
 			id: "15AE1A0BA8447217"
+			rewards: [
+				{
+					id: "31C43361CD66B374"
+					item: {
+						count: 1
+						id: "mbd2:3x3input"
+					}
+					type: "item"
+				}
+				{
+					id: "3B90F3784D2259BC"
+					item: {
+						count: 1
+						id: "mbd2:3x3output"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "679653D9B3A6BED3"
 				type: "checkmark"

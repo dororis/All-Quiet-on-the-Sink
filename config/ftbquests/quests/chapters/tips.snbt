@@ -26,8 +26,8 @@
 			image: "productivebeesgenesis:block/infinitycreation_comb_block"
 			rotation: 0.0d
 			width: 1.3d
-			x: 9.0d
-			y: 0.0d
+			x: 8.5d
+			y: -0.5d
 		}
 		{
 			click_action: "none:"
@@ -60,7 +60,7 @@
 				item: { count: 1, id: "mbd2:compact_fissile_fuel" }
 				type: "item"
 			}]
-			x: -1.0d
+			x: -1.5d
 			y: -3.5d
 		}
 		{
@@ -71,7 +71,7 @@
 				item: { count: 1, id: "ae2cs:irradiated_seed" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.5d
 			y: -3.5d
 		}
 		{
@@ -82,7 +82,7 @@
 				item: { count: 1, id: "ae2cs:purified_irradiated_crystal" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.5d
 			y: -3.5d
 		}
 		{
@@ -92,7 +92,7 @@
 				id: "51D51F9C57883577"
 				type: "checkmark"
 			}]
-			x: 5.0d
+			x: 4.5d
 			y: -3.5d
 		}
 		{
@@ -114,7 +114,7 @@
 					type: "item"
 				}
 			]
-			x: -1.0d
+			x: -1.5d
 			y: -5.0d
 		}
 		{
@@ -137,7 +137,7 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
+			x: 0.5d
 			y: -5.0d
 		}
 		{
@@ -160,7 +160,7 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
+			x: 2.5d
 			y: -5.0d
 		}
 		{
@@ -171,7 +171,7 @@
 				item: { count: 1, id: "kubejs:infinity_soul_cell" }
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.5d
 			y: -5.0d
 		}
 		{
@@ -180,7 +180,7 @@
 				id: "24BA92349C2EBD03"
 				type: "checkmark"
 			}]
-			x: -2.5d
+			x: -3.0d
 			y: -3.5d
 		}
 		{
@@ -189,7 +189,7 @@
 				id: "23FEC59A561A52C0"
 				type: "checkmark"
 			}]
-			x: -2.5d
+			x: -3.0d
 			y: -5.0d
 		}
 		{
@@ -199,7 +199,7 @@
 				item: { count: 1, id: "mekenergistics:me_factory_installer" }
 				type: "item"
 			}]
-			x: -1.0d
+			x: -1.5d
 			y: -6.5d
 		}
 		{
@@ -209,7 +209,7 @@
 				item: { count: 1, id: "mekenergistics:upgrade_me_pattern_provider" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.5d
 			y: -6.5d
 		}
 		{
@@ -219,7 +219,7 @@
 				item: { count: 1, id: "mekenergistics:upgrade_me_passive_crafting" }
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.5d
 			y: -6.5d
 		}
 		{
@@ -228,7 +228,7 @@
 				id: "28610B3D95E32C4D"
 				type: "checkmark"
 			}]
-			x: -2.5d
+			x: -3.0d
 			y: -6.5d
 		}
 		{
@@ -238,7 +238,7 @@
 				item: { count: 1, id: "powahcoe:cable_orb_starter" }
 				type: "item"
 			}]
-			x: -1.0d
+			x: -1.5d
 			y: -2.0d
 		}
 		{
@@ -248,7 +248,7 @@
 				item: { count: 1, id: "powahcoe:cable_orb_nitro_x5" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.5d
 			y: -2.0d
 		}
 		{
@@ -258,7 +258,7 @@
 				item: { count: 1, id: "powahcoe:batch_upgrade_1" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.5d
 			y: -2.0d
 		}
 		{
@@ -268,7 +268,7 @@
 				item: { count: 1, id: "powahcoe:batch_upgrade_7" }
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.5d
 			y: -2.0d
 		}
 		{
@@ -277,7 +277,7 @@
 				id: "6CA240BF606BF2DA"
 				type: "checkmark"
 			}]
-			x: -2.5d
+			x: -3.0d
 			y: -0.5d
 		}
 		{
@@ -286,7 +286,7 @@
 				id: "7ADEBEF8AB9518C7"
 				type: "checkmark"
 			}]
-			x: -2.5d
+			x: -3.0d
 			y: -2.0d
 		}
 		{
@@ -306,7 +306,7 @@
 					type: "item"
 				}
 			]
-			x: -1.0d
+			x: -1.5d
 			y: -0.5d
 		}
 		{
@@ -326,7 +326,7 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
+			x: 0.5d
 			y: -0.5d
 		}
 		{
@@ -346,7 +346,7 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
+			x: 2.5d
 			y: -0.5d
 		}
 		{
@@ -366,7 +366,7 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
+			x: 4.5d
 			y: -0.5d
 		}
 		{
@@ -376,7 +376,7 @@
 				item: { count: 1, id: "mekenergistics:upgrade_me_output_interface" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.5d
 			y: -6.5d
 		}
 		{
@@ -495,8 +495,8 @@
 				id: "40FD9770C8754D4F"
 				type: "checkmark"
 			}]
-			x: 7.5d
-			y: -8.0d
+			x: 7.0d
+			y: -5.0d
 		}
 		{
 			id: "46B2E6B52B5F1426"
@@ -505,8 +505,8 @@
 				item: { count: 1, id: "merequester:requester" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: -8.0d
+			x: 8.5d
+			y: -5.0d
 		}
 		{
 			id: "68BAA6164E51B995"
@@ -514,16 +514,16 @@
 				id: "39067D757CA95CC5"
 				type: "checkmark"
 			}]
-			x: 7.5d
-			y: -6.0d
+			x: 7.0d
+			y: -3.5d
 		}
 		{
 			id: "53726FF9738EFFF2"
 			rewards: [{
-				id: "7D0A94CA5C0E8B47"
+				id: "1D9DBE578AF9AB98"
 				item: {
 					count: 1
-					id: "anvilcraft:pulse_generator"
+					id: "ae2:redstone_card"
 				}
 				type: "item"
 			}]
@@ -532,8 +532,8 @@
 				item: { count: 1, id: "ae2cs:quartz_oscillator_clock" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: -6.0d
+			x: 8.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["69F29ECE0ECADD70"]
@@ -555,8 +555,8 @@
 				to_observe: "productivebees:myriadcreations"
 				type: "observation"
 			}]
-			x: 9.0d
-			y: 0.0d
+			x: 8.5d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -589,8 +589,8 @@
 				item: { count: 1, id: "molecularmanipulator:transfinite_compute_nexus" }
 				type: "item"
 			}]
-			x: 7.5d
-			y: 0.0d
+			x: 7.0d
+			y: -0.5d
 		}
 		{
 			id: "3BFDA8E09DC14274"
@@ -599,8 +599,8 @@
 				item: { count: 1, id: "ae2lt:pigmee_crystal_catalyzer" }
 				type: "item"
 			}]
-			x: 7.5d
-			y: -2.0d
+			x: -1.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["3BFDA8E09DC14274"]
@@ -610,8 +610,8 @@
 				item: { count: 1, id: "ae2lt:crystal_catalyzer" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: -2.0d
+			x: 0.5d
+			y: 1.0d
 		}
 		{
 			id: "3F708EB6DEC4C034"
@@ -650,8 +650,8 @@
 				item: { count: 1, id: "applied_oritech:me_dock" }
 				type: "item"
 			}]
-			x: 7.5d
-			y: -4.0d
+			x: 7.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["63983FB80A784805"]
@@ -678,8 +678,8 @@
 					type: "item"
 				}
 			]
-			x: 9.0d
-			y: -4.0d
+			x: 8.5d
+			y: -2.0d
 		}
 		{
 			id: "37EBFA55C068F2E4"
@@ -763,7 +763,7 @@
 				id: "605C44062B55B06F"
 				type: "checkmark"
 			}]
-			x: -2.5d
+			x: -3.0d
 			y: -8.0d
 		}
 		{
@@ -773,7 +773,7 @@
 				item: { count: 1, id: "mekanism_card:memory_card" }
 				type: "item"
 			}]
-			x: -1.0d
+			x: -1.5d
 			y: -8.0d
 		}
 		{
@@ -783,7 +783,7 @@
 				item: { count: 1, id: "mekanism_card:mass_upgrade_configurator" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.5d
 			y: -8.0d
 		}
 		{
@@ -793,7 +793,7 @@
 				item: { count: 1, id: "mekanism_card:super_fusion_card" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.5d
 			y: -8.0d
 		}
 		{
@@ -803,7 +803,179 @@
 				item: { count: 1, id: "mekanism_card:ultimate_tier_installer" }
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.5d
+			y: -8.0d
+		}
+		{
+			id: "6219E28283A43FD0"
+			tasks: [{
+				id: "7C576DE2500756D9"
+				item: { count: 1, id: "ae2lt:mining_factory" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			id: "47083800B5F1904B"
+			tasks: [{
+				id: "2C5C0779784494C6"
+				item: { count: 1, id: "ae2lt:overloaded_io_port" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			id: "63AA23728AEAC30D"
+			tasks: [{
+				id: "69118B2D81116057"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			icon: {
+				id: "sophisticatedstorage:advanced_magnet_upgrade"
+			}
+			id: "61A56520AACF18F6"
+			tasks: [
+				{
+					id: "11B9D2240D43A8E5"
+					item: { count: 1, id: "sophisticatedstorage:advanced_magnet_upgrade" }
+					type: "item"
+				}
+				{
+					id: "5A5925B1FE90E02D"
+					item: { count: 1, id: "sophisticatedbackpacks:advanced_magnet_upgrade" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -9.5d
+		}
+		{
+			icon: {
+				id: "justdirethings:itemcollector"
+			}
+			id: "2C0F3BA748861BDA"
+			tasks: [
+				{
+					id: "78FE8868F61394E3"
+					item: { count: 1, id: "justdirethings:itemcollector" }
+					type: "item"
+				}
+				{
+					id: "47648FFA9BB3656A"
+					item: { count: 1, id: "jdte:advanced_item_collector" }
+					type: "item"
+				}
+				{
+					id: "23FADF05F6743526"
+					item: { count: 1, id: "jdte:ae_output_upgrade" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -9.5d
+		}
+		{
+			id: "710066021703C827"
+			tasks: [
+				{
+					id: "36446280E2103694"
+					item: { count: 1, id: "ae2cs:ender_interface" }
+					type: "item"
+				}
+				{
+					id: "1FC522853E15107A"
+					item: { count: 1, id: "ae2cs:extended_ender_interface" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -9.5d
+		}
+		{
+			icon: {
+				id: "anvilcraft:chute"
+			}
+			id: "2C57F9F239C3D820"
+			tasks: [
+				{
+					id: "0D868A037B6760D3"
+					item: { count: 1, id: "anvilcraft:chute" }
+					type: "item"
+				}
+				{
+					id: "18CDF6EAD313B720"
+					item: { count: 1, id: "anvilcraft:item_collector" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -9.5d
+		}
+		{
+			id: "3676441969982E1A"
+			tasks: [{
+				id: "0F2387347C1EB218"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -9.5d
+		}
+		{
+			id: "154F1017365E4DC5"
+			tasks: [{
+				id: "69716E42FF228569"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: -6.5d
+		}
+		{
+			id: "7AD4FBF6CCF748CB"
+			tasks: [
+				{
+					id: "193C28B36A9D5A5F"
+					item: { count: 1, id: "jdte:advanced_bio_crusher" }
+					type: "item"
+				}
+				{
+					id: "56F9ED4DB986E261"
+					item: { count: 1, id: "jdte:extended_bio_crusher" }
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: -6.5d
+		}
+		{
+			id: "10E3502A081BA6B2"
+			tasks: [{
+				id: "54EAE5793667DBF1"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: -8.0d
+		}
+		{
+			id: "15591AA83A01DE13"
+			tasks: [
+				{
+					id: "0B7822218C7FF0F8"
+					item: { count: 1, id: "jdte:range_blocker" }
+					type: "item"
+				}
+				{
+					id: "6CD9E54F2CB816EF"
+					item: { count: 1, id: "anvilcraft:active_silencer" }
+					type: "item"
+				}
+			]
+			x: 8.5d
 			y: -8.0d
 		}
 	]

@@ -62,9 +62,9 @@ ServerEvents.recipes(event => {
             'ABA'  
         ],
         {                  
-            A:'apotheosis:godforged_pearl',
+            A:'apotheosis:god_fused_pearl',
             B: 'mekanism:ultimate_control_circuit',
-            C:'apotheosis:gem_fused_slate',             
+            C:'ae2:singularity',             
             D:'mbd2:elite_configurable',
         }
     )
@@ -76,10 +76,10 @@ ServerEvents.recipes(event => {
             'ACA'  
         ],
         {
-            A:'minecraft:nether_star',
+            A:'apotheosis:godforged_pearl',
             B:'apotheosis:spawner_rune',
-            C:'mekanismsun:supernova_control_circuit',
-            D:'mbd2:ultimate_configurable'
+            C:'mekanism:ultimate_control_circuit',
+            D:'mbd2:elite_configurable'
         } 
     )
     event.shaped(
@@ -90,10 +90,10 @@ ServerEvents.recipes(event => {
             'ACA'  
         ],
         {
-            A:'minecraft:nether_star',
+            A:'apotheosis:godforged_pearl',
             B:'rftoolsbase:dimensionalshard',
-            C:'mekanismsun:supernova_control_circuit',
-            D:'mbd2:ultimate_configurable'
+            C:'mekanism:ultimate_control_circuit',
+            D:'mbd2:elite_configurable'
         } 
     )
     event.shaped(

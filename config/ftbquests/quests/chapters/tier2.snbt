@@ -15,7 +15,7 @@
 			image: "brandonscore:textures/gui/dark/arrow_right.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 3.5d
+			x: 2.0d
 			y: -6.0d
 		}
 		{
@@ -24,84 +24,8 @@
 			image: "ftblibrary:icons/dropdown_out"
 			rotation: 0.0d
 			width: 1.0d
-			x: -19.0d
+			x: -17.5d
 			y: -7.5d
-		}
-		{
-			alpha: 220
-			click_action: "none:"
-			height: 1.0d
-			id: "7253E6DEB72B5D72"
-			image: "ae2cs:item/certus_quartz_seed_0"
-			rotation: 0.0d
-			width: 1.0d
-			x: -11.0d
-			y: -9.5d
-		}
-		{
-			alpha: 220
-			click_action: "none:"
-			height: 1.0d
-			id: "7D5248CD78B91A33"
-			image: "ae2cs:item/certus_quartz_seed_1"
-			rotation: 0.0d
-			width: 1.0d
-			x: -10.0d
-			y: -9.5d
-		}
-		{
-			alpha: 220
-			click_action: "none:"
-			height: 1.0d
-			id: "382609AFDC2F2B3F"
-			image: "ae2cs:item/certus_quartz_seed_2"
-			rotation: 0.0d
-			width: 1.0d
-			x: -9.0d
-			y: -9.5d
-		}
-		{
-			click_action: "none:"
-			height: 1.5d
-			id: "05593E2210208430"
-			image: "minecraft:misc/underwater"
-			order: -2
-			rotation: 0.0d
-			width: 3.0d
-			x: -10.0d
-			y: -9.5d
-		}
-		{
-			alpha: 128
-			click_action: "none:"
-			height: 2.5d
-			id: "7113A5261DB03C0D"
-			image: "anvilcraft:textures/gui/jei/arrow_block_conversion.png"
-			order: -1
-			rotation: -90.0d
-			width: 1.0d
-			x: -10.25d
-			y: -9.5d
-		}
-		{
-			click_action: "none:"
-			height: 2.0d
-			id: "08ADF17798811DFA"
-			image: "anvilcraft:textures/gui/jei/explosion.png"
-			rotation: 0.0d
-			width: 2.0d
-			x: -12.0d
-			y: -6.0d
-		}
-		{
-			click_action: "none:"
-			height: 2.0d
-			id: "05D448D7532F6FA3"
-			image: "extendedae_plus:block/wireless_transceiver"
-			rotation: 0.0d
-			width: 2.0d
-			x: -10.0d
-			y: -2.0d
 		}
 		{
 			click_action: "none:"
@@ -110,7 +34,7 @@
 			image: "minecraft:textures/gui/sprites/hud/effect_background_ambient.png"
 			rotation: 0.0d
 			width: 3.0d
-			x: 2.0d
+			x: 0.5d
 			y: -2.0d
 		}
 		{
@@ -120,22 +44,22 @@
 			image: "minecraft:textures/gui/sprites/hud/effect_background.png"
 			rotation: 0.0d
 			width: 3.0d
-			x: 2.0d
+			x: 0.5d
 			y: -9.75d
 		}
 	]
 	order_index: 2
 	quest_links: [{
-		id: "456FB4108301E073"
-		linked_quest: "10998DFF4866FE2F"
-		x: -10.0d
-		y: -2.0d
+		id: "4EC5A235E30935F3"
+		linked_quest: "15AE1A0BA8447217"
+		x: -15.0d
+		y: -10.0d
 	}]
 	quests: [
 		{
 			dependencies: [
-				"492EBD0D405B057A"
 				"41E5564BA20331F5"
+				"3938F47B8C2B6758"
 			]
 			dependency_requirement: "one_completed"
 			id: "5B982B9282E3271A"
@@ -145,26 +69,36 @@
 				item: { count: 1, id: "apotheosis:god_fused_pearl" }
 				type: "item"
 			}]
-			x: -14.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["2E4B78360DE9BF82"]
-			id: "575DBA70DABFFDC3"
-			size: 2.0d
-			tasks: [{
-				id: "62BE761543E6E639"
-				item: { count: 1, id: "mekanism:rotary_condensentrator" }
-				type: "item"
-			}]
-			x: -16.0d
-			y: -4.0d
+			x: -11.0d
+			y: -4.5d
 		}
 		{
 			dependencies: [
-				"1529431003562CD3"
-				"133BB0BD9F1345AD"
+				"2E4B78360DE9BF82"
+				"3938F47B8C2B6758"
+				"3E8269255530BB4D"
 			]
+			icon: {
+				id: "mekanism:rotary_condensentrator"
+			}
+			id: "575DBA70DABFFDC3"
+			size: 1.0d
+			tasks: [
+				{
+					id: "50E3B358FF90EE0E"
+					type: "checkmark"
+				}
+				{
+					id: "62BE761543E6E639"
+					item: { count: 1, id: "mekanism:rotary_condensentrator" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -13.0d
+			y: -6.0d
+		}
+		{
 			dependency_requirement: "one_completed"
 			id: "2E4B78360DE9BF82"
 			tasks: [
@@ -183,271 +117,18 @@
 					type: "fluid"
 				}
 			]
-			x: -16.0d
-			y: -6.0d
+			x: -13.0d
+			y: -7.5d
 		}
 		{
-			dependencies: [
-				"1118ED85E420FAF6"
-				"5FA6B0D6F83DCC97"
-				"7C877C5D246252F8"
-			]
-			dependency_requirement: "one_completed"
-			id: "133BB0BD9F1345AD"
-			rewards: [
-				{
-					id: "0506B6CD0518B8EE"
-					item: {
-						count: 1
-						id: "extendedae:wireless_hub"
-					}
-					type: "item"
-				}
-				{
-					count: 8
-					id: "225030E3E283F073"
-					item: {
-						count: 1
-						id: "extendedae:wireless_connect"
-					}
-					type: "item"
-				}
-				{
-					id: "70E6ADF431CA4FE1"
-					item: {
-						count: 1
-						id: "extendedae:wireless_tool"
-					}
-					type: "item"
-				}
-			]
-			size: 2.0d
-			tasks: [{
-				id: "5CC8F1581F299C8D"
-				item: { count: 1, id: "advanced_ae:reaction_chamber" }
-				type: "item"
-			}]
-			x: -16.0d
-			y: -8.0d
-		}
-		{
-			id: "1118ED85E420FAF6"
-			tasks: [{
-				id: "08B7DD8A97A95000"
-				item: { count: 1, id: "irons_spellbooks:arcane_essence" }
-				type: "item"
-			}]
-			x: -17.0d
-			y: -9.5d
-		}
-		{
-			id: "5FA6B0D6F83DCC97"
-			tasks: [{
-				id: "37357A347DEE6AD8"
-				item: { count: 1, id: "irons_spellbooks:cinder_essence" }
-				type: "item"
-			}]
-			x: -16.0d
-			y: -10.0d
-		}
-		{
-			id: "7C877C5D246252F8"
-			tasks: [
-				{
-					id: "1A67B826E5853A9F"
-					type: "checkmark"
-				}
-				{
-					consume_fluid: "DEFAULT"
-					fluid: {
-						amount: 1000
-						id: "justdirethings:refined_t2_fluid_source"
-					}
-					id: "492EBD0D405B057A"
-					optional_task: true
-					type: "fluid"
-				}
-			]
-			x: -15.0d
-			y: -9.5d
-		}
-		{
-			dependencies: ["71D29810889B6FDA"]
 			id: "1529431003562CD3"
 			size: 2.0d
 			tasks: [{
 				id: "6AD157749B63A763"
 				type: "checkmark"
 			}]
-			x: -19.0d
+			x: -17.5d
 			y: -6.0d
-		}
-		{
-			id: "2E85A5B676DCC905"
-			rewards: [{
-				id: "205EB01E3063B46E"
-				item: {
-					count: 1
-					id: "ae2:flawless_budding_quartz"
-				}
-				type: "item"
-			}]
-			size: 1.0d
-			tasks: [{
-				id: "6DFC5497BB0C7EB6"
-				item: { count: 1, id: "ae2cs:crystal_growth_chamber" }
-				type: "item"
-			}]
-			x: -9.0d
-			y: -7.5d
-		}
-		{
-			dependencies: ["6D27F907053A9567"]
-			id: "5BB9F1330C2D9190"
-			rewards: [{
-				id: "7C293E192510B1CF"
-				item: {
-					count: 1
-					id: "ae2omnicells:quantum_crafting_storage_64k_block"
-				}
-				type: "item"
-			}]
-			size: 1.0d
-			tasks: [{
-				id: "5DC6B6F460464A52"
-				item: { count: 1, id: "ae2cs:circuit_etcher" }
-				type: "item"
-			}]
-			x: -10.0d
-			y: -4.0d
-		}
-		{
-			id: "06D96B802F6647DB"
-			size: 1.0d
-			tasks: [{
-				id: "12A0D87A8C024710"
-				item: { count: 1, id: "ae2cs:crystal_aggregator" }
-				type: "item"
-			}]
-			x: -11.0d
-			y: -7.5d
-		}
-		{
-			dependencies: [
-				"5EF3C7AF83078083"
-				"2E85A5B676DCC905"
-				"06D96B802F6647DB"
-			]
-			dependency_requirement: "all_started"
-			icon: {
-				id: "ae2cs:ender_broadcaster"
-			}
-			id: "6D27F907053A9567"
-			rewards: [
-				{
-					count: 4
-					id: "26D79C48BFF2DA61"
-					item: {
-						count: 1
-						id: "ae2cs:ender_emitter"
-					}
-					type: "item"
-				}
-				{
-					id: "3140C41F25C9F7C2"
-					item: {
-						count: 1
-						id: "kubejs:blank_pattern_cell"
-					}
-					type: "item"
-				}
-				{
-					count: 64
-					id: "1B94987268AE8AE6"
-					item: {
-						count: 1
-						id: "extendedae:ex_pattern_provider"
-					}
-					type: "item"
-				}
-				{
-					count: 64
-					id: "0E7A6685B0EFC7FF"
-					item: {
-						count: 1
-						id: "ae2:interface"
-					}
-					type: "item"
-				}
-				{
-					count: 3
-					id: "254DE975B22B624D"
-					item: {
-						count: 1
-						id: "ae2cs:meteorite_pattern_provider"
-					}
-					type: "item"
-				}
-			]
-			size: 2.0d
-			tasks: [{
-				id: "06B08D1FEC83910E"
-				item: { count: 1, id: "ae2cs:ender_broadcaster" }
-				type: "item"
-			}]
-			x: -10.0d
-			y: -6.0d
-		}
-		{
-			dependencies: ["1B891558E8D778A1"]
-			icon: {
-				id: "ae2cs:resonating_crystal_dust"
-			}
-			id: "5EF3C7AF83078083"
-			rewards: [{
-				count: 64
-				id: "5DCFA6E7B4535B47"
-				item: {
-					count: 1
-					id: "ae2cs:resonating_processor"
-				}
-				type: "item"
-			}]
-			size: 1.0d
-			tasks: [
-				{
-					id: "3BFC0FBABBDBE7D2"
-					item: { count: 1, id: "ae2cs:meteor_seed" }
-					type: "item"
-				}
-				{
-					id: "629083D5CFD99EF9"
-					item: { count: 1, id: "ae2cs:ender_quartz_seed" }
-					type: "item"
-				}
-				{
-					id: "430A7CBC513BA20B"
-					item: { count: 1, id: "ae2cs:resonating_crystal_dust" }
-					type: "item"
-				}
-				{
-					id: "70C1BE21004F4825"
-					item: { count: 1, id: "ae2cs:resonating_seed" }
-					type: "item"
-				}
-			]
-			x: -12.0d
-			y: -6.0d
-		}
-		{
-			id: "129DC3DD60504BEA"
-			size: 1.0d
-			tasks: [{
-				id: "01B3FC45C5FC5BFD"
-				type: "checkmark"
-			}]
-			x: -10.0d
-			y: -7.5d
 		}
 		{
 			dependencies: [
@@ -459,144 +140,16 @@
 				id: "ae2:singularity"
 			}
 			id: "1B891558E8D778A1"
-			rewards: [
-				{
-					count: 64
-					id: "0E69094117263EBC"
-					item: {
-						count: 1
-						id: "ae2:calculation_processor"
-					}
-					type: "item"
-				}
-				{
-					count: 64
-					id: "33360804DC0C5971"
-					item: {
-						count: 1
-						id: "ae2:logic_processor"
-					}
-					type: "item"
-				}
-				{
-					count: 64
-					id: "214DFF977EA2005F"
-					item: {
-						count: 1
-						id: "ae2:engineering_processor"
-					}
-					type: "item"
-				}
-			]
 			tasks: [{
 				id: "10ACCE173FA51FE0"
 				item: { count: 1, id: "ae2:singularity" }
 				type: "item"
 			}]
-			x: -14.0d
-			y: -6.0d
+			x: -11.0d
+			y: -7.5d
 		}
 		{
-			dependencies: ["6D27F907053A9567"]
-			icon: {
-				id: "ae2:crafting_unit"
-			}
-			id: "48636A487429587A"
-			optional: true
-			size: 1.0d
-			tasks: [
-				{
-					id: "3C4378A87B7A6D0B"
-					item: { count: 1, id: "ae2omnicells:omni_crafting_unit_block" }
-					type: "item"
-				}
-				{
-					id: "14A57D50AA27AFE6"
-					item: { count: 1, id: "ae2omnicells:complex_crafting_unit_block" }
-					type: "item"
-				}
-				{
-					id: "108EBDE7B06C88D3"
-					item: { count: 1, id: "ae2omnicells:quantum_crafting_unit_block" }
-					type: "item"
-				}
-			]
-			x: -8.0d
-			y: -7.0d
-		}
-		{
-			dependencies: ["129DC3DD60504BEA"]
-			id: "4479E32F5B349D8D"
-			optional: true
-			tasks: [
-				{
-					id: "237CC3EF795E9553"
-					item: { count: 1, id: "ae2cs:certus_quartz_seed" }
-					type: "item"
-				}
-				{
-					id: "78C528B06F5E8EC9"
-					item: { count: 1, id: "ae2cs:fluix_crystal_seed" }
-					type: "item"
-				}
-				{
-					id: "0C95B2AEA74ECE61"
-					item: { count: 1, id: "ae2cs:nether_quartz_seed" }
-					type: "item"
-				}
-				{
-					id: "77EEE022861B11B6"
-					item: { count: 1, id: "ae2cs:entro_crystal_seed" }
-					type: "item"
-				}
-				{
-					id: "3AABF41D9470E6EE"
-					item: { count: 1, id: "ae2cs:redstone_crystal_seed" }
-					type: "item"
-				}
-				{
-					id: "3E36DF2EAD16C606"
-					item: { count: 1, id: "ae2cs:quantum_crystal_seed" }
-					type: "item"
-				}
-				{
-					id: "008D6250BEA3EEC9"
-					item: { count: 1, id: "ae2cs:overload_crystal_seed" }
-					type: "item"
-				}
-			]
-			x: -10.0d
-			y: -8.5d
-		}
-		{
-			dependencies: ["6D27F907053A9567"]
-			icon: {
-				id: "ae2omnicells:omni_cell_housing"
-			}
-			id: "441F155E914C4B7B"
-			optional: true
-			tasks: [
-				{
-					id: "6D09C0FD4ABB136E"
-					item: { count: 1, id: "ae2omnicells:omni_cell_housing" }
-					type: "item"
-				}
-				{
-					id: "6E463E1A7568B973"
-					item: { count: 1, id: "ae2omnicells:complex_omni_cell_housing" }
-					type: "item"
-				}
-				{
-					id: "2016038049A5C0ED"
-					item: { count: 1, id: "ae2omnicells:quantum_omni_cell_housing" }
-					type: "item"
-				}
-			]
-			x: -8.0d
-			y: -5.0d
-		}
-		{
-			dependencies: ["6D27F907053A9567"]
+			dependencies: ["4232C3FE5DCF5473"]
 			hide_lock_icon: true
 			id: "3596A8CEB0A4CEA2"
 			size: 2.0d
@@ -616,7 +169,7 @@
 					type: "fluid"
 				}
 			]
-			x: -3.0d
+			x: -4.5d
 			y: -6.0d
 		}
 		{
@@ -626,7 +179,7 @@
 				id: "708677AAAEE032E5"
 				type: "checkmark"
 			}]
-			x: -3.0d
+			x: -4.5d
 			y: -8.0d
 		}
 		{
@@ -644,7 +197,7 @@
 				id: "6E4329653CF416A4"
 				type: "checkmark"
 			}]
-			x: -3.0d
+			x: -4.5d
 			y: -4.0d
 		}
 		{
@@ -661,9 +214,10 @@
 			tasks: [{
 				id: "4160F20373FA2961"
 				item: { components: { "mekanism:owner": [I; 1455079702, 407980707, -1284390491, -860683578 ], "mekanism:side_config": { config: { chemicals: { side: { back: "input", bottom: "input", front: "input", left: "input", right: "input" } }, energy: { side: { back: "input", bottom: "input", front: "input", left: "input", right: "input" } }, items: { side: { back: "energy", bottom: "extra", front: "input", left: "input", right: "output" } } } } }, count: 1, id: "mekmm:ultimate_planting_factory" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
-			x: -0.5d
+			x: -2.0d
 			y: -1.5d
 		}
 		{
@@ -685,7 +239,7 @@
 					type: "fluid"
 				}
 			]
-			x: -3.0d
+			x: -4.5d
 			y: -9.0d
 		}
 		{
@@ -707,7 +261,7 @@
 					type: "fluid"
 				}
 			]
-			x: -1.5d
+			x: -3.0d
 			y: -9.0d
 		}
 		{
@@ -733,7 +287,7 @@
 					type: "fluid"
 				}
 			]
-			x: -3.0d
+			x: -4.5d
 			y: -10.5d
 		}
 		{
@@ -744,7 +298,7 @@
 				item: { count: 1, id: "irons_spellbooks:cooldown_upgrade_orb" }
 				type: "item"
 			}]
-			x: -1.5d
+			x: -3.0d
 			y: -10.5d
 		}
 		{
@@ -770,7 +324,7 @@
 					type: "fluid"
 				}
 			]
-			x: 0.0d
+			x: -1.5d
 			y: -9.75d
 		}
 		{
@@ -781,7 +335,7 @@
 				item: { count: 1, id: "apotheosis:luminous_crystal_shard" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: -2.0d
 			y: -6.0d
 		}
 		{
@@ -792,7 +346,7 @@
 				item: { count: 1, id: "minecraft:echo_shard" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: -2.0d
 			y: -8.0d
 		}
 		{
@@ -803,7 +357,7 @@
 				item: { count: 1, id: "justdirethings:time_crystal" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 0.5d
 			y: -8.0d
 		}
 		{
@@ -829,7 +383,7 @@
 				item: { count: 1, id: "jdte:ultimate_time_wand" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 0.5d
 			y: -9.75d
 		}
 		{
@@ -843,7 +397,7 @@
 				item: { count: 1, id: "minecraft:melon" }
 				type: "item"
 			}]
-			x: -3.0d
+			x: -4.5d
 			y: -1.5d
 		}
 		{
@@ -853,7 +407,7 @@
 				item: { count: 1, id: "mekanism:block_bio_fuel" }
 				type: "item"
 			}]
-			x: -4.0d
+			x: -5.5d
 			y: -2.5d
 		}
 		{
@@ -866,7 +420,7 @@
 				id: "70B65CECA75764C4"
 				type: "checkmark"
 			}]
-			x: -3.0d
+			x: -4.5d
 			y: -2.5d
 		}
 		{
@@ -875,7 +429,7 @@
 				id: "27E36CCBF03A2701"
 				type: "checkmark"
 			}]
-			x: -4.0d
+			x: -5.5d
 			y: -1.5d
 		}
 		{
@@ -899,7 +453,7 @@
 				item: { count: 1, id: "irons_spellbooks:divine_soulshard" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 0.5d
 			y: -6.0d
 		}
 		{
@@ -911,7 +465,7 @@
 				item: { count: 1, id: "mbd2:life_extractor" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: -2.0d
 			y: -2.5d
 		}
 		{
@@ -943,7 +497,7 @@
 					type: "item"
 				}
 			]
-			x: -0.5d
+			x: -2.0d
 			y: -4.0d
 		}
 		{
@@ -964,7 +518,7 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
+			x: 0.5d
 			y: -2.0d
 		}
 		{
@@ -986,7 +540,7 @@
 					type: "fluid"
 				}
 			]
-			x: 2.0d
+			x: 0.5d
 			y: -4.0d
 		}
 		{
@@ -1008,7 +562,7 @@
 					type: "fluid"
 				}
 			]
-			x: -12.0d
+			x: -11.0d
 			y: -2.0d
 		}
 		{
@@ -1036,79 +590,132 @@
 					type: "item"
 				}
 			]
-			x: -12.0d
-			y: -4.0d
+			x: -10.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["22320BFC667531AE"]
 			id: "2F6FDB97B27F4D52"
+			optional: true
 			tasks: [{
 				id: "41E5564BA20331F5"
 				item: { count: 1, id: "apotheosis:godforged_pearl" }
 				type: "item"
 			}]
-			x: -14.0d
+			x: -12.0d
 			y: -2.0d
 		}
 		{
-			dependencies: ["1A1F52269A549B54"]
-			id: "5581F83492115EAE"
-			tasks: [{
-				id: "1D1FFDA425E45662"
-				type: "checkmark"
-			}]
-			x: -14.0d
-			y: -3.0d
-		}
-		{
+			dependencies: ["3474B4E144C79CAB"]
 			id: "4232C3FE5DCF5473"
 			optional: true
 			tasks: [{
 				id: "4E73E06ACCC9A1E9"
 				type: "checkmark"
 			}]
-			x: -6.0d
+			x: -7.0d
 			y: -6.0d
 		}
 		{
-			icon: {
-				id: "ae2:quantum_ring"
-			}
-			id: "244DD1CBB9104C9F"
-			rewards: [
-				{
-					id: "46219B201ADABED5"
-					item: {
-						count: 1
-						id: "ae2wtlib:quantum_bridge_card"
-					}
-					type: "item"
-				}
-				{
-					count: 64
-					id: "4534403B7722B2E6"
-					item: {
-						count: 1
-						id: "ae2:speed_card"
-					}
-					type: "item"
-				}
+			id: "5266844A48D08D8D"
+			size: 2.0d
+			tasks: [{
+				id: "4A24C5411F00C1B4"
+				item: { count: 1, id: "mbd2:dimensional_stabilimentum" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["3E8269255530BB4D"]
+			id: "0DD9DAD16C801227"
+			rewards: [{
+				command: "/apoth set_world_tier @s pinnacle"
+				id: "38081E4C930814C5"
+				type: "command"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "40BAC240EE636A8D"
+				item: { count: 1, id: "mbd2:apotheosis_slayer_factory" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"1B891558E8D778A1"
+				"5B982B9282E3271A"
 			]
+			id: "3474B4E144C79CAB"
+			rewards: [{
+				id: "01DB47A874AFA524"
+				item: {
+					count: 1
+					id: "irons_spellbooks:cooldown_upgrade_orb"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "1DCE38DFF1E17224"
+				item: { count: 1, id: "mbd2:ultimate_configurable" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"1529431003562CD3"
+				"5266844A48D08D8D"
+			]
+			dependency_requirement: "one_completed"
+			id: "3E8269255530BB4D"
+			size: 1.0d
+			tasks: [{
+				id: "13D290A5796A7F2A"
+				item: { count: 1, id: "advanced_ae:reaction_chamber" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: -6.0d
+		}
+		{
+			id: "3938F47B8C2B6758"
 			tasks: [
 				{
-					count: 8L
-					id: "67AF89EA7F3D9723"
-					item: { count: 1, id: "ae2:quantum_ring" }
-					type: "item"
+					id: "44F4730EE7505C03"
+					type: "checkmark"
 				}
 				{
-					id: "77AAB3DE8A68F850"
-					item: { count: 1, id: "ae2:quantum_link" }
-					type: "item"
+					consume_fluid: "DEFAULT"
+					fluid: {
+						amount: 1000
+						id: "justdirethings:refined_t2_fluid_source"
+					}
+					id: "11291160D339974D"
+					optional_task: true
+					type: "fluid"
 				}
 			]
 			x: -13.0d
-			y: -7.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2D97D7DF6142F5D0"]
+			hide_dependency_lines: true
+			id: "2CFADEF017CCAF3B"
+			optional: true
+			tasks: [{
+				id: "78DDE1483AABE780"
+				item: { count: 1, id: "anvilcraft:exp_gem" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: -2.0d
 		}
 	]
 }

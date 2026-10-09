@@ -7,31 +7,6 @@ ServerEvents.recipes(event => {
         {
             "ingredient": 
             {
-            "item": "mbd2:seed_aggregator"
-            },
-            "count": 5
-        },
-        {
-            "ingredient": 
-            {
-            "item": "ae2lt:overload_singularity"
-            },
-            "count": 1
-        }
-        ],
-        "result": {
-        "count": 1,
-        "id": "mbd2:advanced_seed_aggregator"
-        }
-    })
-    event.custom(
-    {
-        "type": "ae2lt:lightning_transform",
-        "priority": 0,
-        "inputs": [
-        {
-            "ingredient": 
-            {
             "item": "minecraft:lead"
             },
             "count": 1

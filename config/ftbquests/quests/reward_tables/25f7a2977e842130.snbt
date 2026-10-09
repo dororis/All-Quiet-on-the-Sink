@@ -1,0 +1,10 @@
+{
+	id: "25F7A2977E842130"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{ id: "3B36BFA0E3A93FAA", item: { count: 1, id: "ae2omnicells:omni_cell_component_256k" } }
+		{ id: "5F29491CF266F94B", item: { count: 1, id: "ae2omnicells:complex_omni_cell_component_64k" } }
+		{ id: "0CBD31F8EBE5FD3E", item: { count: 1, id: "ae2omnicells:quantum_omni_cell_component_16k" } }
+	]
+}

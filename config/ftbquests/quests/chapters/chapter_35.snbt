@@ -94,6 +94,15 @@
 			x: 2.5d
 			y: -6.0d
 		}
+		{
+			height: 1.0d
+			id: "6ADFFAE997812C11"
+			image: "ftblibrary:icons/dropdown_out"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: -7.5d
+		}
 	]
 	order_index: 5
 	quest_links: [ ]
@@ -216,34 +225,6 @@
 		}
 		{
 			id: "4DF4E65BA579AB00"
-			rewards: [
-				{
-					id: "244F55A091E677DE"
-					item: {
-						count: 1
-						id: "jdte:advanced_item_collector"
-					}
-					type: "item"
-				}
-				{
-					id: "3F26BA8BF3BD0D30"
-					item: {
-						components: {
-							"ae2:wireless_link_target": {
-								dimension: "minecraft:overworld"
-								pos: [I;
-									-779
-									135
-									213
-								]
-							}
-						}
-						count: 1
-						id: "jdte:ae_output_upgrade"
-					}
-					type: "item"
-				}
-			]
 			tasks: [{
 				id: "2A42C7496D4C14A9"
 				type: "checkmark"

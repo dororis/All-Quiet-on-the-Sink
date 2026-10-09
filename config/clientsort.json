@@ -95,7 +95,9 @@
         "matchTransferPolicy": "KEYBIND_BUTTON",
         "transferPolicy": "KEYBIND_BUTTON",
         "autoOpOther": false,
-        "ignoredSlots": []
+        "ignoredSlots": [
+          9
+        ]
       },
       "net.minecraft.world.inventory.ChestMenu": {
         "className": "net.minecraft.world.inventory.ChestMenu",

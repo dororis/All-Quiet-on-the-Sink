@@ -15,7 +15,7 @@
 			image: "ae2lt:block/firmament_conversion_core_flash"
 			rotation: 0.0d
 			width: 5.0d
-			x: 3.0d
+			x: 2.0d
 			y: 0.0d
 		}
 		{
@@ -25,7 +25,7 @@
 			image: "ae2lt:textures/gui/easter_egg.png"
 			rotation: 0.0d
 			width: 2.0d
-			x: 7.0d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
@@ -45,15 +45,42 @@
 			image: "ae2lt:block/lightning_assembler/lightnings"
 			rotation: 0.0d
 			width: 3.0d
-			x: -2.0d
+			x: -3.0d
 			y: 0.0d
+		}
+		{
+			height: 1.0d
+			id: "67A9C11F7AB531A3"
+			image: "ftblibrary:icons/dropdown_out"
+			rotation: 0.0d
+			width: 1.0d
+			x: -14.5d
+			y: -1.5d
 		}
 	]
 	order_index: 3
-	quest_links: [ ]
+	quest_links: [
+		{
+			id: "4E835C2BC7557525"
+			linked_quest: "4F8C00E9148B2CE5"
+			x: -12.5d
+			y: 1.0d
+		}
+		{
+			id: "5E9888F364BE0EA9"
+			linked_quest: "7D88B0E985B0B494"
+			x: -11.5d
+			y: 1.0d
+		}
+		{
+			id: "585EC9DD9939ACB3"
+			linked_quest: "21090EF8D8B0A3EF"
+			x: -10.5d
+			y: 1.0d
+		}
+	]
 	quests: [
 		{
-			dependencies: ["6D27F907053A9567"]
 			id: "767DD7FC0B583E79"
 			rewards: [{
 				id: "02E5BEBC34F5B370"
@@ -68,7 +95,7 @@
 				id: "066745628CEE996B"
 				type: "checkmark"
 			}]
-			x: -12.0d
+			x: -14.5d
 			y: 0.0d
 		}
 		{
@@ -130,7 +157,7 @@
 				item: { count: 1, id: "ae2lt:tesla_coil" }
 				type: "item"
 			}]
-			x: -2.0d
+			x: -3.0d
 			y: 0.0d
 		}
 		{
@@ -142,7 +169,7 @@
 				item: { count: 1, id: "ae2lt:overloaded_pattern_provider" }
 				type: "item"
 			}]
-			x: -1.0d
+			x: -2.0d
 			y: 1.5d
 		}
 		{
@@ -154,7 +181,7 @@
 				item: { count: 1, id: "ae2lt:overloaded_interface" }
 				type: "item"
 			}]
-			x: -3.0d
+			x: -4.0d
 			y: 1.5d
 		}
 		{
@@ -165,7 +192,7 @@
 				item: { count: 1, id: "ae2lt:overloaded_power_supply" }
 				type: "item"
 			}]
-			x: -2.0d
+			x: -3.0d
 			y: 2.0d
 		}
 		{
@@ -230,7 +257,7 @@
 				item: { count: 1, id: "extendedae:void_cell" }
 				type: "item"
 			}]
-			x: -2.0d
+			x: -3.0d
 			y: -2.0d
 		}
 		{
@@ -242,7 +269,7 @@
 				item: { count: 1, id: "dysoncubeproject:em_railejector_controller" }
 				type: "item"
 			}]
-			x: -3.0d
+			x: -4.0d
 			y: -1.5d
 		}
 		{
@@ -254,7 +281,7 @@
 				item: { count: 1, id: "dysoncubeproject:ray_receiver_controller" }
 				type: "item"
 			}]
-			x: -1.0d
+			x: -2.0d
 			y: -1.5d
 		}
 		{
@@ -275,7 +302,7 @@
 				item: { count: 1, id: "ae2lt:lightning_collapse_matrix" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.0d
 			y: 0.0d
 		}
 		{
@@ -287,7 +314,7 @@
 				item: { count: 1, id: "ae2lt:overload_processing_factory" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.0d
 			y: 0.0d
 		}
 		{
@@ -298,7 +325,7 @@
 				item: { count: 1, id: "ae2lt:lightning_simulation_room" }
 				type: "item"
 			}]
-			x: -5.0d
+			x: -5.5d
 			y: 0.0d
 		}
 		{
@@ -309,7 +336,7 @@
 				item: { count: 1, id: "ae2lt:lightning_assembly_chamber" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: 0.0d
 		}
 		{
@@ -319,7 +346,7 @@
 				item: { count: 1, id: "ae2lt:lightning_item_cell_housing" }
 				type: "item"
 			}]
-			x: -5.0d
+			x: -5.5d
 			y: -1.0d
 		}
 		{
@@ -332,7 +359,7 @@
 				item: { components: { "minecraft:custom_data": { CellType: 1b } }, count: 1, id: "ae2lt:mysterious_cell" }
 				type: "item"
 			}]
-			x: 6.75d
+			x: 5.75d
 			y: -0.2d
 		}
 		{
@@ -345,18 +372,8 @@
 				item: { components: { "minecraft:custom_data": { CellType: 3b } }, count: 1, id: "ae2lt:mysterious_cell" }
 				type: "item"
 			}]
-			x: 7.35d
+			x: 6.35d
 			y: -0.2d
-		}
-		{
-			id: "334BA2C1064E098C"
-			tasks: [{
-				id: "214DE215B21E887D"
-				item: { count: 1, id: "ae2lt:overload_alloy_blank" }
-				type: "item"
-			}]
-			x: -10.0d
-			y: 0.0d
 		}
 		{
 			id: "164E2C0857E93F1B"
@@ -376,7 +393,112 @@
 				item: { count: 1, id: "ae2lt:rainbow_pigmee_fumo" }
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2FBD205B543F64A3"]
+			id: "7E5A5AE7E2B67783"
+			tasks: [{
+				id: "1E859B7EFA5FFC0F"
+				item: { count: 1, id: "anvilcraft:wood_fiber" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7E5A5AE7E2B67783"]
+			id: "12E60F57D99C6ED9"
+			tasks: [
+				{
+					id: "707EE2CBE515DD34"
+					type: "checkmark"
+				}
+				{
+					consume_fluid: "DEFAULT"
+					fluid: {
+						amount: 1000
+						id: "industrialforegoing:latex"
+					}
+					id: "24EF95822B70EFB3"
+					optional_task: true
+					type: "fluid"
+				}
+			]
+			x: -10.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0C7B5373619398BC"]
+			dependency_requirement: "all_started"
+			id: "4EBA5A17AA2351E1"
+			tasks: [
+				{
+					id: "0A15D9C6F6C734A1"
+					item: { count: 1, id: "industrialforegoing:pink_slime" }
+					type: "item"
+				}
+				{
+					id: "6463011642B21F5C"
+					item: { count: 1, id: "industrialforegoing:pink_slime_block" }
+					type: "item"
+				}
+			]
+			x: -11.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "oritech:centrifuge_block"
+			}
+			id: "2FBD205B543F64A3"
+			tasks: [
+				{
+					id: "1E951911AD4849B2"
+					item: { count: 1, id: "oritech:centrifuge_block" }
+					type: "item"
+				}
+				{
+					id: "40CB415E95C6528B"
+					item: { count: 1, id: "oritech:machine_fluid_addon" }
+					type: "item"
+				}
+			]
+			x: -12.5d
+			y: -1.0d
+		}
+		{
+			id: "0C7B5373619398BC"
+			tasks: [{
+				id: "3B191D4508DB4F24"
+				item: { count: 1, id: "mekanism:pigment_extractor" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4EBA5A17AA2351E1"]
+			id: "6F0732CB83BEE0B5"
+			tasks: [
+				{
+					id: "4F430132EEABA86D"
+					type: "checkmark"
+				}
+				{
+					consume_fluid: "DEFAULT"
+					fluid: {
+						amount: 1000
+						id: "industrialforegoing:pink_slime"
+					}
+					id: "0B5B1501C81FCBC9"
+					optional_task: true
+					type: "fluid"
+				}
+			]
+			x: -10.5d
 			y: 0.0d
 		}
 	]

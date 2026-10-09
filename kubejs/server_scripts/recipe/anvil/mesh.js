@@ -162,6 +162,14 @@ ServerEvents.recipes(event => {
             "count": {
                 "type": "minecraft:binomial",
                 "n": 1.0,
+                "p": 0.5
+            },
+            "id": "ae2cs:fluix_crystal_seed"
+            },
+            {
+            "count": {
+                "type": "minecraft:binomial",
+                "n": 1.0,
                 "p": 0.3
             },
             "id": "ae2cs:meteor_seed"
@@ -189,14 +197,6 @@ ServerEvents.recipes(event => {
                 "p": 0.1
             },
             "id": "ae2cs:entro_crystal_seed"
-            },
-            {
-            "count": {
-                "type": "minecraft:binomial",
-                "n": 1.0,
-                "p": 0.7
-            },
-            "id": "apotheosis:luminous_crystal_shard"
             },
             ]
     })

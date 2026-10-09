@@ -409,9 +409,9 @@ configVersion = 3
 		cleanupBatchSize = 128
 
 [miningFactory]
-	#Maximum independent loot rolls per batch. Each batch takes five ticks and rolls only on completion. Parallel capacity follows the Overload Processing Factory matrix settings. Each roll represents an equal-sized group (remainder distributed across groups). Set at least the matrix parallel capacity for independent rolls.
+	#Maximum independent loot rolls per batch (despite the historical PerTick name). Each batch takes five ticks and rolls only on completion. Each roll represents an equal-sized group (remainder distributed across groups). Set at least the actual batch size for independent rolls; 2048 covers the default eight-matrix capacity.
 	# Default: 8
-	# Range: 1 ~ 1024
+	# Range: 1 ~ 4096
 	lootSamplesPerTick = 8
 	#FE consumed per input block when using a durability tool.
 	# Default: 256
@@ -421,3 +421,11 @@ configVersion = 3
 	# Default: 768
 	# Range: 0 ~ 500000
 	planeExtraEnergyPerBlock = 768
+	#Parallel capacity without matrices. Independent of the Overload Processing Factory settings.
+	# Default: 8
+	# Range: 1 ~ 4096
+	baseParallel = 8
+	#Parallel capacity per installed matrix, replacing baseParallel when matrices are installed. Up to eight matrices can be installed.
+	# Default: 256
+	# Range: 1 ~ 268435455
+	parallelPerMatrix = 256
