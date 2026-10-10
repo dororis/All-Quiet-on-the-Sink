@@ -1365,6 +1365,14 @@
 		{
 			dependencies: ["08864DC3056BD3CA"]
 			id: "7FA772C2678E403E"
+			rewards: [{
+				id: "7DAE7EF12DE57015"
+				item: {
+					count: 1
+					id: "extendedae:tag_storage_bus"
+				}
+				type: "item"
+			}]
 			size: 1.0d
 			tasks: [{
 				id: "0D41D81A6EDED207"

@@ -132,7 +132,7 @@
 	quest.24E5304DCF2C50F5.quest_subtitle: "可能要两个"
 	quest.2509114D50B16ED4.quest_subtitle: "富集"
 	quest.25F8AA9C35B2B1E3.quest_desc: ["将其精炼"]
-	quest.25F8AA9C35B2B1E3.quest_subtitle: "由化学品冷凝而来"
+	quest.25F8AA9C35B2B1E3.quest_subtitle: "双重冷凝"
 	quest.2652440368CA758B.quest_desc: [
 		"9个加工台432块/t"
 		"8640块/s"
@@ -198,6 +198,8 @@
 	quest.3DE294D267FCD97E.quest_subtitle: "搜X撤"
 	quest.3E66B430F68ABD19.quest_subtitle: "更爽的ae"
 	quest.3E66B430F68ABD19.title: "无限频道"
+	quest.3E7523E7BB2C1B41.quest_desc: ["前期可以用谐振样板"]
+	quest.3E7523E7BB2C1B41.quest_subtitle: "但是不支持流体输入"
 	quest.3E8269255530BB4D.quest_desc: ["这是个问题"]
 	quest.3E8269255530BB4D.quest_subtitle: "反应还是古法"
 	quest.3F2E0535640DB144.quest_subtitle: "满满3桶"

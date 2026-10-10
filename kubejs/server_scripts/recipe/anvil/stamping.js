@@ -70,4 +70,21 @@ ServerEvents.recipes(event => {
       }
     ]
   })
+  event.custom({
+    type: "anvilcraft:stamping",
+    ingredients: [
+      {
+        items: "anvilcraft:royal_steel_upgrade_smithing_template"
+      },
+      {
+        items:"minecraft:netherite_ingot"
+      }
+    ],
+    results: [
+      {
+        id: "minecraft:netherite_upgrade_smithing_template",
+        count: 1
+      }
+    ]
+  })
 })

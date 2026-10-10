@@ -36,12 +36,12 @@ event.custom(
   ],
   "type": "oritech:centrifuge_fluid",
   "fluidInput": {
-    "amount": 9000,
+    "amount": 8000,
     "fluid": "minecraft:water"
   },
   "fluidOutputs": [
     {
-      "amount": 9000,
+      "amount": 8000,
       "fluid": "industrialforegoing:pink_slime"
     }
   ],

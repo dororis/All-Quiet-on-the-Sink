@@ -7,7 +7,7 @@ ServerEvents.recipes(event => {
   },
   "consume": true,
   "hitBlock": {
-    "blocks": "ae2lt:tianshu_multidimensional_main_core"
+    "blocks": "justdirethings:time_crystal_budding_block"
   },
   "output_items": [],
   "speed": 32,
@@ -33,7 +33,7 @@ ServerEvents.recipes(event => {
   },
   "consume": true,
   "hitBlock": {
-    "blocks": "ae2lt:tianshu_multidimensional_main_core"
+    "blocks": "justdirethings:time_crystal_budding_block"
   },
   "output_items": [],
   "speed": 128,
@@ -111,7 +111,7 @@ ServerEvents.recipes(event => {
   },
   "consume": true,
   "hitBlock": {
-    "blocks": "molecularmanipulator:singularity_sequence_matter"
+    "blocks": "molecularmanipulator:compact_singularity_hub"
   },
   "output_items": [],
   "speed": 32,
@@ -137,7 +137,7 @@ ServerEvents.recipes(event => {
   },
   "consume": true,
   "hitBlock": {
-    "blocks": "molecularmanipulator:singularity_sequence_matter"
+    "blocks": "molecularmanipulator:compact_singularity_hub"
   },
   "output_items": [],
   "speed": 128,

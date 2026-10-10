@@ -54,7 +54,7 @@ ServerEvents.recipes(event => {
   "neoforge:conditions": [
     {
       "type": "neoforge:item_exists",
-      "item": "mifa:efficiency_addon_4"
+      "item": "mifa:processing_addon_4"
     }
   ],
   "type": "industrialforegoing:dissolution_chamber",
@@ -91,7 +91,7 @@ ServerEvents.recipes(event => {
   "output": {
     "components": {
       "titanium:augments": {
-        "Efficiency": 0.6
+        "processing": 0.6
       }
     },
     "count": 1,
@@ -104,7 +104,7 @@ ServerEvents.recipes(event => {
   "neoforge:conditions": [
     {
       "type": "neoforge:item_exists",
-      "item": "mifa:efficiency_addon_4"
+      "item": "mifa:speed_addon_4"
     }
   ],
   "type": "industrialforegoing:dissolution_chamber",
@@ -141,7 +141,7 @@ ServerEvents.recipes(event => {
   "output": {
     "components": {
       "titanium:augments": {
-        "Efficiency": 0.6
+        "speed": 0.6
       }
     },
     "count": 1,

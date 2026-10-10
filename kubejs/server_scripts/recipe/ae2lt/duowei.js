@@ -35,6 +35,12 @@ ServerEvents.recipes(event => {
       },
         "count": 4
     },
+    {
+        "ingredient": {
+        "item": "molecularmanipulator:miniature_supernova"
+      },
+        "count": 1
+    },
     ],
     "results": [
             {
@@ -83,6 +89,12 @@ ServerEvents.recipes(event => {
         "item": "ae2lt:tianshu_overload_main_core"
       },
         "count": 4
+    },
+    {
+        "ingredient": {
+        "item": "molecularmanipulator:miniature_supernova"
+      },
+        "count": 1
     },
     ],
     "results": [

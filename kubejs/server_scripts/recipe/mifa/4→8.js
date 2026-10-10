@@ -138,7 +138,7 @@ ServerEvents.recipes(event => {
   "output": {
     "components": {
       "titanium:augments": {
-        "Efficiency": 0.19999999
+        "speed": 0.19999999
       }
     },
     "count": 1,

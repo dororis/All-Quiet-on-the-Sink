@@ -23,4 +23,16 @@ ServerEvents.recipes(event => {
             B: 'cataclysm:storm_eye',                         
         }
     )
+    event.shaped(
+        Item.of('8x minecraft:egg'), 
+        [                                               
+            'AAA',
+            'ABA',
+            'AAA'
+        ],
+        {
+            A: 'ae2:white_paint_ball',  
+            B: 'hostilenetworks:overworld_prediction',                         
+        }
+    )
 })

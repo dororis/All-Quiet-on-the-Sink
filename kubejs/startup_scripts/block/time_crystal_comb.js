@@ -1,0 +1,13 @@
+StartupEvents.registry('block', event => {
+    event.create('time_crystal_comb') 
+        .displayName('§a时间水晶蜜脾块')
+        .hardness(1.0)
+        .resistance(1.0)
+        .soundType('honey_block')
+        .texture('down', 'kubejs:block/time_crystal_comb')
+        .texture('up', 'kubejs:block/time_crystal_comb')
+        .texture('north', 'kubejs:block/time_crystal_comb')
+        .texture('south', 'kubejs:block/time_crystal_comb')
+        .texture('west', 'kubejs:block/time_crystal_comb')
+        .texture('east', 'kubejs:block/time_crystal_comb')
+})
