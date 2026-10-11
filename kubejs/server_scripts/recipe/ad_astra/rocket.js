@@ -99,7 +99,7 @@ ServerEvents.recipes(event => {
   ],
   "result": {
     "count": 1,
-    "id": "ad_astra:tier_4_rocket"
+    "id": "ad_astra:tier_1_rocket"
   }
 }
 )})

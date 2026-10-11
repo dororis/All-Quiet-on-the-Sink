@@ -87,4 +87,18 @@ ServerEvents.recipes(event => {
       }
     ]
   })
+  event.custom({
+    type: "anvilcraft:stamping",
+    ingredients: [
+      {
+        items: "ae2lt:pigmee_fumo"
+      }
+    ],
+    results: [
+      {
+        id: "ae2lt:pigmee_core",
+        count: 1
+      }
+    ]
+  })
 })

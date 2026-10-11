@@ -30,7 +30,7 @@
 	quest.02C2227786131546.quest_subtitle: "二阶火箭的燃料"
 	quest.03A621C6C70CE245.quest_desc: ["热知识：量子盘也能存闪电"]
 	quest.04BD9BD959BBB9B3.quest_subtitle: "耐久128"
-	quest.058BFB6299EB58F0.quest_subtitle: "氘氚燃料→200M/t"
+	quest.058BFB6299EB58F0.quest_subtitle: "氘氚燃料→1G/t"
 	quest.066DCE023BEE9BAF.quest_subtitle: "部分"
 	quest.0685EDD49B2A121E.quest_subtitle: "53.49M/t"
 	quest.06D4298AB9FC30A0.quest_subtitle: "超级爆爆回"
@@ -92,7 +92,10 @@
 	quest.16C05C98339D4C4E.quest_subtitle: "另一种戴森球及人造恒星"
 	quest.1782014E0B3642BA.quest_subtitle: "独立电网"
 	quest.18B2453192FD189B.quest_subtitle: "固液反应"
-	quest.18C988B0963CAF25.quest_desc: ["有&c红石&r信号则产出&e盐水&r"]
+	quest.18C988B0963CAF25.quest_desc: [
+		"有&c红石&r信号则产出&e盐水&r"
+		"[ { \"text\": \"跳转至紧凑型裂变燃料\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"08BBEECEB0E72C7D\" } } ]"
+	]
 	quest.18C988B0963CAF25.quest_subtitle: "无红石信号默认产出液态锂"
 	quest.18EEA49C0481635A.quest_desc: ["强化黑曜石镐支持atm升级"]
 	quest.18EEA49C0481635A.quest_subtitle: "强化黑曜石镐支持升级为atm镐"
@@ -113,6 +116,7 @@
 	quest.1E25B1D960DB36FC.quest_desc: ["大规模使用可能造成卡顿"]
 	quest.1E25B1D960DB36FC.quest_subtitle: "产能大，利用率较小"
 	quest.1F86DED01ED1ED3D.quest_subtitle: "这个是很后面的配方"
+	quest.1FC79126F33EEEE8.quest_subtitle: "同时获得热核"
 	quest.2075CC1FF4496731.quest_desc: [
 		"/sethome设家/home回家"
 		"/setwarp 123设点/warp 123传送"
@@ -214,7 +218,9 @@
 	quest.42C5DE58BDE9A4F5.quest_subtitle: "做种子"
 	quest.4407AC3AABD9F869.quest_subtitle: "妙妙终端"
 	quest.4494DAE522180E9A.quest_subtitle: "1.2M/t"
+	quest.44DAEB1ACB3069B8.quest_desc: ["查看巨型铁砧的配方"]
 	quest.44DAEB1ACB3069B8.quest_subtitle: "从普通信标转化而来"
+	quest.44DAEB1ACB3069B8.title: "腐化信标"
 	quest.4552D4A4782F78B1.quest_desc: ["以及合金炉，如果你想的话"]
 	quest.4552D4A4782F78B1.quest_subtitle: "熔铸炉的使用"
 	quest.45C86CB3E4FA12CB.quest_subtitle: "烧"
@@ -302,8 +308,8 @@
 	quest.6C20CE341FBA6D38.quest_desc: ["在主世界运行"]
 	quest.6C20CE341FBA6D38.quest_subtitle: "刷电机"
 	quest.6C29DF39D59EC961.quest_desc: ["[ { \"text\": \"跳转\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"19BA72E1D6040239\" } } ]"]
-	quest.6C49BDC2EFF4A1C2.quest_subtitle: "硅铀燃料→400M/t"
-	quest.6D987BA52E1A9F71.quest_subtitle: "4.62M/t"
+	quest.6C49BDC2EFF4A1C2.quest_subtitle: "硅铀燃料→4G/t"
+	quest.6D987BA52E1A9F71.quest_subtitle: "4.62M/t→1.41G/t"
 	quest.6F8404FD408D2B2B.quest_desc: ["&2营养液&r-&a瓜&r循环增产"]
 	quest.6F8404FD408D2B2B.quest_subtitle: "化学品"
 	quest.70159AB550F524F3.quest_desc: ["&m撮合用&r"]

@@ -32,4 +32,9 @@ ServerEvents.recipes(event => {
         'minecraft:slime_block',         
         '900x mekanism:pink'                                                         
     )
+    event.recipes.mekanism.metallurgic_infusing(                 
+        'allthemodium:ancient_soulberries',
+        'minecraft:glow_berries',         
+        '20x kubejs:soul_lava'                                                         
+    )
 })

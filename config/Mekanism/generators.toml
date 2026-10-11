@@ -168,7 +168,7 @@
 	#Affects the Injection Rate, Max Temp, and Ignition Temp.
 	# Default: 10000000
 	# Range: 0 ~ 9223372036854775807
-	fuelEnergy = 10000000
+	fuelEnergy = 500000
 	#The fraction of the heat dissipated from the case that is converted to Joules.
 	# Default: 0.05
 	# Range: 0.0 ~ 1.0
@@ -184,11 +184,11 @@
 	#Amount of fuel (mB) that the fusion reactor can store.
 	# Default: 1000
 	# Range: 2 ~ 1000000
-	fuelCapacity = 1000
+	fuelCapacity = 100000
 	#Amount of energy (Joules) the fusion reactor can store.
 	# Default: 1000000000
 	# Range: 1 ~ 9223372036854775807
-	energyCapacity = 1000000000
+	energyCapacity = 2500000000
 	#Amount of water (mB) per injection rate that the fusion reactor can store. Max = injectionRate * waterPerInjection
 	# Default: 1000000
 	# Range: 1 ~ 21913098

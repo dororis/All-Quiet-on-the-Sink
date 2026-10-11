@@ -94,8 +94,14 @@
 		# Default: 20
 		# Range: 1 ~ 1200
 		timeAcceleratorRandomRefreshInterval = 20
+		#Ticks between block entity machine target cache refreshes
+		# Default: 20
+		# Range: 1 ~ 1200
+		timeAcceleratorMachineRefreshInterval = 20
 		#Allow Time Accelerators with an AE Acceleration Upgrade to invoke AE2 IGridTickable services
 		timeAcceleratorAE2Enabled = true
+		#Enable visual overlay effect entities on accelerated blocks. Set to false to disable effect entities and reduce network packet traffic.
+		timeAcceleratorEffectsEnabled = true
 		#Ultimate Time Wand Time Fluid capacity (mB)
 		# Default: 800000
 		# Range: 1000 ~ 100000000
@@ -118,12 +124,48 @@
 		ultimateTimeWandEnergyCostMultiplier = 1.0
 		#Keep fractional Ultimate Time Wand fluid cost between settlements
 		ultimateTimeWandFractionalFluidSettlement = true
-		#Ticks between block entity machine target cache refreshes
-		# Default: 20
-		# Range: 1 ~ 1200
-		timeAcceleratorMachineRefreshInterval = 20
-		#Enable visual overlay effect entities on accelerated blocks. Set to false to disable effect entities and reduce network packet traffic.
-		timeAcceleratorEffectsEnabled = true
+
+	#Entity Accelerator Settings
+	[jdte.entityAccelerator]
+		# Default: 200000
+		# Range: 1000 ~ 100000000
+		advancedEnergyCapacity = 200000
+		# Default: 500000
+		# Range: 1000 ~ 100000000
+		extendedEnergyCapacity = 500000
+		# Default: 10000
+		# Range: 100 ~ 100000
+		baseFluidCapacity = 10000
+		# Default: 4
+		# Range: 1 ~ 64
+		advancedDefaultMultiplier = 4
+		# Default: 64
+		# Range: 1 ~ 64
+		advancedMaxMultiplier = 64
+		# Default: 128
+		# Range: 1 ~ 256
+		advancedOverclockMultiplier = 128
+		# Default: 512
+		# Range: 1 ~ 512
+		extendedMaxMultiplier = 512
+		# Default: 1024
+		# Range: 1 ~ 1024
+		extendedOverclockMultiplier = 1024
+		# Default: 1.0
+		# Range: 0.0 ~ 100.0
+		fluidCostMultiplier = 1.0
+		# Default: 2.0
+		# Range: 0.1 ~ 100.0
+		advancedTierFluidCostMultiplier = 2.0
+		# Default: 5.0
+		# Range: 0.1 ~ 100.0
+		extendedTierFluidCostMultiplier = 5.0
+		# Default: 32
+		# Range: 1 ~ 512
+		advancedMaxEntitiesPerTick = 32
+		# Default: 64
+		# Range: 1 ~ 512
+		extendedMaxEntitiesPerTick = 64
 
 	#Time Freezer Settings
 	[jdte.timeFreezer]
@@ -228,6 +270,8 @@
 
 	#Loot Fabricator Settings
 	[jdte.lootFabricator]
+		#When disabled, dynamic Loot Fabricator JEI recipes are not generated; the machine remains usable.
+		recipeGenerationEnabled = true
 		#Life Fluid consumed per successful loot fabrication operation (mB)
 		# Default: 20
 		# Range: 1 ~ 1000000
@@ -240,8 +284,6 @@
 		# Default: 50
 		# Range: 0 ~ 10000
 		lootingFluidCostIncreasePercent = 50
-		#When disabled, dynamic Loot Fabricator JEI recipes are not generated; the machine remains usable.
-		recipeGenerationEnabled = true
 
 	#Mineral Extractor Settings
 	[jdte.mineralExtractor]
@@ -417,6 +459,28 @@
 		#Prevent explosions from contained projectiles from affecting blocks and entities outside the field
 		containProjectileExplosions = true
 
+	#Repair Talisman Settings
+	[jdte.repairTalisman]
+		#Durability points repaired per cycle for every damaged item while a Repair Talisman is in the inventory
+		# Default: 5
+		# Range: 1 ~ 1000
+		amountPerCycle = 5
+		#Ticks between repair cycles; 0 disables the talisman
+		# Default: 4
+		# Range: 0 ~ 1200
+		cycleInterval = 4
+		#FE consumed per durability point repaired, drawn from charged energy items in the player's inventory; 0 makes repairs free
+		# Default: 10000
+		# Range: 0 ~ 100000000
+		energyPerDurability = 10000
+
+	#AE Output Upgrade Settings
+	[jdte.aeOutput]
+		#Ticks between AE return flushes on machines with the AE Output Upgrade installed
+		# Default: 5
+		# Range: 1 ~ 1200
+		returnInterval = 5
+
 	#Factory Packer Settings
 	[jdte.factoryPacker]
 		# Default: 10000000
@@ -528,6 +592,8 @@
 
 	#Greenhouse Settings
 	[jdte.greenhouse]
+		#When disabled, dynamic Greenhouse and Large Greenhouse JEI recipes are not generated; data-pack recipes remain available.
+		recipeGenerationEnabled = true
 		# Default: 64000
 		# Range: > 1000
 		fluidCapacity = 64000
@@ -563,6 +629,10 @@
 		# Default: 25
 		# Range: 1 ~ 1000000
 		mysticalBaseFluidCost = 25
+		#Mystical Agriculture crop growth work percentage increase per tier above Tier 1
+		# Default: 50
+		# Range: 0 ~ 10000
+		mysticalTierGrowthPercent = 50
 		# Default: 10
 		# Range: 1 ~ 1000000
 		genericFluidCost = 10
@@ -585,12 +655,6 @@
 		# Default: 128
 		# Range: 1 ~ 4096
 		dynamicHarvestCallsPerTick = 128
-		#When disabled, dynamic Greenhouse and Large Greenhouse JEI recipes are not generated; data-pack recipes remain available.
-		recipeGenerationEnabled = true
-		#Mystical Agriculture crop growth work percentage increase per tier above Tier 1
-		# Default: 50
-		# Range: 0 ~ 10000
-		mysticalTierGrowthPercent = 50
 
 	#Life Synthesis Vat Settings
 	[jdte.lifeSynthesisVat]
@@ -632,6 +696,8 @@
 
 	#Bio Factory Settings
 	[jdte.bioFactory]
+		#When disabled, dynamic Bio Factory JEI recipes are not generated; data-pack recipes remain available.
+		recipeGenerationEnabled = true
 		# Default: 64000
 		# Range: > 1000
 		fluidCapacity = 64000
@@ -676,8 +742,6 @@
 		# Default: 5
 		# Range: 1 ~ 1000
 		externalLifeFluidCostMultiplier = 5
-		#When disabled, dynamic Bio Factory JEI recipes are not generated; data-pack recipes remain available.
-		recipeGenerationEnabled = false
 
 	#Life Breeder Settings
 	[jdte.lifeBreeder]
@@ -853,28 +917,6 @@
 		#Mod ids (resource namespaces) whose spawn eggs are excluded from the Infusion Machine's dynamic spawn egg recipes, e.g. "occultism". As a result no infusion recipe is generated for those spawn eggs and they can no longer be produced from mob loot. Full item or entity resource location ids (e.g. "occultism:debug_familiar_spawn_egg") are also accepted.
 		spawnEggModBlacklist = ["occultism"]
 
-	#Repair Talisman Settings
-	[jdte.repairTalisman]
-		#Durability points repaired per cycle for every damaged item while a Repair Talisman is in the inventory
-		# Default: 5
-		# Range: 1 ~ 1000
-		amountPerCycle = 5
-		#Ticks between repair cycles; 0 disables the talisman
-		# Default: 4
-		# Range: 0 ~ 1200
-		cycleInterval = 4
-		#FE consumed per durability point repaired, drawn from charged energy items in the player's inventory; 0 makes repairs free
-		# Default: 10000
-		# Range: 0 ~ 100000000
-		energyPerDurability = 10000
-
-	#AE Output Upgrade Settings
-	[jdte.aeOutput]
-		#Ticks between AE return flushes on machines with the AE Output Upgrade installed
-		# Default: 5
-		# Range: 1 ~ 1200
-		returnInterval = 5
-
 	#Content Settings
 	[jdte.content]
 		#Block ids or directory prefixes to disable. Missing namespaces default to jdte, so greenhouse means jdte:greenhouse.
@@ -885,45 +927,3 @@
 		timeAcceleratorEnabled = true
 		#When disabled, all Time Freezer blocks and their bundled crafting recipes remain registered but cannot be used.
 		timeFreezerEnabled = true
-
-	#Entity Accelerator Settings
-	[jdte.entityAccelerator]
-		# Default: 200000
-		# Range: 1000 ~ 100000000
-		advancedEnergyCapacity = 200000
-		# Default: 500000
-		# Range: 1000 ~ 100000000
-		extendedEnergyCapacity = 500000
-		# Default: 10000
-		# Range: 100 ~ 100000
-		baseFluidCapacity = 10000
-		# Default: 4
-		# Range: 1 ~ 64
-		advancedDefaultMultiplier = 4
-		# Default: 64
-		# Range: 1 ~ 64
-		advancedMaxMultiplier = 64
-		# Default: 128
-		# Range: 1 ~ 256
-		advancedOverclockMultiplier = 128
-		# Default: 512
-		# Range: 1 ~ 512
-		extendedMaxMultiplier = 512
-		# Default: 1024
-		# Range: 1 ~ 1024
-		extendedOverclockMultiplier = 1024
-		# Default: 1.0
-		# Range: 0.0 ~ 100.0
-		fluidCostMultiplier = 1.0
-		# Default: 2.0
-		# Range: 0.1 ~ 100.0
-		advancedTierFluidCostMultiplier = 2.0
-		# Default: 5.0
-		# Range: 0.1 ~ 100.0
-		extendedTierFluidCostMultiplier = 5.0
-		# Default: 32
-		# Range: 1 ~ 512
-		advancedMaxEntitiesPerTick = 32
-		# Default: 64
-		# Range: 1 ~ 512
-		extendedMaxEntitiesPerTick = 64

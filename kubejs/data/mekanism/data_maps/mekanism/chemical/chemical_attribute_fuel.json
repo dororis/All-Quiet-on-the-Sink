@@ -11,6 +11,23 @@
     "kubejs:unrefined_t4_fluid_source": {
       "burn_time": 120,
       "energy": 11280
+    },
+    "mekanism_extras:rich_uranium_fuel": {
+      "burn_time": 240,
+      "energy": 22560
+    },
+    "mekanism_extras:rich_naquadah_fuel": {
+      "burn_time": 480,
+      "energy": 45120
+    },
+    "mekanism_extras:naquadah_uranium_fuel": {
+      "burn_time": 960,
+      "energy": 90240
+    }
+    ,
+    "kubejs:dragon_breath": {
+      "burn_time": 1688,
+      "energy": 440625
     }
   }
 }

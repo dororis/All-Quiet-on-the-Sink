@@ -8,25 +8,25 @@ ServerEvents.recipes(event => {
             "ingredient": {
             "item": "ae2:logic_processor"
             },
-            "count": 64
+            "count": 256
             },
             {
             "ingredient": {
             "item": "ae2:calculation_processor"
             },
-            "count": 64
+            "count": 256
             },
             {
             "ingredient": {
             "item": "ae2:engineering_processor"
             },
-            "count": 64
+            "count": 256
             },
             {
             "ingredient": {
             "item": "extendedae:concurrent_processor"
             },
-            "count": 64
+            "count": 256
             },
             {
             "ingredient": {
@@ -38,25 +38,25 @@ ServerEvents.recipes(event => {
             "ingredient": {
             "item": "advanced_ae:quantum_processor"
             },
-            "count": 64
+            "count": 256
             },
             {
             "ingredient": {
             "item": "ae2cs:resonating_processor"
             },
-            "count": 64
+            "count": 256
             },
             {
             "ingredient": {
             "item": "ae2omnicells:multidimensional_expansion_processor"
             },
-            "count": 64
+            "count": 256
             },
             {
             "ingredient": {
             "item": "ae2lt:overload_processor"
             },
-            "count": 64
+            "count": 256
             }
             ],
             

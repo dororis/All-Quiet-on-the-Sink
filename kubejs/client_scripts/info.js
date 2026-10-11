@@ -4,7 +4,12 @@ RecipeViewerEvents.addInformation('item', event => {
 		'烈焰燃液18.48M/t',
 		'虚炎燃液36.96M/t',
 		'蚀空燃液73.92M/t',
-		'1倍 → 4倍 → 8倍 → 16倍'
+		'1倍 → 4倍 → 8倍 → 16倍',
+		'富铀燃料147.84M/t',
+		'富硅岩燃料295.68M/t',
+		'硅岩铀燃料591.36M/t',
+		'32倍 → 64倍 → 128倍',
+		'§d龙息 1.41G/t'
 	]),
 	event.add('mysticalagriculture:infusion_altar', [
 		'这份力量'

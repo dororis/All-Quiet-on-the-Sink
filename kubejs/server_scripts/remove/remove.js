@@ -132,4 +132,5 @@ ServerEvents.recipes(event => {
     event.remove({ id:'ae2cs:craft/shapeless/silicon_from_silicon_block'})
     event.remove({ id:'oritech:silicon_blockblockinv'})
     event.remove({ id:'extendedae:fishbig'})
+    event.remove({ id:'mekanism_extras:upgrade/stack'})
 })
