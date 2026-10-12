@@ -9,4 +9,4 @@ multiblockPreviewDuration = 10
 #Duration of the multiblock in-world pattern error position (s)
 # Default: 10
 # Range: 1 ~ 999
-multiblockPatternErrorPosDuration = 10
+multiblockPatternErrorPosDuration = 5

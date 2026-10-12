@@ -547,6 +547,13 @@
 				type: "item"
 			}]
 			tasks: [{
+				icon: {
+					components: {
+						"!ftbquests:icon": { }
+						"ftbquests:entity_face": "minecraft:bee"
+					}
+					id: "ftbquests:custom_icon"
+				}
 				id: "1FEA8EC4E37ABA17"
 				observation_type: "entity_type"
 				observe_type: 5

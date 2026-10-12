@@ -5,10 +5,14 @@ ServerEvents.recipes(event => {
     "catalyst": {
     "item": "mekanism_extras:alloy_thermonuclear"
     },
+    "inputFluid": {
+    "id": "minecraft:lava",
+    "amount": 1000
+    },
     "catalystCount": 32,
     "output": {
     "id": "powah:crystal_nitro",
-    "count": 1
+    "count": 64
     },
     "energyPerCycle": 100000,
     "lightningCost": 1,
@@ -20,13 +24,17 @@ ServerEvents.recipes(event => {
     "catalyst": {
     "item": "mekanism_extras:alloy_shining"
     },
+    "inputFluid": {
+    "id": "allthemodium:soul_lava",
+    "amount": 1000
+    },
     "catalystCount": 64,
     "output": {
     "id": "powahaddon:crystal_radiant",
     "count": 1
     },
     "energyPerCycle": 1000000,
-    "lightningCost": 1,
+    "lightningCost": 128,
     "lightningTier": "high_voltage"
     })
     event.custom(
@@ -41,7 +49,7 @@ ServerEvents.recipes(event => {
     "count": 1
     },
     "energyPerCycle": 10000000,
-    "lightningCost": 1,
+    "lightningCost": 256,
     "lightningTier": "high_voltage"
     })
     event.custom(
@@ -56,7 +64,7 @@ ServerEvents.recipes(event => {
     "count": 1
     },
     "energyPerCycle": 100000,
-    "lightningCost": 1,
+    "lightningCost": 512,
     "lightningTier": "high_voltage"
     })
     event.custom(
@@ -71,7 +79,7 @@ ServerEvents.recipes(event => {
     "count": 1
     },
     "energyPerCycle": 100000,
-    "lightningCost": 1,
+    "lightningCost": 16,
     "lightningTier": "high_voltage"
     })
     event.custom(

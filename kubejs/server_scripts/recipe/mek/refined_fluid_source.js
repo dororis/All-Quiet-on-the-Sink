@@ -82,3 +82,24 @@ ServerEvents.recipes(event => {
         }
     }).id('kubejs:rotary/helium')
 })
+ServerEvents.recipes(event => {
+    event.custom({
+        "type": "mekanism:rotary",      
+        "fluid_input": {
+            "amount": 1,
+            "fluid": "anvilcraft:primordial_matter"
+        },
+        "chemical_output": {
+            "amount": 1,
+            "id": "kubejs:primordial_matter"
+        },       
+        "chemical_input": {
+            "amount": 1,
+            "chemical": "kubejs:primordial_matter"
+        },
+        "fluid_output": {
+            "amount": 1,
+            "id": "anvilcraft:primordial_matter"
+        }
+    }).id('kubejs:rotary/primordial_matter')
+})

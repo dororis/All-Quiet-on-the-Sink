@@ -13,11 +13,11 @@ combiner = 50
 #Energy per operation in Joules of: Crusher
 # Default: 50
 # Range: 0 ~ 9223372036854775807
-crusher = 50
+crusher = 75
 #Energy per operation in Joules of: Metallurgic Infuser
 # Default: 50
 # Range: 0 ~ 9223372036854775807
-metallurgicInfuser = 50
+metallurgicInfuser = 75
 #Energy per operation in Joules of: Purification Chamber
 # Default: 200
 # Range: 0 ~ 9223372036854775807
@@ -25,7 +25,7 @@ purificationChamber = 200
 #Energy per operation in Joules of: Energized Smelter
 # Default: 50
 # Range: 0 ~ 9223372036854775807
-energizedSmelter = 50
+energizedSmelter = 75
 #Energy per operation in Joules of: Digital Miner
 # Default: 1000
 # Range: 0 ~ 9223372036854775807

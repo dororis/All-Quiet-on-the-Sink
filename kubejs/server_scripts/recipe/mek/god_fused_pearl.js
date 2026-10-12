@@ -37,4 +37,19 @@ ServerEvents.recipes(event => {
         'minecraft:glow_berries',         
         '20x kubejs:soul_lava'                                                         
     )
+    event.recipes.mekanism.metallurgic_infusing(                 
+        'appgen:ember_crystal',
+        'powah:crystal_nitro',         
+        '20x kubejs:unrefined_t2_fluid_source'                                                         
+    )
+    event.recipes.mekanism.metallurgic_infusing(                 
+        'appgen:ember_block',
+        'powah:nitro_crystal_block',         
+        '180x kubejs:unrefined_t2_fluid_source'                                                         
+    )
+    event.recipes.mekanism.metallurgic_infusing(                 
+        'apothic_enchanting:infused_breath',
+        'minecraft:dragon_breath',         
+        '200x mekanism_extras:fluorinated_naquadah_uranium_fuel'                                                         
+    )
 })

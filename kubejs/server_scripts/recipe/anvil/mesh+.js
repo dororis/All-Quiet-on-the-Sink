@@ -208,7 +208,7 @@ ServerEvents.recipes(event => {
                 "n": 3.0,
                 "p": 0.3
             },
-            "id": "alltheores:steel_block"
+            "id": "alltheores:aluminum_block"
             },
             {
             "count": {

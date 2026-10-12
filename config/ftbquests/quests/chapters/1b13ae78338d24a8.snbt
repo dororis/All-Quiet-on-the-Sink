@@ -901,11 +901,18 @@
 		}
 		{
 			id: "4FF5D9BC7E2D7A9F"
-			tasks: [{
-				id: "6EC6F9991A1EF4C7"
-				item: { count: 1, id: "ae2lt:pigmee_crystal_catalyzer" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6EC6F9991A1EF4C7"
+					item: { count: 1, id: "ae2lt:pigmee_crystal_catalyzer" }
+					type: "item"
+				}
+				{
+					id: "283F8B09977870A3"
+					item: { count: 1, id: "ae2lt:mining_factory" }
+					type: "item"
+				}
+			]
 			x: 6.5d
 			y: -6.0d
 		}

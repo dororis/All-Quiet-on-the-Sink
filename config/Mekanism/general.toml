@@ -17,7 +17,7 @@ maxUpgradeMultiplier = 10
 #Peak processing rate in mB/t for the Solar Neutron Activator. Note: It can go higher than this value in some extreme environments.
 # Default: 64
 # Range: 1 ~ 1024
-maxSolarNeutronActivatorRate = 64
+maxSolarNeutronActivatorRate = 256
 
 #Settings for configuring heaters
 [heater]
@@ -32,7 +32,7 @@ maxSolarNeutronActivatorRate = 64
 	#How much heat energy is created from one Joule of regular energy in the Resistive Heater.
 	# Default: 0.6
 	# Range: 0.0 ~ 1.0
-	resistiveEfficiency = 0.6
+	resistiveEfficiency = 0.9
 
 #Settings for configuring Cardboard Boxes
 [cardboard_box]
@@ -289,4 +289,4 @@ maxSolarNeutronActivatorRate = 64
 	#Energy needed to process 1 mB of input (inputPerAntimatter * energyPerInput = energy to produce 1 mB of antimatter).
 	# Default: 1000000
 	# Range: 0 ~ 9223372036854775807
-	energyPerInput = 1000000
+	energyPerInput = 2000000

@@ -54,4 +54,54 @@ ServerEvents.recipes(event => {
         'alltheores:netherite_dust',
         'minecraft:netherite_block'  
     )
+    event.replaceInput(
+        { id: 'appgen:crafting/singularity_generator_1k'},
+        'minecraft:iron_ingot',
+        'minecraft:iron_block'  
+    )
+    event.replaceInput(
+        { id: 'appgen:crafting/singularity_generator_4k'},
+        'minecraft:iron_ingot',
+        'minecraft:iron_block'  
+    )
+    event.replaceInput(
+        { id: 'appgen:crafting/singularity_generator_16k'},
+        'minecraft:iron_ingot',
+        'minecraft:iron_block'  
+    )
+    event.replaceInput(
+        { id: 'appgen:crafting/singularity_generator_64k'},
+        'minecraft:iron_ingot',
+        'minecraft:iron_block'  
+    )
+    event.replaceInput(
+        { id: 'appgen:crafting/singularity_generator_256k'},
+        'minecraft:iron_ingot',
+        'minecraft:iron_block'  
+    )
+    event.replaceInput(
+        { id: 'appgen:crafting/singularity_generator_1m'},
+        'minecraft:iron_ingot',
+        'minecraft:iron_block'  
+    )
+    event.replaceInput(
+        { id: 'appgen:crafting/singularity_generator_4m'},
+        'minecraft:iron_ingot',
+        'minecraft:iron_block'  
+    )
+    event.replaceInput(
+        { id: 'appgen:crafting/singularity_generator_16m'},
+        'minecraft:iron_ingot',
+        'minecraft:iron_block'  
+    )
+    event.replaceInput(
+        { id: 'appgen:crafting/singularity_generator_64m'},
+        'minecraft:iron_ingot',
+        'minecraft:iron_block'  
+    )
+    event.replaceInput(
+        { id: 'appgen:crafting/singularity_generator_256m'},
+        'minecraft:iron_ingot',
+        'minecraft:iron_block'  
+    )
 })

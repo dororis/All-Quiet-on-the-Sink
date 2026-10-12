@@ -15,7 +15,7 @@
 	chapter.586D1880049A3C11.title: "Chapter 5"
 	chapter.5B71D32DBE6BFB5B.title: "MBD2"
 	chapter.6D0C19B1BFEA215E.title: "Chapter 2"
-	chapter.6F8FFD92118ED1DB.title: "实用技巧"
+	chapter.6F8FFD92118ED1DB.title: "轮椅小技巧"
 	chapter.7485D90D85D13569.title: "Chapter 3"
 	chapter_group.3363CE859CE20561.title: "水槽"
 	chapter_group.4D3AA524F989001F.title: "主线"
@@ -39,7 +39,7 @@
 	quest.07EEABDC7A8B1C20.quest_subtitle: "烧"
 	quest.08864DC3056BD3CA.quest_subtitle: "当务之急"
 	quest.093B3B5E40CCCF0F.quest_subtitle: "盒意味"
-	quest.093B3B5E40CCCF0F.title: "一个普普通通装着反应堆的纸箱"
+	quest.093B3B5E40CCCF0F.title: "一个装着反应堆的纸箱"
 	quest.097AAB76D4DAAF50.quest_desc: ["[ { \"text\": \"跳转多方块的仓室\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"15AE1A0BA8447217\" } } ]"]
 	quest.097AAB76D4DAAF50.quest_subtitle: "预留空间一键成型"
 	quest.0A65FFF7CD56D617.quest_desc: [
@@ -177,6 +177,11 @@
 	quest.32E127BF10E0C542.quest_subtitle: "IEE"
 	quest.33CB15BE7D68D377.quest_subtitle: "26.1888k/t"
 	quest.33EC04375AED8171.quest_subtitle: "更性能的开局"
+	quest.3454C4F4CDF68CBB.quest_desc: [
+		"1个端口输出400M/t"
+		"4个端口输出1.6G/t"
+	]
+	quest.3454C4F4CDF68CBB.quest_subtitle: "超临界能耗x4"
 	quest.3474B4E144C79CAB.quest_desc: [
 		"只接受&6神融珍珠&r的处理"
 		"&n能通过ae将产物返回网络&r"
@@ -195,6 +200,7 @@
 	quest.3A7A90B4A861209D.quest_subtitle: "心急筛不了热豆腐"
 	quest.3CA8DBBE2082F2C1.quest_desc: ["简陋但是专属配方"]
 	quest.3CA8DBBE2082F2C1.quest_subtitle: "LV-0"
+	quest.3CDE708B05458899.quest_desc: ["极其昂贵"]
 	quest.3CDE708B05458899.quest_subtitle: "131.072M/t"
 	quest.3DC8455378E09DE5.quest_desc: ["炼药台pass"]
 	quest.3DC8455378E09DE5.quest_subtitle: "/fly"
@@ -229,6 +235,8 @@
 	quest.46B2E6B52B5F1426.quest_subtitle: "能请求10个"
 	quest.4919ED3D6A97DC5B.quest_desc: ["回收台可能没有用但没有用不太可能"]
 	quest.4919ED3D6A97DC5B.quest_subtitle: "变废为宝-2"
+	quest.4A4BADB3626C8AD6.quest_desc: ["不打"]
+	quest.4A4BADB3626C8AD6.quest_subtitle: "第三种打法"
 	quest.4A522D00F13D456B.title: "ATM煤炭"
 	quest.4B62099DE58E001A.quest_subtitle: "如果你缺沙子"
 	quest.4C9E05551A1E5F44.quest_desc: [""]
@@ -377,6 +385,7 @@
 	task.199AAF23839725B4.title: "清理掉落物"
 	task.1A0D74DAFAFCD38F.title: "fe"
 	task.1A7FCBAE15096D31.title: "1M→256M"
+	task.1FEA8EC4E37ABA17.title: "观察：万象蜜蜂"
 	task.2286756FC95C49A9.title: "猪咪打车"
 	task.23FEC59A561A52C0.title: "插件2→4→8→"
 	task.24BA92349C2EBD03.title: "裂变撕裂→"

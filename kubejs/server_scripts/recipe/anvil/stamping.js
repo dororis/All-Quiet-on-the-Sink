@@ -60,6 +60,23 @@ ServerEvents.recipes(event => {
         items: "anvilcraft:royal_steel_upgrade_smithing_template"
       },
       {
+        items:"allthemodium:vibranium_ingot"
+      }
+    ],
+    results: [
+      {
+        id: "allthemodium:vibranium_upgrade_smithing_template",
+        count: 1
+      }
+    ]
+  })
+  event.custom({
+    type: "anvilcraft:stamping",
+    ingredients: [
+      {
+        items: "anvilcraft:royal_steel_upgrade_smithing_template"
+      },
+      {
         items:"allthemodium:unobtainium_ingot"
       }
     ],

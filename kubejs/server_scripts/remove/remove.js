@@ -133,4 +133,6 @@ ServerEvents.recipes(event => {
     event.remove({ id:'oritech:silicon_blockblockinv'})
     event.remove({ id:'extendedae:fishbig'})
     event.remove({ id:'mekanism_extras:upgrade/stack'})
+    event.remove({ output:'appgen:ember_crystal'})
+    event.remove({ id:'fluxnetworks:ultimate_flux_storage'})
 })

@@ -23,7 +23,7 @@ ServerEvents.recipes(event => {
             'AFA'
         ],
         {
-            A:'irons_spellbooks:evoker_spell_book',  
+            A:'minecraft:totem_of_undying',  
             B: 'alltheores:electrum_ingot',
             C:'irons_spellbooks:pyrium_ingot',
             D:'minecraft:gold_ingot',

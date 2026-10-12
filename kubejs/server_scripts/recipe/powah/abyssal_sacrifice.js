@@ -3,6 +3,9 @@ ServerEvents.recipes(event => {
   event.recipes.powah.energizing(['cataclysm:ignitium_block'
     ,'cataclysm:cursium_block',
     'cataclysm:witherite_block',
-    'oritech:dubios_container'], 
+    'anvilcraft:cursed_gold_block',
+    'anvilcraft:enchanted_gold_block',
+    'oritech:dubios_container',
+    ], 
     'cataclysm:abyssal_sacrifice', 777777777)
 })
