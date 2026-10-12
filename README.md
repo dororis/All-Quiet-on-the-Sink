@@ -1,24 +1,93 @@
-水槽-专家-爽包，打破这三个互相矛盾的概念的刻板印象，便有了这个包-水槽无战事。 
-包含300个mod，你将使用完全体ae，击碎神化、铁魔法、灾变，甚至铁砧工艺。
-注意：这是一个完全基于和平模式制作的科技包！ 
-Large-Expert-Awesome breaks the stereotypes of these three conflicting concepts, giving rise to this modpack - All Quiet on the Sink.
-It includes 300 mods, allowing you to use the ultimate AE, shatter Deification, Iron Magic, Cataclysm, and even Anvil Craft. 
-Note: This is a tech pack made entirely in peaceful mode!
+All Quiet on the Sink 
 
-1. 最大的亮点是铁砧工艺的锻星砧，结合闪电科技的猪咪，作为终局挑战，并且锻出的猪咪星是一个独立的维度。
+Kitchen Sink · Expert · Power Fantasy
 
-2. 开局流程经过大量简化，但不失乐趣，一般无中生有开局锄大地获取石子，而在这你锄出来的是模拟室那个模组的三个维度的预测碎片，再通过jdt和铁砧获取创造飞行。
 
-3. 和平模式是贯穿整个流程的，所以面对新版神化的刷怪笼削弱，我准备了多方块结构“神化屠宰厂”，更平衡更爽的获取前期资源，以及神化的5种材料，有极大幅度的魔改，例如发光水晶碎片能富集出赛特斯水晶等水晶科技的三种水晶。
 
-4. 整合包没有加入无用及万象担架（当然选择权在你），取而代之的是一段精心魔改的时间水晶产线，现在不用在玩jdt那套凝胶蔓延了，我针对4种jdt燃料引入了4个对应的mek化学品，甚至能被用来作为大乙烯发电的燃料。
+---
 
-5.模拟室再也不需要练级了，有完整的自我意识数据模型的制作配方，猪巫妖，凋灵，末影龙分别产出atm，振金，难得素，再通过EnderIO的合金炉制作合金锭，最后合金锭再融合成灾变的腾炎锭，咒魂锭，凋灵合金锭。一条真正的水槽产线。
 
-6.ad Astra的复活无疑是令人兴奋的，这意味着更多资源的获取途径，你需要上天获取铁砧工艺的寒霜锭，余烬锭甚至超限锭。
 
-7.龙研的混沌碎片有了自己的增产配方，你可以用镭射钻采混沌龙，甚至混沌水晶，反应堆核心有一个非常搞笑的配方——跟mek的纸箱融合。
+📦 Overview
 
-8. 这个包的绝大多数资源不通过神秘农业和蜜蜂获得的，例如全整合包仅有一只万象蜜蜂，你需要通过毕业所有ae模组，制作出万象构序的最终方块，喂养得到，此时意味着已经开始终局部分了。
 
-这不是一个同质化水槽包，这是一个全是创新的水槽专家爽包
+
+A linear tech modpack built around AE2 and Mekanism as its core gameplay. You'll construct an entirely new production line under custom recipes, ultimately gathering massive amounts of materials to forge AE2LT's Creative Pigmee through AnvilCraft.
+
+
+
+· 🎮 Game Version: 1.21.1
+
+· ⚙️ Loader: NeoForge
+
+· 🧩 Mods: 300+
+
+· ⏳ Playtime: 300+ hours
+
+
+
+---
+
+
+
+✨ Featured Mods
+
+
+
+· 🔨 AnvilCraft — Replaces Mysterious Agriculture and Productive Bees as the key early-game resource acquisition mod.
+
+· 🧠 Full AE2 — Experience smooth AE progression with addons like AE2CS, AE2LT, and NeoEcoAE.
+
+· ⚡ Full Mekanism — Tackle complex automation demands with MekExtra, MekMM, MekSun, and more.
+
+
+
+---
+
+
+
+🧪 Recipe System
+
+
+
+Packed with extensive custom recipes for an unprecedented experience. For example, JustDireThings' four types of liquid fuel each correspond to a Mekanism chemical — no longer obtained through gel spread, and even usable as fuel for gas generators.
+
+
+
+For Apotheosis, Iron's Spellbooks, L_Ender's Cataclysm, and even AnvilCraft, you'll harness the power of major tech mods to unlock their potential and obtain vast amounts of rare materials to advance your tech tree. Take Apotheosis' five rarity tiers of materials — you'll need to turn waste into treasure, combined with Hostile Neural Networks' three-dimensional predictions, to gather all resources needed for tech mod progression.
+
+
+
+---
+
+
+
+🕊️ Peaceful Mode
+
+
+
+Designed around Peaceful Mode, meaning no time wasted on adventure mods. All adventure-sourced materials can be obtained through custom recipes. This also means stronger performance — late-game production is massive, and the Peaceful design mutually reinforces a better overall experience.
+
+
+
+---
+
+
+
+📜 FTB Quests
+
+
+
+An expert-oriented Kitchen Sink pack. The quest book replaces some basic tutorials with complete, richly customized tech quests. Rewards are extremely generous — best enjoyed as a linear progression experience.
+
+
+
+---
+
+
+
+🔧 The pack is still being polished. For questions, contact the author.
+
+
+
+Enjoy it! 
