@@ -89,6 +89,9 @@
     "jade_chamber": true,
     "jade_wireless": true
   },
+  "ars_arcane_matrix": {
+    "core_status": true
+  },
   "ae2": {
     "part_icon": true,
     "charger": true,
@@ -194,6 +197,9 @@
     "paradox_mixer": true,
     "stabilizer": true,
     "echoing_budding": true
+  },
+  "ars_nouveau": {
+    "mob_jar": true
   },
   "enderio_evolution": {
     "capacitor_bank_render": true

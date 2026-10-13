@@ -10,7 +10,26 @@
 	id: "0B813FC4753C57C9"
 	images: [ ]
 	order_index: 1
-	quest_links: [ ]
+	quest_links: [
+		{
+			id: "76D42380131A962C"
+			linked_quest: "7879CFDE096339E5"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			id: "6112DBEC0E379565"
+			linked_quest: "469C99270A1A5969"
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			id: "5084D47105146AFC"
+			linked_quest: "22C74677B1F3A1D1"
+			x: 9.0d
+			y: -6.0d
+		}
+	]
 	quests: [
 		{
 			id: "32B531D9F718BDFA"
@@ -29,7 +48,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -4.5d
+			y: -6.0d
 		}
 		{
 			id: "38F1ED0F4BEF271C"
@@ -49,7 +68,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: -4.5d
+			y: -6.0d
 		}
 		{
 			id: "1516AA5F6212B5AF"
@@ -69,7 +88,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: -4.5d
+			y: -6.0d
 		}
 		{
 			id: "4D11896FD5D0F3B3"
@@ -89,7 +108,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: -4.5d
+			y: -6.0d
 		}
 		{
 			id: "1331EF3D32ECA89C"
@@ -108,7 +127,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -3.0d
+			y: -4.5d
 		}
 		{
 			id: "66D2E09024EF4D09"
@@ -118,7 +137,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: -3.0d
+			y: -4.5d
 		}
 		{
 			id: "68B8638F0862FB4D"
@@ -128,7 +147,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: -3.0d
+			y: -4.5d
 		}
 		{
 			id: "45DB385280080062"
@@ -139,18 +158,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: -3.0d
-		}
-		{
-			id: "05F7BE315C008652"
-			size: 1.0d
-			tasks: [{
-				id: "3D66B9949942F71C"
-				item: { count: 1, id: "mekanism:configurator" }
-				type: "item"
-			}]
-			x: 1.5d
-			y: -6.0d
+			y: -4.5d
 		}
 		{
 			id: "3E94771BFB7ACE38"
@@ -160,7 +168,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -1.5d
+			y: -3.0d
 		}
 		{
 			id: "6DF2B30EFAB27E47"
@@ -170,7 +178,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: -1.5d
+			y: -3.0d
 		}
 		{
 			id: "3AC50DF8287339E8"
@@ -180,7 +188,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: -1.5d
+			y: -3.0d
 		}
 		{
 			id: "72DB76AA051D06A0"
@@ -199,7 +207,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: -1.5d
+			y: -3.0d
 		}
 		{
 			id: "3E2B76942A631164"
@@ -209,7 +217,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 0.0d
+			y: -1.5d
 		}
 		{
 			id: "7FFC8B81CA1151A5"
@@ -219,7 +227,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 0.0d
+			y: -1.5d
 		}
 		{
 			id: "50E45FE6ED01EB5E"
@@ -229,7 +237,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 0.0d
+			y: -1.5d
 		}
 		{
 			id: "75B2D7A3B0DBC1E2"
@@ -239,7 +247,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 0.0d
+			y: -1.5d
 		}
 		{
 			id: "632CC29794C05109"
@@ -249,8 +257,8 @@
 				item: { count: 1, id: "ae2lt:overloaded_wireless_connect_tool" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 3.0d
+			x: 14.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["632CC29794C05109"]
@@ -261,8 +269,8 @@
 				item: { count: 1, id: "ae2lt:overloaded_interface" }
 				type: "item"
 			}]
-			x: 9.5d
-			y: 4.0d
+			x: 13.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["632CC29794C05109"]
@@ -273,8 +281,8 @@
 				item: { count: 1, id: "ae2lt:overloaded_pattern_provider" }
 				type: "item"
 			}]
-			x: 9.5d
-			y: 2.0d
+			x: 15.5d
+			y: -4.5d
 		}
 		{
 			id: "3C156505B01DB650"
@@ -283,7 +291,7 @@
 				type: "checkmark"
 			}]
 			x: 1.5d
-			y: 0.0d
+			y: -1.5d
 		}
 		{
 			id: "44504206A1162159"
@@ -292,7 +300,7 @@
 				type: "checkmark"
 			}]
 			x: 1.5d
-			y: -4.5d
+			y: -6.0d
 		}
 		{
 			id: "2B71B7D9C7CEF0FD"
@@ -321,7 +329,7 @@
 				}
 			]
 			x: 2.5d
-			y: -6.0d
+			y: 0.0d
 		}
 		{
 			id: "5F6A568E062B69DE"
@@ -382,8 +390,8 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
-			y: -6.0d
+			x: 9.0d
+			y: 0.0d
 		}
 		{
 			id: "753AC4989BCE9B2E"
@@ -391,8 +399,8 @@
 				id: "06F99C42ABD2C380"
 				type: "checkmark"
 			}]
-			x: 6.5d
-			y: 3.0d
+			x: 13.0d
+			y: -6.0d
 		}
 		{
 			id: "602ED56C6347CFA7"
@@ -400,7 +408,7 @@
 				id: "18E8B17CA42B3FFA"
 				type: "checkmark"
 			}]
-			x: 10.0d
+			x: 7.5d
 			y: -6.0d
 		}
 		{
@@ -410,7 +418,7 @@
 				item: { count: 1, id: "ae2lt:overloaded_frequency_card" }
 				type: "item"
 			}]
-			x: 14.0d
+			x: 9.0d
 			y: -1.5d
 		}
 		{
@@ -420,7 +428,7 @@
 				item: { count: 1, id: "ae2cs:ender_broadcaster" }
 				type: "item"
 			}]
-			x: 11.5d
+			x: 10.0d
 			y: -3.0d
 		}
 		{
@@ -430,7 +438,7 @@
 				item: { count: 1, id: "ae2cs:ender_emitter" }
 				type: "item"
 			}]
-			x: 12.5d
+			x: 11.0d
 			y: -3.0d
 		}
 		{
@@ -440,27 +448,27 @@
 				item: { count: 1, id: "ae2cs:ender_linker" }
 				type: "item"
 			}]
-			x: 13.5d
+			x: 9.0d
 			y: -3.0d
 		}
 		{
+			icon: {
+				id: "ae2lt:wireless_overloaded_controller"
+			}
 			id: "5A180EE0F6F4619B"
-			tasks: [{
-				id: "41FCE11A8EBF166C"
-				item: { count: 1, id: "ae2lt:wireless_overloaded_controller" }
-				type: "item"
-			}]
-			x: 12.0d
-			y: -1.5d
-		}
-		{
-			id: "6F4873A2CB3FE552"
-			tasks: [{
-				id: "263FED3A6F29F0B4"
-				item: { count: 1, id: "ae2lt:advanced_wireless_overloaded_controller" }
-				type: "item"
-			}]
-			x: 13.0d
+			tasks: [
+				{
+					id: "41FCE11A8EBF166C"
+					item: { count: 1, id: "ae2lt:wireless_overloaded_controller" }
+					type: "item"
+				}
+				{
+					id: "08C0889C911028CE"
+					item: { count: 1, id: "ae2lt:advanced_wireless_overloaded_controller" }
+					type: "item"
+				}
+			]
+			x: 11.0d
 			y: -1.5d
 		}
 		{
@@ -470,7 +478,7 @@
 				item: { count: 1, id: "ae2lt:wireless_receiver" }
 				type: "item"
 			}]
-			x: 11.0d
+			x: 10.0d
 			y: -1.5d
 		}
 		{
@@ -480,7 +488,7 @@
 				item: { count: 1, id: "extendedae:wireless_connect" }
 				type: "item"
 			}]
-			x: 11.5d
+			x: 10.0d
 			y: -4.5d
 		}
 		{
@@ -490,7 +498,7 @@
 				item: { count: 1, id: "extendedae:wireless_hub" }
 				type: "item"
 			}]
-			x: 12.5d
+			x: 11.0d
 			y: -4.5d
 		}
 		{
@@ -500,7 +508,7 @@
 				item: { count: 1, id: "extendedae_plus:wireless_transceiver" }
 				type: "item"
 			}]
-			x: 12.0d
+			x: 10.0d
 			y: -6.0d
 		}
 		{
@@ -510,7 +518,7 @@
 				item: { count: 1, id: "extendedae_plus:labeled_wireless_transceiver" }
 				type: "item"
 			}]
-			x: 13.0d
+			x: 11.0d
 			y: -6.0d
 		}
 		{
@@ -520,7 +528,7 @@
 				item: { count: 1, id: "extendedae:wireless_tool" }
 				type: "item"
 			}]
-			x: 13.5d
+			x: 9.0d
 			y: -4.5d
 		}
 		{
@@ -530,7 +538,7 @@
 				type: "checkmark"
 			}]
 			x: 1.5d
-			y: -3.0d
+			y: -4.5d
 		}
 		{
 			id: "706A1F8AA15AB551"
@@ -539,47 +547,84 @@
 				type: "checkmark"
 			}]
 			x: 1.5d
-			y: -1.5d
+			y: -3.0d
 		}
 		{
+			dependencies: ["632CC29794C05109"]
 			id: "37ED902653065D05"
 			tasks: [{
 				id: "0936B14B8A8D8A99"
 				item: { count: 1, id: "ae2lt:overloaded_power_supply" }
 				type: "item"
 			}]
-			x: 9.5d
-			y: 3.0d
+			x: 14.5d
+			y: -4.5d
 		}
 		{
+			icon: {
+				id: "extendedae:ingredient_buffer"
+			}
 			id: "5A0CC248BE32014C"
-			tasks: [{
-				id: "4DE26EEC177CDF0F"
-				item: { count: 1, id: "extendedae:ingredient_buffer" }
-				type: "item"
-			}]
-			x: 4.5d
-			y: -6.0d
+			tasks: [
+				{
+					id: "4DE26EEC177CDF0F"
+					item: { count: 1, id: "extendedae:ingredient_buffer" }
+					type: "item"
+				}
+				{
+					id: "732C7F5BBF9B838E"
+					item: { count: 1, id: "appgen:pattern_buffer" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 0.0d
 		}
 		{
-			id: "25912B92FC7E12B8"
-			tasks: [{
-				id: "261FFDF1A6EF1495"
-				item: { count: 1, id: "appliedsoul:soul_collector" }
-				type: "item"
-			}]
-			x: 6.5d
-			y: -6.0d
+			id: "0D9D9F86ADA76FD2"
+			tasks: [
+				{
+					id: "4A49C6F5A8F1CB4D"
+					item: { count: 1, id: "ae2:storage_bus" }
+					type: "item"
+				}
+				{
+					id: "1AEE2AAAF1AF6A7A"
+					item: { count: 1, id: "extendedae:tag_storage_bus" }
+					type: "item"
+				}
+				{
+					id: "706D9C8FD83A0AAF"
+					item: { count: 1, id: "extendedae:mod_storage_bus" }
+					type: "item"
+				}
+				{
+					id: "318C2C13888F34D2"
+					item: { count: 1, id: "extendedae:precise_storage_bus" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
 		}
 		{
-			id: "5E55916F65B53FD1"
+			id: "452C6A586A86D1CD"
 			tasks: [{
-				id: "1857607F92AE86B1"
-				item: { count: 1, id: "appflux:flux_accessor" }
+				id: "0D97756C55EBBE9F"
+				item: { count: 1, id: "extendedae_plus:tag_inventory_me_interface" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: -6.0d
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			id: "50544CEF89D59E65"
+			tasks: [{
+				id: "198855A17A1F311D"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 0.0d
 		}
 	]
 }

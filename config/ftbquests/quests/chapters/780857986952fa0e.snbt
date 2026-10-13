@@ -1,0 +1,26 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "780857986952fa0e"
+	group: "0B022AD354D4F865"
+	icon: {
+		components: {
+			"ftbquests:icon": "ars_nouveau:item/source_gem"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "780857986952FA0E"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		id: "04DD0DA582253051"
+		tasks: [{
+			id: "20A417A8BB508D76"
+			item: { count: 1, id: "ars_nouveau:imbuement_chamber" }
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

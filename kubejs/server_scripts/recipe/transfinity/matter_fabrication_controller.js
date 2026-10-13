@@ -3,7 +3,7 @@ ServerEvents.recipes(event => {
         Item.of('molecularmanipulator:matter_fabrication_controller'), 
         [                                               
             'FDF',
-            'ABD',
+            'ABA',
             'FDF'
         ],
         {

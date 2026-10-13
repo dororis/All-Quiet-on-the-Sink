@@ -47,6 +47,16 @@
 			x: 0.5d
 			y: -9.75d
 		}
+		{
+			click_action: "none:"
+			height: 3.5d
+			id: "254E045F2C984588"
+			image: "ae2omnicells:item/quantum_effect"
+			rotation: 0.0d
+			width: 3.5d
+			x: -9.5d
+			y: -6.0d
+		}
 	]
 	order_index: 2
 	quest_links: [{

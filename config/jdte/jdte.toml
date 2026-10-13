@@ -697,7 +697,7 @@
 	#Bio Factory Settings
 	[jdte.bioFactory]
 		#When disabled, dynamic Bio Factory JEI recipes are not generated; data-pack recipes remain available.
-		recipeGenerationEnabled = true
+		recipeGenerationEnabled = false
 		# Default: 64000
 		# Range: > 1000
 		fluidCapacity = 64000

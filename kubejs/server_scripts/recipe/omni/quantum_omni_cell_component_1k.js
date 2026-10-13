@@ -1,0 +1,32 @@
+ServerEvents.recipes(event => {
+    event.shaped(
+        Item.of('ae2omnicells:quantum_omni_cell_component_1k'), 
+        [                                               
+            'CGC',
+            'DED',
+            'CHC'
+        ],
+        {
+            C:'ae2:ender_dust',
+            D:'ae2omnicells:charged_ender_ingot',
+            E:'ae2omnicells:omni_cell_component_1k',
+            G:'ae2omnicells:complex_link_processor',
+            H:'ae2omnicells:multidimensional_expansion_processor'                         
+        }
+    )
+    event.shaped(
+        Item.of('ae2omnicells:quantum_omni_cell_component_1k'), 
+        [                                               
+            'BFB',
+            'DED',
+            'BGB'
+        ],
+        {  
+            B: 'minecraft:glowstone_dust',
+            D:'ae2omnicells:charged_ender_ingot',
+            E:'ae2:cell_component_1k',
+            F:'ae2omnicells:omni_link_processor',
+            G:'ae2omnicells:complex_link_processor',      
+        }
+    )
+})

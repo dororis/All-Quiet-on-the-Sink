@@ -151,17 +151,17 @@
 			dependencies: ["1257ABF846F89DCA"]
 			dependency_requirement: "one_started"
 			id: "0AC75CF3CA724096"
-			size: 2.0d
+			size: 1.0d
 			tasks: [{
 				id: "67C517ACAA9C850A"
 				item: { count: 1, id: "ae2lt:tesla_coil" }
 				type: "item"
 			}]
-			x: -3.0d
+			x: -5.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["0AC75CF3CA724096"]
+			dependencies: ["2D054B453126BAD3"]
 			disable_toast: true
 			id: "47A4FE76628F3F2D"
 			tasks: [{
@@ -173,7 +173,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["0AC75CF3CA724096"]
+			dependencies: ["2D054B453126BAD3"]
 			disable_toast: true
 			id: "57CAD5805D1523C9"
 			tasks: [{
@@ -185,7 +185,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["0AC75CF3CA724096"]
+			dependencies: ["2D054B453126BAD3"]
 			id: "520A56FBA77AE00C"
 			tasks: [{
 				id: "3CEBBF542222EABD"
@@ -309,12 +309,13 @@
 			dependencies: ["2D054B453126BAD3"]
 			dependency_requirement: "all_started"
 			id: "27B69BF2EB42573E"
+			shape: "rsquare"
 			tasks: [{
 				id: "31FE2386E2B9F2BB"
 				item: { count: 1, id: "ae2lt:overload_processing_factory" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: -0.5d
 			y: 0.0d
 		}
 		{
@@ -325,18 +326,19 @@
 				item: { count: 1, id: "ae2lt:lightning_simulation_room" }
 				type: "item"
 			}]
-			x: -5.5d
+			x: -6.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["0AC75CF3CA724096"]
 			id: "2D054B453126BAD3"
+			size: 2.0d
 			tasks: [{
 				id: "1BBE1FD358640536"
 				item: { count: 1, id: "ae2lt:lightning_assembly_chamber" }
 				type: "item"
 			}]
-			x: -1.0d
+			x: -3.0d
 			y: 0.0d
 		}
 		{

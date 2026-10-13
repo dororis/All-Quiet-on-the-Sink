@@ -1,0 +1,23 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "646ce86c164f36ee"
+	group: "0B022AD354D4F865"
+	icon: {
+		components: {
+			"ftbquests:icon": "ae2lt:block/overload_crystal_cluster"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "646CE86C164F36EE"
+	images: [ ]
+	order_index: 7
+	quest_links: [{
+		id: "663ADCF7E4C203FC"
+		linked_quest: "767DD7FC0B583E79"
+		size: 2.0d
+		x: 4.0d
+		y: 0.0d
+	}]
+	quests: [ ]
+}

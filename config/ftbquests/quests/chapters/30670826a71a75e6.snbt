@@ -29,7 +29,7 @@
 					type: "item"
 				}
 			]
-			x: -1.0d
+			x: -2.0d
 			y: -1.0d
 		}
 		{
@@ -39,7 +39,7 @@
 				item: { count: 1, id: "mekmm:large_heat_generator" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: -1.0d
 		}
 		{
@@ -49,7 +49,7 @@
 				item: { count: 1, id: "mekmm:large_wind_generator" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.0d
 			y: -1.0d
 		}
 		{
@@ -59,7 +59,7 @@
 				item: { count: 1, id: "mekmm:large_gas_burning_generator" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.0d
 			y: -1.0d
 		}
 		{
@@ -69,7 +69,7 @@
 				item: { count: 1, id: "powah:thermo_generator_nitro" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: -0.5d
 			y: 0.5d
 		}
 		{
@@ -79,7 +79,7 @@
 				item: { count: 1, id: "generatorgalore:netherstar_generator_64x" }
 				type: "item"
 			}]
-			x: -1.0d
+			x: -2.5d
 			y: 0.5d
 		}
 		{
@@ -100,7 +100,7 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
+			x: -1.5d
 			y: 0.5d
 		}
 		{
@@ -110,7 +110,7 @@
 				item: { count: 1, id: "appgen:flux_generator_256m" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 0.5d
 			y: 0.5d
 		}
 		{
@@ -120,7 +120,7 @@
 				item: { count: 1, id: "appgen:singularity_generator_256m" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 1.5d
 			y: 0.5d
 		}
 		{
@@ -131,7 +131,7 @@
 				item: { count: 1, id: "oritech:reactor_controller" }
 				type: "item"
 			}]
-			x: -1.0d
+			x: -3.0d
 			y: 2.0d
 		}
 		{
@@ -142,7 +142,7 @@
 				item: { count: 1, id: "industrialforegoing:mycelial_reactor" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: -1.0d
 			y: 2.0d
 		}
 		{
@@ -163,7 +163,7 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
+			x: 0.0d
 			y: 2.0d
 		}
 		{
@@ -174,7 +174,7 @@
 				item: { count: 1, id: "draconicevolution:reactor_core" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: -2.0d
 			y: 2.0d
 		}
 		{
@@ -185,7 +185,7 @@
 				item: { count: 1, id: "mekanismgenerators:fusion_reactor_controller" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 1.0d
 			y: 2.0d
 		}
 		{
@@ -196,7 +196,7 @@
 				item: { count: 1, id: "mekanism_extras:naquadah_reactor_controller" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 2.0d
 			y: 2.0d
 		}
 		{
@@ -216,7 +216,7 @@
 				item: { count: 1, id: "dysoncubeproject:ray_receiver_controller" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.5d
 			y: -2.5d
 		}
 		{
@@ -226,7 +226,7 @@
 				item: { count: 1, id: "dysoncubeproject:em_railejector_controller" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: -0.5d
 			y: -2.5d
 		}
 		{
@@ -246,7 +246,7 @@
 					type: "item"
 				}
 			]
-			x: -1.0d
+			x: -1.5d
 			y: -2.5d
 		}
 		{
@@ -265,7 +265,7 @@
 				id: "70E99841C99D6671"
 				type: "checkmark"
 			}]
-			x: -1.0d
+			x: -0.5d
 			y: -5.5d
 		}
 	]

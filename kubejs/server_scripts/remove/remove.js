@@ -135,4 +135,5 @@ ServerEvents.recipes(event => {
     event.remove({ id:'mekanism_extras:upgrade/stack'})
     event.remove({ output:'appgen:ember_crystal'})
     event.remove({ id:'fluxnetworks:ultimate_flux_storage'})
+    event.remove({ id:'ae2omnicells:components/shaped/quantum_omni_cell_component_1k'})
 })

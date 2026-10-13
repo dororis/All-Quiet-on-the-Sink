@@ -57,6 +57,16 @@
 			x: 2.0d
 			y: 1.0d
 		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "1E127BAFADC679DD"
+			image: "ae2lt:textures/gui/buttons/menu.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.5d
+			y: -1.0d
+		}
 	]
 	order_index: 0
 	quest_links: [ ]

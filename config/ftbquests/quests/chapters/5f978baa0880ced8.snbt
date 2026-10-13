@@ -1,0 +1,23 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5f978baa0880ced8"
+	group: "0B022AD354D4F865"
+	icon: {
+		id: "industrialforegoing:dryrubber"
+	}
+	id: "5F978BAA0880CED8"
+	images: [ ]
+	order_index: 6
+	quest_links: [ ]
+	quests: [{
+		id: "1B93F80A0B575730"
+		tasks: [{
+			id: "7913DF27F1B1FB6B"
+			item: { count: 1, id: "industrialforegoing:dissolution_chamber" }
+			type: "item"
+		}]
+		x: 0.5d
+		y: -1.0d
+	}]
+}

@@ -1,0 +1,17 @@
+#Enable skyblock starter items and resource recipes. Use the Arcane Matrix Skyblock world type for NEW worlds only. Never converts existing terrain.
+#启用空岛开局物资与资源配方。新建世界选择奥术矩阵空岛；不会转换已有地形。修改后重新加载数据包或重新进入世界，无需重启游戏。
+enableSkyblock = false
+
+[recipes]
+	#Enable the unbreakable refinement recipe. Restart after changing. Existing items are unaffected.
+	#是否启用不毁强化配方。修改后重启生效；不会影响已有装备。联机以服务器配置为准。
+	enableUnbreakableRefinement = false
+	#Enable enchanted golden apple crafting. / 启用附魔金苹果合成，默认关闭。
+	#Restart after changing. / 修改后重启生效，联机以服务器配置为准。
+	enableEnchantedGoldenApple = false
+	#Enable budding amethyst crafting. / 启用紫水晶母岩合成，默认开启。
+	#Restart after changing. / 修改后重启生效，联机以服务器配置为准。
+	enableBuddingAmethyst = true
+	#Enable the five creature token stonecutting recipes. / 启用五种魔法生物信物的切石配方，默认开启。
+	#Restart after changing. / 修改后重启生效，联机以服务器配置为准。
+	enableCreatureTokens = true

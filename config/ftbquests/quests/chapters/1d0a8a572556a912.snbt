@@ -1,0 +1,24 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1d0a8a572556a912"
+	group: "0B022AD354D4F865"
+	icon: {
+		id: "draconicevolution:dragon_heart"
+	}
+	id: "1D0A8A572556A912"
+	images: [ ]
+	order_index: 14
+	quest_links: [ ]
+	quests: [{
+		id: "3ECF86A8CF5F128C"
+		size: 2.0d
+		tasks: [{
+			id: "4FEB4218BBC01358"
+			item: { count: 1, id: "mysticalagriculture:awakening_altar" }
+			type: "item"
+		}]
+		x: -1.5d
+		y: 0.5d
+	}]
+}

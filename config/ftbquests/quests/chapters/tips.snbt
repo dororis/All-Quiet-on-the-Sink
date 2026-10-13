@@ -10,16 +10,6 @@
 	id: "6F8FFD92118ED1DB"
 	images: [
 		{
-			click_action: "none:123"
-			height: 4.0d
-			id: "20391865903B20C8"
-			image: "ae2lt:textures/gui/buttons/lightning_high_voltage.png"
-			rotation: 0.0d
-			width: 4.0d
-			x: -13.0d
-			y: -4.0d
-		}
-		{
 			click_action: "none:"
 			height: 1.3d
 			id: "315F0D63629BC215"

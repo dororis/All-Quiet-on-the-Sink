@@ -1,0 +1,31 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "70dde00ab52f0067"
+	group: "0B022AD354D4F865"
+	icon: {
+		id: "apotheosis:god_fused_pearl"
+	}
+	id: "70DDE00AB52F0067"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		dependencies: [
+			"4D8E0F7624A74294"
+			"358561D8F0D823CD"
+			"4CFDC99F1162864E"
+			"4980D736FC8C1F04"
+		]
+		disable_toast: true
+		id: "66E29D61F8909B20"
+		size: 2.0d
+		tasks: [{
+			id: "422E93D0E4C28901"
+			item: { count: 1, id: "anvilcraft:sifting_table" }
+			type: "item"
+		}]
+		x: -3.5d
+		y: -0.5d
+	}]
+}

@@ -1,0 +1,36 @@
+#Capture glyph settings / 捕获魔符设置（保留新生魔艺原有配置键）。
+#enabled：是否启用；true为开启，false为关闭。
+#cost：基础施法魔力消耗，默认250；不是魔源罐中的魔源。
+#starter：是否列入初始魔符，默认false；不保证给已有玩家补发。
+#per_spell_limit：单个法术中允许出现的次数，默认2147483647表示基本不限。
+#glyph_tier：魔符等级，默认3；常规法术书使用1至3级。
+#augment_limits：修饰魔符数量上限，例如["glyph_amplify=1"]。
+#augment_cost_overrides：覆盖修饰魔符的魔力费用，例如["glyph_amplify=50"]。
+#invalid_combos：禁止同时使用的魔符，例如["glyph_burst"]。
+#空列表[]表示不添加额外限制；配置不会使不支持的修饰魔符获得新效果。
+[general]
+	#Is Enabled?
+	enabled = true
+	#Cost
+	# Default: 250
+	# Range: > -2147483648
+	cost = 250
+	#Is Starter Glyph?
+	starter = false
+	#The maximum number of times this glyph may appear in a single spell
+	# Default: 2147483647
+	# Range: > 1
+	per_spell_limit = 2147483647
+	#The tier of the glyph
+	# Default: 3
+	# Range: 1 ~ 99
+	glyph_tier = 3
+	#Limits the number of times a given augment may be applied to a given effect
+	#Example entry: "glyph_amplify=5"
+	augment_limits = []
+	#How much an augment should cost when used on this effect or form. This overrides the default cost in the augment config.
+	#Example entry: "glyph_amplify=50"
+	augment_cost_overrides = []
+	#Prevents the given glyph from being used in the same spell as the given glyph
+	#Example entry: "glyph_burst"
+	invalid_combos = []

@@ -77,6 +77,56 @@
 			x: 15.5d
 			y: 0.0d
 		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "5179786B97834912"
+			image: "fancymenu:textures/layout_editor/widgets/layers/move_down.png"
+			rotation: -90.0d
+			width: 1.0d
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "59D206418D976329"
+			image: "fancymenu:textures/layout_editor/widgets/layers/move_down.png"
+			rotation: -90.0d
+			width: 1.0d
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "4B484F8AA338D7C7"
+			image: "fancymenu:textures/layout_editor/widgets/layers/move_down.png"
+			rotation: -90.0d
+			width: 1.0d
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "38B6C01DFFE192C0"
+			image: "fancymenu:textures/layout_editor/widgets/layers/move_down.png"
+			rotation: -90.0d
+			width: 1.0d
+			x: 7.0d
+			y: 4.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "5D6EB6BF813F25C6"
+			image: "fancymenu:textures/layout_editor/widgets/layers/move_down.png"
+			rotation: 90.0d
+			width: 1.0d
+			x: 9.0d
+			y: 4.5d
+		}
 	]
 	order_index: 4
 	quest_links: [{
@@ -411,24 +461,14 @@
 			y: 4.0d
 		}
 		{
-			id: "71EB5B88BE7407EE"
-			tasks: [{
-				id: "77BC5F3EA22E0CF4"
-				item: { count: 1, id: "extrahnn:upgrade_speed" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 5.0d
-		}
-		{
 			id: "26FB19899E4CD24A"
 			tasks: [{
 				id: "0D007BFCE6EAAFB1"
 				item: { count: 1, id: "extrahnn:merger_camera" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: 4.5d
+			x: 10.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -739,6 +779,26 @@
 			}]
 			x: 2.0d
 			y: -5.0d
+		}
+		{
+			id: "0B5F71090B2A8C22"
+			tasks: [{
+				id: "4F8E4A6E28C7E1BD"
+				item: { count: 1, id: "extrahnn:simulator_modeling" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 5.0d
+		}
+		{
+			id: "51057E6043D5D052"
+			tasks: [{
+				id: "5C65A8321C3EDFB3"
+				item: { count: 1, id: "extrahnn:upgrade_module_stack" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
 		}
 	]
 }

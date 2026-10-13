@@ -1,0 +1,23 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "neoecoae"
+	group: "0B022AD354D4F865"
+	icon: {
+		id: "neoecoae:eco_infinite_cell_component"
+	}
+	id: "720C787678BC6E30"
+	images: [ ]
+	order_index: 15
+	quest_links: [ ]
+	quests: [{
+		id: "51A0880BC7BC6D44"
+		tasks: [{
+			id: "26F37BAABF5BC5EE"
+			item: { count: 1, id: "neoecoae:aluminum_ingot" }
+			type: "item"
+		}]
+		x: -0.5d
+		y: -0.5d
+	}]
+}

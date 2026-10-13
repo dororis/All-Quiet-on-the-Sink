@@ -1,0 +1,23 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "063ee6b2bee208b0"
+	group: "0B022AD354D4F865"
+	icon: {
+		id: "enderio:ender_resonator"
+	}
+	id: "063EE6B2BEE208B0"
+	images: [ ]
+	order_index: 10
+	quest_links: [ ]
+	quests: [{
+		id: "29B76A418A0F83BC"
+		tasks: [{
+			id: "7D7506C7C29ADA81"
+			item: { count: 1, id: "enderio:alloy_smelter" }
+			type: "item"
+		}]
+		x: -2.5d
+		y: -0.5d
+	}]
+}

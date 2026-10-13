@@ -1099,6 +1099,8 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["18B2453192FD189B"]
+			hide_dependency_lines: true
 			id: "2DC01AD54BFA7682"
 			rewards: [{
 				id: "72CFA6670C69077E"

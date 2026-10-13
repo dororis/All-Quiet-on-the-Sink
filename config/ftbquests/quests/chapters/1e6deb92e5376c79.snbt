@@ -1,0 +1,24 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1e6deb92e5376c79"
+	group: "0B022AD354D4F865"
+	icon: {
+		id: "irons_spellbooks:divine_soulshard"
+	}
+	id: "1E6DEB92E5376C79"
+	images: [ ]
+	order_index: 9
+	quest_links: [ ]
+	quests: [{
+		id: "609F596011C526EF"
+		size: 1.0d
+		tasks: [{
+			id: "2C89C2344F56E827"
+			item: { count: 1, id: "irons_spellbooks:divine_soulshard" }
+			type: "item"
+		}]
+		x: 1.0d
+		y: 0.5d
+	}]
+}

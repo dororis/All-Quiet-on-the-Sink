@@ -1,0 +1,23 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "eaep"
+	group: "0B022AD354D4F865"
+	icon: {
+		id: "extendedae_plus:ultimate_super_assembler_matrix_builder"
+	}
+	id: "1A6DB8709D7A32A5"
+	images: [ ]
+	order_index: 8
+	quest_links: [ ]
+	quests: [{
+		id: "5F2D3C98A0DBBA40"
+		tasks: [{
+			id: "02BC20F0E04A2448"
+			item: { count: 1, id: "extendedae_plus:lattra_crystal" }
+			type: "item"
+		}]
+		x: 0.5d
+		y: 0.0d
+	}]
+}

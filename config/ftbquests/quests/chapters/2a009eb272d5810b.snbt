@@ -7,7 +7,15 @@
 		id: "ae2:cell_component_1k"
 	}
 	id: "2A009EB272D5810B"
-	images: [ ]
+	images: [{
+		height: 1.0d
+		id: "296C938D0219F65A"
+		image: "fancymenu:textures/layout_editor/widgets/layers/move_down.png"
+		rotation: 0.0d
+		width: 1.0d
+		x: -7.0d
+		y: -1.0d
+	}]
 	order_index: 3
 	quest_links: [ ]
 	quests: [
@@ -228,8 +236,8 @@
 				item: { count: 1, id: "enderdrives:tape_disk" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: 5.5d
+			x: 4.0d
+			y: 3.5d
 		}
 		{
 			id: "170D921AECBA929A"
@@ -420,8 +428,8 @@
 				id: "25A81E8851AD7C3C"
 				type: "checkmark"
 			}]
-			x: -4.0d
-			y: 5.5d
+			x: 3.0d
+			y: 3.5d
 		}
 		{
 			id: "38D79730C7CEB4F4"
@@ -469,7 +477,7 @@
 				item: { count: 1, id: "extendedae:void_cell" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 7.0d
 			y: 3.5d
 		}
 		{
@@ -478,7 +486,7 @@
 				id: "438483CBC1610540"
 				type: "checkmark"
 			}]
-			x: 3.0d
+			x: 6.0d
 			y: 3.5d
 		}
 		{
@@ -528,18 +536,59 @@
 				item: { count: 1, id: "kubejs:infinity_soul_cell" }
 				type: "item"
 			}]
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "kubejs:infinities_factory_cell"
+			}
+			id: "354299FE397ACC2B"
+			tasks: [
+				{
+					id: "0EADD047F4465E5B"
+					item: { count: 1, id: "kubejs:infinities_factory_cell" }
+					type: "item"
+				}
+				{
+					id: "1E62FFC579C2C1B0"
+					item: { count: 1, id: "kubejs:infinities_bee_upgrade_cell" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			id: "0E631679D0133170"
+			tasks: [{
+				id: "09F012F35AFB5675"
+				item: { count: 1, id: "kubejs:infinities_WFD_cell" }
+				type: "item"
+			}]
 			x: 6.0d
 			y: 1.5d
 		}
 		{
-			id: "354299FE397ACC2B"
+			id: "3244F8DB91363FBE"
+			size: 2.0d
 			tasks: [{
-				id: "0EADD047F4465E5B"
-				item: { count: 1, id: "kubejs:infinities_factory_cell" }
+				id: "5DE505345AB187F6"
+				item: { count: 1, id: "anvilcraft:hyperdimension_storage_station" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: 1.5d
+			x: -7.0d
+			y: 0.5d
+		}
+		{
+			id: "230EA9E1EA7D64B2"
+			tasks: [{
+				id: "777279E504034F71"
+				item: { count: 1, id: "extendedae_plus:infinity_core" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.0d
 		}
 	]
 }

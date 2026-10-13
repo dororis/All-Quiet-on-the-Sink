@@ -1,0 +1,23 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "powah"
+	group: "0B022AD354D4F865"
+	icon: {
+		id: "powah:crystal_nitro"
+	}
+	id: "51215FC7EC035E19"
+	images: [ ]
+	order_index: 11
+	quest_links: [ ]
+	quests: [{
+		id: "7B795E1DE09CC565"
+		tasks: [{
+			id: "2347F65CC5C60603"
+			item: { count: 1, id: "powah:charged_snowball" }
+			type: "item"
+		}]
+		x: 0.5d
+		y: 0.5d
+	}]
+}

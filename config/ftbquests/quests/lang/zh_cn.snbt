@@ -1,25 +1,43 @@
 {
-	chapter.038F5E082BB02DAB.title: "铁砧工艺"
+	chapter.00553A242B0B5B20.title: "Omni"
+	chapter.038F5E082BB02DAB.title: "&#CD73FF铁砧工艺"
+	chapter.063EE6B2BEE208B0.title: "末影接口"
 	chapter.0B813FC4753C57C9.title: "物流"
 	chapter.0F0040212E492014.title: "Chapter 4"
 	chapter.10C34FEE6C514138.title: "Chapter 0.5"
+	chapter.1A6DB8709D7A32A5.title: "EAEP"
 	chapter.1B13AE78338D24A8.title: "Chapter 1"
+	chapter.1D0A8A572556A912.title: "龙之研究"
+	chapter.1E6DEB92E5376C79.title: "铁魔法书"
 	chapter.20601C2F845CE06F.title: "测试中↓"
 	chapter.2A009EB272D5810B.title: "磁盘"
 	chapter.30670826A71A75E6.title: "发电"
-	chapter.34CE508FE134D63F.title: "前言"
+	chapter.32F280C22AA0210B.title: "通用机械"
+	chapter.34CE508FE134D63F.title: "&#12FF01前言"
 	chapter.39FB74A613896B6A.title: "Chapter 3.5"
 	chapter.40F5B2B2F82C1C5B.title: "ae"
+	chapter.4838FE84417C66B8.title: "万象构序"
+	chapter.4CEFEF78B91CA5D1.title: "ad Astra"
 	chapter.510B5A80D695ECAA.title: "Chapter 2.5"
-	chapter.5493A7D8B2E29EC5.title: "终局 - 锻猪"
+	chapter.51215FC7EC035E19.title: "Powah"
+	chapter.5493A7D8B2E29EC5.title: "&e锻猪"
 	chapter.586D1880049A3C11.title: "Chapter 5"
 	chapter.5B71D32DBE6BFB5B.title: "MBD2"
+	chapter.5B72DA79A1A9D9F7.title: "奥瑞科技"
+	chapter.5E213859D5DE0AF1.title: "维什戴尔"
+	chapter.5F978BAA0880CED8.title: "工业先锋"
+	chapter.646CE86C164F36EE.title: "闪电科技"
 	chapter.6D0C19B1BFEA215E.title: "Chapter 2"
 	chapter.6F8FFD92118ED1DB.title: "轮椅小技巧"
+	chapter.70DDE00AB52F0067.title: "神化科技"
+	chapter.720C787678BC6E30.title: "NEOECO"
+	chapter.72655C0D66520CA6.title: "水晶科技"
 	chapter.7485D90D85D13569.title: "Chapter 3"
-	chapter_group.3363CE859CE20561.title: "水槽"
-	chapter_group.4D3AA524F989001F.title: "主线"
-	chapter_group.71416BA8E9B4491E.title: "终局"
+	chapter.780857986952FA0E.title: "新生魔艺"
+	chapter_group.0B022AD354D4F865.title: "&6〥模组"
+	chapter_group.3363CE859CE20561.title: "&#034DFF♪ 水槽"
+	chapter_group.4D3AA524F989001F.title: "&#FF8FCA£ 主线"
+	chapter_group.71416BA8E9B4491E.title: "&d✟ 终局"
 	file.0000000000000001.title: "水槽无战事"
 	quest.0060804E069A7BDE.quest_desc: ["默认键位在大写锁定"]
 	quest.0060804E069A7BDE.quest_subtitle: "人型建造机"
@@ -27,9 +45,16 @@
 	quest.00ADE78B3E9CE3AC.quest_subtitle: "先使用多方块转化制作"
 	quest.018390147085379B.quest_desc: ["灾变的起点"]
 	quest.018390147085379B.quest_subtitle: "碎片终点"
+	quest.01EA31AFA2B2EDE8.quest_desc: [
+		"&5量子&r甚至需要&2全能&r作为材料"
+		"而&2全能&r自己也需要&b1k组件&r"
+		"相比之下&4复杂&r更有性价比？"
+	]
+	quest.01EA31AFA2B2EDE8.quest_subtitle: "造价++"
 	quest.02C2227786131546.quest_subtitle: "二阶火箭的燃料"
 	quest.03A621C6C70CE245.quest_desc: ["热知识：量子盘也能存闪电"]
 	quest.04BD9BD959BBB9B3.quest_subtitle: "耐久128"
+	quest.04E23FFAA7AB3212.quest_subtitle: "水晶→块→石英"
 	quest.058BFB6299EB58F0.quest_subtitle: "氘氚燃料→1G/t"
 	quest.066DCE023BEE9BAF.quest_subtitle: "部分"
 	quest.0685EDD49B2A121E.quest_subtitle: "53.49M/t"
@@ -42,6 +67,7 @@
 	quest.093B3B5E40CCCF0F.title: "一个装着反应堆的纸箱"
 	quest.097AAB76D4DAAF50.quest_desc: ["[ { \"text\": \"跳转多方块的仓室\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"15AE1A0BA8447217\" } } ]"]
 	quest.097AAB76D4DAAF50.quest_subtitle: "预留空间一键成型"
+	quest.09D2F31E85083E0A.quest_subtitle: "用于产物返回和催生"
 	quest.0A65FFF7CD56D617.quest_desc: [
 		"每个满配&d终极种植工厂&r200item/t"
 		"就是4000item/s"
@@ -51,6 +77,7 @@
 	quest.0B3458F6894E3A3D.quest_subtitle: "9并行筛矿"
 	quest.0BF609512C89452B.quest_subtitle: "关闭替换"
 	quest.0C7AB1EE6AF86019.quest_subtitle: "O"
+	quest.0DBB6EA594D3485B.quest_desc: ["如果要在上面放红石需要实心磁铁块"]
 	quest.0DD9DAD16C801227.quest_desc: [
 		"此机器在连续工作300s（5分钟）后达到&68倍速&r和&e8并行&r的超频上限"
 		"工作时每秒提升&92.66%&r速度效率"
@@ -62,6 +89,7 @@
 		"省流：&2连续工作5分钟，8倍速8并行，能联网返回产物&r"
 	]
 	quest.0DD9DAD16C801227.quest_subtitle: "感觉不如筛矿，但也很必要"
+	quest.0E0DC759A8E8852D.quest_subtitle: "可以让样板用最终的石英直接替换种子"
 	quest.0E9D3C1272FABD3B.quest_desc: ["还可以当线用"]
 	quest.0E9D3C1272FABD3B.quest_subtitle: "不能筛但是另有其用"
 	quest.10923B71986DC99C.quest_desc: ["但是&e自身&r160k/t输出效率"]
@@ -69,12 +97,14 @@
 	quest.10998DFF4866FE2F.quest_desc: ["右键地板查看材料清单"]
 	quest.10998DFF4866FE2F.quest_subtitle: "不二之选"
 	quest.10AE680DD7B2CA14.quest_subtitle: "84.375k/t"
+	quest.11355E814833BD7A.quest_subtitle: "跑步进入ae时代"
 	quest.1143155291AA4145.quest_subtitle: "原版资源"
 	quest.11C0501C49142E6F.quest_desc: [""]
 	quest.11C0501C49142E6F.quest_subtitle: "铁砧冲压"
 	quest.11FC5DBE955B6370.quest_subtitle: "25M/t"
 	quest.12E4E365A4795B24.quest_desc: ["&m甚至可能不用去远古城市&r"]
 	quest.12E4E365A4795B24.quest_subtitle: "不用找"
+	quest.1302CF34262B322E.quest_subtitle: "三个种子"
 	quest.139B31AAB46274DF.quest_desc: ["如果你没有彩虹猪咪"]
 	quest.139B31AAB46274DF.quest_subtitle: "富集"
 	quest.14B519B8970B45EF.quest_desc: [""]
@@ -99,6 +129,7 @@
 	quest.18C988B0963CAF25.quest_subtitle: "无红石信号默认产出液态锂"
 	quest.18EEA49C0481635A.quest_desc: ["强化黑曜石镐支持atm升级"]
 	quest.18EEA49C0481635A.quest_subtitle: "强化黑曜石镐支持升级为atm镐"
+	quest.194DC458C5C71052.quest_subtitle: "专攻新生魔艺、奥瑞"
 	quest.19EA2FF648835BAA.quest_subtitle: "atm资源"
 	quest.19F7EE382A415EF5.quest_subtitle: "并非发电实则是做过热钠的"
 	quest.1A083FF9C0B83E1F.title: "群友助力的开局"
@@ -113,9 +144,12 @@
 		"一花一草一世界，可以试试在主世界建家"
 	]
 	quest.1BB9B4566CB56E5C.quest_subtitle: "精妙之外"
+	quest.1BFD8CBC515155C4.quest_subtitle: "有黑白名单的吸收掉落物"
 	quest.1E25B1D960DB36FC.quest_desc: ["大规模使用可能造成卡顿"]
 	quest.1E25B1D960DB36FC.quest_subtitle: "产能大，利用率较小"
 	quest.1F86DED01ED1ED3D.quest_subtitle: "这个是很后面的配方"
+	quest.1FAADAAFEEB28FE8.quest_desc: ["支持块的配方"]
+	quest.1FAADAAFEEB28FE8.quest_subtitle: "JDT4种材料的来源"
 	quest.1FC79126F33EEEE8.quest_subtitle: "同时获得热核"
 	quest.2075CC1FF4496731.quest_desc: [
 		"/sethome设家/home回家"
@@ -144,6 +178,7 @@
 		"效率以实际为准，可能略有出入"
 	]
 	quest.2652440368CA758B.quest_subtitle: "约为48块/t"
+	quest.27B69BF2EB42573E.quest_subtitle: "苦尽甘来？"
 	quest.28334DD7A5DF8110.quest_desc: ["5并行"]
 	quest.28334DD7A5DF8110.quest_subtitle: "LV-2"
 	quest.29489A5660C5E6B3.quest_desc: [
@@ -152,6 +187,7 @@
 		"&5玄奥沙&r→粉"
 		"&6神铸珍珠&r→宝藏"
 	]
+	quest.2A0BBBD0D71674F5.quest_subtitle: "经验流体"
 	quest.2A35E6C2561EB87F.quest_subtitle: "烧"
 	quest.2A76820E711B7666.quest_desc: ["保留原汁风味"]
 	quest.2A76820E711B7666.quest_subtitle: "暂不考虑使用奥瑞"
@@ -173,8 +209,10 @@
 		"底座8个熔炉可以任意位置摆放"
 	]
 	quest.310B1461CAD580D9.quest_subtitle: "原始人的第一个多方块"
+	quest.3244F8DB91363FBE.quest_subtitle: "砸入吞噬核心获得无限磁盘"
 	quest.32B6CF7A6F6AF881.quest_subtitle: "红石钟控制"
 	quest.32E127BF10E0C542.quest_subtitle: "IEE"
+	quest.333CF76810E31BBE.quest_subtitle: "灾变专攻"
 	quest.33CB15BE7D68D377.quest_subtitle: "26.1888k/t"
 	quest.33EC04375AED8171.quest_subtitle: "更性能的开局"
 	quest.3454C4F4CDF68CBB.quest_desc: [
@@ -206,6 +244,11 @@
 	quest.3DC8455378E09DE5.quest_subtitle: "/fly"
 	quest.3DE294D267FCD97E.quest_desc: ["&e奖励箱&r - &9远古城市特供版&r"]
 	quest.3DE294D267FCD97E.quest_subtitle: "搜X撤"
+	quest.3E2B342E0FEDEC61.quest_desc: [
+		"当ae无合成任务时机器不工作"
+		"&e防止爆仓&r"
+	]
+	quest.3E2B342E0FEDEC61.quest_subtitle: "当ae有合成任务时机器才工作"
 	quest.3E66B430F68ABD19.quest_subtitle: "更爽的ae"
 	quest.3E66B430F68ABD19.title: "无限频道"
 	quest.3E7523E7BB2C1B41.quest_desc: ["前期可以用谐振样板"]
@@ -232,7 +275,9 @@
 	quest.45C86CB3E4FA12CB.quest_subtitle: "烧"
 	quest.45D49F9C1E75D865.quest_subtitle: "方向朝上"
 	quest.465F0F5552A11494.quest_subtitle: "这份力量"
+	quest.469C99270A1A5969.quest_subtitle: "无线多对1"
 	quest.46B2E6B52B5F1426.quest_subtitle: "能请求10个"
+	quest.47824F192BEC3E99.quest_subtitle: "实用的优化机器"
 	quest.4919ED3D6A97DC5B.quest_desc: ["回收台可能没有用但没有用不太可能"]
 	quest.4919ED3D6A97DC5B.quest_subtitle: "变废为宝-2"
 	quest.4A4BADB3626C8AD6.quest_desc: ["不打"]
@@ -247,6 +292,11 @@
 	quest.4F7BDB595D3E3D41.quest_desc: [""]
 	quest.4F7BDB595D3E3D41.quest_subtitle: "蔓延获得灌注塔、ATM矿石"
 	quest.4FF5D9BC7E2D7A9F.quest_subtitle: "这个才厉害"
+	quest.50F4D766517033D5.quest_desc: [
+		"同样，可以用来贴粉碎机"
+		"请求器，不需要了"
+	]
+	quest.50F4D766517033D5.quest_subtitle: "ae2cs:crystal_seeds"
 	quest.51809C9ADEF74AB6.title: "猪"
 	quest.520883DBD546EE72.quest_subtitle: "盒动力火箭"
 	quest.523FB44F1C1292CF.quest_desc: ["&#C7B6BA铁魔法&r-&a时间流体&r处理"]
@@ -270,6 +320,7 @@
 	quest.58E24B18B047159F.quest_subtitle: "更完善的终局准备"
 	quest.59005537C08EEC6F.quest_subtitle: "两种打法↕︎"
 	quest.59005537C08EEC6F.title: "观察：混沌龙"
+	quest.5A640D60B919D245.quest_subtitle: "重在参与"
 	quest.5AA66A330DB2E3AB.quest_desc: [""]
 	quest.5AA66A330DB2E3AB.quest_subtitle: "需要史诗级解锁引雷"
 	quest.5B5B81D1EE07D375.quest_subtitle: "雷劈"
@@ -277,6 +328,9 @@
 	quest.5B982B9282E3271A.quest_subtitle: "魔法史上最严重的事故"
 	quest.5D62196F2C47719A.quest_desc: [""]
 	quest.5D62196F2C47719A.quest_subtitle: "努力与汗水"
+	quest.5E550C407303D4FF.quest_desc: ["跟鱼缸哪个快？"]
+	quest.5E550C407303D4FF.quest_subtitle: "养种子"
+	quest.5EBE21EBC4DDF65B.quest_subtitle: "从1加速到1024倍"
 	quest.5EC83524270FEABD.quest_subtitle: "M"
 	quest.5F4BA7935D879B0B.quest_subtitle: "直接挖"
 	quest.5F4BA7935D879B0B.title: "精准采集"
@@ -287,6 +341,7 @@
 	quest.601E5EBFB1551B8A.quest_subtitle: "碎片独自升级"
 	quest.61575C4AF2015193.quest_desc: [""]
 	quest.61575C4AF2015193.quest_subtitle: "更广泛的水槽交织"
+	quest.617469A48AB9ADA1.quest_subtitle: "别压反了"
 	quest.61EDD03656A6B9A4.quest_subtitle: "烧"
 	quest.61EEB1D080CE06EE.quest_desc: [
 		"[ { \"text\": \"跳转神化科技\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"29489A5660C5E6B3\" } } ]"
@@ -311,6 +366,12 @@
 	quest.63FC1CC64113D865.quest_subtitle: "控制器支持联网自动返回产物"
 	quest.655015C95287045A.quest_subtitle: "你指尖跃动的光芒"
 	quest.6675B0B9004395E7.quest_subtitle: "专业团队"
+	quest.66E29D61F8909B20.quest_desc: [
+		"&8神秘废金属&r→锭"
+		"&9发光水晶碎片&r→种子"
+		"&5玄奥沙&r→粉"
+		"&6神铸珍珠&r→宝藏"
+	]
 	quest.68B3C7A3494F8BCB.quest_desc: [""]
 	quest.69F29ECE0ECADD70.quest_subtitle: "包含所有me悖论工厂，以及蜜蜂工厂"
 	quest.6C20CE341FBA6D38.quest_desc: ["在主世界运行"]
@@ -355,6 +416,9 @@
 	quest.77262F38CCE16C04.quest_subtitle: "1.43M/t"
 	quest.772C011D967C131F.quest_subtitle: "化学品"
 	quest.78265D1AE2616E80.quest_desc: ["[ { \"text\": \"跳转至powah小技巧\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0A5EDF9BFC3DF0F2\" } } ]"]
+	quest.78565803EFBC7A72.quest_desc: ["除了做过载电路的样板"]
+	quest.78565803EFBC7A72.quest_subtitle: "所有样板都能转移至过载工厂"
+	quest.7879CFDE096339E5.quest_subtitle: "无线1对多"
 	quest.78A57AE6D65D0806.quest_subtitle: "杂项资源"
 	quest.78C3344D69112A50.quest_subtitle: "合"
 	quest.7937616AD97BEF7B.quest_subtitle: "支持联网自动返回产物"
@@ -378,14 +442,18 @@
 	task.06F99C42ABD2C380.title: "sfm已下放→"
 	task.093E24C6ADAF76F5.title: "猪咪星"
 	task.0E3D80D5E2AD1FE0.title: "无限元件"
+	task.0EDF520F3E9F238B.title: "部分资源的获取"
 	task.0F2387347C1EB218.title: "掉落物收集→"
 	task.17112DE521C0DDEA.title: "Any #minecraft:logs"
 	task.177C66572E2AC4EE.title: "多方块机器→"
 	task.18E8B17CA42B3FFA.title: "网络→"
+	task.198855A17A1F311D.title: "其他"
 	task.199AAF23839725B4.title: "清理掉落物"
 	task.1A0D74DAFAFCD38F.title: "fe"
 	task.1A7FCBAE15096D31.title: "1M→256M"
+	task.1C981B4638D679DE.title: "Omni"
 	task.1FEA8EC4E37ABA17.title: "观察：万象蜜蜂"
+	task.20CF1AE49D158B7E.title: "JDT"
 	task.2286756FC95C49A9.title: "猪咪打车"
 	task.23FEC59A561A52C0.title: "插件2→4→8→"
 	task.24BA92349C2EBD03.title: "裂变撕裂→"
@@ -405,6 +473,7 @@
 	task.32FDA64AADC2F179.title: "Any #c:ingots/tungsten"
 	task.3402AA72FE6DBB73.title: "氦氦氦"
 	task.34F6F14DF14CEB9C.title: "多方块3合1工具"
+	task.3524764356ACDF8E.title: "可能有用的设施"
 	task.39067D757CA95CC5.title: "红石钟→"
 	task.3B8F171C03B352CE.title: "Chapter 1"
 	task.3D936C0F7A748947.title: "超低技术力↓"
@@ -425,6 +494,7 @@
 	task.54EAE5793667DBF1.title: "消音→"
 	task.581468F3CF0877B2.title: "fe"
 	task.5ABEB0F8474AC37D.title: "x+c"
+	task.5C5CDF4389F0D826.title: "水晶科技"
 	task.605C44062B55B06F.title: "mek card→"
 	task.62A186EB74B01751.title: "3块/t"
 	task.636B38E42EACF5EC.title: "Chapter 5"
@@ -444,6 +514,8 @@
 	task.70E99841C99D6671.title: "多种发电选择↓"
 	task.73449E6E99EAAD58.title: "Chapter 4"
 	task.754789683AD0F439.title: "Chapter 3"
+	task.763B2D530892ABE8.title: "ban掉的机器"
+	task.78E1B866E6E2ABC5.title: "升级插件→"
 	task.7ADEBEF8AB9518C7.title: "powah→"
 	task.7E81EAB2130E706E.title: "死亡不掉落"
 }

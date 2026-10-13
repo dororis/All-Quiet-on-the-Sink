@@ -1,0 +1,96 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "omni"
+	group: "0B022AD354D4F865"
+	icon: {
+		id: "ae2omnicells:quantum_omni_cell_component_1k"
+	}
+	id: "00553A242B0B5B20"
+	images: [ ]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"6FC0D1DA5E1224CB"
+				"3A91BC6D4B2D9793"
+				"215417CCA4DA69C1"
+				"23065C4970E285BF"
+			]
+			id: "5E5E8C435CE20062"
+			size: 1.0d
+			tasks: [{
+				id: "404E27A897674FA9"
+				item: { count: 1, id: "ae2omnicells:quantum_omni_cell_component_1k" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			id: "6FC0D1DA5E1224CB"
+			tasks: [{
+				id: "6A5C25F7CDF35D97"
+				item: { count: 1, id: "ae2omnicells:omni_link_processor" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			id: "3A91BC6D4B2D9793"
+			tasks: [{
+				id: "787B8E132B65F22A"
+				item: { count: 1, id: "ae2omnicells:complex_link_processor" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			id: "215417CCA4DA69C1"
+			tasks: [{
+				id: "5258012992BCE068"
+				item: { count: 1, id: "ae2omnicells:multidimensional_expansion_processor" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			id: "01EA31AFA2B2EDE8"
+			size: 2.0d
+			tasks: [{
+				id: "1C981B4638D679DE"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"6FC0D1DA5E1224CB"
+				"3A91BC6D4B2D9793"
+			]
+			id: "0AD6CA1091626839"
+			tasks: [{
+				id: "7C09D9A23C309140"
+				item: { count: 1, id: "ae2omnicells:complex_omni_cell_component_1k" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			id: "23065C4970E285BF"
+			tasks: [{
+				id: "54787CFF5F10DABB"
+				item: { count: 1, id: "ae2omnicells:omni_cell_component_1k" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+	]
+}

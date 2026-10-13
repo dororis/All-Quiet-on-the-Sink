@@ -16,7 +16,7 @@
 			image: "neoecoae:textures/gui/widget/pattern_overlay.png"
 			rotation: 0.0d
 			width: 7.0d
-			x: 12.0d
+			x: 11.0d
 			y: -1.0d
 		}
 		{
@@ -28,6 +28,35 @@
 			width: 9.0d
 			x: 2.0d
 			y: -1.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "0FDB71500E577A31"
+			image: "fancymenu:textures/layout_editor/widgets/layers/move_down.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 19.0d
+			y: -2.25d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "4DB970242C394780"
+			image: "fancymenu:textures/layout_editor/widgets/layers/move_down.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 19.0d
+			y: 0.25d
+		}
+		{
+			height: 1.0d
+			id: "2F22B7408DB058C6"
+			image: "ae2omnicells:item/quantum_effect"
+			rotation: 0.0d
+			width: 1.0d
+			x: 19.0d
+			y: -6.0d
 		}
 	]
 	order_index: 4
@@ -70,7 +99,7 @@
 				item: { count: 1, id: "ae2:speed_card" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 3.5d
 			y: -4.0d
 		}
 		{
@@ -80,7 +109,7 @@
 				item: { count: 1, id: "ae2wtlib:quantum_bridge_card" }
 				type: "item"
 			}]
-			x: 4.5d
+			x: 4.0d
 			y: -5.0d
 		}
 		{
@@ -90,7 +119,7 @@
 				item: { count: 1, id: "ae2wtlib:magnet_card" }
 				type: "item"
 			}]
-			x: 5.5d
+			x: 5.0d
 			y: -3.0d
 		}
 		{
@@ -100,7 +129,7 @@
 				item: { count: 1, id: "ae2:fuzzy_card" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 3.5d
 			y: -2.0d
 		}
 		{
@@ -110,7 +139,7 @@
 				item: { count: 1, id: "ae2:inverter_card" }
 				type: "item"
 			}]
-			x: 6.0d
+			x: 5.5d
 			y: -2.0d
 		}
 		{
@@ -120,7 +149,7 @@
 				item: { count: 1, id: "ae2:crafting_card" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.5d
 			y: -2.0d
 		}
 		{
@@ -130,7 +159,7 @@
 				item: { count: 1, id: "ae2importexportcard:export_card" }
 				type: "item"
 			}]
-			x: 6.5d
+			x: 6.0d
 			y: -3.0d
 		}
 		{
@@ -140,7 +169,7 @@
 				item: { count: 1, id: "appflux:induction_card" }
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.5d
 			y: -4.0d
 		}
 		{
@@ -150,7 +179,7 @@
 				item: { count: 1, id: "extendedae_plus:virtual_crafting_card" }
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.5d
 			y: -2.0d
 		}
 		{
@@ -160,7 +189,7 @@
 				item: { count: 1, id: "extendedae_plus:channel_card" }
 				type: "item"
 			}]
-			x: 6.0d
+			x: 5.5d
 			y: -4.0d
 		}
 		{
@@ -170,7 +199,7 @@
 				item: { count: 1, id: "appliedsoul:range_card" }
 				type: "item"
 			}]
-			x: 7.0d
+			x: 6.5d
 			y: -2.0d
 		}
 		{
@@ -187,7 +216,7 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
+			x: 4.5d
 			y: -6.0d
 		}
 		{
@@ -197,7 +226,7 @@
 				item: { count: 1, id: "extendedae:pattern_modifier" }
 				type: "item"
 			}]
-			x: 12.0d
+			x: 11.0d
 			y: 0.0d
 		}
 		{
@@ -207,7 +236,7 @@
 				item: { count: 1, id: "extendedae:config_modifier" }
 				type: "item"
 			}]
-			x: 13.0d
+			x: 12.0d
 			y: 0.0d
 		}
 		{
@@ -217,7 +246,7 @@
 				item: { count: 1, id: "advanced_ae:adv_pattern_encoder" }
 				type: "item"
 			}]
-			x: 14.0d
+			x: 13.0d
 			y: 0.0d
 		}
 		{
@@ -227,7 +256,7 @@
 				item: { count: 1, id: "extendedae:concurrent_processor_press" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 3.5d
 			y: 2.0d
 		}
 		{
@@ -237,7 +266,7 @@
 				item: { count: 1, id: "appflux:energy_processor_press" }
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.5d
 			y: 2.0d
 		}
 		{
@@ -247,7 +276,7 @@
 				item: { count: 1, id: "advanced_ae:quantum_processor_press" }
 				type: "item"
 			}]
-			x: 7.0d
+			x: 6.5d
 			y: 0.0d
 		}
 		{
@@ -257,7 +286,7 @@
 				item: { count: 1, id: "megacells:accumulation_processor_press" }
 				type: "item"
 			}]
-			x: 6.0d
+			x: 5.5d
 			y: 2.0d
 		}
 		{
@@ -267,7 +296,7 @@
 				item: { count: 1, id: "ae2:calculation_processor_press" }
 				type: "item"
 			}]
-			x: 3.5d
+			x: 3.0d
 			y: 1.0d
 		}
 		{
@@ -277,7 +306,7 @@
 				item: { count: 1, id: "ae2:engineering_processor_press" }
 				type: "item"
 			}]
-			x: 4.5d
+			x: 4.0d
 			y: 1.0d
 		}
 		{
@@ -287,7 +316,7 @@
 				item: { count: 1, id: "ae2:logic_processor_press" }
 				type: "item"
 			}]
-			x: 5.5d
+			x: 5.0d
 			y: 1.0d
 		}
 		{
@@ -297,7 +326,7 @@
 				item: { count: 1, id: "ae2:silicon_press" }
 				type: "item"
 			}]
-			x: 6.5d
+			x: 6.0d
 			y: 1.0d
 		}
 		{
@@ -307,7 +336,7 @@
 				item: { count: 1, id: "ae2cs:resonating_print_press" }
 				type: "item"
 			}]
-			x: 6.0d
+			x: 5.5d
 			y: 0.0d
 		}
 		{
@@ -317,7 +346,7 @@
 				item: { count: 1, id: "ae2cs:blank_print_press" }
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.5d
 			y: 4.0d
 		}
 		{
@@ -327,7 +356,7 @@
 				item: { count: 1, id: "ae2cs:ender_blank_print_press" }
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.5d
 			y: 0.0d
 		}
 		{
@@ -340,7 +369,7 @@
 				item: { count: 1, id: "ae2lt:overload_inscriber_press" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.5d
 			y: 0.0d
 		}
 		{
@@ -365,7 +394,7 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
+			x: 4.0d
 			y: 3.0d
 		}
 		{
@@ -375,7 +404,7 @@
 				item: { count: 1, id: "ae2wtlib:wireless_pattern_encoding_terminal" }
 				type: "item"
 			}]
-			x: 10.0d
+			x: 9.0d
 			y: 1.5d
 		}
 		{
@@ -385,7 +414,7 @@
 				item: { count: 1, id: "ae2:wireless_crafting_terminal" }
 				type: "item"
 			}]
-			x: 11.0d
+			x: 10.0d
 			y: 1.5d
 		}
 		{
@@ -395,7 +424,7 @@
 				item: { count: 1, id: "extendedae:wireless_ex_pat" }
 				type: "item"
 			}]
-			x: 12.0d
+			x: 11.0d
 			y: 1.5d
 		}
 		{
@@ -405,7 +434,7 @@
 				item: { count: 1, id: "merequester:wireless_requester_terminal" }
 				type: "item"
 			}]
-			x: 10.0d
+			x: 9.0d
 			y: 3.0d
 		}
 		{
@@ -415,7 +444,7 @@
 				item: { count: 1, id: "advanced_ae:wireless_quantum_crafter_terminal" }
 				type: "item"
 			}]
-			x: 11.0d
+			x: 10.0d
 			y: 3.0d
 		}
 		{
@@ -425,7 +454,7 @@
 				item: { count: 1, id: "ae2:wireless_terminal" }
 				type: "item"
 			}]
-			x: 13.0d
+			x: 12.0d
 			y: 1.5d
 		}
 		{
@@ -435,7 +464,7 @@
 				item: { count: 1, id: "wcwt:wireless_comprehensive_work_terminal" }
 				type: "item"
 			}]
-			x: 14.0d
+			x: 13.0d
 			y: 1.5d
 		}
 		{
@@ -445,7 +474,7 @@
 				item: { count: 1, id: "ae2lt:wireless_tianshu_pattern_encoding_terminal" }
 				type: "item"
 			}]
-			x: 14.0d
+			x: 13.0d
 			y: 3.0d
 		}
 		{
@@ -455,7 +484,7 @@
 				item: { count: 1, id: "ae2cs:wireless_resonant_terminal" }
 				type: "item"
 			}]
-			x: 13.0d
+			x: 12.0d
 			y: 3.0d
 		}
 		{
@@ -465,7 +494,7 @@
 				item: { count: 1, id: "dysoncubeproject:dyson_ae_terminal" }
 				type: "item"
 			}]
-			x: 12.0d
+			x: 11.0d
 			y: 3.0d
 		}
 		{
@@ -473,6 +502,7 @@
 				id: "ae2:controller"
 			}
 			id: "066DCE023BEE9BAF"
+			size: 2.0d
 			tasks: [
 				{
 					id: "2AFE091FBED97378"
@@ -499,7 +529,7 @@
 					type: "item"
 				}
 			]
-			x: -3.5d
+			x: -0.5d
 			y: -1.0d
 		}
 		{
@@ -509,7 +539,7 @@
 				item: { count: 1, id: "ae2cs:resonating_pattern_converter" }
 				type: "item"
 			}]
-			x: 10.0d
+			x: 9.0d
 			y: 0.0d
 		}
 		{
@@ -519,7 +549,7 @@
 				item: { count: 1, id: "ae2lt:overload_pattern_encoder" }
 				type: "item"
 			}]
-			x: 11.0d
+			x: 10.0d
 			y: 0.0d
 		}
 		{
@@ -529,7 +559,7 @@
 				item: { count: 1, id: "ae2:pattern_provider" }
 				type: "item"
 			}]
-			x: 10.0d
+			x: 9.0d
 			y: -3.5d
 		}
 		{
@@ -539,7 +569,7 @@
 				item: { count: 1, id: "extendedae:ex_pattern_provider" }
 				type: "item"
 			}]
-			x: 11.0d
+			x: 10.0d
 			y: -3.5d
 		}
 		{
@@ -549,7 +579,7 @@
 				item: { count: 1, id: "advanced_ae:adv_pattern_provider" }
 				type: "item"
 			}]
-			x: 12.0d
+			x: 11.0d
 			y: -3.5d
 		}
 		{
@@ -559,7 +589,7 @@
 				item: { count: 1, id: "ae2lt:overloaded_pattern_provider" }
 				type: "item"
 			}]
-			x: 13.0d
+			x: 12.0d
 			y: -3.5d
 		}
 		{
@@ -569,7 +599,7 @@
 				item: { count: 1, id: "ae2lt:extended_overloaded_pattern_provider" }
 				type: "item"
 			}]
-			x: 14.0d
+			x: 13.0d
 			y: -3.5d
 		}
 		{
@@ -579,7 +609,7 @@
 				item: { count: 1, id: "ae2ltpp:packaged_pattern_provider" }
 				type: "item"
 			}]
-			x: 13.0d
+			x: 12.0d
 			y: -2.0d
 		}
 		{
@@ -589,7 +619,7 @@
 				item: { count: 1, id: "ae2ltpp:wireless_packaged_pattern_provider" }
 				type: "item"
 			}]
-			x: 14.0d
+			x: 13.0d
 			y: -2.0d
 		}
 		{
@@ -599,7 +629,7 @@
 				item: { count: 1, id: "ae2cs:resonating_pattern_provider" }
 				type: "item"
 			}]
-			x: 10.0d
+			x: 9.0d
 			y: -2.0d
 		}
 		{
@@ -609,7 +639,7 @@
 				item: { count: 1, id: "ae2cs:extended_resonating_pattern_provider" }
 				type: "item"
 			}]
-			x: 11.0d
+			x: 10.0d
 			y: -2.0d
 		}
 		{
@@ -619,7 +649,7 @@
 				item: { count: 1, id: "ae2cs:meteorite_pattern_provider" }
 				type: "item"
 			}]
-			x: 12.0d
+			x: 11.0d
 			y: -2.0d
 		}
 		{
@@ -629,7 +659,7 @@
 				item: { count: 1, id: "ae2:interface" }
 				type: "item"
 			}]
-			x: 10.0d
+			x: 9.0d
 			y: -5.0d
 		}
 		{
@@ -639,7 +669,7 @@
 				item: { count: 1, id: "ae2lt:overloaded_interface" }
 				type: "item"
 			}]
-			x: 12.0d
+			x: 11.0d
 			y: -5.0d
 		}
 		{
@@ -649,7 +679,7 @@
 				item: { count: 1, id: "ae2cs:extended_integrated_interface" }
 				type: "item"
 			}]
-			x: 14.0d
+			x: 13.0d
 			y: -5.0d
 		}
 		{
@@ -659,7 +689,7 @@
 				item: { count: 1, id: "extendedae:oversize_interface" }
 				type: "item"
 			}]
-			x: 11.0d
+			x: 10.0d
 			y: -5.0d
 		}
 		{
@@ -669,7 +699,7 @@
 				item: { count: 1, id: "ae2cs:ender_interface" }
 				type: "item"
 			}]
-			x: 13.0d
+			x: 12.0d
 			y: -5.0d
 		}
 		{
@@ -739,7 +769,7 @@
 				item: { count: 1, id: "neoecoae:eco_mega_upgrade_card" }
 				type: "item"
 			}]
-			x: 5.5d
+			x: 5.0d
 			y: -5.0d
 		}
 		{
@@ -749,7 +779,7 @@
 				item: { count: 1, id: "ae2cs:crystal_growth_card" }
 				type: "item"
 			}]
-			x: 3.5d
+			x: 3.0d
 			y: -3.0d
 		}
 		{
@@ -759,7 +789,7 @@
 				item: { count: 1, id: "ae2cs:overload_card" }
 				type: "item"
 			}]
-			x: 4.5d
+			x: 4.0d
 			y: -3.0d
 		}
 		{
@@ -769,7 +799,7 @@
 				item: { count: 1, id: "neoecoae:superconducting_processor_press" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 3.5d
 			y: 0.0d
 		}
 		{
@@ -799,7 +829,7 @@
 				item: { count: 1, id: "appgen:origination_processor_press" }
 				type: "item"
 			}]
-			x: 5.5d
+			x: 5.0d
 			y: 3.0d
 		}
 		{
@@ -820,7 +850,7 @@
 				item: { count: 1, id: "molecularmanipulator:matter_fabrication_controller" }
 				type: "item"
 			}]
-			x: 17.0d
+			x: 16.0d
 			y: -5.0d
 		}
 		{
@@ -831,7 +861,7 @@
 				item: { count: 1, id: "molecularmanipulator:molecular_center_controller" }
 				type: "item"
 			}]
-			x: 17.0d
+			x: 16.0d
 			y: -2.5d
 		}
 		{
@@ -842,7 +872,7 @@
 				item: { count: 1, id: "molecularmanipulator:omni_computation_controller" }
 				type: "item"
 			}]
-			x: 17.0d
+			x: 16.0d
 			y: 0.0d
 		}
 		{
@@ -853,8 +883,41 @@
 				item: { count: 1, id: "molecularmanipulator:event_horizon_singularity_hub" }
 				type: "item"
 			}]
-			x: 17.0d
+			x: 16.0d
 			y: 2.5d
+		}
+		{
+			id: "03AB847855EAAEF4"
+			size: 2.0d
+			tasks: [{
+				id: "25BFD166D4807494"
+				item: { count: 1, id: "ae2lt:tianshu_multidimensional_main_core" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: -3.5d
+		}
+		{
+			id: "18A0BDDC52949906"
+			size: 2.0d
+			tasks: [{
+				id: "76490BC68FC947F3"
+				item: { count: 1, id: "ae2lt:matter_warping_matrix_multidimensional_main_core" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: -1.0d
+		}
+		{
+			id: "617469A48AB9ADA1"
+			size: 2.0d
+			tasks: [{
+				id: "5C505AEA76BBDF4A"
+				item: { count: 1, id: "molecularmanipulator:compact_singularity_hub" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 1.5d
 		}
 	]
 }

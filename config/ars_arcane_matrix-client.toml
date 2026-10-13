@@ -1,0 +1,16 @@
+#Local visual settings only. These do not change machine operation.
+#仅影响本机显示，不改变机器运行或其他玩家的设置。
+[visuals]
+	#Show the Arcane Mine scanning beam. / 显示奥术矿井扫描光束。
+	showMineBeam = true
+	#Missing-block projection opacity. / 多方块缺失方块投影的不透明度。
+	# Default: 0.42
+	# Range: 0.1 ~ 1.0
+	structurePreviewOpacity = 0.42
+	#Wixie network range outline opacity. / 薇克精网络范围线框的不透明度。
+	# Default: 0.9
+	# Range: 0.1 ~ 1.0
+	wixieRangeOpacity = 0.9
+	#Highlight detected devices while viewing Wixie ranges. Disabling also skips the local scan.
+	#查看薇克精工作范围时高亮关联设备；关闭后也停止这项本地扫描。
+	highlightWixieDevices = true
