@@ -14,7 +14,7 @@
 		rotation: 0.0d
 		width: 1.0d
 		x: -7.0d
-		y: -1.0d
+		y: 0.0d
 	}]
 	order_index: 3
 	quest_links: [ ]
@@ -167,7 +167,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 4.0d
+			y: 5.0d
 		}
 		{
 			id: "2A33A58F154C1BE2"
@@ -177,7 +177,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 4.0d
+			y: 5.0d
 		}
 		{
 			id: "01600114985AF84F"
@@ -237,7 +237,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 3.5d
+			y: 5.0d
 		}
 		{
 			id: "170D921AECBA929A"
@@ -312,7 +312,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 4.0d
+			y: 5.0d
 		}
 		{
 			id: "3251B93E25432FA6"
@@ -322,7 +322,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 4.0d
+			y: 5.0d
 		}
 		{
 			id: "6F6F0686FDF7F1FB"
@@ -340,7 +340,7 @@
 				type: "checkmark"
 			}]
 			x: -4.0d
-			y: 4.0d
+			y: 5.0d
 		}
 		{
 			id: "6BA82893911F4A8A"
@@ -349,7 +349,7 @@
 				item: { count: 1, id: "ae2omnicells:omni_cell_component_1k" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 4.0d
 			y: -3.0d
 		}
 		{
@@ -359,7 +359,7 @@
 				item: { count: 1, id: "ae2omnicells:omni_cell_component_1m" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 4.0d
 			y: -2.0d
 		}
 		{
@@ -369,8 +369,8 @@
 				item: { count: 1, id: "ae2omnicells:complex_omni_cell_component_1k" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: -3.0d
+			x: 4.0d
+			y: 0.0d
 		}
 		{
 			id: "1DE4C07E5C50251C"
@@ -379,8 +379,8 @@
 				item: { count: 1, id: "ae2omnicells:complex_omni_cell_component_1m" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: -2.0d
+			x: 4.0d
+			y: 1.0d
 		}
 		{
 			id: "371B153579B36204"
@@ -389,8 +389,8 @@
 				item: { count: 1, id: "ae2omnicells:quantum_omni_cell_component_1k" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: -3.0d
+			x: 6.0d
+			y: -1.5d
 		}
 		{
 			id: "563B0E5B52B0C41F"
@@ -399,8 +399,8 @@
 				item: { count: 1, id: "ae2omnicells:quantum_omni_cell_component_1m" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: -2.0d
+			x: 6.0d
+			y: -0.5d
 		}
 		{
 			id: "3666C859E890197E"
@@ -409,7 +409,7 @@
 				item: { count: 1, id: "ae2omnicells:omni_cell_housing" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 5.0d
 			y: -2.5d
 		}
 		{
@@ -419,8 +419,8 @@
 				item: { count: 1, id: "ae2omnicells:complex_omni_cell_housing" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: -2.5d
+			x: 5.0d
+			y: 0.5d
 		}
 		{
 			id: "60493E98806A4356"
@@ -429,7 +429,7 @@
 				type: "checkmark"
 			}]
 			x: 3.0d
-			y: 3.5d
+			y: 5.0d
 		}
 		{
 			id: "38D79730C7CEB4F4"
@@ -438,8 +438,8 @@
 				item: { count: 1, id: "ae2omnicells:quantum_omni_cell_housing" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: -2.5d
+			x: 7.0d
+			y: -1.0d
 		}
 		{
 			id: "30908524CB437503"
@@ -448,7 +448,7 @@
 				type: "checkmark"
 			}]
 			x: 3.0d
-			y: 0.5d
+			y: 3.0d
 		}
 		{
 			id: "416EBCA912E670A7"
@@ -458,7 +458,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 0.5d
+			y: 2.5d
 		}
 		{
 			id: "5A446669A05EB4E8"
@@ -468,7 +468,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 0.5d
+			y: 2.5d
 		}
 		{
 			id: "2FC19D781CAA603B"
@@ -478,7 +478,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 3.5d
+			y: 5.0d
 		}
 		{
 			id: "49F8DAA17AD33D6F"
@@ -487,7 +487,7 @@
 				type: "checkmark"
 			}]
 			x: 6.0d
-			y: 3.5d
+			y: 5.0d
 		}
 		{
 			id: "54D44944EB1F87E1"
@@ -497,7 +497,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 0.5d
+			y: 2.5d
 		}
 		{
 			id: "49BC8F2DD36FC9C7"
@@ -507,7 +507,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 0.5d
+			y: 2.5d
 		}
 		{
 			id: "07B086379E62AE18"
@@ -517,7 +517,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 1.5d
+			y: 3.5d
 		}
 		{
 			id: "76804281FA83620F"
@@ -527,7 +527,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 1.5d
+			y: 3.5d
 		}
 		{
 			id: "1293C1D443FC2DD9"
@@ -537,7 +537,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 1.5d
+			y: 3.5d
 		}
 		{
 			icon: {
@@ -557,7 +557,7 @@
 				}
 			]
 			x: 8.0d
-			y: 1.5d
+			y: 3.5d
 		}
 		{
 			id: "0E631679D0133170"
@@ -567,7 +567,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 1.5d
+			y: 3.5d
 		}
 		{
 			id: "3244F8DB91363FBE"
@@ -578,7 +578,7 @@
 				type: "item"
 			}]
 			x: -7.0d
-			y: 0.5d
+			y: 1.5d
 		}
 		{
 			id: "230EA9E1EA7D64B2"
@@ -588,7 +588,75 @@
 				type: "item"
 			}]
 			x: -7.0d
-			y: -2.0d
+			y: -1.0d
+		}
+		{
+			id: "17B6E78DA179F2BE"
+			tasks: [{
+				id: "4568A33D708E158F"
+				item: { count: 1, id: "neoecoprototype:simplify_concrete_storage_cell" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			id: "7553F4F0DB593B93"
+			tasks: [{
+				id: "131D5090A37DFD1F"
+				item: { count: 1, id: "neoecoprototype:simplify_singularity_cell" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			id: "5335A2340749BCCB"
+			tasks: [{
+				id: "31472C6D37D0ACC0"
+				item: { count: 1, id: "neoecoprototype:simplify_small_bulk_storage_cell" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			id: "34B43F25186763C8"
+			tasks: [{
+				id: "5FFD476FDAF00DA4"
+				item: { count: 1, id: "neoecoprototype:simplify_small_bulk_expansion_card" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			id: "5B4FCB176B062F30"
+			tasks: [{
+				id: "68BC5CD57181864F"
+				item: { count: 1, id: "neoecoprototype:simplify_small_bulk_storage_cell_expanded" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			id: "794A1C21EE3D5E7F"
+			tasks: [{
+				id: "5FD06D39BC05BEA1"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			id: "366ACF088A7F3B8C"
+			tasks: [{
+				id: "6CD000F1C0F23F80"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -1.0d
 		}
 	]
 }

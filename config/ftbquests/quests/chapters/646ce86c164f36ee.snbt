@@ -10,8 +10,17 @@
 		id: "ftbquests:custom_icon"
 	}
 	id: "646CE86C164F36EE"
-	images: [ ]
-	order_index: 7
+	images: [{
+		click_action: "none:"
+		height: 3.0d
+		id: "41E3A4974B404A5C"
+		image: "ae2lt:block/firmament_conversion_core"
+		rotation: 0.0d
+		width: 3.0d
+		x: 4.0d
+		y: 0.0d
+	}]
+	order_index: 8
 	quest_links: [{
 		id: "663ADCF7E4C203FC"
 		linked_quest: "767DD7FC0B583E79"

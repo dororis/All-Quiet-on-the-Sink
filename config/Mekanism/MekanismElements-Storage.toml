@@ -1,0 +1,26 @@
+#Mekanism Eelements Energy Storage Config. This config is synced from server to client.
+[storage]
+	#Base energy storage (Joules).
+	# Default: 40000
+	# Range: 0 ~ 9223372036854775807
+	airCompressor = 40000
+	#Base energy storage (Joules).
+	# Default: 40000
+	# Range: 0 ~ 9223372036854775807
+	radiationIrradiator = 40000
+	#Base energy storage (Joules).
+	# Default: 40000
+	# Range: 0 ~ 9223372036854775807
+	adsorptionSeparator = 40000
+	#Base energy storage (Joules).
+	# Default: 40000
+	# Range: 0 ~ 9223372036854775807
+	organicLiquidExtractor = 40000
+	#Base energy storage (Joules).
+	# Default: 40000
+	# Range: 0 ~ 9223372036854775807
+	seawaterPump = 40000
+	#Base energy storage (Joules).
+	# Default: 40000
+	# Range: 0 ~ 9223372036854775807
+	infinityOreReprocessing = 40000

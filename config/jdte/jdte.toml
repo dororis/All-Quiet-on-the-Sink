@@ -927,3 +927,5 @@
 		timeAcceleratorEnabled = true
 		#When disabled, all Time Freezer blocks and their bundled crafting recipes remain registered but cannot be used.
 		timeFreezerEnabled = true
+		#Show decorative fumo dolls in creative tabs, creative search and JEI. Reopen the world after changing this option.
+		showFumoDolls = false

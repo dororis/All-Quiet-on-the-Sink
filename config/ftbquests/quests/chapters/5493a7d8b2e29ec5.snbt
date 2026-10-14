@@ -10,16 +10,6 @@
 	images: [
 		{
 			click_action: "none:"
-			height: 20.0d
-			id: "2B91BFC56C029AC0"
-			image: "ae2lt:block/pigmee_molecular_assembler_lights"
-			rotation: 0.0d
-			width: 20.0d
-			x: 4.5d
-			y: -3.0d
-		}
-		{
-			click_action: "none:"
 			height: 6.0d
 			id: "7318E5C021D54140"
 			image: "anvilcraft:block/black_hole"

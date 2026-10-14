@@ -7,17 +7,409 @@
 		id: "mekanism:cardboard_box"
 	}
 	id: "32F280C22AA0210B"
-	images: [ ]
-	order_index: 3
+	images: [
+		{
+			click_action: "none:"
+			height: 3.0d
+			id: "752EB43ABA8CF670"
+			image: "mekanism_extras:block/bin/infinite_led"
+			rotation: 0.0d
+			width: 3.0d
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			click_action: "none:"
+			height: 3.0d
+			id: "34A5EAFC4EB14AC4"
+			image: "mekanism_extras:block/bin/infinite_led"
+			rotation: 90.0d
+			width: 3.0d
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			id: "47BF70F64827FDA2"
+			image: "ftblibrary:icons/dropdown_out"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: -1.5d
+		}
+	]
+	order_index: 2
 	quest_links: [ ]
-	quests: [{
-		id: "0539798BD7C1F851"
-		tasks: [{
-			id: "680B511FCE39439E"
-			item: { count: 1, id: "mekanism:basic_control_circuit" }
-			type: "item"
-		}]
-		x: -2.5d
-		y: -1.5d
-	}]
+	quests: [
+		{
+			id: "2602805FAE15FE6B"
+			tasks: [{
+				id: "174B157CD84FDE06"
+				item: { count: 1, id: "mekanism:ultimate_smelting_factory" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			id: "75FEE8D162B16A39"
+			tasks: [{
+				id: "2D96EFCBAB4325DB"
+				item: { count: 1, id: "mekanism:ultimate_enriching_factory" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			id: "246927135F1CC498"
+			tasks: [{
+				id: "5D1FBAAF0F9A95ED"
+				item: { count: 1, id: "mekanism:ultimate_crushing_factory" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			id: "228C4B228DEB792C"
+			tasks: [{
+				id: "7F607558C03499B1"
+				item: { count: 1, id: "mekanism:ultimate_compressing_factory" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			id: "1040DC919C280D9F"
+			tasks: [{
+				id: "35922B6A718C3ACB"
+				item: { count: 1, id: "mekanism:ultimate_combining_factory" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			id: "5E1B4D933F7B0B79"
+			tasks: [{
+				id: "2C81EE054953AD2E"
+				item: { count: 1, id: "mekanism:ultimate_infusing_factory" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			id: "7F8A077F88C0E736"
+			tasks: [{
+				id: "2A3F6783F42BBE73"
+				item: { count: 1, id: "mekanism:ultimate_sawing_factory" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			id: "15A7065241B449E6"
+			tasks: [{
+				id: "755C2FC6C6CC0C8C"
+				item: { count: 1, id: "mekmm:ultimate_planting_factory" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			id: "2B01C774E54442BF"
+			tasks: [{
+				id: "0A06A7E128AC2986"
+				item: { count: 1, id: "mekmm:ultimate_stamping_factory" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			id: "238086AA18227B02"
+			tasks: [{
+				id: "4329FD6BF0C53A46"
+				item: { count: 1, id: "mekmm:ultimate_pressing_factory" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			id: "019388EA91073964"
+			tasks: [{
+				id: "326075C6442D8933"
+				item: { count: 1, id: "mekmm:ultimate_oxidizing_factory" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			id: "2D2258C8096408E0"
+			tasks: [{
+				id: "73C7ED837529771D"
+				item: { count: 1, id: "mekmm:ultimate_dissolving_factory" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			id: "6FA9B4BCA7153859"
+			tasks: [{
+				id: "52F611FBE51EA5DD"
+				item: { count: 1, id: "mekmm:ultimate_washing_factory" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			id: "57A0FDB73AAFAB01"
+			tasks: [{
+				id: "29330141360B6F89"
+				item: { count: 1, id: "mekmm:ultimate_pressurised_reacting_factory" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			id: "0CA1EC7F90216792"
+			tasks: [{
+				id: "77C7614F7DDDB59A"
+				item: { count: 1, id: "mekmm:ultimate_centrifuging_factory" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			id: "5D1A58357BD5B228"
+			tasks: [{
+				id: "53E0F1B36F87D420"
+				item: { count: 1, id: "mekmm:ultimate_pigment_extracting_factory" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			id: "5736209947225804"
+			tasks: [{
+				id: "6B8E16EDD133214B"
+				item: { count: 1, id: "mekmm:ultimate_crystallizing_factory" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			id: "00F96FC853B5548F"
+			size: 2.0d
+			tasks: [{
+				id: "61B37614C3A2978B"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			id: "3454C4F4CDF68CBB"
+			tasks: [{
+				consume_items: false
+				count: 5L
+				id: "257A65F8F2E4ACE6"
+				item: { count: 1, id: "mekanism:sps_port" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			id: "07E053444F0971FB"
+			tasks: [{
+				id: "65E1B5AABC0EA670"
+				item: { count: 1, id: "mekanism_extras:enriched_shining" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			id: "08BDBB3C17CDA034"
+			tasks: [{
+				id: "5BBA37A2757A0E8D"
+				item: { count: 1, id: "mekanism:pellet_antimatter" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			id: "320A714658D3FE5A"
+			tasks: [{
+				id: "3882801ECD9B847A"
+				item: { count: 1, id: "mekmm:uu_matter" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["51D46C84A7EC508E"]
+			id: "732A919898F43284"
+			tasks: [{
+				id: "53C878906283F695"
+				item: { count: 1, id: "mekanism_extras:naquadah_reactor_casing" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			id: "305BD8EF8F489B31"
+			tasks: [{
+				id: "6901A66B34818E65"
+				item: { count: 1, id: "neoecoae:aluminum_alloy_casing" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			id: "51D46C84A7EC508E"
+			tasks: [{
+				id: "2DBC5F755C81DC49"
+				item: { count: 1, id: "neoecoae:black_tungsten_alloy_casing" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["305BD8EF8F489B31"]
+			id: "7AE9F51203E42A30"
+			tasks: [{
+				id: "0FB1B428204DFF10"
+				item: { count: 1, id: "mekanismgenerators:fusion_reactor_frame" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			id: "4A4BADB3626C8AD6"
+			tasks: [{
+				id: "61CDB39562713E96"
+				item: { count: 1, id: "apothic_enchanting:infused_breath" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			id: "08BBEECEB0E72C7D"
+			tasks: [{
+				id: "1BE56C11DD400896"
+				item: { count: 1, id: "mbd2:compact_fissile_fuel" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["08BBEECEB0E72C7D"]
+			id: "5B816F739C3AB7B3"
+			tasks: [{
+				id: "2B98FD23B28434D8"
+				item: { count: 1, id: "ae2cs:irradiated_seed" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5B816F739C3AB7B3"]
+			id: "01DB31671A972596"
+			tasks: [{
+				id: "3310741A20DEE1F6"
+				item: { count: 1, id: "ae2cs:purified_irradiated_crystal" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["01DB31671A972596"]
+			id: "1F1631682DF3209E"
+			tasks: [{
+				id: "51D51F9C57883577"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["07967F6E04653C77"]
+			id: "311C3997CACE5D67"
+			tasks: [{
+				id: "031E95153A2B5E6D"
+				item: { count: 1, id: "mbd2:fusion_reaction_vessel" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			id: "07967F6E04653C77"
+			tasks: [{
+				consume_fluid: "DEFAULT"
+				fluid: {
+					amount: 1000
+					id: "industrialforegoing:ether_gas"
+				}
+				id: "0340A7EC185A8FAD"
+				type: "fluid"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			id: "5ED1F4E22688B5EC"
+			tasks: [{
+				consume_fluid: "DEFAULT"
+				fluid: {
+					amount: 1000
+					id: "irons_spellbooks:legendary_ink"
+				}
+				id: "3D94EEED636EFEFE"
+				type: "fluid"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5ED1F4E22688B5EC"]
+			id: "2ACE2F55A5760EDF"
+			tasks: [{
+				consume_fluid: "DEFAULT"
+				fluid: {
+					amount: 1000
+					id: "mekanism_extras:fluorinated_naquadah_uranium_fuel"
+				}
+				id: "54A69C6D32C9C8A3"
+				type: "fluid"
+			}]
+			x: 7.0d
+			y: 0.5d
+		}
+	]
 }

@@ -1320,19 +1320,19 @@
 				}
 				{
 					count: 64
-					id: "02515854AED8A3EB"
+					id: "02B3B74CF6E621D3"
 					item: {
 						count: 1
-						id: "extendedae:ex_pattern_provider"
+						id: "ae2:interface"
 					}
 					type: "item"
 				}
 				{
 					count: 64
-					id: "02B3B74CF6E621D3"
+					id: "311D6C35EF02A490"
 					item: {
 						count: 1
-						id: "ae2:interface"
+						id: "neoecoprototype:simplify_pattern_provider"
 					}
 					type: "item"
 				}

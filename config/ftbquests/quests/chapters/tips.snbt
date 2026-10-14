@@ -8,83 +8,19 @@
 		id: "mbd2:compact_fissile_fuel"
 	}
 	id: "6F8FFD92118ED1DB"
-	images: [
-		{
-			click_action: "none:"
-			height: 1.3d
-			id: "315F0D63629BC215"
-			image: "productivebeesgenesis:block/infinitycreation_comb_block"
-			rotation: 0.0d
-			width: 1.3d
-			x: 8.5d
-			y: 0.5d
-		}
-		{
-			click_action: "none:"
-			height: 2.0d
-			id: "6947240BE3B41CB7"
-			image: "enderio:textures/gui/sprites/icon/alloy_smelter_mode/furnace.png"
-			rotation: 0.0d
-			width: 2.0d
-			x: -8.5d
-			y: -9.5d
-		}
-		{
-			click_action: "none:"
-			height: 1.5d
-			id: "706D771ED28F9AD2"
-			image: "mekanism:block/factory/enriching/enriching_factory_front_active"
-			rotation: 0.0d
-			width: 1.5d
-			x: -7.0d
-			y: -9.5d
-		}
-	]
+	images: [{
+		click_action: "none:"
+		height: 1.3d
+		id: "315F0D63629BC215"
+		image: "productivebeesgenesis:block/infinitycreation_comb_block"
+		rotation: 0.0d
+		width: 1.3d
+		x: 8.5d
+		y: 0.5d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
-		{
-			id: "08BBEECEB0E72C7D"
-			tasks: [{
-				id: "1BE56C11DD400896"
-				item: { count: 1, id: "mbd2:compact_fissile_fuel" }
-				type: "item"
-			}]
-			x: -1.5d
-			y: -3.5d
-		}
-		{
-			dependencies: ["08BBEECEB0E72C7D"]
-			id: "5B816F739C3AB7B3"
-			tasks: [{
-				id: "2B98FD23B28434D8"
-				item: { count: 1, id: "ae2cs:irradiated_seed" }
-				type: "item"
-			}]
-			x: 0.5d
-			y: -3.5d
-		}
-		{
-			dependencies: ["5B816F739C3AB7B3"]
-			id: "01DB31671A972596"
-			tasks: [{
-				id: "3310741A20DEE1F6"
-				item: { count: 1, id: "ae2cs:purified_irradiated_crystal" }
-				type: "item"
-			}]
-			x: 2.5d
-			y: -3.5d
-		}
-		{
-			dependencies: ["01DB31671A972596"]
-			id: "1F1631682DF3209E"
-			tasks: [{
-				id: "51D51F9C57883577"
-				type: "checkmark"
-			}]
-			x: 4.5d
-			y: -3.5d
-		}
 		{
 			id: "4F8C00E9148B2CE5"
 			tasks: [
@@ -163,15 +99,6 @@
 			}]
 			x: 4.5d
 			y: -5.0d
-		}
-		{
-			id: "33F63CDF2E3F8AA0"
-			tasks: [{
-				id: "24BA92349C2EBD03"
-				type: "checkmark"
-			}]
-			x: -3.0d
-			y: -3.5d
 		}
 		{
 			id: "089272EF31DDA297"
@@ -370,116 +297,6 @@
 			y: -6.5d
 		}
 		{
-			disable_toast: true
-			id: "0E9D3C1272FABD3B"
-			tasks: [{
-				id: "066E3CCAC00220A2"
-				item: { count: 1, id: "apotheosis:timeworn_fabric" }
-				type: "item"
-			}]
-			x: -10.0d
-			y: -6.0d
-		}
-		{
-			disable_toast: true
-			id: "4CFDC99F1162864E"
-			tasks: [{
-				id: "1A541DDD082055E8"
-				item: { count: 1, id: "apotheosis:arcane_sands" }
-				type: "item"
-			}]
-			x: -10.0d
-			y: -2.0d
-		}
-		{
-			id: "61EDD03656A6B9A4"
-			tasks: [{
-				id: "7B2031EDFD15C577"
-				item: { count: 1, id: "enderio:grains_of_infinity" }
-				type: "item"
-			}]
-			x: -8.5d
-			y: -2.0d
-		}
-		{
-			id: "78C3344D69112A50"
-			tasks: [{
-				id: "246F42DE06D8A82F"
-				item: { count: 1, id: "fluxnetworks:flux_dust" }
-				type: "item"
-			}]
-			x: -5.5d
-			y: -2.0d
-		}
-		{
-			disable_toast: true
-			id: "4980D736FC8C1F04"
-			tasks: [{
-				id: "1BD73D678EF8364D"
-				item: { count: 1, id: "apotheosis:godforged_pearl" }
-				type: "item"
-			}]
-			x: -10.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["4980D736FC8C1F04"]
-			disable_toast: true
-			id: "3F5B7335114E4578"
-			tasks: [{
-				id: "7A6A290BE24D5E09"
-				item: { count: 1, id: "apotheosis:god_fused_pearl" }
-				type: "item"
-			}]
-			x: -8.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["3F5B7335114E4578"]
-			disable_toast: true
-			id: "3541DAA08A386C23"
-			tasks: [{
-				id: "00C3AC6DF41E7FC4"
-				item: { count: 1, id: "ae2:singularity" }
-				type: "item"
-			}]
-			x: -6.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["3F5B7335114E4578"]
-			disable_toast: true
-			id: "711DD8B5EEA34D6C"
-			tasks: [{
-				id: "1B71E54DA62A6B07"
-				item: { count: 1, id: "apotheosis:godforged_pearl" }
-				type: "item"
-			}]
-			x: -6.0d
-			y: -0.5d
-		}
-		{
-			disable_toast: true
-			id: "4D8E0F7624A74294"
-			tasks: [{
-				id: "16D2D2C8AF72C573"
-				item: { count: 1, id: "apotheosis:mysterious_scrap_metal" }
-				type: "item"
-			}]
-			x: -10.0d
-			y: -8.0d
-		}
-		{
-			id: "358561D8F0D823CD"
-			tasks: [{
-				id: "174CEF621D543869"
-				item: { count: 1, id: "apotheosis:luminous_crystal_shard" }
-				type: "item"
-			}]
-			x: -10.0d
-			y: -4.0d
-		}
-		{
 			id: "633DF18A216636E1"
 			tasks: [{
 				id: "40FD9770C8754D4F"
@@ -611,36 +428,6 @@
 			y: 1.0d
 		}
 		{
-			id: "3F708EB6DEC4C034"
-			tasks: [{
-				id: "083FB70F60227EB4"
-				item: { count: 1, id: "ae2:fluix_dust" }
-				type: "item"
-			}]
-			x: -7.0d
-			y: -2.0d
-		}
-		{
-			id: "2283682C22B80D1F"
-			tasks: [{
-				id: "1DF32126ACD53ED5"
-				item: { count: 1, id: "mysticalagriculture:nature_essence" }
-				type: "item"
-			}]
-			x: -5.5d
-			y: -6.0d
-		}
-		{
-			id: "07EEABDC7A8B1C20"
-			tasks: [{
-				id: "6696AA7E15157E7A"
-				item: { count: 1, id: "hostilenetworks:overworld_prediction" }
-				type: "item"
-			}]
-			x: -8.5d
-			y: -6.0d
-		}
-		{
 			id: "63983FB80A784805"
 			tasks: [{
 				id: "4DDD9710E38B1D8A"
@@ -677,74 +464,6 @@
 			]
 			x: 8.5d
 			y: -2.5d
-		}
-		{
-			id: "37EBFA55C068F2E4"
-			tasks: [{
-				id: "11F2FE6A83742DEC"
-				item: { count: 1, id: "alltheores:osmium_ingot" }
-				type: "item"
-			}]
-			x: -7.0d
-			y: -8.0d
-		}
-		{
-			id: "2A35E6C2561EB87F"
-			tasks: [{
-				id: "35423F397B470E33"
-				item: { count: 1, id: "alltheores:silver_ingot" }
-				type: "item"
-			}]
-			x: -8.5d
-			y: -8.0d
-		}
-		{
-			id: "45C86CB3E4FA12CB"
-			tasks: [{
-				id: "5DD964CA7C427D98"
-				item: { count: 1, id: "ae2cs:purified_nether_quartz_crystal" }
-				type: "item"
-			}]
-			x: -8.5d
-			y: -4.0d
-		}
-		{
-			id: "2509114D50B16ED4"
-			tasks: [{
-				id: "4D57C594FC8B0574"
-				item: { count: 1, id: "ae2cs:purified_certus_quartz_crystal" }
-				type: "item"
-			}]
-			x: -7.0d
-			y: -4.0d
-		}
-		{
-			dependencies: [
-				"4D8E0F7624A74294"
-				"358561D8F0D823CD"
-				"4CFDC99F1162864E"
-				"4980D736FC8C1F04"
-			]
-			disable_toast: true
-			id: "29489A5660C5E6B3"
-			size: 2.0d
-			tasks: [{
-				id: "72D62A07496F215C"
-				item: { count: 1, id: "anvilcraft:sifting_table" }
-				type: "item"
-			}]
-			x: -13.0d
-			y: -4.0d
-		}
-		{
-			id: "139B31AAB46274DF"
-			tasks: [{
-				id: "14EBA81300EFC054"
-				item: { count: 1, id: "mysticalagriculture:dye_essence" }
-				type: "item"
-			}]
-			x: -7.0d
-			y: -6.0d
 		}
 		{
 			id: "29BDB80635F4D837"

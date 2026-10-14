@@ -1,31 +1,620 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
+	disable_toast: true
 	filename: "70dde00ab52f0067"
 	group: "0B022AD354D4F865"
 	icon: {
 		id: "apotheosis:god_fused_pearl"
 	}
 	id: "70DDE00AB52F0067"
-	images: [ ]
+	images: [
+		{
+			height: 1.0d
+			id: "78A2659222EC7566"
+			image: "minecraft:item/iron_ingot"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			id: "7D14DEFD793315DF"
+			image: "minecraft:item/gold_ingot"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			id: "77B95A923E805C40"
+			image: "minecraft:item/copper_ingot"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			id: "0D8E063610B8BB5E"
+			image: "alltheores:item/osmium_nugget"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			id: "2A07435882E6FFE0"
+			image: "minecraft:item/netherite_scrap"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			id: "61B5F28F6F81D128"
+			image: "oritech:item/small_nickel_dust"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			id: "4FC273FB191D38FA"
+			image: "ae2cs:item/certus_quartz_seed_2"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			id: "145B3210170C6CBA"
+			image: "ae2cs:item/ender_quartz_seed_2"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			id: "3A0162E11D9853A5"
+			image: "ae2cs:item/entro_crystal_seed_2"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			id: "4CE5E2E6A364D0E0"
+			image: "ae2cs:item/nether_quartz_seed_2"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			id: "09EA050BA1E07CB2"
+			image: "ae2cs:item/redstone_crystal_seed_2"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			id: "3D3D26794583552F"
+			image: "ae2cs:item/meteor_seed_2"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			id: "7FFB4EA8A1206EC2"
+			image: "apotheosis:items/mysterious_scrap_metal"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			id: "6B9AA1BEAD6688EC"
+			image: "ae2cs:item/fluix_crystal_seed_2"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			id: "7EEA6572D76538C6"
+			image: "minecraft:item/redstone"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			id: "44B39564ADE882E0"
+			image: "minecraft:item/glowstone_dust"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			id: "7191C94BF1F984C9"
+			image: "minecraft:item/clay_ball"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			id: "7EBD5055AA083761"
+			image: "minecraft:item/blaze_powder"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			id: "7A361350CF4EF865"
+			image: "apotheosis:items/arcane_sands"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.5d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			id: "4CEF1F45E5938EE8"
+			image: "oritech:item/small_platinum_dust"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			id: "110F44CE6CD4FB87"
+			image: "mekanism:item/dust_obsidian"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			id: "268D378BB8FFA6DA"
+			image: "irons_spellbooks:item/arcane_essence"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			id: "0FBDB5AB8445F324"
+			image: "irons_spellbooks:item/cinder_essence"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			id: "455462A6DBC234E4"
+			image: "minecraft:item/diamond"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			id: "244C65E20FE89F12"
+			image: "minecraft:item/emerald"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			id: "4B1FD0B8D4B4E15A"
+			image: "minecraft:item/nether_star"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			id: "461C01641A6F65F7"
+			image: "minecraft:item/heart_of_the_sea"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			id: "2316A8583698FA87"
+			image: "minecraft:item/totem_of_undying"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			click_action: "none:"
+			height: 2.0d
+			id: "2B4FA0E8562A6592"
+			image: "enderio:textures/gui/sprites/icon/alloy_smelter_mode/furnace.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -5.5d
+			y: 6.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.5d
+			id: "0A5BFAEF83B8C548"
+			image: "mekanism:block/factory/enriching/enriching_factory_front_active"
+			rotation: 0.0d
+			width: 1.5d
+			x: -2.5d
+			y: 6.5d
+		}
+		{
+			click_action: "none:"
+			height: 3.0d
+			id: "4D648B9E9C8C5F3B"
+			image: "ars_nouveau:block/void_prism"
+			rotation: 0.0d
+			width: 3.0d
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "6DA892B003564C8B"
+			image: "ftblibrary:icons/dropdown_out"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: 0.25d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		dependencies: [
-			"4D8E0F7624A74294"
-			"358561D8F0D823CD"
-			"4CFDC99F1162864E"
-			"4980D736FC8C1F04"
-		]
-		disable_toast: true
-		id: "66E29D61F8909B20"
-		size: 2.0d
-		tasks: [{
-			id: "422E93D0E4C28901"
-			item: { count: 1, id: "anvilcraft:sifting_table" }
-			type: "item"
-		}]
-		x: -3.5d
-		y: -0.5d
-	}]
+	quests: [
+		{
+			dependencies: ["5C0D0FB3BA980B30"]
+			disable_toast: true
+			hide_dependency_lines: true
+			id: "3459D8DEB5FEF784"
+			tasks: [{
+				id: "1B02760E76E20E0C"
+				item: { count: 1, id: "apotheosis:mysterious_scrap_metal" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5C0D0FB3BA980B30"]
+			disable_toast: true
+			hide_dependency_lines: true
+			id: "4B83D26A9278ED9F"
+			tasks: [{
+				id: "1DD1727977677F9B"
+				item: { count: 1, id: "apotheosis:timeworn_fabric" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5C0D0FB3BA980B30"]
+			hide_dependency_lines: true
+			id: "235B8F5DE018686F"
+			tasks: [{
+				id: "1550E89608ED02F2"
+				item: { count: 1, id: "apotheosis:luminous_crystal_shard" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5C0D0FB3BA980B30"]
+			disable_toast: true
+			hide_dependency_lines: true
+			id: "14105093581ABDF6"
+			tasks: [{
+				id: "57AC7A0BA4ADA097"
+				item: { count: 1, id: "apotheosis:arcane_sands" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5C0D0FB3BA980B30"]
+			disable_toast: true
+			hide_dependency_lines: true
+			id: "5E7A5858BF862111"
+			tasks: [{
+				id: "6C691C40CCB68A0E"
+				item: { count: 1, id: "apotheosis:godforged_pearl" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6F84A572BBAD72EF"]
+			id: "43A4A429C46D2731"
+			tasks: [{
+				id: "2AE16E54813D8BDF"
+				item: { count: 1, id: "anvilcraft:cinerite" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3CA37A6038B99679"]
+			id: "065F896B795E5586"
+			tasks: [{
+				id: "0F610DD527A6CC12"
+				item: { count: 1, id: "anvilcraft:nether_dust" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3B30AEBB7D1FCF3E"]
+			id: "685135B9AC0BBE14"
+			tasks: [{
+				id: "594C6C21ABCD0CE4"
+				item: { count: 1, id: "anvilcraft:end_dust" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3B9D349741234DDB"]
+			hide_dependency_lines: true
+			id: "6F84A572BBAD72EF"
+			tasks: [{
+				id: "7D7724EF67BD7D5C"
+				item: { count: 1, id: "hostilenetworks:overworld_prediction" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6F84A572BBAD72EF"]
+			hide_dependency_lines: true
+			id: "3CA37A6038B99679"
+			tasks: [{
+				id: "5FB27E7E386D25AA"
+				item: { count: 1, id: "hostilenetworks:nether_prediction" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3CA37A6038B99679"]
+			hide_dependency_lines: true
+			id: "3B30AEBB7D1FCF3E"
+			tasks: [{
+				id: "3C1DF6C854547F3B"
+				item: { count: 1, id: "hostilenetworks:end_prediction" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"3459D8DEB5FEF784"
+				"43A4A429C46D2731"
+				"065F896B795E5586"
+				"685135B9AC0BBE14"
+				"235B8F5DE018686F"
+				"14105093581ABDF6"
+				"5E7A5858BF862111"
+			]
+			disable_toast: true
+			hide_dependency_lines: true
+			id: "123A3007F3085B2F"
+			size: 2.0d
+			tasks: [{
+				id: "63132AF14ACD5DF5"
+				item: { count: 1, id: "anvilcraft:sifting_table" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3459D8DEB5FEF784"]
+			hide_dependency_lines: true
+			id: "4DC5B51894406B0A"
+			tasks: [{
+				id: "2EC97E93B84C8764"
+				item: { count: 1, id: "alltheores:silver_ingot" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3459D8DEB5FEF784"]
+			hide_dependency_lines: true
+			id: "2D54940B7DCBBE06"
+			tasks: [{
+				id: "66314A0BA4F82D0A"
+				item: { count: 1, id: "alltheores:osmium_ingot" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4B83D26A9278ED9F"]
+			hide_dependency_lines: true
+			icon: {
+				id: "mysticalagriculture:dye_essence"
+			}
+			id: "004CB234A9E32E49"
+			tasks: [
+				{
+					id: "35BD0ED64E550D4C"
+					item: { count: 1, id: "mysticalagriculture:dye_essence" }
+					type: "item"
+				}
+				{
+					id: "744EE117C43AADE0"
+					item: { count: 1, id: "mysticalagriculture:nature_essence" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["235B8F5DE018686F"]
+			hide_dependency_lines: true
+			id: "685FF6522A101801"
+			tasks: [{
+				id: "3BE2160084129F14"
+				item: { count: 1, id: "ae2cs:purified_nether_quartz_crystal" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["235B8F5DE018686F"]
+			hide_dependency_lines: true
+			id: "4F2F7AE936CA19C0"
+			tasks: [{
+				id: "6A571AD487883BD6"
+				item: { count: 1, id: "ae2cs:purified_certus_quartz_crystal" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["14105093581ABDF6"]
+			hide_dependency_lines: true
+			id: "26E6E6E62D1C1419"
+			tasks: [{
+				id: "2BB5BFC636AEEB8C"
+				item: { count: 1, id: "enderio:grains_of_infinity" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["14105093581ABDF6"]
+			hide_dependency_lines: true
+			id: "3BB9DAF0509A47C8"
+			tasks: [{
+				id: "36369BDF29767987"
+				item: { count: 1, id: "ae2:fluix_dust" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4B83D26A9278ED9F"]
+			hide_dependency_lines: true
+			id: "3B9D349741234DDB"
+			tasks: [{
+				id: "0CDB9CC53479B829"
+				item: { count: 1, id: "hostilenetworks:overworld_prediction" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4B83D26A9278ED9F"]
+			hide_dependency_lines: true
+			id: "421624A4EDA32C0A"
+			shape: "none"
+			tasks: [{
+				id: "50B9EF2D46CAF7B1"
+				item: { count: 1, id: "oritech:carbon_fibre_strands" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5C0D0FB3BA980B30"]
+			disable_toast: true
+			id: "24AEBB60843F22C5"
+			tasks: [{
+				id: "41BF78E4A8C0FB2A"
+				item: { count: 1, id: "ae2:singularity" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 8.0d
+		}
+		{
+			disable_toast: true
+			id: "5C0D0FB3BA980B30"
+			tasks: [{
+				id: "6899460906C03418"
+				item: { count: 1, id: "apotheosis:god_fused_pearl" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4B83D26A9278ED9F"]
+			hide_dependency_lines: true
+			id: "6B206ECF0CE279DB"
+			shape: "none"
+			tasks: [{
+				id: "7565D53CB03F47F7"
+				item: { count: 1, id: "anvilcraft:wood_fiber" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.5d
+		}
+	]
 }

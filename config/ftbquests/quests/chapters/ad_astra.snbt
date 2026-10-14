@@ -1,22 +1,44 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
+	disable_toast: true
 	filename: "ad_astra"
 	group: "0B022AD354D4F865"
 	icon: {
 		id: "ae2cs:purified_certus_quartz_crystal"
 	}
 	id: "72655C0D66520CA6"
-	images: [{
-		click_action: "show_recipe:ae2cs:purified_nether_quartz_crystal"
-		height: 1.0d
-		id: "6B0DF077BAF7570D"
-		image: "resourcefulconfig:textures/gui/sprites/icons/download.png"
-		rotation: -90.0d
-		width: 1.0d
-		x: 2.0d
-		y: 1.0d
-	}]
+	images: [
+		{
+			click_action: "show_recipe:ae2cs:purified_nether_quartz_crystal"
+			height: 1.0d
+			id: "6B0DF077BAF7570D"
+			image: "resourcefulconfig:textures/gui/sprites/icons/download.png"
+			rotation: -90.0d
+			width: 1.0d
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			click_action: "none:"
+			height: 3.0d
+			id: "2FCB923F4F6F2781"
+			image: "ae2cs:block/quartz_oscillator_clock/off/back"
+			rotation: 0.0d
+			width: 3.0d
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			id: "05AF982360F2135F"
+			image: "ftblibrary:icons/dropdown_out"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -4.5d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -29,7 +51,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 1.0d
+			y: -1.0d
 		}
 		{
 			id: "11355E814833BD7A"
@@ -51,7 +73,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 1.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["625ADB4F865BF603"]
@@ -62,7 +84,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 1.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["5E550C407303D4FF"]
@@ -73,11 +95,12 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 1.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["04E23FFAA7AB3212"]
 			id: "0E0DC759A8E8852D"
+			optional: true
 			rewards: [{
 				id: "4EC9767777B16321"
 				item: {
@@ -92,7 +115,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -0.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["5E550C407303D4FF"]
@@ -111,8 +134,8 @@
 				item: { count: 1, id: "ae2:cable_interface" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 2.5d
+			x: 4.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["26D9FEE3144D2C0C"]
@@ -134,7 +157,7 @@
 				}
 			]
 			x: 1.0d
-			y: 4.0d
+			y: 0.5d
 		}
 		{
 			id: "26D9FEE3144D2C0C"
@@ -144,7 +167,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 4.0d
+			y: 0.5d
 		}
 		{
 			id: "1BFD8CBC515155C4"
@@ -154,7 +177,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 4.0d
+			y: 0.5d
 		}
 		{
 			id: "194DC458C5C71052"
@@ -164,7 +187,18 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 4.0d
+			y: 0.5d
+		}
+		{
+			hide_dependency_lines: true
+			id: "317960AB3E3CB2FE"
+			tasks: [{
+				id: "0418A3A3807863C9"
+				item: { count: 1, id: "anvilcraft:fish_tank" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
 		}
 	]
 }

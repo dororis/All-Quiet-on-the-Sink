@@ -28,5 +28,11 @@
     "recipe_type.mbd2.chaos_laser":"混沌镭射",
     "block.mbd2.chaos_laser_base":"混沌镭射基座",
     "screen.anvilcraft.cfa.class.special.aqs.creative_pigmee_fumo": "猪咪星",
-    "biome.aqs.pigmee":"猪咪星"
+    "biome.aqs.pigmee":"猪咪星",
+    "block.mbd2.sourcegate":"魔得之门",
+    "recipe_type.mbd2.sourcegate":"魔得之门",
+    "block.mbd2.atomic_reconstructor":"原子高炉",
+    "recipe_type.mbd2.atomic_reconstructor":"原子重组",
+    "block.mbd2.fusion_reaction_vessel":"氘氚反应釜",
+    "recipe_type.mbd2.fusion_reaction_vessel":"氘氚反应釜"
 }

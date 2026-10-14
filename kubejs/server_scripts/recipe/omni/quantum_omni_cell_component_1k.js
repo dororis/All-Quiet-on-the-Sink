@@ -15,7 +15,7 @@ ServerEvents.recipes(event => {
         }
     )
     event.shaped(
-        Item.of('ae2omnicells:quantum_omni_cell_component_1k'), 
+        Item.of('ae2omnicells:complex_omni_cell_component_1k'), 
         [                                               
             'BFB',
             'DED',

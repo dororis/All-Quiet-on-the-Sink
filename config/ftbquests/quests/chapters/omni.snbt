@@ -7,8 +7,28 @@
 		id: "ae2omnicells:quantum_omni_cell_component_1k"
 	}
 	id: "00553A242B0B5B20"
-	images: [ ]
-	order_index: 4
+	images: [
+		{
+			click_action: "none:"
+			height: 3.0d
+			id: "7600B934230BA13C"
+			image: "ae2omnicells:block/singularity_block"
+			rotation: 0.0d
+			width: 3.0d
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			id: "0815B7E249EAE030"
+			image: "ftblibrary:icons/dropdown_out"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: -2.5d
+		}
+	]
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -25,7 +45,7 @@
 				item: { count: 1, id: "ae2omnicells:quantum_omni_cell_component_1k" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: -2.0d
 			y: -1.0d
 		}
 		{
@@ -60,12 +80,20 @@
 		}
 		{
 			id: "01EA31AFA2B2EDE8"
+			rewards: [{
+				id: "05F1FF8B2C17E6CF"
+				item: {
+					count: 1
+					id: "ae2:inverter_card"
+				}
+				type: "item"
+			}]
 			size: 2.0d
 			tasks: [{
 				id: "1C981B4638D679DE"
 				type: "checkmark"
 			}]
-			x: -5.0d
+			x: -5.5d
 			y: -1.0d
 		}
 		{
@@ -79,17 +107,18 @@
 				item: { count: 1, id: "ae2omnicells:complex_omni_cell_component_1k" }
 				type: "item"
 			}]
-			x: -2.0d
+			x: 1.0d
 			y: -1.0d
 		}
 		{
+			dependencies: ["01EA31AFA2B2EDE8"]
 			id: "23065C4970E285BF"
 			tasks: [{
 				id: "54787CFF5F10DABB"
 				item: { count: 1, id: "ae2omnicells:omni_cell_component_1k" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: -3.5d
 			y: -1.0d
 		}
 	]

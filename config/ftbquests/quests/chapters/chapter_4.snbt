@@ -38,7 +38,7 @@
 			y: -1.0d
 		}
 	]
-	order_index: 7
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
@@ -423,98 +423,6 @@
 			}]
 			x: 17.0d
 			y: -1.0d
-		}
-		{
-			id: "3454C4F4CDF68CBB"
-			tasks: [{
-				consume_items: false
-				count: 5L
-				id: "257A65F8F2E4ACE6"
-				item: { count: 1, id: "mekanism:sps_port" }
-				type: "item"
-			}]
-			x: 2.5d
-			y: 3.0d
-		}
-		{
-			id: "07E053444F0971FB"
-			tasks: [{
-				id: "65E1B5AABC0EA670"
-				item: { count: 1, id: "mekanism_extras:enriched_shining" }
-				type: "item"
-			}]
-			x: 4.5d
-			y: 3.0d
-		}
-		{
-			id: "08BDBB3C17CDA034"
-			tasks: [{
-				id: "5BBA37A2757A0E8D"
-				item: { count: 1, id: "mekanism:pellet_antimatter" }
-				type: "item"
-			}]
-			x: 5.5d
-			y: 3.0d
-		}
-		{
-			id: "320A714658D3FE5A"
-			tasks: [{
-				id: "3882801ECD9B847A"
-				item: { count: 1, id: "mekmm:uu_matter" }
-				type: "item"
-			}]
-			x: 6.5d
-			y: 3.0d
-		}
-		{
-			id: "732A919898F43284"
-			tasks: [{
-				id: "53C878906283F695"
-				item: { count: 1, id: "mekanism_extras:naquadah_reactor_casing" }
-				type: "item"
-			}]
-			x: -2.5d
-			y: 4.0d
-		}
-		{
-			id: "4A4BADB3626C8AD6"
-			tasks: [{
-				id: "61CDB39562713E96"
-				item: { count: 1, id: "apothic_enchanting:infused_breath" }
-				type: "item"
-			}]
-			x: 10.5d
-			y: 3.0d
-		}
-		{
-			id: "305BD8EF8F489B31"
-			tasks: [{
-				id: "6901A66B34818E65"
-				item: { count: 1, id: "neoecoae:aluminum_alloy_casing" }
-				type: "item"
-			}]
-			x: -4.5d
-			y: 3.0d
-		}
-		{
-			id: "51D46C84A7EC508E"
-			tasks: [{
-				id: "2DBC5F755C81DC49"
-				item: { count: 1, id: "neoecoae:black_tungsten_alloy_casing" }
-				type: "item"
-			}]
-			x: -4.5d
-			y: 4.0d
-		}
-		{
-			id: "7AE9F51203E42A30"
-			tasks: [{
-				id: "0FB1B428204DFF10"
-				item: { count: 1, id: "mekanismgenerators:fusion_reactor_frame" }
-				type: "item"
-			}]
-			x: -2.5d
-			y: 3.0d
 		}
 	]
 }

@@ -92,6 +92,11 @@
   "ars_arcane_matrix": {
     "core_status": true
   },
+  "neoecoprototype": {
+    "simplify_storage_controller": true,
+    "simplify_drive": true,
+    "simplify_computation_drive": true
+  },
   "ae2": {
     "part_icon": true,
     "charger": true,
@@ -138,6 +143,7 @@
   },
   "jdte": {
     "advanced_energy_transmitter_status": true,
+    "greenhouse_status": true,
     "installed_upgrades": true,
     "mineral_extractor_status": true
   },

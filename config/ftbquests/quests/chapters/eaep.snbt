@@ -7,17 +7,135 @@
 		id: "extendedae_plus:ultimate_super_assembler_matrix_builder"
 	}
 	id: "1A6DB8709D7A32A5"
-	images: [ ]
-	order_index: 8
-	quest_links: [ ]
-	quests: [{
-		id: "5F2D3C98A0DBBA40"
-		tasks: [{
-			id: "02BC20F0E04A2448"
-			item: { count: 1, id: "extendedae_plus:lattra_crystal" }
-			type: "item"
-		}]
-		x: 0.5d
+	images: [
+		{
+			click_action: "none:"
+			height: 3.0d
+			id: "5C083047FC3D47C0"
+			image: "extendedae:part/active_formation_plane_on"
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			id: "4CCFA6FD3990B5BD"
+			image: "ftblibrary:icons/dropdown_out"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -1.5d
+		}
+	]
+	order_index: 6
+	quest_links: [{
+		id: "569B752B53611B37"
+		linked_quest: "798DD5C3FC981AFA"
+		x: -2.0d
 		y: 0.0d
 	}]
+	quests: [
+		{
+			id: "5F2D3C98A0DBBA40"
+			size: 2.0d
+			tasks: [{
+				id: "02BC20F0E04A2448"
+				item: { count: 1, id: "extendedae_plus:lattra_crystal" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			id: "0E5C75E6D7C730D3"
+			tasks: [{
+				id: "4385B1D25CD4A63F"
+				item: { count: 1, id: "extendedae_plus:crystal_assembler_plus" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			id: "3728DDD434A85B7A"
+			tasks: [{
+				id: "31D255276736E067"
+				item: { count: 1, id: "extendedae_plus:circuit_cutter_plus" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3F38FD693CA1E35C"]
+			id: "2A98968F0969CA2F"
+			tasks: [{
+				count: 312L
+				id: "779FCB8BAF3DD44E"
+				item: { count: 1, id: "extendedae_plus:assembler_matrix_hybrid_plus" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3F38FD693CA1E35C"]
+			id: "6101F957A29D6729"
+			tasks: [{
+				count: 272L
+				id: "01A4DA7A22CB902E"
+				item: { count: 1, id: "extendedae_plus:super_assembler_matrix_frame" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3F38FD693CA1E35C"]
+			id: "67D28F3F39490C27"
+			tasks: [{
+				count: 632L
+				id: "3EDE5F0B189D42F4"
+				item: { count: 1, id: "extendedae_plus:super_assembler_matrix_wall" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3F38FD693CA1E35C"]
+			id: "303894CECF1193BD"
+			tasks: [{
+				count: 60L
+				id: "084AC74370DBDDEE"
+				item: { count: 1, id: "extendedae:assembler_matrix_glass" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3F38FD693CA1E35C"]
+			id: "3B222958C7C949B2"
+			tasks: [{
+				count: 4L
+				id: "3F99CB618C149D72"
+				item: { count: 1, id: "extendedae_plus:assembler_matrix_upload_core" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			id: "3F38FD693CA1E35C"
+			tasks: [{
+				id: "02F5EA2836083A91"
+				item: { components: { "minecraft:custom_data": { } }, count: 1, id: "extendedae_plus:ultimate_super_assembler_matrix_builder" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+	]
 }

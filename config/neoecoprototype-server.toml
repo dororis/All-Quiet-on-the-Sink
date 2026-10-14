@@ -1,0 +1,87 @@
+#Minimum stored item count for automatic MEGA marker selection; compression still requires the MEGA compression upgrade.
+# Default: 20000
+# Range: 0 ~ 9223372036854775807
+mega_bulk_auto_mark_threshold = 20000
+#Enable the /prototypefumo command, which hands out a plushie wearing any player's skin.
+#Off by default: the command needs OP level 2 or creative mode as well, and the skin it
+#copies belongs to a named player. Turn this on and it answers again.
+#The dolls themselves are not switched off here: their worn effects, their creative tab
+#entries and the creepers that keep their distance from a placed one all ship on.
+fumo_command_enabled = false
+#Whether the structure expansion card eats the ticket it works from: one paper to
+#write a shortfall note, and one blank AE2 pattern to write an exchange pattern.
+#On by default - off, every shift-click prints either of them for nothing, and a
+#pattern is a real recipe that stays in the world once it is made.
+structure_card_consumes_items = true
+#Also accept processor recipes derived from AE2's inscriber (press-mode recipes, with
+#printed parts unfolded into the material inscribed into them).
+#This is what lets other content that adds inscriber recipes work with no data file.
+#Default: true.
+derive_processor_recipes_from_inscriber = true
+#Processor outputs the assembler must refuse, e.g. ["ae2:logic_processor"].
+#Applies to the JSON recipes and the inscriber derivation alike, so removing a data
+#file alone is not enough to disable a recipe the inscriber still provides.
+disabled_processor_recipes = []
+
+[l1_storage]
+	#Additional eco storage-cell item IDs accepted by L1 drives despite tier.
+	#Example: ["neoecoae:eco_mega_long_bulk_cell"]. Default: []
+	additional_storage_cells = []
+
+[l1_computation]
+	#Computation threads per L1 threading core. Was 1 before this was configurable.
+	# Default: 2
+	# Range: 1 ~ 1024
+	cpu_threads = 2
+	#Co-processors per L1 parallel core, i.e. what the panel shows as 并行. Was 16.
+	# Default: 24
+	# Range: 1 ~ 65536
+	cpu_accelerators = 24
+	#Crafting storage bytes per L1 computation cell. Was 1 MiB (1048576).
+	# Default: 1572864
+	# Range: 1 ~ 1099511627776
+	cpu_total_bytes = 1572864
+	#Crafting storage bytes per energized computation cell (CE1R).
+	#Default 5242880 is the old 4 MiB plus 30%.
+	# Default: 5242880
+	# Range: 1 ~ 1099511627776
+	energized_cell_total_bytes = 5242880
+
+[cryotheum_ore]
+	#Dimensions the cryotheum ores generate in, by full ID. Each dimension has its own
+	#ore and its own biome modifier, so adding one entry only switches that ore on.
+	#An empty list turns all three off. Moving an ore to a dimension it was not authored
+	#for needs a datapack, because the host stone is chosen by the feature.
+	#Default: none, until the crystal family they lead to has a recipe.
+	dimensions = []
+	#Freezing ticks a player gains per broken cryotheum ore. Vanilla starts taking freeze
+	#damage at 140 ticks in powder snow, so anything below that is the frostbite meter
+	#filling up, not damage. Zero disables the effect. Default: 60.
+	# Default: 60
+	# Range: 0 ~ 600
+	freeze_ticks = 60
+
+[cryotheum_meteorite]
+	#Whether the floating End comet is placed at all. Its ore veins are switched on by
+	#dimensions; the comet is the one world entry left, because it carries the mother rock
+	#and the buds that the veins would otherwise have no source from.
+	#It is read while chunks generate, so already placed comets stay in the world and a
+	#newly generated area simply has none. Default: false - the crystal family this leads to
+	#has no recipe yet, and a half-built discovery is worse than none.
+	enabled = false
+
+[singularity_cell]
+	#How often the singularity cell makes a batch, in ticks. 600 = every 30 seconds.
+	#Clamped to at least 60 ticks.
+	#Default: 600.
+	# Default: 600
+	# Range: 60 ~ 16777216
+	ticks_per_batch = 600
+	#Singularities one batch is worth, and therefore how coarse the bank is: it jumps
+	#by this number once per interval, it does not drip.
+	#Clamped to at most 262144, so the fastest
+	#this cell can run is that many per 60 ticks (about 3 seconds).
+	#Default: 120.
+	# Default: 120
+	# Range: 1 ~ 262144
+	amount_per_batch = 120

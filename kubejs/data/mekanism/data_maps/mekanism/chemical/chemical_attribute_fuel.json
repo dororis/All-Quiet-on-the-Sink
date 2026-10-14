@@ -12,6 +12,10 @@
       "burn_time": 120,
       "energy": 11280
     },
+    "mekanismelements:ammonia": {
+      "burn_time": 180,
+      "energy": 16920
+    },
     "mekanism_extras:rich_uranium_fuel": {
       "burn_time": 240,
       "energy": 22560

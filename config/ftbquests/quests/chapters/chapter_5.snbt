@@ -67,7 +67,7 @@
 			y: -2.5d
 		}
 	]
-	order_index: 8
+	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{
@@ -81,17 +81,10 @@
 				type: "item"
 			}]
 			size: 2.0d
-			tasks: [
-				{
-					id: "636B38E42EACF5EC"
-					type: "checkmark"
-				}
-				{
-					id: "509A82665B62D81B"
-					item: { count: 1, id: "mbd2:atomic_reconstructor" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "636B38E42EACF5EC"
+				type: "checkmark"
+			}]
 			x: 0.0d
 			y: -0.5d
 		}
@@ -281,6 +274,16 @@
 			}]
 			x: 6.5d
 			y: -2.5d
+		}
+		{
+			id: "7C2FE7223CD9A348"
+			tasks: [{
+				id: "6501A6178116E3A8"
+				item: { count: 1, id: "mbd2:atomic_reconstructor" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
 		}
 	]
 }

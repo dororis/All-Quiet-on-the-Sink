@@ -12,7 +12,7 @@ ServerEvents.recipes(event => {
     "item": "minecraft:nether_star"
   },
   "output": {
-    "amount": 10,
+    "amount": 100,
     "fluid": "industrialforegoing:ether_gas"
   },
   "rarity": [

@@ -7,17 +7,280 @@
 		id: "industrialforegoing:dryrubber"
 	}
 	id: "5F978BAA0880CED8"
-	images: [ ]
-	order_index: 6
-	quest_links: [ ]
-	quests: [{
-		id: "1B93F80A0B575730"
-		tasks: [{
-			id: "7913DF27F1B1FB6B"
-			item: { count: 1, id: "industrialforegoing:dissolution_chamber" }
-			type: "item"
-		}]
-		x: 0.5d
-		y: -1.0d
-	}]
+	images: [
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "5A4A8C6CF117449E"
+			image: "ftblibrary:icons/dropdown_out"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -1.25d
+		}
+		{
+			click_action: "none:"
+			height: 3.0d
+			id: "0910BC1A13A88B14"
+			image: "industrialforegoing:block/base/top"
+			rotation: 0.0d
+			width: 3.0d
+			x: -3.0d
+			y: 0.0d
+		}
+	]
+	order_index: 7
+	quest_links: [
+		{
+			disable_toast: true
+			id: "4E835C2BC7557525"
+			linked_quest: "4F8C00E9148B2CE5"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			disable_toast: true
+			id: "5E9888F364BE0EA9"
+			linked_quest: "7D88B0E985B0B494"
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			disable_toast: true
+			id: "585EC9DD9939ACB3"
+			linked_quest: "21090EF8D8B0A3EF"
+			x: 9.0d
+			y: -1.5d
+		}
+	]
+	quests: [
+		{
+			dependencies: [
+				"12E60F57D99C6ED9"
+				"6F0732CB83BEE0B5"
+			]
+			id: "1B93F80A0B575730"
+			size: 2.0d
+			tasks: [{
+				id: "7913DF27F1B1FB6B"
+				item: { count: 1, id: "industrialforegoing:dissolution_chamber" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "5C9D6C30F905FBEF"
+			size: 2.0d
+			tasks: [{
+				id: "72552466037B75D3"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2FBD205B543F64A3"]
+			id: "12E60F57D99C6ED9"
+			tasks: [
+				{
+					id: "707EE2CBE515DD34"
+					type: "checkmark"
+				}
+				{
+					consume_fluid: "DEFAULT"
+					fluid: {
+						amount: 1000
+						id: "industrialforegoing:latex"
+					}
+					id: "24EF95822B70EFB3"
+					optional_task: true
+					type: "fluid"
+				}
+			]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0C7B5373619398BC"]
+			dependency_requirement: "all_started"
+			id: "4EBA5A17AA2351E1"
+			tasks: [
+				{
+					id: "0A15D9C6F6C734A1"
+					item: { count: 1, id: "industrialforegoing:pink_slime" }
+					type: "item"
+				}
+				{
+					id: "6463011642B21F5C"
+					item: { count: 1, id: "industrialforegoing:pink_slime_block" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"4EBA5A17AA2351E1"
+				"7E1DC35733901AB5"
+				"5C9D6C30F905FBEF"
+			]
+			icon: {
+				id: "oritech:centrifuge_block"
+			}
+			id: "2FBD205B543F64A3"
+			size: 2.0d
+			tasks: [
+				{
+					id: "1E951911AD4849B2"
+					item: { count: 1, id: "oritech:centrifuge_block" }
+					type: "item"
+				}
+				{
+					id: "40CB415E95C6528B"
+					item: { count: 1, id: "oritech:machine_fluid_addon" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "0C7B5373619398BC"
+			tasks: [{
+				id: "3B191D4508DB4F24"
+				item: { count: 1, id: "mekanism:pigment_extractor" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2FBD205B543F64A3"]
+			id: "6F0732CB83BEE0B5"
+			tasks: [
+				{
+					id: "4F430132EEABA86D"
+					type: "checkmark"
+				}
+				{
+					consume_fluid: "DEFAULT"
+					fluid: {
+						amount: 1000
+						id: "industrialforegoing:pink_slime"
+					}
+					id: "0B5B1501C81FCBC9"
+					optional_task: true
+					type: "fluid"
+				}
+			]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2D0598C68DFF76EB"]
+			disable_toast: true
+			id: "7E1DC35733901AB5"
+			tasks: [{
+				id: "0D24E65E524CF8B0"
+				item: { count: 1, id: "anvilcraft:wood_fiber" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			disable_toast: true
+			hide_dependency_lines: true
+			id: "2D0598C68DFF76EB"
+			tasks: [{
+				id: "6292D13B59F490B9"
+				item: { count: 1, id: "apotheosis:timeworn_fabric" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			id: "6B7533AEEF4FC03A"
+			tasks: [{
+				id: "4A8414D8970C21BD"
+				item: { count: 1, id: "industrialforegoing:ore_laser_base" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6B7533AEEF4FC03A"]
+			id: "5553B0DDCFF86D89"
+			tasks: [{
+				id: "5D0B49E9190DB34B"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:raw_materials/tungsten)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			id: "077B68E0A49921A8"
+			tasks: [{
+				id: "31A763955F45EE28"
+				item: { count: 1, id: "industrialforegoing:fluid_laser_base" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["077B68E0A49921A8"]
+			id: "125CE2BD6CDE162C"
+			tasks: [
+				{
+					consume_fluid: "DEFAULT"
+					fluid: {
+						amount: 1000
+						id: "industrialforegoing:latex"
+					}
+					id: "4077EB8300A5526E"
+					type: "fluid"
+				}
+				{
+					consume_fluid: "DEFAULT"
+					fluid: {
+						amount: 1000
+						id: "industrialforegoing:ether_gas"
+					}
+					id: "13AEA24F026A8058"
+					type: "fluid"
+				}
+			]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			id: "7E48517A09A459F6"
+			tasks: [{
+				id: "5BDED5448C89754B"
+				item: { count: 1, id: "industrialforegoingsouls:soul_laser_base" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E48517A09A459F6"]
+			id: "493A8EAB597CFCB3"
+			tasks: [{
+				id: "5A666D7E3669654B"
+				item: { count: 1, id: "kubejs:infinity_soul_cell" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.5d
+		}
+	]
 }

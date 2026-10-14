@@ -1,0 +1,495 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ecoproto"
+	group: "0B022AD354D4F865"
+	icon: {
+		id: "neoecoprototype:simplify_storage_component_1m"
+	}
+	id: "1B9FE249249D8245"
+	images: [
+		{
+			height: 1.0d
+			id: "73499375E46169F2"
+			image: "ftblibrary:icons/dropdown_out"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.5d
+			y: -0.5d
+		}
+		{
+			click_action: "none:"
+			height: 3.0d
+			id: "07BE08F58E643F5B"
+			image: "neoecoprototype:textures/gui/tier/l1.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -11.0d
+			y: 0.5d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "073588E1A967B3F9"
+			tasks: [{
+				id: "2D37E90096610BD5"
+				item: { count: 1, id: "neoecoprototype:simplify_stonecutting_assembler" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			id: "1A2AA434319C526F"
+			tasks: [{
+				id: "738E5E7D8B7BF973"
+				item: { count: 1, id: "neoecoprototype:simplify_pattern_provider" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			id: "036BC9E5CBD20B13"
+			tasks: [{
+				id: "627CF02BA9CC4577"
+				item: { count: 1, id: "neoecoprototype:simplify_powered_me_interface" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			id: "51C3B237D7AB1EEE"
+			tasks: [{
+				id: "1A317D27A24D250C"
+				item: { count: 1, id: "neoecoprototype:simplify_structure_expansion_card" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			id: "7B9BDF5E19C39F38"
+			tasks: [{
+				id: "780552403A52379A"
+				item: { count: 1, id: "neoecoprototype:simplify_tier_upgrade_card_l4_l6" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			id: "75824F4455A2196C"
+			tasks: [{
+				id: "24A203D96880A1F0"
+				item: { count: 1, id: "neoecoprototype:simplify_tier_upgrade_card_l6_l9" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["25E7676448323AA3"]
+			id: "30B5D3EFAA7700D3"
+			tasks: [{
+				id: "3EAC9F29B9A53CFB"
+				item: { count: 1, id: "neoecoprototype:simplify_green_crystal_matrix" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["30B5D3EFAA7700D3"]
+			id: "3F4AFF2CEA18BE03"
+			tasks: [{
+				id: "51FF4BF50F1D2C4C"
+				item: { count: 1, id: "neoecoprototype:simplify_green_aluminum_casing" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3F4AFF2CEA18BE03"]
+			id: "25A7D25075C45556"
+			tasks: [{
+				id: "7DF2D0C36DE2601D"
+				item: { count: 1, id: "neoecoprototype:simplify_storage_casing" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["25A7D25075C45556"]
+			id: "64129D6C94DC5AC8"
+			size: 2.0d
+			tasks: [{
+				id: "4BD2C8CCDE5A44F3"
+				item: { count: 1, id: "neoecoprototype:simplify_storage_controller" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3F4AFF2CEA18BE03"]
+			id: "16843F19C899D99B"
+			tasks: [{
+				id: "4E02A36A1E83107C"
+				item: { count: 1, id: "neoecoprototype:simplify_computation_casing" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["16843F19C899D99B"]
+			id: "204E9314B44A13D3"
+			size: 2.0d
+			tasks: [{
+				id: "29EED56344DBC732"
+				item: { count: 1, id: "neoecoprototype:simplify_crafting_casing" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3F4AFF2CEA18BE03"]
+			id: "48330F88D50A27C5"
+			tasks: [{
+				id: "3C228DE754AEDAE0"
+				item: { count: 1, id: "neoecoprototype:simplify_crafting_casing" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["48330F88D50A27C5"]
+			id: "510FFF8EFE8F824E"
+			size: 2.0d
+			tasks: [{
+				id: "06157CBF862122D5"
+				item: { count: 1, id: "neoecoprototype:simplify_crafting_system" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			icon: {
+				id: "neoecoprototype:simplify_storage_interface"
+			}
+			id: "1909D4851F3BC865"
+			tasks: [
+				{
+					id: "3057033F7C5F999E"
+					item: { count: 1, id: "neoecoprototype:simplify_storage_interface" }
+					type: "item"
+				}
+				{
+					id: "7C4DA492B056E6BE"
+					item: { count: 1, id: "neoecoprototype:simplify_storage_network_interface" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			id: "488C4A3EBF2E22B7"
+			tasks: [{
+				id: "03D4DFF131D296B6"
+				item: { count: 1, id: "neoecoprototype:simplify_drive" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			id: "66EDA5111CEFEA64"
+			tasks: [{
+				id: "7D773E3306111A13"
+				item: { count: 1, id: "neoecoprototype:simplify_energy_cell" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			id: "01A32EB415EB00D1"
+			tasks: [{
+				id: "78B10E78BEBC9424"
+				item: { count: 1, id: "neoecoprototype:simplify_storage_vent" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			id: "38400340BE500DD5"
+			tasks: [{
+				id: "562838C43E649794"
+				item: { count: 1, id: "neoecoprototype:simplify_crafting_pattern_bus" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			icon: {
+				id: "neoecoprototype:simplify_crafting_worker"
+			}
+			id: "3E38C3173FC48F5D"
+			tasks: [
+				{
+					id: "26D588E996506F17"
+					item: { count: 1, id: "neoecoprototype:simplify_crafting_worker" }
+					type: "item"
+				}
+				{
+					id: "6837C00B5AB49057"
+					item: { count: 1, id: "neoecoprototype:simplify_crafting_parallel_core" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			id: "01BC7EC5213EEED5"
+			tasks: [{
+				id: "5BDA982555E18833"
+				item: { count: 1, id: "neoecoprototype:simplify_crafting_vent" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			icon: {
+				id: "neoecoprototype:simplify_crafting_interface"
+			}
+			id: "6ACB81C2345F3CAF"
+			tasks: [
+				{
+					id: "5BE672DAAEA74BEF"
+					item: { count: 1, id: "neoecoprototype:simplify_crafting_interface" }
+					type: "item"
+				}
+				{
+					id: "1505596F84A12F13"
+					item: { count: 1, id: "neoecoprototype:simplify_crafting_network_interface" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			icon: {
+				id: "neoecoprototype:simplify_computation_drive"
+			}
+			id: "0098F422003118D2"
+			tasks: [
+				{
+					id: "75C5700F7AE60B05"
+					item: { count: 1, id: "neoecoprototype:simplify_computation_drive" }
+					type: "item"
+				}
+				{
+					id: "3409BB6FDFDAEF89"
+					item: { count: 1, id: "neoecoprototype:simplify_computation_cell_1m" }
+					type: "item"
+				}
+				{
+					id: "77138F0A2725CEFD"
+					item: { count: 1, id: "neoecoprototype:energized_computation_cell_4m" }
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "neoecoprototype:simplify_computation_threading_core"
+			}
+			id: "75E9C7C99222BF83"
+			tasks: [
+				{
+					id: "1A37E62F9B826266"
+					item: { count: 1, id: "neoecoprototype:simplify_computation_threading_core" }
+					type: "item"
+				}
+				{
+					id: "64D3A7DE32625475"
+					item: { count: 1, id: "neoecoprototype:energized_computation_threading_core" }
+					type: "item"
+				}
+				{
+					id: "52B273D20BCD1282"
+					item: { count: 1, id: "neoecoprototype:simplify_computation_parallel_core" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			id: "4BD7EDAD43E60996"
+			tasks: [{
+				id: "120249510646B328"
+				item: { count: 1, id: "neoecoprototype:simplify_computation_cooling_controller" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "neoecoprototype:simplify_computation_interface"
+			}
+			id: "5F918F93DF5FE853"
+			tasks: [
+				{
+					id: "6F703F374F580E74"
+					item: { count: 1, id: "neoecoprototype:simplify_computation_interface" }
+					type: "item"
+				}
+				{
+					id: "0BB0E79501688278"
+					item: { count: 1, id: "neoecoprototype:simplify_computation_network_interface" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			id: "25E7676448323AA3"
+			size: 2.0d
+			tasks: [{
+				id: "528E8CA1C75C8AFE"
+				type: "checkmark"
+			}]
+			x: -8.5d
+			y: 1.0d
+		}
+		{
+			id: "594EBECC454C7390"
+			tasks: [{
+				id: "66454AD709DE9565"
+				item: { count: 1, id: "neoecoprototype:simplify_item_storage_matrix_housing" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			id: "01C9BBA07D33538F"
+			tasks: [{
+				id: "6E1A893709F48FCC"
+				item: { count: 1, id: "neoecoprototype:simplify_fluid_storage_matrix_housing" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			id: "14563C2B8D03EC11"
+			tasks: [{
+				id: "2B069D6BB7FAB879"
+				item: { count: 1, id: "neoecoprototype:simplify_chemical_storage_matrix_housing" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			id: "6154C5F447479AE1"
+			tasks: [{
+				id: "0D1261A5CE9763C5"
+				item: { count: 1, id: "neoecoprototype:simplify_fe_cell_housing" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			id: "3E04F299D72D38AF"
+			tasks: [{
+				id: "32DCA37FF9191636"
+				item: { count: 1, id: "neoecoprototype:simplify_universal_storage_matrix_housing" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -0.5d
+		}
+		{
+			id: "51854B4FB8733B24"
+			tasks: [{
+				id: "7ED316302FCCBD1E"
+				item: { count: 1, id: "neoecoprototype:simplify_quantum_storage_matrix_housing" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			id: "771FEC38A5E43F88"
+			tasks: [{
+				id: "1F4C999A8DECD26E"
+				item: { count: 1, id: "neoecoprototype:pigmee_storage_matrix_housing" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			id: "5DFF88CFD156D713"
+			tasks: [{
+				id: "58CC4EF17B7A0E11"
+				item: { count: 1, id: "neoecoprototype:simplify_storage_component_1m" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			id: "5BAF8D31201BA7C9"
+			tasks: [{
+				id: "6AFF0DEFB522AE0A"
+				item: { count: 1, id: "neoecoprototype:simplify_storage_component_4m" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			id: "5581F9F6C68126C5"
+			tasks: [{
+				id: "2B1BBE87C79FDB32"
+				item: { count: 1, id: "neoecoprototype:simplify_concrete_storage_matrix_housing" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.5d
+		}
+		{
+			id: "798DD5C3FC981AFA"
+			tasks: [{
+				id: "75C624F4FA36DDF4"
+				type: "checkmark"
+			}]
+			x: -8.5d
+			y: 3.0d
+		}
+	]
+}
