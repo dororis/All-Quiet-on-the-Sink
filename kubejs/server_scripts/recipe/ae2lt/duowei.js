@@ -3,6 +3,10 @@ ServerEvents.recipes(event => {
     {
         "type": "ae2lt:overload_processing",
         "priority": 0,
+        "inputFluid": {
+            "id": "molecularmanipulator:singularity_sequence_matter",
+            "amount": 4000
+            },
         "inputs": [
     {
         "ingredient": {
@@ -33,7 +37,7 @@ ServerEvents.recipes(event => {
         "ingredient": {
         "item": "ae2lt:matter_warping_matrix_overload_main_core"
       },
-        "count": 4
+        "count": 2
     },
     {
         "ingredient": {
@@ -58,6 +62,10 @@ ServerEvents.recipes(event => {
     {
         "type": "ae2lt:overload_processing",
         "priority": 0,
+        "inputFluid": {
+            "id": "molecularmanipulator:singularity_sequence_matter",
+            "amount": 4000
+            },
         "inputs": [
     {
         "ingredient": {
@@ -67,28 +75,21 @@ ServerEvents.recipes(event => {
     },
     {
         "ingredient": {
-        "item": "anvilcraft:hypercube"
+        "item": "neoecoae:computation_system_l9"
       },
-        "count": 4
-    },
-    {
-        "ingredient": {
-        "item": "anvilcraft:spacetime_supercomputer"
-      },
-        "count": 4
-    },
-    
-    {
-        "ingredient": {
-        "item": "anvilcraft:singularity_crystal"
-      },
-        "count": 4
+        "count": 8
     },
     {
         "ingredient": {
         "item": "ae2lt:tianshu_overload_main_core"
       },
-        "count": 4
+        "count": 2
+    },
+    {
+        "ingredient": {
+        "item": "molecularmanipulator:transfinite_compute_nexus"
+      },
+        "count": 1
     },
     {
         "ingredient": {

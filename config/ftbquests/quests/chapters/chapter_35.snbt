@@ -105,7 +105,12 @@
 		}
 	]
 	order_index: 5
-	quest_links: [ ]
+	quest_links: [{
+		id: "4EA87F92051D2C83"
+		linked_quest: "1782014E0B3642BA"
+		x: -1.5d
+		y: -8.0d
+	}]
 	quests: [
 		{
 			id: "0B3458F6894E3A3D"
@@ -224,15 +229,6 @@
 			y: 0.0d
 		}
 		{
-			id: "4DF4E65BA579AB00"
-			tasks: [{
-				id: "2A42C7496D4C14A9"
-				type: "checkmark"
-			}]
-			x: -4.5d
-			y: 1.5d
-		}
-		{
 			id: "1143155291AA4145"
 			tasks: [{
 				id: "2DF360D9EA0B3837"
@@ -266,6 +262,16 @@
 				type: "checkmark"
 			}]
 			x: 1.5d
+			y: 1.5d
+		}
+		{
+			id: "29A2085251FF1AFB"
+			tasks: [{
+				id: "65396AC2F4940BA2"
+				item: { count: 1, id: "kubejs:time_fluid_cell" }
+				type: "item"
+			}]
+			x: -4.5d
 			y: 1.5d
 		}
 	]

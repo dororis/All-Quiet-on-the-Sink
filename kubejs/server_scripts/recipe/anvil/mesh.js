@@ -312,9 +312,9 @@ ServerEvents.recipes(event => {
       "count": {
         "type": "minecraft:binomial",
         "n": 1.0,
-        "p": 0.2
+        "p": 0.03
       },
-      "id": "anvilcraft:titanium_nugget"
+      "id": "neoecoae:tungsten_dust"
     },
     {
       "count": {

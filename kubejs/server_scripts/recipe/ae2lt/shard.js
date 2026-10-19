@@ -31,6 +31,33 @@ ServerEvents.recipes(event => {
             "inputs": [
             {
             "ingredient": {
+            "item": "justdirethings:time_crystal"
+            },
+            "count": 4
+            },
+            {
+            "ingredient": {
+            "item": "irons_spellbooks:timeless_slurry"
+            },
+            "count": 4
+            }],
+            "results": [
+            {
+            "id": "irons_spellbooks:divine_soulshard",
+            "count": 4
+            }
+            ],
+            "totalEnergy": 400000,
+            "lightningCost": 4,
+            "lightningTier": "high_voltage"
+    })
+    event.custom(
+        {
+            "type": "ae2lt:overload_processing",
+            "priority": 0,
+            "inputs": [
+            {
+            "ingredient": {
             "item": "minecraft:echo_shard"
             },
             "count": 64

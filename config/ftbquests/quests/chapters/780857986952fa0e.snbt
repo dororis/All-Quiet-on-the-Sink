@@ -1,6 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
+	disable_toast: true
 	filename: "780857986952fa0e"
 	group: "0B022AD354D4F865"
 	icon: {
@@ -10,17 +11,134 @@
 		id: "ftbquests:custom_icon"
 	}
 	id: "780857986952FA0E"
-	images: [ ]
-	order_index: 13
-	quest_links: [ ]
-	quests: [{
-		id: "04DD0DA582253051"
-		tasks: [{
-			id: "20A417A8BB508D76"
-			item: { count: 1, id: "ars_nouveau:imbuement_chamber" }
-			type: "item"
-		}]
-		x: 0.0d
-		y: 0.0d
+	images: [{
+		click_action: "none:"
+		height: 3.0d
+		id: "19847D85CFD6E5E5"
+		image: "ars_nouveau:block/mirrorweave"
+		rotation: 0.0d
+		width: 3.0d
+		x: 1.0d
+		y: -2.0d
 	}]
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			id: "082459F4D4B7D8A2"
+			tasks: [{
+				id: "07A44D4A8A7978FB"
+				item: { count: 1, id: "mbd2:sourcegate" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			id: "18BFBF1A3592A7B3"
+			size: 2.0d
+			tasks: [{
+				id: "2BE6075F92A0A9F5"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			id: "36FE4938FBD39C23"
+			tasks: [{
+				id: "7EB64A5F364BF48E"
+				item: { count: 1, id: "ars_nouveau:source_gem" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			id: "7C1A86A61D1986E2"
+			tasks: [{
+				id: "6B6E43C4C3C4B1E3"
+				item: { count: 1, id: "ars_arcane_matrix:enchanted_crystal" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.5d
+		}
+		{
+			id: "0D5CF63ECDCA99A9"
+			tasks: [{
+				id: "5FBA840445E2F637"
+				item: { count: 1, id: "ars_arcane_matrix:casting_crystal" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			id: "452D0C911B601D34"
+			tasks: [{
+				id: "7C9D4048FCDF73BF"
+				item: { count: 1, id: "ars_arcane_matrix:enriched_mineral_crystal" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			id: "0B49591B2AC5BA70"
+			tasks: [{
+				id: "5168DEAD7DE65DE1"
+				item: { count: 1, id: "ars_nouveau:scribes_table" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.0d
+		}
+		{
+			icon: {
+				id: "ars_arcane_matrix:matrix_core"
+			}
+			id: "26539FF73CED1386"
+			tasks: [
+				{
+					id: "373A443B4F0DFC03"
+					item: { count: 1, id: "ars_arcane_matrix:matrix_core" }
+					type: "item"
+				}
+				{
+					id: "09AEEA3B43E31B59"
+					item: { count: 1, id: "ars_arcane_matrix:arcane_amplifier" }
+					type: "item"
+				}
+				{
+					id: "5426580A38F181EA"
+					item: { count: 1, id: "ars_arcane_matrix:matrix_construction_wand" }
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: -3.0d
+		}
+		{
+			id: "60DBB75E9B035B91"
+			tasks: [{
+				id: "5AAF5C9D148DD8DD"
+				item: { count: 1, id: "ars_arcane_matrix:formless_essence" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: -2.0d
+		}
+		{
+			id: "5CB40C036AE50B51"
+			size: 2.0d
+			tasks: [{
+				id: "0978D6AE48CF7BDE"
+				item: { count: 1, id: "anvilcraft:enchanted_gold_block" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+	]
 }

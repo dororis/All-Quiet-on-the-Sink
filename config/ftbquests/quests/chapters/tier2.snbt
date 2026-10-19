@@ -211,26 +211,6 @@
 			y: -4.0d
 		}
 		{
-			id: "0A65FFF7CD56D617"
-			rewards: [{
-				id: "03B326DDEB168C8D"
-				item: {
-					count: 1
-					id: "kubejs:infinities_WFD_cell"
-				}
-				type: "item"
-			}]
-			size: 1.0d
-			tasks: [{
-				id: "4160F20373FA2961"
-				item: { components: { "mekanism:owner": [I; 1455079702, 407980707, -1284390491, -860683578 ], "mekanism:side_config": { config: { chemicals: { side: { back: "input", bottom: "input", front: "input", left: "input", right: "input" } }, energy: { side: { back: "input", bottom: "input", front: "input", left: "input", right: "input" } }, items: { side: { back: "energy", bottom: "extra", front: "input", left: "input", right: "output" } } } } }, count: 1, id: "mekmm:ultimate_planting_factory" }
-				match_components: "fuzzy"
-				type: "item"
-			}]
-			x: -2.0d
-			y: -1.5d
-		}
-		{
 			dependencies: ["523FB44F1C1292CF"]
 			id: "25F8AA9C35B2B1E3"
 			tasks: [
@@ -397,28 +377,25 @@
 			y: -9.75d
 		}
 		{
-			dependencies: [
-				"0A65FFF7CD56D617"
-				"772C011D967C131F"
-			]
 			id: "26BB6CA0023C3A3E"
 			tasks: [{
 				id: "40661F285C41B03F"
 				item: { count: 1, id: "minecraft:melon" }
 				type: "item"
 			}]
-			x: -4.5d
+			x: -2.0d
 			y: -1.5d
 		}
 		{
+			dependencies: ["26BB6CA0023C3A3E"]
 			id: "52D45A349EDE7308"
 			tasks: [{
 				id: "56F86BBB575A7D72"
 				item: { count: 1, id: "mekanism:block_bio_fuel" }
 				type: "item"
 			}]
-			x: -5.5d
-			y: -2.5d
+			x: -4.5d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -432,15 +409,6 @@
 			}]
 			x: -4.5d
 			y: -2.5d
-		}
-		{
-			id: "5F8946FEAB88FF7E"
-			tasks: [{
-				id: "27E36CCBF03A2701"
-				type: "checkmark"
-			}]
-			x: -5.5d
-			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -516,18 +484,11 @@
 			}
 			id: "7937616AD97BEF7B"
 			size: 2.0d
-			tasks: [
-				{
-					id: "582ED036737EAD8E"
-					item: { count: 1, id: "mbd2:smelting_furnace" }
-					type: "item"
-				}
-				{
-					id: "1E88F80CF17ED5E9"
-					item: { components: { "mekanism:owner": [I; 1455079702, 407980707, -1284390491, -860683578 ] }, count: 1, id: "mekanism:resistive_heater" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "582ED036737EAD8E"
+				item: { count: 1, id: "mbd2:smelting_furnace" }
+				type: "item"
+			}]
 			x: 0.5d
 			y: -2.0d
 		}
@@ -726,6 +687,24 @@
 				type: "item"
 			}]
 			x: -15.0d
+			y: -2.0d
+		}
+		{
+			id: "28D081A6B6EC1D71"
+			rewards: [{
+				id: "47C451093B8095B7"
+				item: {
+					count: 1
+					id: "mekmm:ultimate_planting_factory"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1612481952476033"
+				item: { count: 1, id: "kubejs:infinities_WFD_cell" }
+				type: "item"
+			}]
+			x: -7.0d
 			y: -2.0d
 		}
 	]

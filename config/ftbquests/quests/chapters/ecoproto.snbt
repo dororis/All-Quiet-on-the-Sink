@@ -1,6 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
+	disable_toast: true
 	filename: "ecoproto"
 	group: "0B022AD354D4F865"
 	icon: {
@@ -145,18 +146,6 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: 3.0d
-		}
-		{
-			dependencies: ["16843F19C899D99B"]
-			id: "204E9314B44A13D3"
-			size: 2.0d
-			tasks: [{
-				id: "29EED56344DBC732"
-				item: { count: 1, id: "neoecoprototype:simplify_crafting_casing" }
-				type: "item"
-			}]
-			x: -2.0d
 			y: 3.0d
 		}
 		{
@@ -489,6 +478,18 @@
 				type: "checkmark"
 			}]
 			x: -8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["16843F19C899D99B"]
+			id: "051F97FC2B279636"
+			size: 2.0d
+			tasks: [{
+				id: "188CDFE883A75554"
+				item: { count: 1, id: "neoecoprototype:simplify_computation_system" }
+				type: "item"
+			}]
+			x: -2.0d
 			y: 3.0d
 		}
 	]

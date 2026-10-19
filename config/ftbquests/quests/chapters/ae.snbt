@@ -49,17 +49,8 @@
 			x: 19.0d
 			y: 0.25d
 		}
-		{
-			height: 1.0d
-			id: "2F22B7408DB058C6"
-			image: "ae2omnicells:item/quantum_effect"
-			rotation: 0.0d
-			width: 1.0d
-			x: 19.0d
-			y: -6.0d
-		}
 	]
-	order_index: 4
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{

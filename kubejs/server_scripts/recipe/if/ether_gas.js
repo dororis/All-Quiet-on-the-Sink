@@ -25,7 +25,7 @@ ServerEvents.recipes(event => {
       "depth_min": -64,
       "dimension_filter": {
         "blacklist": [],
-        "whitelist": ["minecraft:nether"]
+        "whitelist": []
       },
       "weight": 16
     }

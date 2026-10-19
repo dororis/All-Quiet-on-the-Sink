@@ -34,5 +34,8 @@
     "block.mbd2.atomic_reconstructor":"原子高炉",
     "recipe_type.mbd2.atomic_reconstructor":"原子重组",
     "block.mbd2.fusion_reaction_vessel":"氘氚反应釜",
-    "recipe_type.mbd2.fusion_reaction_vessel":"氘氚反应釜"
+    "recipe_type.mbd2.fusion_reaction_vessel":"氘氚反应釜",
+    "block.mbd2.meinput":"ME库存输入总成",
+    "block.mbd2.meoutput":"ME库存输出总成",
+    "recipe_type.mbd2.life_extractor":"生命提取"
 }

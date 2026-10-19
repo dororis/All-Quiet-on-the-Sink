@@ -1,6 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
+	disable_toast: true
 	filename: "1e6deb92e5376c79"
 	group: "0B022AD354D4F865"
 	icon: {
@@ -8,17 +9,149 @@
 	}
 	id: "1E6DEB92E5376C79"
 	images: [ ]
-	order_index: 9
+	order_index: 10
 	quest_links: [ ]
-	quests: [{
-		id: "609F596011C526EF"
-		size: 1.0d
-		tasks: [{
-			id: "2C89C2344F56E827"
-			item: { count: 1, id: "irons_spellbooks:divine_soulshard" }
-			type: "item"
-		}]
-		x: 1.0d
-		y: 0.5d
-	}]
+	quests: [
+		{
+			id: "609F596011C526EF"
+			size: 1.0d
+			tasks: [{
+				id: "2C89C2344F56E827"
+				item: { count: 1, id: "irons_spellbooks:divine_soulshard" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			id: "0D1F8C2C07EDBE00"
+			tasks: [{
+				id: "5F27EF78E7B791B2"
+				item: { count: 1, id: "extendedae:void_cell" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			id: "647D543AF6CBF01C"
+			tasks: [{
+				id: "156859B1AA3796ED"
+				item: { count: 1, id: "minecraft:vault" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			id: "3D69FB35E8B2BEEA"
+			tasks: [{
+				id: "17ABBD5E9408991C"
+				item: { count: 1, id: "minecraft:trial_key" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			id: "62D2306D01256173"
+			tasks: [{
+				id: "614F39DE20D717E4"
+				item: { count: 1, id: "irons_spellbooks:bone_vault" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			id: "6EFE5019B16DEC8E"
+			tasks: [{
+				id: "0D8CA566DF7C440F"
+				item: { count: 1, id: "irons_spellbooks:cinderous_vault" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			id: "15206C69DAADBCF2"
+			tasks: [{
+				id: "6A4792EF42EE6A28"
+				item: { count: 1, id: "irons_spellbooks:decrepit_key" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			id: "2EB2173CD3A22EF5"
+			tasks: [{
+				id: "66AD0DE82513F55D"
+				item: { count: 1, id: "irons_spellbooks:bone_key" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			id: "56DB24D9E2D0F2FD"
+			size: 2.0d
+			tasks: [{
+				id: "0B21B85DE4F0D4F9"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			icon: {
+				id: "minecraft:breeze_rod"
+			}
+			id: "4B70C9CB76FD97A6"
+			tasks: [
+				{
+					id: "4F02059CD895BBD9"
+					item: { count: 1, id: "minecraft:breeze_rod" }
+					type: "item"
+				}
+				{
+					id: "0A50F34A5656850C"
+					item: { count: 1, id: "minecraft:heavy_core" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			icon: {
+				id: "irons_spellbooks:upgrade_orb"
+			}
+			id: "7DBAB71D08AE0C8D"
+			tasks: [
+				{
+					id: "5D5C3B73B7AFB149"
+					item: { count: 1, id: "irons_spellbooks:upgrade_orb" }
+					type: "item"
+				}
+				{
+					id: "068197F3C2CCC518"
+					item: { count: 1, id: "irons_spellbooks:timeless_slurry" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			id: "14BC1B11E42A20A8"
+			tasks: [{
+				id: "27E7F1B12D6BBAEC"
+				item: { count: 1, id: "irons_spellbooks:pyrium_ingot" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+	]
 }

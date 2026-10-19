@@ -136,12 +136,7 @@
 		}
 	]
 	order_index: 1
-	quest_links: [{
-		id: "67E6057DE6A54DEE"
-		linked_quest: "53726FF9738EFFF2"
-		x: -2.5d
-		y: -0.5d
-	}]
+	quest_links: [ ]
 	quests: [
 		{
 			dependency_requirement: "one_completed"
@@ -327,7 +322,7 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "634CECCF60798CEF"
-			size: 1.0d
+			size: 2.0d
 			tasks: [{
 				id: "2BEB8759510F78A8"
 				item: { count: 1, id: "minecraft:spawner" }
@@ -1302,14 +1297,6 @@
 					type: "item"
 				}
 				{
-					id: "45E6DD4FE67CBC52"
-					item: {
-						count: 1
-						id: "kubejs:blank_pattern_cell"
-					}
-					type: "item"
-				}
-				{
 					count: 3
 					id: "108CCC0774F08A53"
 					item: {
@@ -1320,19 +1307,19 @@
 				}
 				{
 					count: 64
-					id: "02B3B74CF6E621D3"
+					id: "311D6C35EF02A490"
 					item: {
 						count: 1
-						id: "ae2:interface"
+						id: "neoecoprototype:simplify_pattern_provider"
 					}
 					type: "item"
 				}
 				{
 					count: 64
-					id: "311D6C35EF02A490"
+					id: "5B73254F64BED11D"
 					item: {
 						count: 1
-						id: "neoecoprototype:simplify_pattern_provider"
+						id: "neoecoprototype:simplify_powered_me_interface"
 					}
 					type: "item"
 				}
@@ -1467,7 +1454,7 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
+			x: 5.5d
 			y: 3.5d
 		}
 		{
@@ -1504,7 +1491,7 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
+			x: 6.5d
 			y: 3.5d
 		}
 		{
@@ -1523,6 +1510,47 @@
 			}]
 			x: -8.0d
 			y: -6.0d
+		}
+		{
+			id: "53726FF9738EFFF2"
+			rewards: [{
+				id: "1D9DBE578AF9AB98"
+				item: {
+					count: 1
+					id: "ae2:redstone_card"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "70BB5D987315AA99"
+				item: { count: 1, id: "ae2cs:quartz_oscillator_clock" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"6675B0B9004395E7"
+				"08864DC3056BD3CA"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			id: "032A0ABF9F389374"
+			rewards: [{
+				id: "4324E08F689A89C4"
+				item: {
+					count: 1
+					id: "kubejs:blank_pattern_cell"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4C4057948BFF5844"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 3.5d
 		}
 	]
 }

@@ -7,5 +7,5 @@ ServerEvents.recipes(event => {
     'anvilcraft:enchanted_gold_block',
     'oritech:dubios_container',
     ], 
-    'cataclysm:abyssal_sacrifice', 777777777)
+    'cataclysm:abyssal_sacrifice', 7777777)
 })

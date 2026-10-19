@@ -1,0 +1,151 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "dyson"
+	group: "0B022AD354D4F865"
+	icon: {
+		id: "dysoncubeproject:em_railejector_controller"
+	}
+	id: "01744D81507A3DD3"
+	images: [ ]
+	order_index: 15
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			id: "2C54AC4101E66F3F"
+			optional: true
+			tasks: [{
+				id: "24D015B30C58702B"
+				item: { count: 1, id: "dysoncubeproject:em_railejector_controller" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			disable_toast: true
+			id: "67F491F5BF976DBC"
+			optional: true
+			tasks: [{
+				id: "3539669DD9ADBF6C"
+				item: { count: 1, id: "dysoncubeproject:ray_receiver_controller" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			id: "6159564E2E3FCFE1"
+			optional: true
+			size: 2.0d
+			tasks: [{
+				id: "6E1F6EA9993B7150"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "3BCE75FD3085C32D"
+			tasks: [{
+				id: "0DEE16A8E711827D"
+				item: { count: 1, id: "dysoncubeproject:dyson_hub" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "72AE90E130FE61D5"
+			tasks: [{
+				id: "5163218364FFB0AF"
+				item: { count: 1, id: "dysoncubeproject:cosmic_mining_hub" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "55E097ECE0D6BFC5"
+			tasks: [{
+				id: "7E05D193183AE308"
+				item: { count: 1, id: "dysoncubeproject:laser_energy_input_port" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			id: "74903F436B0A5CDD"
+			tasks: [{
+				id: "0D8867CD4FE957A3"
+				item: { count: 1, id: "dysoncubeproject:mining_item_output_port" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "0051DB8DCE5BA90D"
+			tasks: [{
+				id: "64ACF081B1384EC6"
+				item: { count: 1, id: "dysoncubeproject:mining_fluid_output_port" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			id: "499623FA6B462AD3"
+			tasks: [{
+				id: "6FDC43E710D02EDD"
+				item: { count: 1, id: "dysoncubeproject:ore_processing_hub" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "dysoncubeproject_addon:dyson_io_port"
+			}
+			id: "1CC82E544C60155B"
+			tasks: [
+				{
+					id: "7BF7C36A7B7138A8"
+					item: { count: 1, id: "dysoncubeproject_addon:dyson_io_port" }
+					type: "item"
+				}
+				{
+					id: "4E06AC020F9F8F73"
+					item: { count: 1, id: "dysoncubeproject_addon:dyson_storage_cell" }
+					type: "item"
+				}
+				{
+					id: "3B29172C25B5EE98"
+					item: { count: 1, id: "dysoncubeproject_addon:dyson_exact_storage_cell" }
+					type: "item"
+				}
+				{
+					id: "03457A7302978105"
+					item: { count: 1, id: "dysoncubeproject_addon:dyson_fluid_storage_cell" }
+					type: "item"
+				}
+				{
+					id: "5D2850E26A0362B6"
+					item: { count: 1, id: "dysoncubeproject_addon:dyson_exact_fluid_storage_cell" }
+					type: "item"
+				}
+				{
+					id: "7A8D3C0C302B4392"
+					item: { count: 1, id: "dysoncubeproject:dyson_ae_terminal" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+	]
+}

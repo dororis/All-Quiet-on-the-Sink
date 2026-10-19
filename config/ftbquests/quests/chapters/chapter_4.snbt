@@ -297,18 +297,10 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["37760F7145AA853F"]
-			id: "43F2BC83147544F5"
-			tasks: [{
-				id: "7CAB2DE27EE881F3"
-				item: { count: 1, id: "draconicevolution:small_chaos_frag" }
-				type: "item"
-			}]
-			x: 14.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["5332A7F8112FED32"]
+			dependencies: [
+				"5332A7F8112FED32"
+				"37760F7145AA853F"
+			]
 			id: "2B9ECFA4381C6414"
 			tasks: [{
 				id: "2DD9785EA6744F25"

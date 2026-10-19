@@ -148,11 +148,44 @@ ServerEvents.recipes(event => {
     {
     "type": "ae2lt:crystal_catalyzer",
     "catalyst": {
-    "item": "mysticalagriculture:prosperity_block"
+    "item": "powah:uraninite_block"
+    },
+    "inputFluid": {
+    "id": "mekanismgenerators:fusion_fuel",
+    "amount": 1000},
+    "catalystCount": 1,
+    "output": {
+    "id": "powah:uraninite",
+    "count": 1
+    },
+    "energyPerCycle": 100000,
+    "lightningCost": 1,
+    "lightningTier": "high_voltage"
+    })
+    event.custom(
+    {
+    "type": "ae2lt:crystal_catalyzer",
+    "catalyst": {
+    "item": "oritech:resource_node_lapis"
     },
     "catalystCount": 1,
     "output": {
-    "id": "mysticalagriculture:prosperity_shard",
+    "id": "minecraft:lapis_lazuli",
+    "count": 1
+    },
+    "energyPerCycle": 100000,
+    "lightningCost": 1,
+    "lightningTier": "high_voltage"
+    })
+    event.custom(
+    {
+    "type": "ae2lt:crystal_catalyzer",
+    "catalyst": {
+    "item": "oritech:resource_node_redstone"
+    },
+    "catalystCount": 1,
+    "output": {
+    "id": "minecraft:redstone",
     "count": 1
     },
     "energyPerCycle": 100000,

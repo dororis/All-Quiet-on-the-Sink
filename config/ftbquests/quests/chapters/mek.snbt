@@ -1,6 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
+	disable_toast: true
 	filename: "mek"
 	group: "0B022AD354D4F865"
 	icon: {
@@ -16,7 +17,7 @@
 			rotation: 0.0d
 			width: 3.0d
 			x: -7.0d
-			y: 0.0d
+			y: -2.0d
 		}
 		{
 			click_action: "none:"
@@ -26,7 +27,7 @@
 			rotation: 90.0d
 			width: 3.0d
 			x: -7.0d
-			y: 0.0d
+			y: -2.0d
 		}
 		{
 			height: 1.0d
@@ -35,7 +36,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: -7.0d
-			y: -1.5d
+			y: -3.5d
 		}
 	]
 	order_index: 2
@@ -78,7 +79,7 @@
 				item: { count: 1, id: "mekanism:ultimate_compressing_factory" }
 				type: "item"
 			}]
-			x: -3.5d
+			x: -4.0d
 			y: -1.0d
 		}
 		{
@@ -88,7 +89,7 @@
 				item: { count: 1, id: "mekanism:ultimate_combining_factory" }
 				type: "item"
 			}]
-			x: -2.5d
+			x: -3.0d
 			y: 0.5d
 		}
 		{
@@ -108,7 +109,7 @@
 				item: { count: 1, id: "mekanism:ultimate_sawing_factory" }
 				type: "item"
 			}]
-			x: -3.5d
+			x: -4.0d
 			y: 0.5d
 		}
 		{
@@ -118,7 +119,7 @@
 				item: { count: 1, id: "mekmm:ultimate_planting_factory" }
 				type: "item"
 			}]
-			x: -1.5d
+			x: -1.0d
 			y: 0.5d
 		}
 		{
@@ -128,7 +129,7 @@
 				item: { count: 1, id: "mekmm:ultimate_stamping_factory" }
 				type: "item"
 			}]
-			x: -2.5d
+			x: -3.0d
 			y: -1.0d
 		}
 		{
@@ -138,7 +139,7 @@
 				item: { count: 1, id: "mekmm:ultimate_pressing_factory" }
 				type: "item"
 			}]
-			x: -1.5d
+			x: -2.0d
 			y: -1.0d
 		}
 		{
@@ -158,7 +159,7 @@
 				item: { count: 1, id: "mekmm:ultimate_dissolving_factory" }
 				type: "item"
 			}]
-			x: -1.5d
+			x: -2.0d
 			y: 2.0d
 		}
 		{
@@ -168,7 +169,7 @@
 				item: { count: 1, id: "mekmm:ultimate_washing_factory" }
 				type: "item"
 			}]
-			x: -3.5d
+			x: -4.0d
 			y: 2.0d
 		}
 		{
@@ -178,7 +179,7 @@
 				item: { count: 1, id: "mekmm:ultimate_pressurised_reacting_factory" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.0d
 			y: -1.0d
 		}
 		{
@@ -188,7 +189,7 @@
 				item: { count: 1, id: "mekmm:ultimate_centrifuging_factory" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: 0.0d
 			y: 0.5d
 		}
 		{
@@ -198,7 +199,7 @@
 				item: { count: 1, id: "mekmm:ultimate_pigment_extracting_factory" }
 				type: "item"
 			}]
-			x: -2.5d
+			x: -3.0d
 			y: 2.0d
 		}
 		{
@@ -208,18 +209,8 @@
 				item: { count: 1, id: "mekmm:ultimate_crystallizing_factory" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: 0.0d
 			y: 2.0d
-		}
-		{
-			id: "00F96FC853B5548F"
-			size: 2.0d
-			tasks: [{
-				id: "61B37614C3A2978B"
-				type: "checkmark"
-			}]
-			x: -7.0d
-			y: 0.0d
 		}
 		{
 			id: "3454C4F4CDF68CBB"
@@ -230,8 +221,8 @@
 				item: { count: 1, id: "mekanism:sps_port" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 2.0d
+			x: -7.0d
+			y: 1.0d
 		}
 		{
 			id: "07E053444F0971FB"
@@ -240,8 +231,8 @@
 				item: { count: 1, id: "mekanism_extras:enriched_shining" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 2.0d
+			x: -6.0d
+			y: 0.0d
 		}
 		{
 			id: "08BDBB3C17CDA034"
@@ -250,7 +241,7 @@
 				item: { count: 1, id: "mekanism:pellet_antimatter" }
 				type: "item"
 			}]
-			x: 5.0d
+			x: -6.0d
 			y: 2.0d
 		}
 		{
@@ -260,8 +251,8 @@
 				item: { count: 1, id: "mekmm:uu_matter" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 2.0d
+			x: -8.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["51D46C84A7EC508E"]
@@ -271,7 +262,7 @@
 				item: { count: 1, id: "mekanism_extras:naquadah_reactor_casing" }
 				type: "item"
 			}]
-			x: 7.0d
+			x: 6.5d
 			y: -1.0d
 		}
 		{
@@ -281,7 +272,7 @@
 				item: { count: 1, id: "neoecoae:aluminum_alloy_casing" }
 				type: "item"
 			}]
-			x: 2.5d
+			x: 2.0d
 			y: -1.0d
 		}
 		{
@@ -291,7 +282,7 @@
 				item: { count: 1, id: "neoecoae:black_tungsten_alloy_casing" }
 				type: "item"
 			}]
-			x: 5.5d
+			x: 5.0d
 			y: -1.0d
 		}
 		{
@@ -302,7 +293,7 @@
 				item: { count: 1, id: "mekanismgenerators:fusion_reactor_frame" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 3.5d
 			y: -1.0d
 		}
 		{
@@ -312,7 +303,7 @@
 				item: { count: 1, id: "apothic_enchanting:infused_breath" }
 				type: "item"
 			}]
-			x: 7.0d
+			x: -8.0d
 			y: 2.0d
 		}
 		{
@@ -322,7 +313,7 @@
 				item: { count: 1, id: "mbd2:compact_fissile_fuel" }
 				type: "item"
 			}]
-			x: 2.5d
+			x: 3.5d
 			y: -2.5d
 		}
 		{
@@ -333,82 +324,147 @@
 				item: { count: 1, id: "ae2cs:irradiated_seed" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 5.0d
 			y: -2.5d
 		}
 		{
-			dependencies: ["5B816F739C3AB7B3"]
-			id: "01DB31671A972596"
-			tasks: [{
-				id: "3310741A20DEE1F6"
-				item: { count: 1, id: "ae2cs:purified_irradiated_crystal" }
-				type: "item"
-			}]
-			x: 5.5d
-			y: -2.5d
-		}
-		{
-			dependencies: ["01DB31671A972596"]
-			id: "1F1631682DF3209E"
-			tasks: [{
-				id: "51D51F9C57883577"
-				type: "checkmark"
-			}]
-			x: 7.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["07967F6E04653C77"]
 			id: "311C3997CACE5D67"
 			tasks: [{
 				id: "031E95153A2B5E6D"
 				item: { count: 1, id: "mbd2:fusion_reaction_vessel" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			id: "3961E7B7D88956EE"
+			tasks: [{
+				id: "2B48E790E8A47AFD"
+				item: { count: 1, id: "mekmm:ultimate_liquifying_factory" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			id: "41967B747A2D1598"
+			tasks: [{
+				id: "5E6FD9FC7A6757CC"
+				item: { count: 1, id: "mekmm:ultimate_recycling_factory" }
+				type: "item"
+			}]
+			x: -2.0d
 			y: 0.5d
 		}
 		{
-			id: "07967F6E04653C77"
+			id: "310C411A1063D379"
 			tasks: [{
-				consume_fluid: "DEFAULT"
-				fluid: {
-					amount: 1000
-					id: "industrialforegoing:ether_gas"
-				}
-				id: "0340A7EC185A8FAD"
-				type: "fluid"
+				id: "6FFD88D45DABB0B3"
+				item: { count: 1, id: "mekmm:ultimate_replicating_factory" }
+				type: "item"
 			}]
-			x: 2.5d
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			id: "18C988B0963CAF25"
+			tasks: [{
+				id: "016EE3A2706F2BBB"
+				item: { count: 1, id: "mbd2:compact_thermal" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			id: "22A136805214E9E5"
+			size: 2.0d
+			tasks: [{
+				id: "6E743F6D1642769E"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			id: "2C37B02C1266B771"
+			tasks: [{
+				id: "4293D72AE9F48CBE"
+				item: { count: 1, id: "mekenergistics:me_factory_installer" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			id: "3E12A826845EA65E"
+			tasks: [{
+				id: "02F1ED63ABBBB428"
+				item: { count: 1, id: "mekenergistics:upgrade_me_pattern_provider" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			id: "3FA690198FEB17DF"
+			tasks: [{
+				id: "55BA3AD7C53BEBD1"
+				item: { count: 1, id: "mekenergistics:upgrade_me_passive_crafting" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			id: "1280C7F87410A34B"
+			tasks: [{
+				id: "7B07B65614663EA3"
+				item: { count: 1, id: "mekenergistics:upgrade_me_output_interface" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			id: "18B35392764E1929"
+			tasks: [{
+				id: "6604CBB9381173A8"
+				item: { count: 1, id: "mekanism_card:memory_card" }
+				type: "item"
+			}]
+			x: 2.0d
 			y: 0.5d
 		}
 		{
-			id: "5ED1F4E22688B5EC"
+			id: "7D4BF66F081860C6"
 			tasks: [{
-				consume_fluid: "DEFAULT"
-				fluid: {
-					amount: 1000
-					id: "irons_spellbooks:legendary_ink"
-				}
-				id: "3D94EEED636EFEFE"
-				type: "fluid"
+				id: "6B2AD1B9B13FCC91"
+				item: { count: 1, id: "mekanism_card:mass_upgrade_configurator" }
+				type: "item"
 			}]
-			x: 5.5d
+			x: 3.5d
 			y: 0.5d
 		}
 		{
-			dependencies: ["5ED1F4E22688B5EC"]
-			id: "2ACE2F55A5760EDF"
+			id: "2C1EF503E710B0B5"
 			tasks: [{
-				consume_fluid: "DEFAULT"
-				fluid: {
-					amount: 1000
-					id: "mekanism_extras:fluorinated_naquadah_uranium_fuel"
-				}
-				id: "54A69C6D32C9C8A3"
-				type: "fluid"
+				id: "7532DBDCC11B37B9"
+				item: { count: 1, id: "mekanism_card:super_fusion_card" }
+				type: "item"
 			}]
-			x: 7.0d
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			id: "588AAE272325AABA"
+			tasks: [{
+				id: "0595E93C2FB07CEE"
+				item: { count: 1, id: "mekanism_card:ultimate_tier_installer" }
+				type: "item"
+			}]
+			x: 6.5d
 			y: 0.5d
 		}
 	]

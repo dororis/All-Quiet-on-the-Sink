@@ -191,6 +191,14 @@
 			dependencies: ["07282622A35A8AE3"]
 			dependency_requirement: "one_completed"
 			id: "4F7BDB595D3E3D41"
+			rewards: [{
+				id: "0BCDCD80F3DFD45B"
+				item: {
+					count: 1
+					id: "anvilcraft:nature_amulet"
+				}
+				type: "item"
+			}]
 			size: 2.0d
 			tasks: [{
 				id: "7BFA56114FD8D8A3"
@@ -229,21 +237,31 @@
 			size: 2.0d
 			tasks: [
 				{
+					consume_items: true
 					id: "66CD9631453772FB"
 					item: { count: 1, id: "pylons:infusion_pylon" }
 					type: "item"
 				}
 				{
+					consume_items: true
+					id: "6D870CD67D8A84F9"
+					item: { count: 1, id: "pylons:potion_filter" }
+					type: "item"
+				}
+				{
+					consume_items: true
 					id: "1B36492E21F54E80"
 					item: { count: 1, id: "minecraft:phantom_membrane" }
 					type: "item"
 				}
 				{
+					consume_items: true
 					id: "47BFD5963C1F907B"
 					item: { count: 1, id: "minecraft:fermented_spider_eye" }
 					type: "item"
 				}
 				{
+					consume_items: true
 					id: "169F50928DCABAFC"
 					item: { count: 1, id: "minecraft:popped_chorus_fruit" }
 					type: "item"
@@ -420,14 +438,22 @@
 				id: "allthemodium:allthemodium_slate_ore"
 			}
 			id: "12E4E365A4795B24"
-			tasks: [{
-				id: "615BCFEFC8CEC21C"
-				observation_type: "block"
-				observe_type: 0
-				timer: 0L
-				to_observe: "allthemodium:allthemodium_slate_ore"
-				type: "observation"
-			}]
+			tasks: [
+				{
+					id: "615BCFEFC8CEC21C"
+					observation_type: "block"
+					observe_type: 0
+					timer: 0L
+					to_observe: "allthemodium:allthemodium_slate_ore"
+					type: "observation"
+				}
+				{
+					id: "7F75A8B73192B24E"
+					item: { count: 1, id: "allthemodium:allthemodium_slate_ore" }
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 4.5d
 			y: -1.0d
 		}

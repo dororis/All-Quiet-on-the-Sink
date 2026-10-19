@@ -1,6 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
+	disable_toast: true
 	filename: "5f978baa0880ced8"
 	group: "0B022AD354D4F865"
 	icon: {
@@ -31,29 +32,7 @@
 		}
 	]
 	order_index: 7
-	quest_links: [
-		{
-			disable_toast: true
-			id: "4E835C2BC7557525"
-			linked_quest: "4F8C00E9148B2CE5"
-			x: 6.0d
-			y: -1.5d
-		}
-		{
-			disable_toast: true
-			id: "5E9888F364BE0EA9"
-			linked_quest: "7D88B0E985B0B494"
-			x: 7.5d
-			y: -1.5d
-		}
-		{
-			disable_toast: true
-			id: "585EC9DD9939ACB3"
-			linked_quest: "21090EF8D8B0A3EF"
-			x: 9.0d
-			y: -1.5d
-		}
-	]
+	quest_links: [ ]
 	quests: [
 		{
 			dependencies: [
@@ -281,6 +260,85 @@
 			}]
 			x: 9.0d
 			y: 1.5d
+		}
+		{
+			id: "4F8C00E9148B2CE5"
+			tasks: [
+				{
+					id: "6058EBF26B226B19"
+					item: { components: { "titanium:augments": { Speed: 3.0f } }, count: 1, id: "industrialforegoing:speed_addon_tier_2" }
+					type: "item"
+				}
+				{
+					id: "77D4860BA1438B4A"
+					item: { components: { "titanium:augments": { Efficiency: 0.8f } }, count: 1, id: "industrialforegoing:efficiency_addon_tier_2" }
+					type: "item"
+				}
+				{
+					id: "12AEEE702A810FF0"
+					item: { components: { "titanium:augments": { Processing: 3.0f } }, count: 1, id: "industrialforegoing:processing_addon_tier_2" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4F8C00E9148B2CE5"]
+			id: "7D88B0E985B0B494"
+			tasks: [
+				{
+					id: "79BDD9A309FDD8A2"
+					item: { components: { "titanium:augments": { Speed: 5.0f } }, count: 1, id: "mifa:speed_addon_4" }
+					type: "item"
+				}
+				{
+					id: "654A07D3EEAECC7A"
+					item: { components: { "titanium:augments": { Efficiency: 0.6f } }, count: 1, id: "mifa:efficiency_addon_4" }
+					type: "item"
+				}
+				{
+					id: "29703883265F0B2B"
+					item: { components: { "titanium:augments": { Processing: 5.0f } }, count: 1, id: "mifa:processing_addon_4" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7D88B0E985B0B494"]
+			id: "21090EF8D8B0A3EF"
+			tasks: [
+				{
+					id: "7E4B2EFD7E93CC1D"
+					item: { components: { "titanium:augments": { Speed: 9.0f } }, count: 1, id: "mifa:speed_addon_8" }
+					type: "item"
+				}
+				{
+					id: "5178E46C379EB350"
+					item: { components: { "titanium:augments": { Efficiency: 0.19999999f } }, count: 1, id: "mifa:efficiency_addon_8" }
+					type: "item"
+				}
+				{
+					id: "193DB33E658F8AD0"
+					item: { components: { "titanium:augments": { Processing: 9.0f } }, count: 1, id: "mifa:processing_addon_8" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["319E6015D43B404E"]
+			id: "4E79AD4D1317530D"
+			tasks: [{
+				id: "42FAA5BCFED8BA9E"
+				item: { count: 1, id: "kubejs:infinity_soul_cell" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
 		}
 	]
 }

@@ -22,4 +22,33 @@ ServerEvents.recipes(event => {
         "id": "irons_spellbooks:mithril_scrap"
         }
     })
+    event.custom({           
+        "type": "advanced_ae:reaction",
+        "input_energy": 160000,
+        "input_fluid": {
+        "amount": 4000,
+        "ingredient": {
+        "fluid": "minecraft:water"
+        }
+        },
+        "input_items": [
+        {
+        "amount": 64,
+        "ingredient": {
+        "item": "irons_spellbooks:arcane_ingot"
+        }
+        },
+        {
+        "amount": 1,
+        "ingredient": {
+        "item": "irons_spellbooks:timeless_slurry"
+        }
+        }
+        ],
+        "output": {
+        "#": 64,
+        "#t": "ae2:i",
+        "id": "irons_spellbooks:mithril_ingot"
+        }
+    })
 })

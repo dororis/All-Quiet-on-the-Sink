@@ -9,7 +9,7 @@
 	}
 	id: "30670826A71A75E6"
 	images: [ ]
-	order_index: 2
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -250,16 +250,6 @@
 			y: -2.5d
 		}
 		{
-			id: "26BECA16B4E7631E"
-			tasks: [{
-				id: "38C4799021E15CB9"
-				item: { count: 1, id: "fluxnetworks:ultimate_flux_storage" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: -4.0d
-		}
-		{
 			id: "19BA72E1D6040239"
 			tasks: [{
 				id: "70E99841C99D6671"
@@ -267,6 +257,16 @@
 			}]
 			x: -0.5d
 			y: -5.5d
+		}
+		{
+			id: "65C067C9D8A623B2"
+			tasks: [{
+				id: "0FB9B7F23C993F48"
+				item: { count: 1, id: "ae2:creative_energy_cell" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
 		}
 	]
 }

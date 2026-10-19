@@ -616,5 +616,100 @@
 			x: -4.0d
 			y: 5.5d
 		}
+		{
+			icon: {
+				id: "sophisticatedstorage:advanced_magnet_upgrade"
+			}
+			id: "61A56520AACF18F6"
+			tasks: [
+				{
+					id: "11B9D2240D43A8E5"
+					item: { count: 1, id: "sophisticatedstorage:advanced_magnet_upgrade" }
+					type: "item"
+				}
+				{
+					id: "5A5925B1FE90E02D"
+					item: { count: 1, id: "sophisticatedbackpacks:advanced_magnet_upgrade" }
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: 8.0d
+		}
+		{
+			icon: {
+				id: "justdirethings:itemcollector"
+			}
+			id: "2C0F3BA748861BDA"
+			tasks: [
+				{
+					id: "78FE8868F61394E3"
+					item: { count: 1, id: "justdirethings:itemcollector" }
+					type: "item"
+				}
+				{
+					id: "47648FFA9BB3656A"
+					item: { count: 1, id: "jdte:advanced_item_collector" }
+					type: "item"
+				}
+				{
+					id: "23FADF05F6743526"
+					item: { count: 1, id: "jdte:ae_output_upgrade" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 8.0d
+		}
+		{
+			icon: {
+				id: "ae2cs:ender_interface"
+			}
+			id: "710066021703C827"
+			tasks: [
+				{
+					id: "36446280E2103694"
+					item: { count: 1, id: "ae2cs:ender_interface" }
+					type: "item"
+				}
+				{
+					id: "1FC522853E15107A"
+					item: { count: 1, id: "ae2cs:extended_ender_interface" }
+					type: "item"
+				}
+				{
+					id: "42EBC94BD1AC6242"
+					item: { count: 1, id: "extendedae:vacuum_interface" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 8.0d
+		}
+		{
+			icon: {
+				id: "anvilcraft:chute"
+			}
+			id: "2C57F9F239C3D820"
+			tasks: [
+				{
+					id: "0D868A037B6760D3"
+					item: { count: 1, id: "anvilcraft:chute" }
+					type: "item"
+				}
+				{
+					id: "18CDF6EAD313B720"
+					item: { count: 1, id: "anvilcraft:item_collector" }
+					type: "item"
+				}
+				{
+					id: "2AC8B8D905B2D74F"
+					item: { count: 1, id: "anvilcraft:overflow_chute" }
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 8.0d
+		}
 	]
 }

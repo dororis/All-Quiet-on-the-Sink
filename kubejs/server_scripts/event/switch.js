@@ -1,14 +1,12 @@
 // kubejs/server_scripts/event/switch.js
 
 const POWER_SWITCH_MACHINES = [
-    'mbd2:compact_god_slayer',
     'mbd2:apotheosis_slayer_factory',
     'mbd2:rainbow_generator',
     'mbd2:frame_sandblaster',
     'mbd2:ultimate_configurable',
     'mbd2:dimensional_stabilimentum',
-    'mbd2:advanced_seed_aggregator',
-    'mbd2:seed_aggregator'
+    'mbd2:moon_mineral_extractor'
 ]
 
 function registerPowerSwitch(machineId) {

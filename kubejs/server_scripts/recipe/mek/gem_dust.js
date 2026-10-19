@@ -60,4 +60,8 @@ ServerEvents.recipes(event => {
         'extendedae:silicon_block',
         'allthecompressed:sand_1x'
     )
+    event.recipes.mekanismCrushing(
+        'minecraft:glowstone_dust',
+        'extendedae_plus:lattra_crystal'
+    )
 })

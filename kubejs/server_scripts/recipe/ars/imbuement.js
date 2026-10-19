@@ -29,4 +29,14 @@ ServerEvents.recipes(event => {
             'allthemodium:unobtainium_allthemodium_alloy_block'
         ]
     )
+    event.recipes.ars_nouveau.imbuement(
+        'minecraft:tripwire_hook', // input item
+        'minecraft:trial_key', // output
+        10000, // source cost
+        [
+            'minecraft:heavy_core',
+            'minecraft:wind_charge',
+            'minecraft:breeze_rod'
+        ]
+    )
 })

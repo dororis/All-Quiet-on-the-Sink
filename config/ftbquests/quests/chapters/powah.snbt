@@ -1,23 +1,167 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
+	disable_toast: true
 	filename: "powah"
 	group: "0B022AD354D4F865"
 	icon: {
 		id: "powah:crystal_nitro"
 	}
 	id: "51215FC7EC035E19"
-	images: [ ]
-	order_index: 11
-	quest_links: [ ]
-	quests: [{
-		id: "7B795E1DE09CC565"
-		tasks: [{
-			id: "2347F65CC5C60603"
-			item: { count: 1, id: "powah:charged_snowball" }
-			type: "item"
-		}]
-		x: 0.5d
-		y: 0.5d
+	images: [{
+		click_action: "none:"
+		height: 5.0d
+		id: "7903CE9AFFCF7C1A"
+		image: "powah:textures/gui/book/images/energizing.png"
+		rotation: 0.0d
+		width: 5.0d
+		x: -2.5d
+		y: -0.5d
 	}]
+	order_index: 12
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7B795E1DE09CC565"
+			tasks: [{
+				id: "2347F65CC5C60603"
+				item: { count: 1, id: "powah:charged_snowball" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "powah:crystal_nitro"
+			}
+			id: "17DEAD2767A0C0B0"
+			tasks: [
+				{
+					id: "6742DBB40157AC10"
+					item: { count: 1, id: "powah:crystal_nitro" }
+					type: "item"
+				}
+				{
+					id: "368EC4E849AFABEE"
+					item: { count: 1, id: "mekanism_extras:alloy_thermonuclear" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			icon: {
+				id: "powahaddon:crystal_radiant"
+			}
+			id: "691B27252621A0AE"
+			tasks: [
+				{
+					id: "11D09F56030F3758"
+					item: { count: 1, id: "powahaddon:crystal_radiant" }
+					type: "item"
+				}
+				{
+					id: "0D9849264E4EA990"
+					item: { count: 1, id: "mekanism_extras:alloy_shining" }
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			icon: {
+				id: "powahaddon:crystal_astral"
+			}
+			id: "1B947091C0020D85"
+			tasks: [
+				{
+					id: "187D531BDF231E42"
+					item: { count: 1, id: "powahaddon:crystal_astral" }
+					type: "item"
+				}
+				{
+					id: "11A97EF40B11D5B2"
+					item: { count: 1, id: "mekanism_extras:alloy_spectrum" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			icon: {
+				id: "powahaddon:crystal_galaxy"
+			}
+			id: "29E0BD87EDDC3AD0"
+			tasks: [
+				{
+					id: "0EFA036E9C06CF06"
+					item: { count: 1, id: "powahaddon:crystal_galaxy" }
+					type: "item"
+				}
+				{
+					id: "10318F11CEF3C686"
+					item: { count: 1, id: "mekanismsun:supernova_alloy" }
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["31947A409EA3AC67"]
+			id: "6AE793ACC59665A2"
+			tasks: [{
+				id: "4D8EE4100612D59E"
+				item: { count: 1, id: "powahcoe:cable_orb_nitro_x5" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			id: "53077C04A906BDA0"
+			tasks: [{
+				id: "2164F92D2CBB9737"
+				item: { count: 1, id: "powahcoe:batch_upgrade_7" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -1.0d
+		}
+		{
+			id: "4649A00A6A68089A"
+			size: 2.0d
+			tasks: [{
+				id: "0843454A57DDFF66"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "7C1CB312AA08478D"
+			tasks: [{
+				id: "1B90571CA2231693"
+				item: { count: 1, id: "powah:energizing_rod_spirited" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7C1CB312AA08478D"]
+			id: "31947A409EA3AC67"
+			tasks: [{
+				id: "08FF13052C18497F"
+				item: { count: 1, id: "powahcoe:cable_orb_nitro" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+	]
 }

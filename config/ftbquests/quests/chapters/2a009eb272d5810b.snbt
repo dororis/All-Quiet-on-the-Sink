@@ -16,7 +16,7 @@
 		x: -7.0d
 		y: 0.0d
 	}]
-	order_index: 3
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -236,7 +236,7 @@
 				item: { count: 1, id: "enderdrives:tape_disk" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 8.0d
 			y: 5.0d
 		}
 		{
@@ -349,8 +349,8 @@
 				item: { count: 1, id: "ae2omnicells:omni_cell_component_1k" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: -3.0d
+			x: 5.5d
+			y: -2.0d
 		}
 		{
 			id: "5B7B66EE22808E59"
@@ -359,7 +359,7 @@
 				item: { count: 1, id: "ae2omnicells:omni_cell_component_1m" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 6.5d
 			y: -2.0d
 		}
 		{
@@ -369,8 +369,8 @@
 				item: { count: 1, id: "ae2omnicells:complex_omni_cell_component_1k" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 0.0d
+			x: 4.5d
+			y: 0.5d
 		}
 		{
 			id: "1DE4C07E5C50251C"
@@ -379,8 +379,8 @@
 				item: { count: 1, id: "ae2omnicells:complex_omni_cell_component_1m" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 1.0d
+			x: 5.5d
+			y: 0.5d
 		}
 		{
 			id: "371B153579B36204"
@@ -389,8 +389,8 @@
 				item: { count: 1, id: "ae2omnicells:quantum_omni_cell_component_1k" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: -1.5d
+			x: 6.5d
+			y: 0.5d
 		}
 		{
 			id: "563B0E5B52B0C41F"
@@ -399,8 +399,8 @@
 				item: { count: 1, id: "ae2omnicells:quantum_omni_cell_component_1m" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: -0.5d
+			x: 7.5d
+			y: 0.5d
 		}
 		{
 			id: "3666C859E890197E"
@@ -409,8 +409,8 @@
 				item: { count: 1, id: "ae2omnicells:omni_cell_housing" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: -2.5d
+			x: 6.0d
+			y: -3.0d
 		}
 		{
 			id: "26EB479B18A97F19"
@@ -420,7 +420,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 0.5d
+			y: -0.5d
 		}
 		{
 			id: "60493E98806A4356"
@@ -428,7 +428,7 @@
 				id: "25A81E8851AD7C3C"
 				type: "checkmark"
 			}]
-			x: 3.0d
+			x: 7.0d
 			y: 5.0d
 		}
 		{
@@ -439,7 +439,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: -1.0d
+			y: -0.5d
 		}
 		{
 			id: "30908524CB437503"
@@ -477,7 +477,7 @@
 				item: { count: 1, id: "extendedae:void_cell" }
 				type: "item"
 			}]
-			x: 7.0d
+			x: 4.0d
 			y: 5.0d
 		}
 		{
@@ -486,7 +486,7 @@
 				id: "438483CBC1610540"
 				type: "checkmark"
 			}]
-			x: 6.0d
+			x: 3.0d
 			y: 5.0d
 		}
 		{
@@ -536,26 +536,6 @@
 				item: { count: 1, id: "kubejs:infinity_soul_cell" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: 3.5d
-		}
-		{
-			icon: {
-				id: "kubejs:infinities_factory_cell"
-			}
-			id: "354299FE397ACC2B"
-			tasks: [
-				{
-					id: "0EADD047F4465E5B"
-					item: { count: 1, id: "kubejs:infinities_factory_cell" }
-					type: "item"
-				}
-				{
-					id: "1E62FFC579C2C1B0"
-					item: { count: 1, id: "kubejs:infinities_bee_upgrade_cell" }
-					type: "item"
-				}
-			]
 			x: 8.0d
 			y: 3.5d
 		}
@@ -607,7 +587,7 @@
 				item: { count: 1, id: "neoecoprototype:simplify_singularity_cell" }
 				type: "item"
 			}]
-			x: 8.0d
+			x: 5.0d
 			y: 5.0d
 		}
 		{
@@ -655,8 +635,18 @@
 				id: "6CD000F1C0F23F80"
 				type: "checkmark"
 			}]
-			x: 3.0d
+			x: 6.0d
 			y: -1.0d
+		}
+		{
+			id: "15FE7AC875108CB2"
+			tasks: [{
+				id: "35508102C5873927"
+				item: { count: 1, id: "kubejs:time_fluid_cell" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.5d
 		}
 	]
 }

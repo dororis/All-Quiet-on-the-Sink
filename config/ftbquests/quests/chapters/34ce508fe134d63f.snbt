@@ -196,6 +196,7 @@
 			dependencies: ["749134B191E50F5C"]
 			hide_until_deps_complete: true
 			id: "3E66B430F68ABD19"
+			optional: true
 			rewards: [{
 				command: "/ae2 channelmode infinite"
 				id: "287B8168E7061F42"

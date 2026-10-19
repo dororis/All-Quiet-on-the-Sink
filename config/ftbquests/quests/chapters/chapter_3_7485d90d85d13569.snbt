@@ -335,6 +335,14 @@
 			}
 			id: "655015C95287045A"
 			optional: true
+			rewards: [{
+				id: "147FD77F6DBC7F9F"
+				item: {
+					count: 1
+					id: "anvilcraft:comrade_amulet"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "424F0F99BCA43BC8"
@@ -344,6 +352,11 @@
 				{
 					id: "0CD6E062D9F6556E"
 					item: { count: 1, id: "ae2lt:overload_device_workbench" }
+					type: "item"
+				}
+				{
+					id: "2CFBB0A0296AA1E1"
+					item: { count: 1, id: "ae2lt:ultimate_overload_core" }
 					type: "item"
 				}
 			]
@@ -669,6 +682,14 @@
 		{
 			dependencies: ["21D6B7BB23744F2F"]
 			id: "44DAEB1ACB3069B8"
+			rewards: [{
+				id: "2931438E22229BF1"
+				item: {
+					count: 1
+					id: "anvilcraft:abnormal_amulet"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "02E57CFD61465CFF"
 				observation_type: "block"
@@ -711,16 +732,6 @@
 			]
 			x: 15.5d
 			y: -2.0d
-		}
-		{
-			id: "18C988B0963CAF25"
-			tasks: [{
-				id: "016EE3A2706F2BBB"
-				item: { count: 1, id: "mbd2:compact_thermal" }
-				type: "item"
-			}]
-			x: 10.0d
-			y: -4.0d
 		}
 		{
 			dependencies: [

@@ -13,7 +13,7 @@
 	}
 	id: "5B71D32DBE6BFB5B"
 	images: [ ]
-	order_index: 5
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -24,7 +24,7 @@
 				item: { count: 1, id: "mbd2:3x3input" }
 				type: "item"
 			}]
-			x: -1.0d
+			x: -0.5d
 			y: -2.5d
 		}
 		{
@@ -35,7 +35,7 @@
 				item: { count: 1, id: "mbd2:3x3output" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 1.5d
 			y: -2.5d
 		}
 		{
@@ -247,6 +247,36 @@
 			}]
 			x: 9.5d
 			y: 1.5d
+		}
+		{
+			id: "5FFC9ECA4451B6AC"
+			tasks: [{
+				id: "45C17FA1DACAFCBA"
+				item: { count: 1, id: "mbd2:meinput" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			id: "48C1ED84CDDDB38D"
+			tasks: [{
+				id: "063F22E0A4FA84BC"
+				item: { count: 1, id: "mbd2:meoutput" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			id: "1B43A0BDB10B21A1"
+			tasks: [{
+				id: "4B807B454F1F3E22"
+				item: { count: 1, id: "mbd2:fusion_reaction_vessel" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: -0.5d
 		}
 	]
 }

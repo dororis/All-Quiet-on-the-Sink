@@ -107,7 +107,7 @@ ServerEvents.recipes(event => {
                 "n": 9.0,
                 "p": 0.9
             },
-            "id": "minecraft:lapis_block"
+            "id": "allthecompressed:lapis_block_1x"
             },
             {
             "count": {
@@ -115,7 +115,7 @@ ServerEvents.recipes(event => {
                 "n": 9.0,
                 "p": 0.9
             },
-            "id": "minecraft:redstone_block"
+            "id": "allthecompressed:redstone_block_1x"
             },
             {
             "count": {
@@ -163,7 +163,7 @@ ServerEvents.recipes(event => {
                 "n": 6.0,
                 "p": 0.6
             },
-            "id": "allthecompressed:blaze_rod_block"
+            "id": "allthecompressed:blaze_rod_block_1x"
             },
             ]
         }

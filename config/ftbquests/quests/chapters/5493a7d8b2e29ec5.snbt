@@ -199,6 +199,14 @@
 				"69D9B052EBFEB997"
 			]
 			id: "69E4D5A4F4FDC999"
+			rewards: [{
+				id: "32878C98F538AB75"
+				item: {
+					count: 1
+					id: "kubejs:infinities_fumo_cell"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				dimension: "aqs:pigmee_world"
 				id: "093E24C6ADAF76F5"

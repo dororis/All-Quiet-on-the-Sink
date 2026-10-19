@@ -138,8 +138,8 @@
 				item: { count: 1, id: "ae2lt:tesla_coil" }
 				type: "item"
 			}]
-			x: -5.0d
-			y: 0.0d
+			x: -5.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["2D054B453126BAD3"]
@@ -230,42 +230,6 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["4A4B8D7CF9E715C8"]
-			dependency_requirement: "one_started"
-			id: "4DE75AB513B49570"
-			tasks: [{
-				id: "1A9B4534DCC64EC7"
-				item: { count: 1, id: "extendedae:void_cell" }
-				type: "item"
-			}]
-			x: -3.0d
-			y: -2.0d
-		}
-		{
-			disable_toast: true
-			id: "2C54AC4101E66F3F"
-			optional: true
-			tasks: [{
-				id: "24D015B30C58702B"
-				item: { count: 1, id: "dysoncubeproject:em_railejector_controller" }
-				type: "item"
-			}]
-			x: -4.0d
-			y: -1.5d
-		}
-		{
-			disable_toast: true
-			id: "67F491F5BF976DBC"
-			optional: true
-			tasks: [{
-				id: "3539669DD9ADBF6C"
-				item: { count: 1, id: "dysoncubeproject:ray_receiver_controller" }
-				type: "item"
-			}]
-			x: -2.0d
-			y: -1.5d
-		}
-		{
 			dependencies: ["27B69BF2EB42573E"]
 			id: "623D6254772F6798"
 			rewards: [{
@@ -307,11 +271,11 @@
 				item: { count: 1, id: "ae2lt:lightning_simulation_room" }
 				type: "item"
 			}]
-			x: -6.0d
+			x: -5.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["0AC75CF3CA724096"]
+			dependencies: ["1257ABF846F89DCA"]
 			id: "2D054B453126BAD3"
 			size: 2.0d
 			tasks: [{
@@ -359,6 +323,8 @@
 			y: -0.2d
 		}
 		{
+			dependencies: ["623D6254772F6798"]
+			hide_dependency_lines: true
 			id: "164E2C0857E93F1B"
 			optional: true
 			rewards: [{
@@ -378,6 +344,47 @@
 			}]
 			x: 4.0d
 			y: 0.0d
+		}
+		{
+			id: "3BFDA8E09DC14274"
+			tasks: [{
+				id: "6B5BC9FE6C9DEA8E"
+				item: { count: 1, id: "ae2lt:pigmee_crystal_catalyzer" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3BFDA8E09DC14274"]
+			id: "0CEBF678EDD4E80D"
+			tasks: [{
+				id: "0AC6EA3149193B64"
+				item: { count: 1, id: "ae2lt:crystal_catalyzer" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			id: "6219E28283A43FD0"
+			tasks: [{
+				id: "7C576DE2500756D9"
+				item: { count: 1, id: "ae2lt:mining_factory" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			id: "47083800B5F1904B"
+			tasks: [{
+				id: "2C5C0779784494C6"
+				item: { count: 1, id: "ae2lt:overloaded_io_port" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
 		}
 	]
 }

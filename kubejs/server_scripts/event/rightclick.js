@@ -22,3 +22,19 @@ BlockEvents.rightClicked(event => {
     block.popItem(dropItem)
 
 })
+BlockEvents.rightClicked(event => {
+    const { block, player, item, hand } = event
+    if (block.id !== 'anvilcraft:enchanted_gold_block') return
+    if (!player.isShiftKeyDown()) return
+    if(player.getMainHandItem().isEmpty())
+    const loot = ['ars_nouveau:abjuration_essence',
+         'ars_nouveau:conjuration_essence',
+          'ars_nouveau:air_essence',
+           'ars_nouveau:earth_essence',
+            'ars_nouveau:fire_essence',
+             'ars_nouveau:manipulation_essence',
+              'ars_nouveau:water_essence']
+    const randomIndex = Math.floor(Math.random() * loot.length)
+    const dropItem = Item.of(loot[randomIndex])
+    block.popItem(dropItem)
+})

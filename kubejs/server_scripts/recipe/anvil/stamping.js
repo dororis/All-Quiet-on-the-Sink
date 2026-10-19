@@ -118,4 +118,21 @@ ServerEvents.recipes(event => {
       }
     ]
   })
+  event.custom({
+    type: "anvilcraft:stamping",
+    ingredients: [
+      {
+        items: "minecraft:heavy_core"
+      },
+      {
+        items:"minecraft:lightning_rod"
+      }
+    ],
+    results: [
+      {
+        id: "minecraft:trial_key",
+        count: 1
+      }
+    ]
+  })
 })

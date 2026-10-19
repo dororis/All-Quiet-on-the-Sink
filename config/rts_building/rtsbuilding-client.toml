@@ -13,7 +13,7 @@ usePlaceWireframeAnimation = false
 #Render shrink-out wireframe outlines after server-confirmed block destruction.
 useDestroyWireframeAnimation = false
 #Render merged skeleton borders for non-chain range destroy previews. Chain mining always uses the skeleton style.
-useRangeDestroySkeleton = true
+useRangeDestroySkeleton = false
 #Show the RTS plugin button on the vanilla inventory screen.
 showInventoryRtsButton = true
 #Require a configurable keyboard key for the final multi-block placement/destroy confirmation instead of confirming with the mouse click used to select the range.

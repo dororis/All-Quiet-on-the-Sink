@@ -7,17 +7,664 @@
 		id: "neoecoae:eco_infinite_cell_component"
 	}
 	id: "720C787678BC6E30"
-	images: [ ]
-	order_index: 16
-	quest_links: [ ]
-	quests: [{
-		id: "51A0880BC7BC6D44"
-		tasks: [{
-			id: "26F37BAABF5BC5EE"
-			item: { count: 1, id: "neoecoae:aluminum_ingot" }
-			type: "item"
-		}]
-		x: -0.5d
-		y: -0.5d
+	images: [{
+		click_action: "none:"
+		color: 12793599
+		height: 3.0d
+		id: "52FDBDB2AE661E27"
+		image: "neoecoprototype:textures/gui/tier/l1.png"
+		rotation: 0.0d
+		width: 3.0d
+		x: 0.0d
+		y: 1.5d
 	}]
+	order_index: 13
+	quest_links: [ ]
+	quests: [
+		{
+			id: "52FE43B0B4E4E760"
+			size: 2.0d
+			tasks: [{
+				id: "2DD23B1C2B555DDE"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			id: "4CDB03D97268CBD3"
+			tasks: [{
+				id: "3F3906AAD0215B85"
+				item: { count: 1, id: "neoecoae:storage_casing" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "22D58DEA902E8A03"
+			tasks: [{
+				id: "4B48AFCC60E25456"
+				item: { count: 1, id: "neoecoae:storage_system_l4" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			id: "7B1E95F7B8F5A27F"
+			tasks: [{
+				id: "198E2E98F288B976"
+				item: { count: 1, id: "neoecoae:storage_system_l6" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			id: "4D73B4585AE81086"
+			tasks: [{
+				id: "526E092EEE66DB52"
+				item: { count: 1, id: "neoecoae:storage_system_l9" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			id: "43D2315816CB9784"
+			tasks: [{
+				id: "3686DD6E45B4D9AE"
+				item: { count: 1, id: "neoecoae:eco_drive" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			id: "1E28D5015495F37B"
+			tasks: [{
+				id: "201396DA95B02D79"
+				item: { count: 1, id: "neoecoae:storage_vent" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			id: "67B1E7D7FC7A9A76"
+			tasks: [{
+				id: "54393C7DF8DC49B8"
+				item: { count: 1, id: "neoecoae:storage_interface" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			id: "04533FD8ACB33838"
+			tasks: [{
+				id: "765F6FB5C33A7206"
+				item: { count: 1, id: "neoecoae:energy_cell_l4" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			id: "730FFCBD0B071F54"
+			tasks: [{
+				id: "29457897CB6A7AEA"
+				item: { count: 1, id: "neoecoae:energy_cell_l6" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			id: "797900321A09BBAA"
+			tasks: [{
+				id: "24B95BBDD8A46F1C"
+				item: { count: 1, id: "neoecoae:energy_cell_l9" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			id: "5BF375BD9DE87738"
+			tasks: [{
+				id: "4CD3CA79726C101C"
+				item: { count: 1, id: "neoecoae:crafting_casing" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			id: "7A2F85D53DDB12D0"
+			tasks: [{
+				id: "6DB429296E1F26E1"
+				item: { count: 1, id: "neoecoae:crafting_system_l4" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			id: "6B05FAB96C3AB89F"
+			tasks: [{
+				id: "32AFF190CF329A13"
+				item: { count: 1, id: "neoecoae:crafting_system_l6" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			id: "381561BEA8B7EF42"
+			tasks: [{
+				id: "7F2C10D4D36CCEF4"
+				item: { count: 1, id: "neoecoae:crafting_system_l9" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			id: "66649C9C66B35688"
+			tasks: [{
+				id: "12AF58FA4BC06732"
+				item: { count: 1, id: "neoecoae:crafting_parallel_core_l4" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			id: "19242844B423678C"
+			tasks: [{
+				id: "085134B588EA9B77"
+				item: { count: 1, id: "neoecoae:crafting_parallel_core_l6" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			id: "7BE84E3C6C29CA04"
+			tasks: [{
+				id: "2A59767F98FA013A"
+				item: { count: 1, id: "neoecoae:crafting_parallel_core_l9" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			icon: {
+				id: "neoecoae:crafting_worker"
+			}
+			id: "41A88FD284A4F9DB"
+			tasks: [
+				{
+					id: "2C0A55027DE4B85A"
+					item: { count: 1, id: "neoecoae:crafting_worker" }
+					type: "item"
+				}
+				{
+					id: "2BE2BCD17C82C0B8"
+					item: { count: 1, id: "neoecoae:fx_monitor_core" }
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			id: "3DC545DDAAD3AFA0"
+			tasks: [{
+				id: "3741B56BC2999517"
+				item: { count: 1, id: "neoecoae:crafting_pattern_bus" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 4.0d
+		}
+		{
+			id: "4F138A79A473C712"
+			tasks: [
+				{
+					id: "5F9247886C9D64A2"
+					item: { count: 1, id: "neoecoae:input_hatch" }
+					type: "item"
+				}
+				{
+					id: "3348194AAADA8D5D"
+					item: { count: 1, id: "neoecoae:output_hatch" }
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 5.0d
+		}
+		{
+			id: "300086C786A39B75"
+			tasks: [{
+				id: "7992489B3BC21A58"
+				item: { count: 1, id: "neoecoae:computation_casing" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			id: "24F0D34F81BEC3BC"
+			tasks: [{
+				id: "74826AFA007BBDE7"
+				item: { count: 1, id: "neoecoae:computation_system_l4" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: -1.0d
+		}
+		{
+			id: "0949AB7B2BE54893"
+			tasks: [{
+				id: "1FB009C27AC7FBB9"
+				item: { count: 1, id: "neoecoae:computation_system_l6" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			id: "274C5721E546DA35"
+			tasks: [{
+				id: "25387E65CADC090D"
+				item: { count: 1, id: "neoecoae:computation_system_l9" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 1.0d
+		}
+		{
+			id: "6661F11BF3328624"
+			tasks: [{
+				id: "0936CFB83B10BCBA"
+				item: { count: 1, id: "neoecoae:computation_threading_core_l4" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: -1.0d
+		}
+		{
+			id: "0A4178C96B2BE8E9"
+			tasks: [{
+				id: "08DF89299176D47E"
+				item: { count: 1, id: "neoecoae:computation_threading_core_l6" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			id: "1C5390648F0DC0E9"
+			tasks: [{
+				id: "5039C80AF5447CEB"
+				item: { count: 1, id: "neoecoae:computation_threading_core_l9" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 1.0d
+		}
+		{
+			id: "46464D1DD915E3A8"
+			tasks: [{
+				id: "0682E52C7B1F969D"
+				item: { count: 1, id: "neoecoae:computation_parallel_core_l4" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: -1.0d
+		}
+		{
+			id: "7BE2E8F00382E947"
+			tasks: [{
+				id: "46A7FDD113A60FF4"
+				item: { count: 1, id: "neoecoae:computation_parallel_core_l6" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 0.0d
+		}
+		{
+			id: "597E8C133254B05C"
+			tasks: [{
+				id: "3CCDC7B7D7E1E6AD"
+				item: { count: 1, id: "neoecoae:computation_parallel_core_l9" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 1.0d
+		}
+		{
+			id: "5F9325D42ED04A43"
+			tasks: [{
+				id: "4A8C642A30C87A12"
+				item: { count: 1, id: "neoecoae:computation_cooling_controller_l4" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 3.0d
+		}
+		{
+			id: "65B35ED67D675F6F"
+			tasks: [{
+				id: "7234251FBC313F47"
+				item: { count: 1, id: "neoecoae:computation_cooling_controller_l6" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 4.0d
+		}
+		{
+			id: "064F315E1A247B38"
+			tasks: [{
+				id: "2DF79B9794183D96"
+				item: { count: 1, id: "neoecoae:computation_cooling_controller_l9" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 5.0d
+		}
+		{
+			id: "2ADAB8D371FFCD4D"
+			tasks: [{
+				id: "3D38DBA6B77FE263"
+				item: { count: 1, id: "neoecoae:computation_drive" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 3.0d
+		}
+		{
+			id: "192028B968A30CDC"
+			tasks: [{
+				id: "4E472CDC24244BED"
+				item: { count: 1, id: "neoecoae:computation_transmitter" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 4.0d
+		}
+		{
+			id: "592780CDC9F0B69B"
+			tasks: [{
+				id: "22B43863F67FAFFC"
+				item: { count: 1, id: "neoecoae:computation_interface" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 5.0d
+		}
+		{
+			id: "5E86B449312D7F9C"
+			tasks: [{
+				id: "485BAF5CE70A3D60"
+				item: { count: 1, id: "neoecoae:eco_computation_cell_l4" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 3.0d
+		}
+		{
+			id: "2A003BA5D1A177BA"
+			tasks: [{
+				id: "4CA929854D3F74FF"
+				item: { count: 1, id: "neoecoae:eco_computation_cell_l6" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 4.0d
+		}
+		{
+			id: "03EB83888E239F1A"
+			tasks: [{
+				id: "151513A11583E478"
+				item: { count: 1, id: "neoecoae:eco_computation_cell_l9" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 5.0d
+		}
+		{
+			icon: {
+				id: "neoecoae:crafting_network_switch"
+			}
+			id: "6C631EF37C5533CF"
+			tasks: [
+				{
+					id: "03C506C317746783"
+					item: { count: 1, id: "neoecoae:crafting_network_switch" }
+					type: "item"
+				}
+				{
+					id: "65F8303281D1AF02"
+					item: { count: 1, id: "neoecoae:crafting_high_energy_network_switch" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			icon: {
+				id: "neoecoae:computation_network_switch"
+			}
+			id: "62E446BCAD2B1331"
+			tasks: [
+				{
+					id: "39B3EDA0E8CAE3C0"
+					item: { count: 1, id: "neoecoae:computation_network_switch" }
+					type: "item"
+				}
+				{
+					id: "3EBC36007470390A"
+					item: { count: 1, id: "neoecoae:computation_high_energy_network_switch" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			id: "243FA249BB1D8DD1"
+			tasks: [{
+				id: "6A2CA40963EE5144"
+				item: { count: 1, id: "neoecoae:eco_quantum_omni_cell_housing" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: 0.0d
+		}
+		{
+			id: "316B29B2270EE8C7"
+			tasks: [{
+				id: "566BCF1DFFA6F144"
+				item: { count: 1, id: "neoecoae:eco_spent_nuclear_waste_cell_housing" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: 1.0d
+		}
+		{
+			id: "6055EB4C15012BCA"
+			tasks: [{
+				id: "288FF6443B9CA384"
+				item: { count: 1, id: "neoecoae:eco_lightning_cell_housing" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "neoecoae:eco_mega_long_bulk_cell"
+			}
+			id: "465A864C29698782"
+			tasks: [
+				{
+					id: "4C225AAF93874479"
+					item: { count: 1, id: "neoecoae:eco_mega_long_bulk_cell" }
+					type: "item"
+				}
+				{
+					id: "378BD1125E54CB8F"
+					item: { count: 1, id: "neoecoae:eco_mega_upgrade_card" }
+					type: "item"
+				}
+			]
+			x: 19.5d
+			y: 4.0d
+		}
+		{
+			id: "33DE6B0DCAD418EE"
+			tasks: [{
+				id: "7EEBB6391D1C4F27"
+				item: { count: 1, id: "neoecoae:eco_mega_energy_cell_4g" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 3.0d
+		}
+		{
+			id: "20673C7930A3804D"
+			tasks: [{
+				id: "2A80111D36E0AED2"
+				item: { count: 1, id: "neoecoae:eco_mega_source_cell_4g" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 4.0d
+		}
+		{
+			id: "2D46DC19C7E47F49"
+			rewards: [{
+				id: "309193F593E03964"
+				item: {
+					count: 1
+					id: "anvilcraft:singularity_crystal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "38D44971C9834622"
+				item: { count: 1, id: "neoecoae:eco_infinite_cell_component" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			id: "15D1B2EA544F9A1C"
+			tasks: [{
+				id: "0EFF9AA28E2DBE10"
+				item: { count: 1, id: "neoecoae:eco_item_storage_cell_256m" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			id: "45DCFD9DCB2C7C59"
+			tasks: [{
+				id: "627FE24F622A56CB"
+				item: { count: 1, id: "neoecoae:eco_fluid_storage_cell_256m" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: 1.0d
+		}
+		{
+			id: "1269876322BA6C7E"
+			tasks: [{
+				id: "242424347BCC22BB"
+				item: { count: 1, id: "neoecoae:eco_chemical_storage_cell_256m" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: 2.0d
+		}
+		{
+			id: "1B11C55FC5C6D16A"
+			tasks: [{
+				id: "6699867D1AC41891"
+				item: { count: 1, id: "neoecoae:eco_mega_item_cell_4g" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			id: "4DD42E6F51B4E1F2"
+			tasks: [{
+				id: "0A5CE3568F268660"
+				item: { count: 1, id: "neoecoae:eco_mega_fluid_cell_4g" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 1.0d
+		}
+		{
+			id: "4F5EEC91A9B3F64D"
+			tasks: [{
+				id: "5656601818810E44"
+				item: { count: 1, id: "neoecoae:eco_mega_chemical_cell_4g" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 2.0d
+		}
+		{
+			id: "428410E9BC4874D1"
+			tasks: [{
+				id: "49BB34EAA2A5EC43"
+				item: { count: 1, id: "neoecoae:eco_fe_storage_cell_256m" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: 3.0d
+		}
+		{
+			id: "5F77426FFDC6135D"
+			tasks: [{
+				id: "64885325266D07CE"
+				item: { count: 1, id: "neoecoae:eco_source_storage_cell_256m" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: 4.0d
+		}
+		{
+			id: "7A8455619915102B"
+			rewards: [{
+				id: "4347ADC38D60930C"
+				item: {
+					count: 1
+					id: "neoecoae:eco_infinite_cell_component"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "1BC68E5B84FFEC3C"
+				item: { count: 1, id: "neoecoprototype:fumo_doll_yang120" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: 2.0d
+		}
+	]
 }

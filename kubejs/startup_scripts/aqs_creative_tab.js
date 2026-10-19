@@ -12,12 +12,13 @@ const AQS_HIDDEN_ITEMS = [
 // 只改变提示框中的显示模组名，不改变物品的真实 registry ID。
 Platform.setModName('mbd2', 'AQS')
 Platform.setModName('kubejs', 'AQS')
+Platform.setModName('viscript_recipe', 'AQS')
 
 StartupEvents.registry('creative_mode_tab', event => {
     event.create('aqs')
         .displayName('AQS')
         .icon(() => 'minecraft:nether_star')
-        .content(() => Ingredient.of(['@mbd2', '@kubejs']))
+        .content(() => Ingredient.of(['@mbd2', '@kubejs','@ViScriptRecipe']))
 })
 
 // JEI 的 hide.js 不会自动影响创造标签页，因此在 AQS 标签页单独排除相同物品。

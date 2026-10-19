@@ -89,6 +89,14 @@
 		{
 			dependencies: ["5E550C407303D4FF"]
 			id: "04E23FFAA7AB3212"
+			rewards: [{
+				id: "6E12FC2D8DB25154"
+				item: {
+					count: 1
+					id: "ae2:crafting_card"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "67A8C429323F1B1C"
 				item: { count: 1, id: "advanced_ae:quantum_crafter" }

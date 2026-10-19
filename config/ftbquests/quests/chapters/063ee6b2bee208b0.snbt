@@ -7,17 +7,148 @@
 		id: "enderio:ender_resonator"
 	}
 	id: "063EE6B2BEE208B0"
-	images: [ ]
-	order_index: 10
-	quest_links: [ ]
-	quests: [{
-		id: "29B76A418A0F83BC"
-		tasks: [{
-			id: "7D7506C7C29ADA81"
-			item: { count: 1, id: "enderio:alloy_smelter" }
-			type: "item"
-		}]
-		x: -2.5d
-		y: -0.5d
+	images: [{
+		click_action: "none:"
+		height: 3.0d
+		id: "4C32BE582C82BE2A"
+		image: "enderio_evolution:block/alloy_smelter/stellar_alloy_smelter_front_active"
+		rotation: 0.0d
+		width: 3.0d
+		x: -2.0d
+		y: -1.0d
 	}]
+	order_index: 11
+	quest_links: [ ]
+	quests: [
+		{
+			id: "29B76A418A0F83BC"
+			tasks: [{
+				id: "7D7506C7C29ADA81"
+				item: { count: 1, id: "enderio:alloy_smelter" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			id: "47B2E4E331ACC2EE"
+			tasks: [{
+				id: "6A9193B9F9CB5B55"
+				item: { count: 1, id: "enderio:sag_mill" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			id: "1B6472712FF8AB7E"
+			tasks: [{
+				id: "0A32022AA094E145"
+				item: { count: 1, id: "minecraft:heart_of_the_sea" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			id: "560188F8041E1094"
+			tasks: [{
+				id: "25D9A13C73F44DE6"
+				item: { count: 1, id: "minecraft:glowstone" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			id: "27EB4868877863CF"
+			tasks: [{
+				id: "678AE4A13934E154"
+				item: { count: 1, id: "minecraft:quartz_block" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			id: "30EC2CB2E6BDB130"
+			tasks: [{
+				id: "7D3B3B1589CA72A0"
+				item: { count: 1, id: "enderio_evolution:alloy_ball_stellar_alloy" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			id: "266CF549704EA796"
+			size: 2.0d
+			tasks: [{
+				id: "730F62C47A988C59"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			id: "77D67E7A41032B58"
+			tasks: [{
+				id: "2C3F86FCCA93B4FC"
+				item: { count: 1, id: "enderio_evolution:stellar_alloy_ingot" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			id: "07DC8B562E46386D"
+			tasks: [{
+				id: "2B4C85A5BB5E5780"
+				item: { count: 1, id: "enderio_evolution:capacitor_atm" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.0d
+		}
+		{
+			id: "25393B5202578581"
+			tasks: [{
+				id: "42C072C203E32EAA"
+				item: { count: 1, id: "enderio_evolution:capacitor_vibranium" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			id: "34744D4D2AC0A327"
+			tasks: [{
+				id: "341A6BA6A6560A8C"
+				item: { count: 1, id: "enderio_evolution:capacitor_unobtainium" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			id: "38A4913A4353C3CA"
+			tasks: [{
+				id: "1875A786AF4694C8"
+				item: { count: 1, id: "enderio_evolution:capacitor_piglich" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -1.0d
+		}
+		{
+			id: "40B83742FCC7F4ED"
+			tasks: [{
+				id: "24FD44793BEB1B44"
+				item: { count: 1, id: "minecraft:nautilus_shell" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+	]
 }

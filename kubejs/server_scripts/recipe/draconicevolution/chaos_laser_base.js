@@ -9,7 +9,7 @@ ServerEvents.recipes(event => {
     {
       "consume": true,
       "ingredient": {
-        "item": "powah:crystal_spirited"
+        "item": "industrialforegoing:infinity_drill"
       }
     },
     {
@@ -21,7 +21,7 @@ ServerEvents.recipes(event => {
     {
       "consume": true,
       "ingredient": {
-        "item": "powah:crystal_nitro"
+        "item": "oritech:hand_drill"
       }
     },
     {
@@ -33,7 +33,7 @@ ServerEvents.recipes(event => {
     {
       "consume": true,
       "ingredient": {
-        "item": "powahaddon:crystal_radiant"
+        "item": "oritech:deep_drill_block"
       }
     },
     {
@@ -45,7 +45,7 @@ ServerEvents.recipes(event => {
     {
       "consume": true,
       "ingredient": {
-        "item": "powahaddon:crystal_astral"
+        "item": "industrialforegoing:fluid_laser_base"
       }
     },
     {
@@ -57,7 +57,7 @@ ServerEvents.recipes(event => {
     {
       "consume": true,
       "ingredient": {
-        "item": "powahaddon:crystal_galaxy"
+        "item": "industrialforegoingsouls:soul_laser_base"
       }
     },
     {

@@ -7,17 +7,92 @@
 		id: "molecularmanipulator:miniature_supernova"
 	}
 	id: "4838FE84417C66B8"
-	images: [ ]
-	order_index: 17
-	quest_links: [ ]
-	quests: [{
-		id: "2A7EDC8FDC96246A"
-		tasks: [{
-			id: "5B632C794D846160"
-			item: { count: 1, id: "molecularmanipulator:matter_fabrication_controller" }
-			type: "item"
-		}]
-		x: 0.0d
+	images: [{
+		click_action: "none:"
+		height: 1.3d
+		id: "315F0D63629BC215"
+		image: "productivebeesgenesis:block/infinitycreation_comb_block"
+		rotation: 0.0d
+		width: 1.3d
+		x: 3.0d
 		y: -1.0d
 	}]
+	order_index: 14
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2A7EDC8FDC96246A"
+			tasks: [{
+				id: "5B632C794D846160"
+				item: { count: 1, id: "molecularmanipulator:matter_fabrication_controller" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["69F29ECE0ECADD70"]
+			id: "2FDEA41B9124BB06"
+			rewards: [{
+				id: "2D7A668AA63DB619"
+				item: {
+					count: 1
+					id: "kubejs:infinities_bee_upgrade_cell"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					components: {
+						"!ftbquests:icon": { }
+						"ftbquests:entity_face": "minecraft:bee"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "1FEA8EC4E37ABA17"
+				observation_type: "entity_type"
+				observe_type: 5
+				optional_task: true
+				timer: 0L
+				to_observe: "productivebees:myriadcreations"
+				type: "observation"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"752DC71CFDADAF46"
+				"7DC842E387B26BB0"
+				"19587D0FC9EE4CA7"
+			]
+			id: "69F29ECE0ECADD70"
+			rewards: [
+				{
+					id: "729DD9617B23A85A"
+					item: {
+						count: 1
+						id: "kubejs:infinities_factory_cell"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2AACECF93D38717F"
+					item: {
+						count: 1
+						id: "minecraft:bee_spawn_egg"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "332EA994B1763B68"
+				item: { count: 1, id: "molecularmanipulator:transfinite_compute_nexus" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+	]
 }

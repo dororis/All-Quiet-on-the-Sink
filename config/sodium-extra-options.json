@@ -11,8 +11,8 @@
   "particle_settings": {
     "particles": true,
     "rain_splash": true,
-    "block_break": false,
-    "block_breaking": false,
+    "block_break": true,
+    "block_breaking": true,
     "other": {
       "minecraft:large_smoke": true,
       "minecraft:white_smoke": true,

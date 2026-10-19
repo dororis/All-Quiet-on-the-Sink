@@ -39,11 +39,15 @@ RecipeViewerEvents.addInformation('item', event => {
 		'你不会想用这个的',
 		'对吧？'
 	])
-	event.add('anvilcraft:celestial_forging_anvil', [
-		'一种可以锻出猪咪的铁砧',
+	event.add('ae2lt:creative_pigmee_fumo', [
+		'一个使用锻星砧锻造的天体',
 		'需注入正确的时间、空间、质量、能量',
 		'配方: M + O + AK + IEE',
 		'现在万事俱备,只差猪咪'
+	])
+	event.add('justdirethings:coal_t1', [
+		'无法通过原初煤炭获得之后的煤炭',
+		'再无套娃？'	
 	])
 })
 RecipeViewerEvents.addInformation('fluid', event => {
