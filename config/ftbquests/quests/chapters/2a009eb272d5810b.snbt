@@ -648,5 +648,15 @@
 			x: 7.0d
 			y: 3.5d
 		}
+		{
+			id: "0BCA4A19EF995BA4"
+			tasks: [{
+				id: "26B7B3C7BA4E5A03"
+				item: { count: 1, id: "kubejs:singularity_cell" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.0d
+		}
 	]
 }

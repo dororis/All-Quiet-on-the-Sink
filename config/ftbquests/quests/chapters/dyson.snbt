@@ -26,13 +26,28 @@
 		}
 		{
 			disable_toast: true
+			icon: {
+				id: "dysoncubeproject:ray_receiver_controller"
+			}
 			id: "67F491F5BF976DBC"
 			optional: true
-			tasks: [{
-				id: "3539669DD9ADBF6C"
-				item: { count: 1, id: "dysoncubeproject:ray_receiver_controller" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3539669DD9ADBF6C"
+					item: { count: 1, id: "dysoncubeproject:ray_receiver_controller" }
+					type: "item"
+				}
+				{
+					id: "35CBDD5799636738"
+					item: { count: 1, id: "dysoncubeproject:bignumber_energy_output_port" }
+					type: "item"
+				}
+				{
+					id: "18920A6642E48632"
+					item: { count: 1, id: "fluxnetworks:ultimate_flux_storage" }
+					type: "item"
+				}
+			]
 			x: -2.0d
 			y: -2.0d
 		}
@@ -146,6 +161,106 @@
 			]
 			x: 4.0d
 			y: 0.0d
+		}
+		{
+			id: "6D464AD5181F5718"
+			tasks: [{
+				id: "11094D16E926E210"
+				item: { count: 1, id: "dysoncubeproject:compressed_sail" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			id: "4986B2A57D90D05D"
+			tasks: [{
+				id: "6FE6A2A0B6C1ABD2"
+				item: { components: { "dysoncubeproject_addon:compression_level": "2" }, count: 1, id: "dysoncubeproject:compressed_sail" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			id: "30AD9C9A811C6B6C"
+			tasks: [{
+				id: "03DBD48CB043EE0F"
+				item: { components: { "dysoncubeproject_addon:compression_level": "3" }, count: 1, id: "dysoncubeproject:compressed_sail" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			id: "697F111B4E9E6748"
+			tasks: [{
+				id: "14D05DD999B58645"
+				item: { components: { "dysoncubeproject_addon:compression_level": "4" }, count: 1, id: "dysoncubeproject:compressed_sail" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			id: "5DFBFED5B0208B5C"
+			tasks: [{
+				id: "779CB9A21DFB1715"
+				item: { components: { "dysoncubeproject_addon:compression_level": "5" }, count: 1, id: "dysoncubeproject:compressed_sail" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			id: "2CF97C3D2CA2879A"
+			tasks: [{
+				id: "1C9186BB18BA96DE"
+				item: { count: 1, id: "dysoncubeproject:compressed_beam" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			id: "45A6551F218CD39A"
+			tasks: [{
+				id: "77FDB707B1A2AC93"
+				item: { components: { "dysoncubeproject_addon:compression_level": "2" }, count: 1, id: "dysoncubeproject:compressed_beam" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			id: "76E079C9162E4958"
+			tasks: [{
+				id: "7D03B82B488C8B5D"
+				item: { components: { "dysoncubeproject_addon:compression_level": "3" }, count: 1, id: "dysoncubeproject:compressed_beam" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			id: "06CE20877DDEF3C9"
+			tasks: [{
+				id: "6CB1E7D727CDDE0C"
+				item: { components: { "dysoncubeproject_addon:compression_level": "4" }, count: 1, id: "dysoncubeproject:compressed_beam" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			id: "71E1C2130B0B04B7"
+			tasks: [{
+				id: "6E46EB29631ACFCE"
+				item: { components: { "dysoncubeproject_addon:compression_level": "5" }, count: 1, id: "dysoncubeproject:compressed_beam" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
 		}
 	]
 }

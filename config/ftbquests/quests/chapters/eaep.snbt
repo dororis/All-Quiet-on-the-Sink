@@ -30,12 +30,7 @@
 		}
 	]
 	order_index: 6
-	quest_links: [{
-		id: "569B752B53611B37"
-		linked_quest: "798DD5C3FC981AFA"
-		x: -2.0d
-		y: 0.0d
-	}]
+	quest_links: [ ]
 	quests: [
 		{
 			id: "5F2D3C98A0DBBA40"

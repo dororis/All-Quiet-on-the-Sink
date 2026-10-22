@@ -59,15 +59,6 @@
 			y: -3.0d
 		}
 		{
-			height: 1.0d
-			id: "5702E5225564283F"
-			image: "fancymenu:textures/contextmenu/icons/arrow_up.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 8.0d
-			y: -3.0d
-		}
-		{
 			click_action: "none:"
 			height: 3.0d
 			id: "01BE423E5364503E"
@@ -129,12 +120,7 @@
 		}
 	]
 	order_index: 4
-	quest_links: [{
-		id: "6EDBAECA81689A49"
-		linked_quest: "1E25B1D960DB36FC"
-		x: 8.0d
-		y: -4.0d
-	}]
+	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["018390147085379B"]
@@ -810,6 +796,26 @@
 			}]
 			x: 0.0d
 			y: 5.0d
+		}
+		{
+			id: "0C4B8B3E0DA930AA"
+			tasks: [{
+				id: "2789CB8DDCCAD2EF"
+				item: { count: 1, id: "molecularmanipulator:molecular_auto_crafter" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			id: "53D511B3ABF1C21B"
+			tasks: [{
+				id: "56A9D27A153A68CA"
+				item: { components: { "extrahnn:extra_data_model": [ "hostilenetworks:breeze", "hostilenetworks:breeze", "hostilenetworks:breeze", "hostilenetworks:breeze" ], "hostilenetworks:data": 22375, "hostilenetworks:iterations": 455 }, count: 1, id: "extrahnn:extra_data_model" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.0d
 		}
 	]
 }

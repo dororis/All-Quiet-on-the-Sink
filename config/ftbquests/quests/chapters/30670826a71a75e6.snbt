@@ -259,10 +259,10 @@
 			y: -5.5d
 		}
 		{
-			id: "65C067C9D8A623B2"
+			id: "193549EF3DBB7A04"
 			tasks: [{
-				id: "0FB9B7F23C993F48"
-				item: { count: 1, id: "ae2:creative_energy_cell" }
+				id: "59BB599B9AFE3F43"
+				item: { count: 1, id: "fluxnetworks:ultimate_flux_storage" }
 				type: "item"
 			}]
 			x: 0.0d

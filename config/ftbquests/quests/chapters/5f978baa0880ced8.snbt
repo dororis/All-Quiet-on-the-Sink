@@ -82,7 +82,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["0C7B5373619398BC"]
+			dependencies: ["4617458BD58AE0B4"]
 			dependency_requirement: "all_started"
 			id: "4EBA5A17AA2351E1"
 			tasks: [
@@ -125,17 +125,6 @@
 			]
 			x: 0.0d
 			y: 0.0d
-		}
-		{
-			id: "0C7B5373619398BC"
-			tasks: [{
-				id: "3B191D4508DB4F24"
-				item: { count: 1, id: "mekanism:pigment_extractor" }
-				match_components: "fuzzy"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 3.5d
 		}
 		{
 			dependencies: ["2FBD205B543F64A3"]
@@ -253,6 +242,24 @@
 		{
 			dependencies: ["7E48517A09A459F6"]
 			id: "493A8EAB597CFCB3"
+			rewards: [
+				{
+					id: "2D2D22F73D51D8D5"
+					item: {
+						count: 1
+						id: "mesoulcard:soul_card"
+					}
+					type: "item"
+				}
+				{
+					id: "58CD30B29D0ED685"
+					item: {
+						count: 1
+						id: "ae2:export_bus"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "5A666D7E3669654B"
 				item: { count: 1, id: "kubejs:infinity_soul_cell" }
@@ -330,15 +337,24 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["319E6015D43B404E"]
-			id: "4E79AD4D1317530D"
-			tasks: [{
-				id: "42FAA5BCFED8BA9E"
-				item: { count: 1, id: "kubejs:infinity_soul_cell" }
-				type: "item"
-			}]
-			x: 10.5d
-			y: 0.0d
+			icon: {
+				id: "mekanism:pigment_extractor"
+			}
+			id: "4617458BD58AE0B4"
+			tasks: [
+				{
+					id: "0D140377C8EF6A68"
+					type: "checkmark"
+				}
+				{
+					id: "7CA260B34CB3A6CF"
+					item: { count: 1, id: "mekanism:pigment_extractor" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.5d
 		}
 	]
 }

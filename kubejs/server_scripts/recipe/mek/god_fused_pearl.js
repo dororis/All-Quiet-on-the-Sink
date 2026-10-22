@@ -11,12 +11,6 @@ ServerEvents.recipes(event => {
         '20x kubejs:blood',                                                           
     )
     event.recipes.mekanism.metallurgic_infusing(
-        'anvilcraft:ember_metal_ingot',                 
-        'ad_astra:calorite_ingot',         
-        'mekanismsun:helium',                 
-        false                                          
-    )
-    event.recipes.mekanism.metallurgic_infusing(
         '4x minecraft:echo_shard',                 
         '4x apotheosis:luminous_crystal_shard',         
         'kubejs:unrefined_t4_fluid_source',   

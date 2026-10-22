@@ -21,7 +21,7 @@
     "recipe_type.mbd2.smelting_furnace":"熔融",
     "block.mbd2.compact_fissile_fuel":"紧凑型裂变燃料工厂",
     "recipe_type.mbd2.compact_fissile_fuel":"裂变撕裂",
-    "block.mbd2.moon_mineral_extractor":"地外行星采矿机",
+    "block.mbd2.moon_mineral_extractor":"太空矿机",
     "recipe_type.mbd2.moon_ores":"天空采矿",
     "recipe_type.mbd2.compact_thermal":"蒸馏撕裂",
     "block.mbd2.compact_thermal":"紧凑型热力蒸馏装置",

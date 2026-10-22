@@ -7,28 +7,61 @@
 		id: "molecularmanipulator:miniature_supernova"
 	}
 	id: "4838FE84417C66B8"
-	images: [{
-		click_action: "none:"
-		height: 1.3d
-		id: "315F0D63629BC215"
-		image: "productivebeesgenesis:block/infinitycreation_comb_block"
-		rotation: 0.0d
-		width: 1.3d
-		x: 3.0d
-		y: -1.0d
-	}]
+	images: [
+		{
+			click_action: "none:"
+			height: 1.3d
+			id: "315F0D63629BC215"
+			image: "productivebeesgenesis:block/infinitycreation_comb_block"
+			rotation: 0.0d
+			width: 1.3d
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			click_action: "none:"
+			height: 3.0d
+			id: "41388AA09500FD77"
+			image: "molecularmanipulator:block/singularity_sequence_matter_still"
+			rotation: 0.0d
+			width: 3.0d
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "0FDB71500E577A31"
+			image: "fancymenu:textures/layout_editor/widgets/layers/move_down.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: -5.25d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "4DB970242C394780"
+			image: "fancymenu:textures/layout_editor/widgets/layers/move_down.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: -2.75d
+		}
+	]
 	order_index: 14
 	quest_links: [ ]
 	quests: [
 		{
 			id: "2A7EDC8FDC96246A"
+			size: 2.0d
 			tasks: [{
 				id: "5B632C794D846160"
 				item: { count: 1, id: "molecularmanipulator:matter_fabrication_controller" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -1.0d
+			x: 1.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["69F29ECE0ECADD70"]
@@ -57,15 +90,11 @@
 				to_observe: "productivebees:myriadcreations"
 				type: "observation"
 			}]
-			x: 3.0d
-			y: -1.0d
+			x: 7.0d
+			y: -1.5d
 		}
 		{
-			dependencies: [
-				"752DC71CFDADAF46"
-				"7DC842E387B26BB0"
-				"19587D0FC9EE4CA7"
-			]
+			dependencies: ["414A3DC2D4CA1ADD"]
 			id: "69F29ECE0ECADD70"
 			rewards: [
 				{
@@ -85,14 +114,110 @@
 					}
 					type: "item"
 				}
+				{
+					count: 64
+					id: "63D83D034767EB73"
+					item: {
+						count: 1
+						id: "productivebees:bee_cage"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "332EA994B1763B68"
 				item: { count: 1, id: "molecularmanipulator:transfinite_compute_nexus" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: -1.0d
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			id: "5F77085C4C591347"
+			size: 2.0d
+			tasks: [{
+				id: "00EA30A08590289E"
+				item: { count: 1, id: "molecularmanipulator:molecular_center_controller" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.5d
+		}
+		{
+			id: "414A3DC2D4CA1ADD"
+			size: 2.0d
+			tasks: [{
+				id: "5C31C33EB0C0AAB1"
+				item: { count: 1, id: "molecularmanipulator:omni_computation_controller" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			icon: {
+				id: "molecularmanipulator:event_horizon_singularity_hub"
+			}
+			id: "59A9F50F92518F7A"
+			size: 2.0d
+			tasks: [
+				{
+					id: "5478DCCF00407D8A"
+					item: { count: 1, id: "molecularmanipulator:event_horizon_singularity_hub" }
+					type: "item"
+				}
+				{
+					dimension: "allthemodium:the_beyond"
+					id: "6D17C7AC68645FEE"
+					optional_task: true
+					type: "dimension"
+				}
+			]
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			id: "310EC320E1631779"
+			size: 2.0d
+			tasks: [{
+				id: "6B6F35A48FBDE747"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			id: "03AB847855EAAEF4"
+			size: 2.0d
+			tasks: [{
+				id: "25BFD166D4807494"
+				item: { count: 1, id: "ae2lt:tianshu_multidimensional_main_core" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -6.5d
+		}
+		{
+			id: "18A0BDDC52949906"
+			size: 2.0d
+			tasks: [{
+				id: "76490BC68FC947F3"
+				item: { count: 1, id: "ae2lt:matter_warping_matrix_multidimensional_main_core" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			id: "617469A48AB9ADA1"
+			size: 2.0d
+			tasks: [{
+				id: "5C505AEA76BBDF4A"
+				item: { count: 1, id: "molecularmanipulator:compact_singularity_hub" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.5d
 		}
 	]
 }

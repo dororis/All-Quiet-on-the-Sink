@@ -26,63 +26,13 @@
 			image: "ae2:block/mysterious_cube_side"
 			rotation: 0.0d
 			width: 9.0d
-			x: 2.0d
+			x: -0.5d
 			y: -1.0d
-		}
-		{
-			click_action: "none:"
-			height: 1.0d
-			id: "0FDB71500E577A31"
-			image: "fancymenu:textures/layout_editor/widgets/layers/move_down.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 19.0d
-			y: -2.25d
-		}
-		{
-			click_action: "none:"
-			height: 1.0d
-			id: "4DB970242C394780"
-			image: "fancymenu:textures/layout_editor/widgets/layers/move_down.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 19.0d
-			y: 0.25d
 		}
 	]
 	order_index: 3
 	quest_links: [ ]
 	quests: [
-		{
-			id: "5BC9185B13333DB7"
-			tasks: [{
-				id: "14DCA80446CEEE5C"
-				item: { count: 1, id: "advanced_ae:quantum_core" }
-				type: "item"
-			}]
-			x: -1.5d
-			y: -2.5d
-		}
-		{
-			id: "2843E6704A7D21B5"
-			tasks: [{
-				id: "5811823E9DC81799"
-				item: { count: 1, id: "ae2lt:matter_warping_matrix_controller" }
-				type: "item"
-			}]
-			x: 0.5d
-			y: -3.5d
-		}
-		{
-			id: "79B2BC5A5D8E3017"
-			tasks: [{
-				id: "4B9D02F70A335250"
-				item: { count: 1, id: "ae2lt:tianshu_supercomputer_controller" }
-				type: "item"
-			}]
-			x: 0.5d
-			y: -2.5d
-		}
 		{
 			id: "1FCE39AC360F879A"
 			tasks: [{
@@ -694,66 +644,6 @@
 			y: -5.0d
 		}
 		{
-			id: "4B456E50EA6C8A38"
-			tasks: [{
-				id: "7BD318EC5D6009A6"
-				item: { count: 1, id: "neoecoae:storage_system_l4" }
-				type: "item"
-			}]
-			x: -1.5d
-			y: 0.5d
-		}
-		{
-			id: "69071A0CC70E2C7F"
-			tasks: [{
-				id: "1D3D8F790EBD83D3"
-				item: { count: 1, id: "neoecoae:crafting_system_l9" }
-				type: "item"
-			}]
-			x: 0.5d
-			y: 1.5d
-		}
-		{
-			id: "1158B27051ECAEC9"
-			tasks: [{
-				id: "14A183000CDE15CE"
-				item: { count: 1, id: "neoecoae:storage_system_l9" }
-				type: "item"
-			}]
-			x: 0.5d
-			y: 0.5d
-		}
-		{
-			id: "19FC86537306DD64"
-			tasks: [{
-				id: "12642347BD108E91"
-				item: { count: 1, id: "neoecoae:crafting_system_l4" }
-				type: "item"
-			}]
-			x: -1.5d
-			y: 1.5d
-		}
-		{
-			id: "555417FC8A902FE5"
-			tasks: [{
-				id: "509791C095E5A324"
-				item: { count: 1, id: "neoecoae:computation_system_l4" }
-				type: "item"
-			}]
-			x: -1.5d
-			y: 2.5d
-		}
-		{
-			id: "76E3FCE5FB5DA0C3"
-			tasks: [{
-				id: "01FA50C282B4DBA4"
-				item: { count: 1, id: "neoecoae:computation_system_l9" }
-				type: "item"
-			}]
-			x: 0.5d
-			y: 2.5d
-		}
-		{
 			id: "070F60E0A05A56F3"
 			tasks: [{
 				id: "719AE6753CF1D6CF"
@@ -794,26 +684,6 @@
 			y: 0.0d
 		}
 		{
-			id: "7316C25A20D4B926"
-			tasks: [{
-				id: "773215BF2A68845A"
-				item: { count: 1, id: "ae2:drive" }
-				type: "item"
-			}]
-			x: -1.5d
-			y: -4.5d
-		}
-		{
-			id: "5EF5EF2C2161C7F1"
-			tasks: [{
-				id: "2A4EDE4E71DD0E32"
-				item: { count: 1, id: "extendedae:ex_drive" }
-				type: "item"
-			}]
-			x: 0.5d
-			y: -4.5d
-		}
-		{
 			id: "77B9DFBE63453F19"
 			tasks: [{
 				id: "372B942F317D594B"
@@ -824,91 +694,15 @@
 			y: 3.0d
 		}
 		{
-			id: "10998DFF4866FE2F"
+			id: "7A1F8A5262FCC85D"
+			invisible: true
 			tasks: [{
-				id: "126BA9E8696E0EFE"
-				item: { count: 1, id: "extendedae_plus:ultimate_super_assembler_matrix_builder" }
+				id: "1961B258954AE510"
+				item: { count: 1, id: "ae2:creative_energy_cell" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: -3.5d
-		}
-		{
-			id: "752DC71CFDADAF46"
-			size: 2.0d
-			tasks: [{
-				id: "3FA9BDDC2F7D6C00"
-				item: { count: 1, id: "molecularmanipulator:matter_fabrication_controller" }
-				type: "item"
-			}]
-			x: 16.0d
-			y: -5.0d
-		}
-		{
-			id: "7DC842E387B26BB0"
-			size: 2.0d
-			tasks: [{
-				id: "67374F330EBF021D"
-				item: { count: 1, id: "molecularmanipulator:molecular_center_controller" }
-				type: "item"
-			}]
-			x: 16.0d
-			y: -2.5d
-		}
-		{
-			id: "19587D0FC9EE4CA7"
-			size: 2.0d
-			tasks: [{
-				id: "75A58BD9DC5C1A57"
-				item: { count: 1, id: "molecularmanipulator:omni_computation_controller" }
-				type: "item"
-			}]
-			x: 16.0d
-			y: 0.0d
-		}
-		{
-			id: "3A9CCF80CC087D0F"
-			size: 2.0d
-			tasks: [{
-				id: "6094AE68335CDD37"
-				item: { count: 1, id: "molecularmanipulator:event_horizon_singularity_hub" }
-				type: "item"
-			}]
-			x: 16.0d
-			y: 2.5d
-		}
-		{
-			id: "03AB847855EAAEF4"
-			size: 2.0d
-			tasks: [{
-				id: "25BFD166D4807494"
-				item: { count: 1, id: "ae2lt:tianshu_multidimensional_main_core" }
-				type: "item"
-			}]
-			x: 19.0d
-			y: -3.5d
-		}
-		{
-			id: "18A0BDDC52949906"
-			size: 2.0d
-			tasks: [{
-				id: "76490BC68FC947F3"
-				item: { count: 1, id: "ae2lt:matter_warping_matrix_multidimensional_main_core" }
-				type: "item"
-			}]
-			x: 19.0d
+			x: -3.0d
 			y: -1.0d
-		}
-		{
-			id: "617469A48AB9ADA1"
-			size: 2.0d
-			tasks: [{
-				id: "5C505AEA76BBDF4A"
-				item: { count: 1, id: "molecularmanipulator:compact_singularity_hub" }
-				type: "item"
-			}]
-			x: 19.0d
-			y: 1.5d
 		}
 	]
 }

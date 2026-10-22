@@ -5,5 +5,5 @@ ServerEvents.recipes(event => {
     'enderio_evolution:capacitor_vibranium',
     'enderio_evolution:capacitor_unobtainium',
     'enderio_evolution:capacitor_piglich'],
-    '16x oritech:overcharged_crystal' , 9999999)
+    '16x oritech:overcharged_crystal' , 10000000)
 })

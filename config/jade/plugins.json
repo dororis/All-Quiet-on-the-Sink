@@ -94,6 +94,7 @@
   },
   "neoecoprototype": {
     "simplify_storage_controller": true,
+    "simplify_crafting_system": true,
     "simplify_drive": true,
     "simplify_computation_drive": true
   },
@@ -183,6 +184,12 @@
   },
   "apotheosis": {
     "adventure": true
+  },
+  "anvilcraft_pigsplus": {
+    "celestial_reformer": true,
+    "precision_magnetic_pivot": true,
+    "electric_enchanting_table": true,
+    "wireless_transmitter": true
   },
   "apothic_enchanting": {
     "ench": true

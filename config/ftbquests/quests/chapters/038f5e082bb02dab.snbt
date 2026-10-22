@@ -455,12 +455,27 @@
 		{
 			dependencies: ["4FB0A7B5C0D019EB"]
 			hide_dependent_lines: true
+			icon: {
+				id: "anvilcraft:fe_collector"
+			}
 			id: "1782014E0B3642BA"
-			tasks: [{
-				id: "49D32D6185CF3709"
-				item: { count: 1, id: "anvilcraft:fe_collector" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "49D32D6185CF3709"
+					item: { count: 1, id: "anvilcraft:fe_collector" }
+					type: "item"
+				}
+				{
+					id: "0019378310FC7066"
+					item: { count: 1, id: "anvilcraft_pigsplus:adjustable_power_converter" }
+					type: "item"
+				}
+				{
+					id: "6A24FD2C04173029"
+					item: { components: { "anvilcraft_pigsplus:grid_adapter_power": 1000000000 }, count: 1, id: "anvilcraft_pigsplus:grid_adapter" }
+					type: "item"
+				}
+			]
 			x: 4.0d
 			y: -6.5d
 		}

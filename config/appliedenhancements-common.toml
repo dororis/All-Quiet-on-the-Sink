@@ -33,7 +33,7 @@
 		#第三方 API 调用不受此设置影响。
 		#手动合成计划库存预留仅在此项启用时生效。
 		#Default / 默认值: false
-		enable_automatic_planner = false
+		enable_automatic_planner = true
 		#Use exact BigInteger arithmetic for AELIS orders and intermediate demands above Long.MAX_VALUE.
 		#Long projections are for compatibility; CPUs decide execution and can read the exact execution API.
 		#When disabled, automatic AELIS uses legacy long arithmetic; explicit exact API requests remain exact.
@@ -152,4 +152,4 @@
 		#仅提供元件允许取出的物品，不改变普通有限元件。
 		#关闭后保留元件原实现的行为与数量。
 		#Default / 默认值: false
-		enable_listing_limit_bypass = false
+		enable_listing_limit_bypass = true

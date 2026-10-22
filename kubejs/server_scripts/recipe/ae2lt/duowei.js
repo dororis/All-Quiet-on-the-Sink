@@ -5,45 +5,45 @@ ServerEvents.recipes(event => {
         "priority": 0,
         "inputFluid": {
             "id": "molecularmanipulator:singularity_sequence_matter",
-            "amount": 4000
+            "amount": 1024000
             },
         "inputs": [
     {
         "ingredient": {
         "item": "anvilcraft:transcendium_block",
     }, 
-        "count": 64
+        "count": 1024
     },
     
     {
         "ingredient": {
         "item": "anvilcraft:void_matter_block"
       },
-        "count": 64
+        "count": 1024
     },
     {
         "ingredient": {
         "item": "anvilcraft:negative_matter_block"
       },
-        "count": 64
+        "count": 1024
     },
     {
         "ingredient": {
         "item": "mekmm:uu_matter"
       },
-        "count": 64
+        "count": 1024
     },
     {
         "ingredient": {
         "item": "ae2lt:matter_warping_matrix_overload_main_core"
       },
-        "count": 2
+        "count": 1024
     },
     {
         "ingredient": {
         "item": "molecularmanipulator:miniature_supernova"
       },
-        "count": 1
+        "count": 1024
     },
     ],
     "results": [
@@ -64,38 +64,38 @@ ServerEvents.recipes(event => {
         "priority": 0,
         "inputFluid": {
             "id": "molecularmanipulator:singularity_sequence_matter",
-            "amount": 4000
+            "amount": 1024000
             },
         "inputs": [
     {
         "ingredient": {
         "item": "anvilcraft:transcendium_block",
     }, 
-        "count": 64
+        "count": 1024
     },
     {
         "ingredient": {
         "item": "neoecoae:computation_system_l9"
       },
-        "count": 8
+        "count": 1024
     },
     {
         "ingredient": {
         "item": "ae2lt:tianshu_overload_main_core"
       },
-        "count": 2
+        "count": 1024
     },
     {
         "ingredient": {
         "item": "molecularmanipulator:transfinite_compute_nexus"
       },
-        "count": 1
+        "count": 1024
     },
     {
         "ingredient": {
         "item": "molecularmanipulator:miniature_supernova"
       },
-        "count": 1
+        "count": 1024
     },
     ],
     "results": [

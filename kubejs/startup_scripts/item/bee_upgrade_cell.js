@@ -3,6 +3,7 @@
 StartupEvents.registry('item', event => {
     // 6 种升级物品
     const upgrades = [
+        'productivebees:honey_treat',
         'productivelib:upgrade_productivity_4',
         'productivelib:upgrade_time_2',
         'productivebeesgenesis:byproduct_destruction_upgrade',

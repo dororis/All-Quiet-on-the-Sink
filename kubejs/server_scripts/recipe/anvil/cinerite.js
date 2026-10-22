@@ -56,7 +56,7 @@ ServerEvents.recipes(event => {
       "count": {
         "type": "minecraft:binomial",
         "n": 1.0,
-        "p": 0.4
+        "p": 0.3
       },
       "id": "minecraft:gunpowder"
     },
@@ -64,7 +64,7 @@ ServerEvents.recipes(event => {
       "count": {
         "type": "minecraft:binomial",
         "n": 1.0,
-        "p": 0.4
+        "p": 0.3
       },
       "id": "alltheores:peridot_dust"
     },
@@ -72,9 +72,9 @@ ServerEvents.recipes(event => {
       "count": {
         "type": "minecraft:binomial",
         "n": 1.0,
-        "p": 0.3
+        "p": 0.4
       },
-      "id": "alltheores:silver_nugget"
+      "id": "alltheores:aluminum_dust"
     },
     {
       "count": {

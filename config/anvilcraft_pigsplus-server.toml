@@ -1,0 +1,83 @@
+#Maximum cooldown time of auto machine (in ticks)
+# Default: 4
+# Range: 1 ~ 80
+auto_machine_cooldown = 4
+#Maximum energy conversion quantity of portable wireless charger (kW)
+portable_wireless_charger_max_power_conversion = 1000000000
+#Maximum energy conversion quantity of grid adapter (kW)
+grid_adapter_max_power_conversion = 1000000000
+#Maximum experience transferred by an experience interface in one operation
+# Default: 10000
+# Range: > 1
+experience_interface_max_transfer = 10000
+#Allow the Void Acid to destroy blocks
+void_acid_destroy = true
+#Absorption interval of planetary/star reformer (in ticks)
+# Default: 8
+# Range: 1 ~ 1000
+reformer_absorption_cooldown = 8
+#Power generation of precision magnetic pivot
+# Default: 32
+# Range: 1 ~ 1024000
+precision_magnetic_pivot_power = 32
+#Maximum charge time of precision magnetic pivot (in ticks)
+# Default: 40
+# Range: 1 ~ 1000
+precision_magnetic_pivot_max_time = 40
+#Chance for a lit soul campfire to turn into a soulbound campfire per weeping vine nearby
+# Default: 0.02
+# Range: 0.0 ~ 1.0
+soulbound_campfire_convert_chance_per_vine = 0.02
+
+[wireless_transmitter]
+	#Power consumed by the wireless transmitter
+	# Default: 128
+	# Range: 1 ~ 1024000
+	power = 128
+	#Maximum transmission distance of the wireless transmitter
+	# Default: 64
+	# Range: > 1
+	max_distance = 64
+	#Maximum item transfer amount of the wireless transmitter
+	# Default: 64
+	# Range: > 1
+	item_transfer_amount = 64
+	#Maximum fluid transfer amount of the wireless transmitter (in mB)
+	# Default: 8000
+	# Range: > 1
+	fluid_transfer_amount = 8000
+
+[electric_enchanting_table]
+	#XP saving rate
+	# Default: 0.1
+	# Range: 0.0 ~ 10.0
+	decrease_rate = 0.1
+	#The speed of absorbing liquid experience
+	# Default: 1000
+	# Range: 1 ~ 1000000
+	fluid_comsume_speed = 1000
+	# Default: 128
+	# Range: 1 ~ 1024000
+	power = 128
+
+[enchanted_generator]
+	#Maximum power for Overclocking Enchanted Generator
+	# Default: 32768
+	# Range: 0 ~ 128000000
+	max_overclocking_power = 32768
+	#Maximum power for Common Enchanted Generator
+	# Default: 1024
+	# Range: 0 ~ 128000000
+	max_common_power = 1024
+	#Power per enchantment's level
+	# Default: 2
+	# Range: 1 ~ 1000000
+	power_per_level = 2
+	#Overclocking amplification
+	# Default: 8
+	# Range: 1 ~ 100
+	overclocking_amplification = 8
+	#Minimum consume enchanted book cooldown
+	# Default: 10
+	# Range: 1 ~ 1000
+	min_consume_cooldown = 10

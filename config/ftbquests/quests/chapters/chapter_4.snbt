@@ -355,6 +355,7 @@
 		}
 		{
 			dependencies: ["2B9ECFA4381C6414"]
+			dependency_requirement: "one_completed"
 			id: "73DA6E90942A574C"
 			size: 2.0d
 			tasks: [{
@@ -377,20 +378,7 @@
 			y: 1.0d
 		}
 		{
-			id: "573AA0D4AE89FA62"
-			tasks: [{
-				id: "2B912D89EEED0B29"
-				item: { count: 1, id: "mekanism:cardboard_box" }
-				type: "item"
-			}]
-			x: 14.5d
-			y: -3.0d
-		}
-		{
-			dependencies: [
-				"573AA0D4AE89FA62"
-				"73DA6E90942A574C"
-			]
+			dependencies: ["73DA6E90942A574C"]
 			id: "093B3B5E40CCCF0F"
 			tasks: [{
 				id: "658A3A20552747D2"
@@ -415,6 +403,26 @@
 			}]
 			x: 17.0d
 			y: -1.0d
+		}
+		{
+			id: "700D75C2A6685DF1"
+			tasks: [{
+				id: "66CD81FC8DBC639A"
+				item: { components: { "ars_nouveau:mob_jar": { entity_tag: { AbsorptionAmount: 0.0f, Air: 300s, ArmorDropChances: [ 0.085f, 0.085f, 0.085f, 0.085f ], ArmorItems: [ { }, { }, { }, { } ], Brain: { memories: { } }, CanPickUpLoot: 0b, DeathTime: 0s, FallDistance: 0.0f, FallFlying: 0b, Fire: 0s, HandDropChances: [ 0.085f, 0.085f ], HandItems: [ { }, { } ], Health: 1000.0f, HurtByTimestamp: 0, HurtTime: 0s, Invulnerable: 0b, LeftHanded: 0b, Motion: [ 0.0d, 0.0d, 0.0d ], NeoForgeData: { }, OnGround: 0b, PersistenceRequired: 0b, PortalCooldown: 0, Pos: [ -1659.5d, 252.5d, -4058.5d ], Rotation: [ 0.0f, 0.0f ], UUID: [I; 1424821912, -196260526, -1663694849, 1811192830 ], attributes: [ { base: 1.5d, id: "irons_spellbooks:fire_magic_resist" }, { base: 16.0d, id: "minecraft:generic.follow_range", modifiers: [{ amount: -0.0067437667586152375d, id: "minecraft:random_spawn_bonus", operation: "add_multiplied_base" }] } ], dragon_phase: 6, id: "draconicevolution:draconic_guardian", "neoforge:attachments": { "apotheosis:tier_augments_applied": 1b }, "neoforge:spawn_type": "COMMAND", shield_power: 0.0f } } }, count: 1, id: "ars_nouveau:mob_jar" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: -3.0d
+		}
+		{
+			id: "68A04230EA3EC19D"
+			tasks: [{
+				id: "19A62DA07976A033"
+				item: { count: 1, id: "apothic_enchanting:infused_breath" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 1.0d
 		}
 	]
 }

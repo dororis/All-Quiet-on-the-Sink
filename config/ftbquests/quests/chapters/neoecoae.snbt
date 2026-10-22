@@ -9,14 +9,13 @@
 	id: "720C787678BC6E30"
 	images: [{
 		click_action: "none:"
-		color: 12793599
-		height: 3.0d
-		id: "52FDBDB2AE661E27"
-		image: "neoecoprototype:textures/gui/tier/l1.png"
+		height: 4.0d
+		id: "6F10EECB5FA3F18F"
+		image: "neoecoae:textures/gui/computation/cpu_overlay/l9.png"
 		rotation: 0.0d
-		width: 3.0d
-		x: 0.0d
-		y: 1.5d
+		width: 4.0d
+		x: 1.0d
+		y: 2.0d
 	}]
 	order_index: 13
 	quest_links: [ ]
@@ -28,7 +27,7 @@
 				id: "2DD23B1C2B555DDE"
 				type: "checkmark"
 			}]
-			x: 2.5d
+			x: 1.0d
 			y: 2.0d
 		}
 		{
@@ -455,8 +454,8 @@
 					type: "item"
 				}
 			]
-			x: -2.5d
-			y: 2.0d
+			x: 1.0d
+			y: 5.0d
 		}
 		{
 			icon: {
@@ -475,8 +474,8 @@
 					type: "item"
 				}
 			]
-			x: -2.5d
-			y: 3.5d
+			x: 2.5d
+			y: 5.0d
 		}
 		{
 			id: "243FA249BB1D8DD1"
@@ -564,8 +563,8 @@
 				item: { count: 1, id: "neoecoae:eco_infinite_cell_component" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: 0.5d
+			x: -0.5d
+			y: 5.0d
 		}
 		{
 			id: "15D1B2EA544F9A1C"
@@ -664,6 +663,46 @@
 				type: "item"
 			}]
 			x: 19.5d
+			y: 2.0d
+		}
+		{
+			id: "19DFB8318E1B825C"
+			tasks: [{
+				id: "3A8A5C9A440DA0A3"
+				item: { count: 1, id: "neoecoprototype:migration_drive_1_4" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			id: "6A8A499FDF3064E0"
+			tasks: [{
+				id: "6235747F54A53199"
+				item: { count: 1, id: "neoecoprototype:migration_drive_4_6" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			id: "237B2EFFF73054D7"
+			tasks: [{
+				id: "2F8ACDCC9A470A0F"
+				item: { count: 1, id: "neoecoprototype:migration_drive_6_9" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			id: "3F0B89D708E3B004"
+			tasks: [{
+				id: "4015998C412C56C7"
+				item: { count: 1, id: "neoecoprototype:migration_drive_creative" }
+				type: "item"
+			}]
+			x: -2.0d
 			y: 2.0d
 		}
 	]

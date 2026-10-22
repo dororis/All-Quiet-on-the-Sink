@@ -27,8 +27,8 @@
 				item: { count: 1, id: "enderio:alloy_smelter" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: -1.0d
+			x: 0.5d
+			y: -2.0d
 		}
 		{
 			id: "47B2E4E331ACC2EE"
@@ -37,8 +37,8 @@
 				item: { count: 1, id: "enderio:sag_mill" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -1.0d
+			x: 0.5d
+			y: 0.0d
 		}
 		{
 			id: "1B6472712FF8AB7E"
@@ -47,27 +47,7 @@
 				item: { count: 1, id: "minecraft:heart_of_the_sea" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: -1.0d
-		}
-		{
-			id: "560188F8041E1094"
-			tasks: [{
-				id: "25D9A13C73F44DE6"
-				item: { count: 1, id: "minecraft:glowstone" }
-				type: "item"
-			}]
-			x: 2.5d
-			y: -2.0d
-		}
-		{
-			id: "27EB4868877863CF"
-			tasks: [{
-				id: "678AE4A13934E154"
-				item: { count: 1, id: "minecraft:quartz_block" }
-				type: "item"
-			}]
-			x: 2.5d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
@@ -77,8 +57,8 @@
 				item: { count: 1, id: "enderio_evolution:alloy_ball_stellar_alloy" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: -1.0d
+			x: 2.0d
+			y: 0.0d
 		}
 		{
 			id: "266CF549704EA796"
@@ -97,8 +77,8 @@
 				item: { count: 1, id: "enderio_evolution:stellar_alloy_ingot" }
 				type: "item"
 			}]
-			x: -5.5d
-			y: -1.0d
+			x: 2.0d
+			y: -2.0d
 		}
 		{
 			id: "07DC8B562E46386D"
@@ -107,7 +87,7 @@
 				item: { count: 1, id: "enderio_evolution:capacitor_atm" }
 				type: "item"
 			}]
-			x: -6.5d
+			x: 3.0d
 			y: -2.0d
 		}
 		{
@@ -117,8 +97,8 @@
 				item: { count: 1, id: "enderio_evolution:capacitor_vibranium" }
 				type: "item"
 			}]
-			x: -7.0d
-			y: -1.0d
+			x: 4.0d
+			y: -2.0d
 		}
 		{
 			id: "34744D4D2AC0A327"
@@ -127,8 +107,8 @@
 				item: { count: 1, id: "enderio_evolution:capacitor_unobtainium" }
 				type: "item"
 			}]
-			x: -6.5d
-			y: 0.0d
+			x: 5.0d
+			y: -2.0d
 		}
 		{
 			id: "38A4913A4353C3CA"
@@ -137,18 +117,18 @@
 				item: { count: 1, id: "enderio_evolution:capacitor_piglich" }
 				type: "item"
 			}]
-			x: -8.5d
-			y: -1.0d
+			x: 6.0d
+			y: -2.0d
 		}
 		{
-			id: "40B83742FCC7F4ED"
+			id: "703EACF220E3AE27"
 			tasks: [{
-				id: "24FD44793BEB1B44"
-				item: { count: 1, id: "minecraft:nautilus_shell" }
+				id: "67A43E3C7556E093"
+				item: { count: 1, id: "ae2cs:purified_data_crystal" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: -1.0d
+			x: 4.0d
+			y: 0.0d
 		}
 	]
 }

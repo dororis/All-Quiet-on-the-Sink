@@ -147,7 +147,7 @@ ServerEvents.recipes(event => {
                 "n": 6.0,
                 "p": 0.6
             },
-            "id": "minecraft:quartz_block"
+            "id": "allthecompressed:quartz_block_1x"
             },
             {
             "count": {

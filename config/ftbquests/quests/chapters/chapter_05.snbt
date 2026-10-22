@@ -393,6 +393,23 @@
 		}
 		{
 			id: "3DE294D267FCD97E"
+			rewards: [{
+				id: "058ED79B819BC245"
+				item: {
+					components: {
+						"minecraft:repair_cost": 1
+						"minecraft:stored_enchantments": {
+							levels: {
+								"anvilcraft:smelting": 5
+								"minecraft:fortune": 5
+							}
+						}
+					}
+					count: 1
+					id: "minecraft:enchanted_book"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "45B6B5BF165EDECF"
 				item: { count: 1, id: "allthemodium:allthemodium_upgrade_smithing_template" }

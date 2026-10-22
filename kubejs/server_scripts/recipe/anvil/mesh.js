@@ -312,7 +312,7 @@ ServerEvents.recipes(event => {
       "count": {
         "type": "minecraft:binomial",
         "n": 1.0,
-        "p": 0.03
+        "p": 0.4
       },
       "id": "neoecoae:tungsten_dust"
     },

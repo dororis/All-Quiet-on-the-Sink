@@ -632,16 +632,19 @@
 				{
 					id: "386863880CCDDC0B"
 					item: { count: 1, id: "mekanism:metallurgic_infuser" }
+					match_components: "fuzzy"
 					type: "item"
 				}
 				{
 					id: "6510DE4E6C2996ED"
 					item: { count: 1, id: "mekanism:enrichment_chamber" }
+					match_components: "fuzzy"
 					type: "item"
 				}
 				{
 					id: "43C4C417D0940B13"
 					item: { count: 1, id: "mekanism:crusher" }
+					match_components: "fuzzy"
 					type: "item"
 				}
 			]
@@ -895,6 +898,9 @@
 			y: 3.5d
 		}
 		{
+			icon: {
+				id: "ae2lt:pigmee_crystal_catalyzer"
+			}
 			id: "4FF5D9BC7E2D7A9F"
 			tasks: [
 				{

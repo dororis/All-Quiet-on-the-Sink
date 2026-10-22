@@ -11,12 +11,6 @@ ServerEvents.recipes(event => {
     },
     {
       "ingredient": {
-        "item": "ae2lt:inactive_firmament_spirit_core"
-      },
-      "count": 1
-    },
-    {
-      "ingredient": {
         "item": "ae2lt:lightning_collapse_matrix"
       },
       "count": 1
@@ -28,7 +22,7 @@ ServerEvents.recipes(event => {
       "count": 1
     }
   ],
-  "processTime": 2000
+  "processTime": 100
 }
 
 )

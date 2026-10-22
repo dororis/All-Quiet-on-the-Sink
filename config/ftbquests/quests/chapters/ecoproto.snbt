@@ -20,13 +20,13 @@
 		}
 		{
 			click_action: "none:"
-			height: 3.0d
+			height: 4.0d
 			id: "07BE08F58E643F5B"
 			image: "neoecoprototype:textures/gui/tier/l1.png"
 			rotation: 0.0d
-			width: 3.0d
-			x: -11.0d
-			y: 0.5d
+			width: 4.0d
+			x: -8.5d
+			y: 1.0d
 		}
 	]
 	order_index: 5
@@ -69,28 +69,8 @@
 				item: { count: 1, id: "neoecoprototype:simplify_structure_expansion_card" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: 0.0d
-		}
-		{
-			id: "7B9BDF5E19C39F38"
-			tasks: [{
-				id: "780552403A52379A"
-				item: { count: 1, id: "neoecoprototype:simplify_tier_upgrade_card_l4_l6" }
-				type: "item"
-			}]
-			x: 5.5d
+			x: 4.5d
 			y: 1.0d
-		}
-		{
-			id: "75824F4455A2196C"
-			tasks: [{
-				id: "24A203D96880A1F0"
-				item: { count: 1, id: "neoecoprototype:simplify_tier_upgrade_card_l6_l9" }
-				type: "item"
-			}]
-			x: 5.5d
-			y: 2.0d
 		}
 		{
 			dependencies: ["25E7676448323AA3"]
@@ -419,7 +399,7 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: -0.5d
+			y: -1.0d
 		}
 		{
 			id: "51854B4FB8733B24"
@@ -429,7 +409,7 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: 0.5d
+			y: 1.0d
 		}
 		{
 			id: "771FEC38A5E43F88"
@@ -439,7 +419,7 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: 1.5d
+			y: 3.0d
 		}
 		{
 			id: "5DFF88CFD156D713"
@@ -448,7 +428,7 @@
 				item: { count: 1, id: "neoecoprototype:simplify_storage_component_1m" }
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.5d
 			y: 0.5d
 		}
 		{
@@ -458,27 +438,33 @@
 				item: { count: 1, id: "neoecoprototype:simplify_storage_component_4m" }
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.5d
 			y: 1.5d
 		}
 		{
+			icon: {
+				id: "neoecoprototype:simplify_concrete_storage_matrix_housing"
+			}
 			id: "5581F9F6C68126C5"
-			tasks: [{
-				id: "2B1BBE87C79FDB32"
-				item: { count: 1, id: "neoecoprototype:simplify_concrete_storage_matrix_housing" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2B1BBE87C79FDB32"
+					item: { count: 1, id: "neoecoprototype:simplify_concrete_storage_matrix_housing" }
+					type: "item"
+				}
+				{
+					id: "761D5E7FF716F211"
+					item: { count: 1, id: "kubejs:sky_dust_grower" }
+					type: "item"
+				}
+				{
+					id: "7DDA4CD9208538BD"
+					item: { count: 1, id: "kubejs:firmament_dust_grower" }
+					type: "item"
+				}
+			]
 			x: 8.5d
-			y: 2.5d
-		}
-		{
-			id: "798DD5C3FC981AFA"
-			tasks: [{
-				id: "75C624F4FA36DDF4"
-				type: "checkmark"
-			}]
-			x: -8.5d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["16843F19C899D99B"]
@@ -491,6 +477,25 @@
 			}]
 			x: -2.0d
 			y: 3.0d
+		}
+		{
+			id: "068644EF8D41EB0A"
+			tasks: [{
+				id: "7117C0B1DF8C001B"
+				item: { count: 1, id: "neoecoprototype:simplify_complex_universal_storage_matrix_housing" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			id: "313A5D59E7B8F3CD"
+			tasks: [{
+				id: "08ED2CD442409644"
+				type: "checkmark"
+			}]
+			x: -10.5d
+			y: 1.0d
 		}
 	]
 }
