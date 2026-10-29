@@ -324,14 +324,21 @@
 		{
 			dependencies: ["18329BD333146C1D"]
 			id: "59005537C08EEC6F"
-			tasks: [{
-				id: "4C51ABC0EA840ABF"
-				observation_type: "block"
-				observe_type: 0
-				timer: 0L
-				to_observe: "draconicevolution:draconic_guardian"
-				type: "observation"
-			}]
+			tasks: [
+				{
+					id: "4C51ABC0EA840ABF"
+					observation_type: "block"
+					observe_type: 0
+					optional_task: true
+					timer: 0L
+					to_observe: "draconicevolution:draconic_guardian"
+					type: "observation"
+				}
+				{
+					id: "707945092A962857"
+					type: "checkmark"
+				}
+			]
 			x: 10.5d
 			y: -1.0d
 		}
@@ -409,6 +416,7 @@
 			tasks: [{
 				id: "66CD81FC8DBC639A"
 				item: { components: { "ars_nouveau:mob_jar": { entity_tag: { AbsorptionAmount: 0.0f, Air: 300s, ArmorDropChances: [ 0.085f, 0.085f, 0.085f, 0.085f ], ArmorItems: [ { }, { }, { }, { } ], Brain: { memories: { } }, CanPickUpLoot: 0b, DeathTime: 0s, FallDistance: 0.0f, FallFlying: 0b, Fire: 0s, HandDropChances: [ 0.085f, 0.085f ], HandItems: [ { }, { } ], Health: 1000.0f, HurtByTimestamp: 0, HurtTime: 0s, Invulnerable: 0b, LeftHanded: 0b, Motion: [ 0.0d, 0.0d, 0.0d ], NeoForgeData: { }, OnGround: 0b, PersistenceRequired: 0b, PortalCooldown: 0, Pos: [ -1659.5d, 252.5d, -4058.5d ], Rotation: [ 0.0f, 0.0f ], UUID: [I; 1424821912, -196260526, -1663694849, 1811192830 ], attributes: [ { base: 1.5d, id: "irons_spellbooks:fire_magic_resist" }, { base: 16.0d, id: "minecraft:generic.follow_range", modifiers: [{ amount: -0.0067437667586152375d, id: "minecraft:random_spawn_bonus", operation: "add_multiplied_base" }] } ], dragon_phase: 6, id: "draconicevolution:draconic_guardian", "neoforge:attachments": { "apotheosis:tier_augments_applied": 1b }, "neoforge:spawn_type": "COMMAND", shield_power: 0.0f } } }, count: 1, id: "ars_nouveau:mob_jar" }
+				match_components: "strict"
 				type: "item"
 			}]
 			x: 14.5d

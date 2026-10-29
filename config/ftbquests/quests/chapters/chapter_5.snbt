@@ -71,6 +71,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["3138DB55244B71DE"]
 			id: "58E24B18B047159F"
 			rewards: [{
 				id: "6CC21EFCA647308D"
@@ -344,6 +345,7 @@
 				{
 					id: "637E04B066CDB157"
 					item: { components: { "ars_nouveau:mob_jar": { entity_tag: { AbsorptionAmount: 0.0f, Age: 0, Air: 300s, ArmorDropChances: [ 0.085f, 0.085f, 0.085f, 0.085f ], ArmorItems: [ { }, { }, { }, { } ], Brain: { memories: { } }, CanPickUpLoot: 0b, DeathTime: 0s, FallDistance: 0.0f, FallFlying: 0b, Fire: -1s, ForcedAge: 0, HandDropChances: [ 0.085f, 0.085f ], HandItems: [ { }, { } ], Health: 16.0f, HurtByTimestamp: 0, HurtTime: 0s, InLove: 0, Invulnerable: 0b, LeftHanded: 1b, Motion: [ 0.0d, -0.0784000015258789d, 0.0d ], NeoForgeData: { }, OnGround: 1b, PersistenceRequired: 0b, PortalCooldown: 0, Pos: [ -1650.5d, 253.5d, -4057.5d ], Rotation: [ 146.77768f, -16.931032f ], Sheared: 0b, UUID: [I; 813508251, 1308773954, -1359693440, 902928604 ], attributes: [ { base: 16.0d, id: "minecraft:generic.follow_range", modifiers: [{ amount: -0.008993221195185102d, id: "minecraft:random_spawn_bonus", operation: "add_multiplied_base" }] }, { base: 0.6d, id: "minecraft:generic.step_height" }, { base: 0.1d, id: "caelus:fall_flying" }, { base: 0.0d, id: "minecraft:generic.oxygen_bonus" }, { base: 0.20000000298023224d, id: "minecraft:generic.movement_speed" } ], id: "ad_astra:glacian_ram", "neoforge:attachments": { "apotheosis:tier_augments_applied": 1b }, "neoforge:spawn_type": "SPAWN_EGG" } } }, count: 1, id: "ars_nouveau:mob_jar" }
+					match_components: "strict"
 					type: "item"
 				}
 				{

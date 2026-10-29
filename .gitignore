@@ -54,3 +54,5 @@ ldlib2/backups/
 # ldlib2 自动生成的资源文件（保留 .sm .mb .rt 机器定义文件）
 ldlib2/assets/ldlib2/resources/
 ldlib2/assets/mbd2/blueprint/
+
+*.bak.*

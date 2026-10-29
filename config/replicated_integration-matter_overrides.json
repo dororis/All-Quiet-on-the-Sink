@@ -1,0 +1,375 @@
+{
+  "entries": [
+    {
+      "selector": "node",
+      "type": "c:item",
+      "id": "ae2:blank_pattern",
+      "deny": true
+    },
+    {
+      "selector": "node",
+      "type": "c:item",
+      "id": "minecraft:cobblestone",
+      "deny": true
+    },
+    {
+      "selector": "node",
+      "type": "c:item",
+      "id": "ae2:matter_ball",
+      "matter": [
+        {
+          "type": "replication:earth",
+          "value": 64.0
+        }
+      ]
+    },
+    {
+      "selector": "node",
+      "type": "c:item",
+      "id": "ae2:singularity",
+      "matter": [
+        {
+          "type": "replication:earth",
+          "value": 4096.0
+        }
+      ]
+    },
+    {
+      "selector": "node",
+      "type": "c:item",
+      "id": "ae2lt:firmament_dust",
+      "matter": [
+        {
+          "type": "replication:earth",
+          "value": 1.0
+        },
+        {
+          "type": "replication:ender",
+          "value": 1.0
+        },
+        {
+          "type": "replication:precious",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "selector": "node",
+      "type": "c:item",
+      "id": "apotheosis:god_fused_pearl",
+      "matter": [
+        {
+          "type": "replication:earth",
+          "value": 325.0
+        },
+        {
+          "type": "replication:ender",
+          "value": 325.0
+        },
+        {
+          "type": "replication:living",
+          "value": 325.0
+        },
+        {
+          "type": "replication:metallic",
+          "value": 325.0
+        },
+        {
+          "type": "replication:nether",
+          "value": 325.0
+        },
+        {
+          "type": "replication:organic",
+          "value": 325.0
+        },
+        {
+          "type": "replication:precious",
+          "value": 325.0
+        },
+        {
+          "type": "replication:quantum",
+          "value": 325.0
+        }
+      ]
+    },
+    {
+      "selector": "node",
+      "type": "c:item",
+      "id": "appgen:ember_crystal",
+      "matter": [
+        {
+          "type": "replication:nether",
+          "value": 9.0
+        },
+        {
+          "type": "replication:organic",
+          "value": 3.0
+        },
+        {
+          "type": "replication:precious",
+          "value": 6.0
+        }
+      ]
+    },
+        {
+      "selector": "node",
+      "type": "c:item",
+      "id": "apotheosis:godforged_pearl",
+      "matter": [
+        {
+          "type": "replication:ender",
+          "value": 40
+        },
+        {
+          "type": "replication:nether",
+          "value": 25
+        },
+        {
+          "type": "replication:precious",
+          "value": 60
+        },
+        {
+          "type": "replication:quantum",
+          "value": 40
+        }
+      ]
+    },
+    {
+      "selector": "node",
+      "type": "c:item",
+      "id": "apotheosis:luminous_crystal_shard",
+      "matter": [
+        {
+          "type": "replication:earth",
+          "value": 32
+        },
+        {
+          "type": "replication:metallic",
+          "value": 45
+        },
+        {
+          "type": "replication:nether",
+          "value": 32
+        },
+        {
+          "type": "replication:precious",
+          "value": 45
+        }
+      ]
+    },
+    {
+      "selector": "node",
+      "type": "c:item",
+      "id": "apotheosis:mysterious_scrap_metal",
+      "matter": [
+        {
+          "type": "replication:earth",
+          "value": 42
+        },
+        {
+          "type": "replication:metallic",
+          "value": 34
+        },
+        {
+          "type": "replication:nether",
+          "value": 33
+        },
+        {
+          "type": "replication:organic",
+          "value": 33
+        }
+      ]
+    },
+    {
+      "selector": "node",
+      "type": "c:item",
+      "id": "apotheosis:timeworn_fabric",
+      "matter": [
+        {
+          "type": "replication:living",
+          "value": 45
+        },
+        {
+          "type": "replication:nether",
+          "value": 30
+        },
+        {
+          "type": "replication:organic",
+          "value": 60
+        },
+        {
+          "type": "replication:quantum",
+          "value": 45
+        }
+      ]
+    },
+    {
+      "selector": "node",
+      "type": "c:item",
+      "id": "apotheosis:arcane_sands",
+      "matter": [
+        {
+          "type": "replication:ender",
+          "value": 38
+        },
+        {
+          "type": "replication:nether",
+          "value": 35
+        },
+        {
+          "type": "replication:precious",
+          "value": 42
+        },
+        {
+          "type": "replication:quantum",
+          "value": 30
+        }
+      ]
+    },
+    {
+      "selector": "node",
+      "type": "c:item",
+      "id": "justdirethings:blazegold_ingot",
+      "matter": [
+        {
+          "type": "replication:ender",
+          "value": 40.0
+        },
+        {
+          "type": "replication:metallic",
+          "value": 80.0
+        },
+        {
+          "type": "replication:nether",
+          "value": 60.0
+        }
+      ]
+    },
+    {
+      "selector": "node",
+      "type": "c:item",
+      "id": "justdirethings:celestigem",
+      "matter": [
+        {
+          "type": "replication:earth",
+          "value": 60.0
+        },
+        {
+          "type": "replication:organic",
+          "value": 80.0
+        },
+        {
+          "type": "replication:precious",
+          "value": 40.0
+        }
+      ]
+    },
+    {
+      "selector": "node",
+      "type": "c:item",
+      "id": "justdirethings:eclipsealloy_ingot",
+      "matter": [
+        {
+          "type": "replication:ender",
+          "value": 60.0
+        },
+        {
+          "type": "replication:organic",
+          "value": 50.0
+        },
+        {
+          "type": "replication:quantum",
+          "value": 80.0
+        }
+      ]
+    },
+    {
+      "selector": "node",
+      "type": "c:item",
+      "id": "justdirethings:ferricore_ingot",
+      "matter": [
+        {
+          "type": "replication:earth",
+          "value": 40.0
+        },
+        {
+          "type": "replication:living",
+          "value": 20.0
+        },
+        {
+          "type": "replication:metallic",
+          "value": 80.0
+        }
+      ]
+    },
+    {
+      "selector": "node",
+      "type": "c:item",
+      "id": "mekanism:pellet_antimatter",
+      "matter": [
+        {
+          "type": "replication:earth",
+          "value": 114514.0
+        },
+        {
+          "type": "replication:ender",
+          "value": 191981.0
+        },
+        {
+          "type": "replication:living",
+          "value": 114514.0
+        },
+        {
+          "type": "replication:metallic",
+          "value": 114514.0
+        },
+        {
+          "type": "replication:nether",
+          "value": 191981.0
+        },
+        {
+          "type": "replication:organic",
+          "value": 114514.0
+        },
+        {
+          "type": "replication:precious",
+          "value": 191981.0
+        },
+        {
+          "type": "replication:quantum",
+          "value": 191981.0
+        }
+      ]
+    },
+    {
+      "selector": "node",
+      "type": "c:item",
+      "id": "molecularmanipulator:matter_fabrication_casing",
+      "deny": true
+    },
+    {
+      "selector": "node",
+      "type": "c:item",
+      "id": "molecularmanipulator:matter_fabrication_coil",
+      "deny": true
+    },
+    {
+      "selector": "node",
+      "type": "c:item",
+      "id": "molecularmanipulator:matter_fabrication_core",
+      "deny": true
+    },
+    {
+      "selector": "node",
+      "type": "c:item",
+      "id": "molecularmanipulator:matter_fabrication_glass",
+      "deny": true
+    },
+    {
+      "selector": "node",
+      "type": "c:item",
+      "id": "molecularmanipulator:matter_fabrication_stabilizer",
+      "deny": true
+    }
+  ]
+}

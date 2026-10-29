@@ -18,7 +18,7 @@
 		image: "ars_nouveau:block/mirrorweave"
 		rotation: 0.0d
 		width: 3.0d
-		x: 1.0d
+		x: 1.5d
 		y: -2.0d
 	}]
 	order_index: 9
@@ -41,7 +41,7 @@
 				id: "2BE6075F92A0A9F5"
 				type: "checkmark"
 			}]
-			x: 1.0d
+			x: 1.5d
 			y: -2.0d
 		}
 		{
@@ -137,7 +137,7 @@
 				item: { count: 1, id: "anvilcraft:enchanted_gold_block" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 4.5d
 			y: -2.0d
 		}
 		{
@@ -148,6 +148,60 @@
 				type: "item"
 			}]
 			x: 10.0d
+			y: -3.5d
+		}
+		{
+			icon: {
+				id: "ars_arcane_matrix:drygmy_arena"
+			}
+			id: "3522AAC87E7D9ED9"
+			size: 2.0d
+			tasks: [
+				{
+					id: "6BD93087E2FEF647"
+					item: { count: 1, id: "ars_arcane_matrix:drygmy_arena" }
+					type: "item"
+				}
+				{
+					id: "2D7874F93FD5EC33"
+					item: { count: 1, id: "ars_arcane_matrix:condensed_summoning_catalyst" }
+					type: "item"
+				}
+				{
+					id: "34C32A8632AF1D6C"
+					item: { count: 1, id: "ars_nouveau:conjuration_essence" }
+					type: "item"
+				}
+			]
+			x: 13.5d
+			y: -2.0d
+		}
+		{
+			icon: {
+				components: {
+					"ars_nouveau:mob_jar": {
+						entity_tag: {
+							id: "draconicevolution:draconic_guardian"
+						}
+						extra_data_tag: { }
+					}
+				}
+				id: "ars_nouveau:mob_jar"
+			}
+			id: "7B4B3308E0FFDFF3"
+			tasks: [
+				{
+					id: "139E9917B6398311"
+					item: { components: { "ars_nouveau:mob_jar": { entity_tag: { id: "draconicevolution:draconic_guardian" }, extra_data_tag: { } } }, count: 1, id: "ars_nouveau:mob_jar" }
+					type: "item"
+				}
+				{
+					id: "0F681C0140B9D577"
+					item: { components: { "ars_nouveau:mob_jar": { entity_tag: { id: "ad_astra:glacian_ram" }, extra_data_tag: { } } }, count: 1, id: "ars_nouveau:mob_jar" }
+					type: "item"
+				}
+			]
+			x: 13.5d
 			y: -3.5d
 		}
 	]

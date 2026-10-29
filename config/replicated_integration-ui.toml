@@ -1,0 +1,4 @@
+[matterIndex]
+	#Notation used for compact matter amounts. SI uses K/M/G/T; SHORT_SCALE uses K/M/B/T.
+	#Allowed Values: SI, SHORT_SCALE
+	matterAmountNotation = "SHORT_SCALE"

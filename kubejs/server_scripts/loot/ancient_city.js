@@ -65,3 +65,12 @@ LootJS.lootTables(event => {
                 })
         )
 })
+LootJS.lootTables(event => {
+    event
+        .getLootTable("minecraft:chests/ancient_city")
+        .firstPool()
+        .addEntry(
+            LootEntry.of("anvilcraft:geode")
+                .withWeight(15)
+        )
+})

@@ -1,0 +1,465 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "24a569bbbd06883c"
+	group: "0B022AD354D4F865"
+	icon: {
+		components: {
+			"overload_sim:crystal_data": {
+				profile: "overload_sim:netherite"
+			}
+		}
+		id: "overload_sim:perfect_simulation_crystal"
+	}
+	id: "24A569BBBD06883C"
+	images: [
+		{
+			click_action: "none:"
+			height: 3.0d
+			id: "6E18E054756BBDB6"
+			image: "overload_sim:block/laser_energy_flow"
+			rotation: 0.0d
+			width: 3.0d
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			click_action: "none:"
+			height: 0.7d
+			id: "75D708A854341501"
+			image: "minecraft:block/raw_iron_block"
+			rotation: 0.0d
+			width: 0.7d
+			x: 17.5d
+			y: 0.0d
+		}
+		{
+			click_action: "none:"
+			height: 0.7d
+			id: "217855948C24C0CE"
+			image: "minecraft:block/raw_iron_block"
+			rotation: 0.0d
+			width: 0.7d
+			x: 17.5d
+			y: 1.0d
+		}
+		{
+			click_action: "none:"
+			height: 0.7d
+			id: "3DB08A0B14133BB6"
+			image: "minecraft:block/raw_iron_block"
+			rotation: 0.0d
+			width: 0.7d
+			x: 16.5d
+			y: 1.0d
+		}
+		{
+			click_action: "none:"
+			height: 0.7d
+			id: "3A796E802E4DD961"
+			image: "minecraft:block/raw_iron_block"
+			rotation: 0.0d
+			width: 0.7d
+			x: 15.5d
+			y: 1.0d
+		}
+		{
+			click_action: "none:"
+			height: 0.7d
+			id: "007BD90B618A411D"
+			image: "minecraft:block/raw_iron_block"
+			rotation: 0.0d
+			width: 0.7d
+			x: 15.5d
+			y: 0.0d
+		}
+		{
+			click_action: "none:"
+			height: 0.7d
+			id: "0E13B002C44C633E"
+			image: "minecraft:block/raw_iron_block"
+			rotation: 0.0d
+			width: 0.7d
+			x: 15.5d
+			y: -1.0d
+		}
+		{
+			click_action: "none:"
+			height: 0.7d
+			id: "54FB07E4EA8DE1DB"
+			image: "minecraft:block/raw_iron_block"
+			rotation: 0.0d
+			width: 0.7d
+			x: 16.5d
+			y: -1.0d
+		}
+		{
+			click_action: "none:"
+			height: 0.7d
+			id: "55D3CD03EE7C3AAB"
+			image: "minecraft:block/raw_iron_block"
+			rotation: 0.0d
+			width: 0.7d
+			x: 17.5d
+			y: -1.0d
+		}
+		{
+			click_action: "none:"
+			height: 0.7d
+			id: "3EFAC775CC7887C8"
+			image: "minecraft:block/raw_iron_block"
+			rotation: 0.0d
+			width: 0.7d
+			x: 14.5d
+			y: 2.0d
+		}
+		{
+			click_action: "none:"
+			height: 0.7d
+			id: "0C04F5E875B8624F"
+			image: "minecraft:block/raw_iron_block"
+			rotation: 0.0d
+			width: 0.7d
+			x: 15.5d
+			y: 2.0d
+		}
+		{
+			click_action: "none:"
+			height: 0.7d
+			id: "28897EA3556311A2"
+			image: "minecraft:block/raw_iron_block"
+			rotation: 0.0d
+			width: 0.7d
+			x: 16.5d
+			y: 2.0d
+		}
+		{
+			click_action: "none:"
+			height: 0.7d
+			id: "4474C71350D4DF9B"
+			image: "minecraft:block/raw_iron_block"
+			rotation: 0.0d
+			width: 0.7d
+			x: 17.5d
+			y: 2.0d
+		}
+		{
+			click_action: "none:"
+			height: 0.7d
+			id: "0834A00E981678F4"
+			image: "minecraft:block/raw_iron_block"
+			rotation: 0.0d
+			width: 0.7d
+			x: 18.5d
+			y: 2.0d
+		}
+		{
+			click_action: "none:"
+			height: 0.7d
+			id: "00BD80D6960FF934"
+			image: "minecraft:block/raw_iron_block"
+			rotation: 0.0d
+			width: 0.7d
+			x: 18.5d
+			y: 1.0d
+		}
+		{
+			click_action: "none:"
+			height: 0.7d
+			id: "4C19FDED0768AF6D"
+			image: "minecraft:block/raw_iron_block"
+			rotation: 0.0d
+			width: 0.7d
+			x: 18.5d
+			y: 0.0d
+		}
+		{
+			click_action: "none:"
+			height: 0.7d
+			id: "0C4D9F9347721C03"
+			image: "minecraft:block/raw_iron_block"
+			rotation: 0.0d
+			width: 0.7d
+			x: 18.5d
+			y: -1.0d
+		}
+		{
+			click_action: "none:"
+			height: 0.7d
+			id: "4ED25F8AA67C02FC"
+			image: "minecraft:block/raw_iron_block"
+			rotation: 0.0d
+			width: 0.7d
+			x: 18.5d
+			y: -2.0d
+		}
+		{
+			click_action: "none:"
+			height: 0.7d
+			id: "52375B9D1958AFFF"
+			image: "minecraft:block/raw_iron_block"
+			rotation: 0.0d
+			width: 0.7d
+			x: 17.5d
+			y: -2.0d
+		}
+		{
+			click_action: "none:"
+			height: 0.7d
+			id: "140E8D5625841028"
+			image: "minecraft:block/raw_iron_block"
+			rotation: 0.0d
+			width: 0.7d
+			x: 16.5d
+			y: -2.0d
+		}
+		{
+			click_action: "none:"
+			height: 0.7d
+			id: "222D85B6FFD4FE72"
+			image: "minecraft:block/raw_iron_block"
+			rotation: 0.0d
+			width: 0.7d
+			x: 15.5d
+			y: -2.0d
+		}
+		{
+			click_action: "none:"
+			height: 0.7d
+			id: "086D01920846223D"
+			image: "minecraft:block/raw_iron_block"
+			rotation: 0.0d
+			width: 0.7d
+			x: 14.5d
+			y: -2.0d
+		}
+		{
+			click_action: "none:"
+			height: 0.7d
+			id: "30D27BA33B2B26F6"
+			image: "minecraft:block/raw_iron_block"
+			rotation: 0.0d
+			width: 0.7d
+			x: 14.5d
+			y: -1.0d
+		}
+		{
+			click_action: "none:"
+			height: 0.7d
+			id: "31E68C1A3AFFC324"
+			image: "minecraft:block/raw_iron_block"
+			rotation: 0.0d
+			width: 0.7d
+			x: 14.5d
+			y: 0.0d
+		}
+		{
+			click_action: "none:"
+			height: 0.7d
+			id: "793747F872B93C31"
+			image: "minecraft:block/raw_iron_block"
+			rotation: 0.0d
+			width: 0.7d
+			x: 14.5d
+			y: 1.0d
+		}
+	]
+	order_index: 14
+	quest_links: [{
+		id: "18887DF51AF8002A"
+		linked_quest: "2A7EDC8FDC96246A"
+		size: 2.0d
+		x: 13.0d
+		y: -2.0d
+	}]
+	quests: [
+		{
+			dependencies: ["2F9253CB26436AE2"]
+			id: "2F489BA8CE4A9E59"
+			size: 1.0d
+			tasks: [{
+				id: "2256E67F2FB9AD69"
+				item: { count: 1, id: "overload_sim:transcendent_crystal" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.0d
+		}
+		{
+			id: "688D874FDE4F39E5"
+			size: 2.0d
+			tasks: [{
+				id: "36BA2911D8BBA8FD"
+				item: { count: 1, id: "overload_sim:high_energy_laser_emitter" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["688D874FDE4F39E5"]
+			id: "57C2D39138F8A051"
+			size: 2.0d
+			tasks: [{
+				id: "614A2BEFC2AFEEE9"
+				item: { count: 1, id: "overload_sim:laser_enhancement_matrix" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["57C2D39138F8A051"]
+			id: "4F9342383E2C9401"
+			size: 2.0d
+			tasks: [{
+				id: "30EE7C3E957DACA1"
+				item: { count: 1, id: "overload_sim:laser_burst_matrix" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4F9342383E2C9401"]
+			id: "22F2DC71E5F04DDC"
+			size: 2.0d
+			tasks: [{
+				id: "32B292F337A22C95"
+				item: { count: 1, id: "overload_sim:laser_constraint_matrix" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00380659497AC5B8"]
+			id: "2F9253CB26436AE2"
+			size: 2.0d
+			tasks: [{
+				id: "26D295C731D5A892"
+				item: { components: { "minecraft:custom_data": { Workstation: { Eject: 0b, Identity: [I; 1590991024, -2039329802, -2050112887, 358614117 ], InputFluid: { }, Inputs: { Entries: [{ Item: { count: 1, id: "ae2lt:overload_crystal" }, Quantity: 256, Slot: 0 }] }, LastParallel: 0, LastRecipe: "", NetworkExport: 1b, OutputFluid: { }, Outputs: { Entries: [ ] } } } }, count: 1, id: "overload_sim:high_energy_workstation" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["22F2DC71E5F04DDC"]
+			id: "00380659497AC5B8"
+			size: 2.0d
+			tasks: [{
+				id: "7141B6AC0024B96B"
+				item: { count: 1, id: "overload_sim:laser_deflector_matrix" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00380659497AC5B8"]
+			id: "7CE88B21FD3B3224"
+			size: 2.0d
+			tasks: [{
+				id: "3DE726FB0E9B7D4E"
+				item: { count: 1, id: "overload_sim:laser_focus_matrix" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7CE88B21FD3B3224"]
+			id: "775CA1577EE57D22"
+			tasks: [{
+				id: "68A2CC2F0707AA2D"
+				item: { count: 1, id: "overload_sim:collapse_core" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["775CA1577EE57D22"]
+			id: "4421B0AB7D100AA9"
+			size: 2.0d
+			tasks: [{
+				id: "7E88D53E7A298038"
+				item: { count: 1, id: "overload_sim:particle_constrainer" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 2.0d
+		}
+		{
+			id: "392E435FD4E70EAC"
+			tasks: [{
+				id: "139D889EB87B1E7F"
+				item: { count: 1, id: "overload_sim:simulation_controller" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			id: "622AEED1AF94A1B6"
+			tasks: [{
+				id: "6B9375C5350C1489"
+				item: { count: 1, id: "overload_sim:simulation_efficiency_t3" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			id: "7C24EB47E12DB6E0"
+			tasks: [{
+				id: "21C312BC9D570996"
+				item: { count: 1, id: "overload_sim:simulation_fortune_module" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			id: "3F9E531FFD3F622C"
+			tasks: [{
+				id: "7156CBDCDF6A8E36"
+				item: { count: 1, id: "overload_sim:simulation_overload_module" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			id: "49B2F168D7B2569C"
+			tasks: [{
+				id: "5155E4933802930B"
+				item: { count: 1, id: "overload_sim:simulation_smelting_module" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			id: "11824007A01835E9"
+			tasks: [{
+				id: "351184607A0C4012"
+				item: { count: 1, id: "overload_sim:blank_simulation_crystal" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			id: "3609D9C5338F4194"
+			size: 2.0d
+			tasks: [{
+				id: "0359AA2D58366CC3"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+	]
+}

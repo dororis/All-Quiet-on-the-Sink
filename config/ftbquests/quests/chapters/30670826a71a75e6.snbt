@@ -10,7 +10,12 @@
 	id: "30670826A71A75E6"
 	images: [ ]
 	order_index: 1
-	quest_links: [ ]
+	quest_links: [{
+		id: "053295EACD12CF35"
+		linked_quest: "4421B0AB7D100AA9"
+		x: 0.0d
+		y: -4.0d
+	}]
 	quests: [
 		{
 			icon: {
@@ -257,16 +262,6 @@
 			}]
 			x: -0.5d
 			y: -5.5d
-		}
-		{
-			id: "193549EF3DBB7A04"
-			tasks: [{
-				id: "59BB599B9AFE3F43"
-				item: { count: 1, id: "fluxnetworks:ultimate_flux_storage" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: -4.0d
 		}
 	]
 }

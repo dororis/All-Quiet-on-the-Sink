@@ -1,0 +1,5 @@
+{
+  "entity": "ad_astra:glacian_ram",
+  "point_cost": 10,
+  "results": [{ "item": "anvilcraft:negative_matter_nugget", "count": 1 }]
+}

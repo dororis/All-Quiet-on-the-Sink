@@ -26,7 +26,7 @@ ServerEvents.recipes(event => {
     },
     {
       "count": 64,
-      "item": "ae2lt:pigmee_storage_component"
+      "item": "neoecoprototype:fumo_doll_yang120_cpu"
     },
     {
       "count": 4,

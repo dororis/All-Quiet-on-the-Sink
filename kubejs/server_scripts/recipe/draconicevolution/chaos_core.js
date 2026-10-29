@@ -9,7 +9,7 @@ ServerEvents.recipes(event => {
     {
       "consume": true,
       "ingredient": {
-        "item": "powahaddon:reactor_galaxy"
+        "item": "powahaddon:reactor_radiant"
       }
     },
     {

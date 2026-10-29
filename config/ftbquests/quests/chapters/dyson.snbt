@@ -9,7 +9,7 @@
 	}
 	id: "01744D81507A3DD3"
 	images: [ ]
-	order_index: 15
+	order_index: 17
 	quest_links: [ ]
 	quests: [
 		{
@@ -123,46 +123,6 @@
 			y: 0.0d
 		}
 		{
-			icon: {
-				id: "dysoncubeproject_addon:dyson_io_port"
-			}
-			id: "1CC82E544C60155B"
-			tasks: [
-				{
-					id: "7BF7C36A7B7138A8"
-					item: { count: 1, id: "dysoncubeproject_addon:dyson_io_port" }
-					type: "item"
-				}
-				{
-					id: "4E06AC020F9F8F73"
-					item: { count: 1, id: "dysoncubeproject_addon:dyson_storage_cell" }
-					type: "item"
-				}
-				{
-					id: "3B29172C25B5EE98"
-					item: { count: 1, id: "dysoncubeproject_addon:dyson_exact_storage_cell" }
-					type: "item"
-				}
-				{
-					id: "03457A7302978105"
-					item: { count: 1, id: "dysoncubeproject_addon:dyson_fluid_storage_cell" }
-					type: "item"
-				}
-				{
-					id: "5D2850E26A0362B6"
-					item: { count: 1, id: "dysoncubeproject_addon:dyson_exact_fluid_storage_cell" }
-					type: "item"
-				}
-				{
-					id: "7A8D3C0C302B4392"
-					item: { count: 1, id: "dysoncubeproject:dyson_ae_terminal" }
-					type: "item"
-				}
-			]
-			x: 4.0d
-			y: 0.0d
-		}
-		{
 			id: "6D464AD5181F5718"
 			tasks: [{
 				id: "11094D16E926E210"
@@ -261,6 +221,26 @@
 			}]
 			x: 4.0d
 			y: 2.5d
+		}
+		{
+			icon: {
+				id: "dysoncubeproject_addon:dyson_storage_cell"
+			}
+			id: "4CD01E9B84233E2E"
+			tasks: [
+				{
+					id: "34953B804609172A"
+					item: { count: 1, id: "dysoncubeproject_addon:dyson_storage_cell" }
+					type: "item"
+				}
+				{
+					id: "4E3707FF4237C317"
+					item: { count: 1, id: "dysoncubeproject_addon:dyson_fluid_storage_cell" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
 		}
 	]
 }

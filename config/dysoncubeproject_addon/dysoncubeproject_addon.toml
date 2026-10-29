@@ -1,12 +1,12 @@
 [Config]
-	#Solar sail requirement for a star with one solar radius; actual per-star requirements scale with radius squared and have no fixed cap
-	# Default: 50000000
-	# Range: > 1
-	BASE_SOLAR_SAIL_REQUIREMENT = 50000000
 	#Legacy config key; interpreted as the one-solar-radius base requirement, not a maximum
 	# Default: 50000000
 	# Range: > 1
 	MAX_SOLAR_PANELS = 50000000
+	#Solar sail requirement for a star with one solar radius; actual per-star requirements scale with radius squared and have no fixed cap
+	# Default: 50000000
+	# Range: > 1
+	BASE_SOLAR_SAIL_REQUIREMENT = 50000000
 	#How many solar panels each beam can support
 	# Default: 6
 	# Range: > 1

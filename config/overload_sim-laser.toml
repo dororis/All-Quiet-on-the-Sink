@@ -1,0 +1,25 @@
+#Emitter FE consumed and emitted per 20-tick batch.
+# Default: 100000
+# Range: 1 ~ 1000000000000000
+emitterFePerBatch = 100000
+#Constraint matrix FE per 20-tick batch.
+# Default: 100000
+# Range: 0 ~ 2000000000
+constraintFePerBatch = 100000
+#Burst matrix extreme voltage cost per 20-tick batch.
+# Default: 64
+# Range: 0 ~ 2000000000
+burstExtremeLightningPerBatch = 64
+# Default: 1.0
+# Range: 0.0 ~ 200.0
+laserDamageMultiplier = 1.0
+#Enable charged receiver explosions. False disables destruction, entity damage, sound and animation. Radius is configured in overload_sim-machines.toml.
+explosionEnabled = true
+#Legacy setting retained for existing configs; ignored. Use explosion.radius in overload_sim-machines.toml.
+# Default: 12
+# Range: 1 ~ 64
+explosionVerticalRadius = 12
+#Maximum block positions processed per tick for a receiver explosion.
+# Default: 1024
+# Range: 64 ~ 8192
+explosionBlockBudgetPerTick = 1024

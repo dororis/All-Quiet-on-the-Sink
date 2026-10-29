@@ -159,6 +159,11 @@
 		}
 		{
 			id: "11D9DD2C87E1E98A"
+			rewards: [{
+				id: "4FDB38D40639B6E4"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			tasks: [{
 				id: "5709D93DED61C134"
 				item: { count: 1, id: "rtsbuilding:remote_control_plugin" }
@@ -169,6 +174,11 @@
 		}
 		{
 			id: "21184D23E51842E2"
+			rewards: [{
+				id: "3E0763DB2C72663C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			tasks: [{
 				id: "7DB2523087E7C404"
 				item: { count: 1, id: "rtsbuilding:storage_integration_plugin" }
@@ -179,6 +189,11 @@
 		}
 		{
 			id: "4C89053AD8EE7201"
+			rewards: [{
+				id: "583FBD939FF625EC"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			tasks: [{
 				id: "376CAABF535AD57F"
 				item: { count: 1, id: "rtsbuilding:area_destroy_plugin" }
@@ -322,6 +337,11 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "634CECCF60798CEF"
+			rewards: [{
+				id: "2022375D7E8FA05B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			size: 2.0d
 			tasks: [{
 				id: "2BEB8759510F78A8"
@@ -334,6 +354,11 @@
 		}
 		{
 			id: "5F4BA7935D879B0B"
+			rewards: [{
+				id: "70A0A30650782191"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			tasks: [{
 				id: "74E2F07F1C446338"
 				item: { components: { "minecraft:stored_enchantments": { levels: { "minecraft:silk_touch": 1 } } }, count: 1, id: "minecraft:enchanted_book" }
@@ -346,6 +371,11 @@
 		{
 			id: "75EE9D8876D6DD46"
 			optional: true
+			rewards: [{
+				id: "69058A2048F57016"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			tasks: [
 				{
 					id: "2F69D37E1F67B9A6"
@@ -424,6 +454,11 @@
 			dependency_requirement: "one_started"
 			id: "3F9BA84D24EC40AD"
 			optional: true
+			rewards: [{
+				id: "2C8E2A3A766875EE"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			tasks: [{
 				id: "63A34EBF4E068150"
 				item: { count: 1, id: "ae2:mysterious_cube" }
@@ -437,6 +472,11 @@
 			dependency_requirement: "one_started"
 			id: "401539790B8C4293"
 			optional: true
+			rewards: [{
+				id: "74901D637944B58E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			tasks: [
 				{
 					count: 4L
@@ -460,6 +500,11 @@
 		}
 		{
 			id: "637A838DF516F4D1"
+			rewards: [{
+				id: "7E5886CD2B7992E3"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			tasks: [{
 				id: "629318E468BF8E23"
 				item: { count: 1, id: "apothic_enchanting:occult_ender_lead" }
@@ -471,6 +516,11 @@
 		{
 			dependency_requirement: "all_started"
 			id: "76278226634BFBB9"
+			rewards: [{
+				id: "4252602FB25B935B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			tasks: [{
 				id: "5366D66957A72B48"
 				item: { count: 1, id: "rtsbuilding:harvest_tier_diamond" }
@@ -491,6 +541,11 @@
 				id: "mbd2:rainbow_generator"
 			}
 			id: "310B1461CAD580D9"
+			rewards: [{
+				id: "6D1ACB38388E3065"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			size: 2.0d
 			tasks: [{
 				id: "5FA20BC265D49A10"
@@ -653,6 +708,11 @@
 		}
 		{
 			id: "171BA155BC7FC870"
+			rewards: [{
+				id: "79E5062B74A81308"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			tasks: [{
 				id: "3B9F3E6C80D69089"
 				item: { count: 1, id: "rtsbuilding:range_extension_max" }
@@ -662,6 +722,7 @@
 			y: 1.5d
 		}
 		{
+			disable_toast: true
 			icon: {
 				id: "hostilenetworks:overworld_prediction"
 			}
@@ -692,6 +753,11 @@
 				"634CECCF60798CEF"
 			]
 			id: "3CA8DBBE2082F2C1"
+			rewards: [{
+				id: "0398BC369F3BFFFB"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			tasks: [{
 				id: "6D11DF31A3315CE4"
 				item: { count: 1, id: "mbd2:configurable" }
@@ -706,6 +772,11 @@
 				"582700D11FC77C50"
 			]
 			id: "5744453A64416998"
+			rewards: [{
+				id: "52137385EF64BFB8"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			tasks: [{
 				id: "5EF8DD26CAA12F3E"
 				item: { count: 1, id: "mbd2:basic_configurable" }
@@ -721,6 +792,11 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "28334DD7A5DF8110"
+			rewards: [{
+				id: "3B0D34F20B5AFEFE"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			tasks: [{
 				id: "13A3BA426CA678CB"
 				item: { count: 1, id: "mbd2:advanced_configurable" }
@@ -736,6 +812,11 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "713490E524F34BCB"
+			rewards: [{
+				id: "2D86FA562A6125F4"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			tasks: [{
 				id: "002CFC28237AD8CB"
 				item: { count: 1, id: "mbd2:elite_configurable" }
@@ -791,6 +872,11 @@
 		}
 		{
 			id: "2CD2D364D38D17D1"
+			rewards: [{
+				id: "1860E11574206467"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			tasks: [{
 				id: "34999DE1EFB7659F"
 				item: { count: 1, id: "rtsbuilding:craft_terminal_plugin" }
@@ -801,6 +887,11 @@
 		}
 		{
 			id: "377CBCEFD56A0462"
+			rewards: [{
+				id: "03A2870AF4409542"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			tasks: [{
 				id: "7E101FD4EBDFC23D"
 				item: { count: 1, id: "apotheosis:spawner_chain" }
@@ -832,6 +923,11 @@
 		{
 			dependencies: ["3CA8DBBE2082F2C1"]
 			id: "71AFFBCA2206D88E"
+			rewards: [{
+				id: "7FB1A92E4D96C5CB"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			tasks: [{
 				id: "0FA4C18B34815628"
 				item: { count: 1, id: "rftoolsbase:dimensionalshard" }
@@ -932,6 +1028,14 @@
 		}
 		{
 			id: "1A8A6B283F8CD794"
+			rewards: [{
+				id: "567F56A025A71E49"
+				item: {
+					count: 1
+					id: "anvilcraft:anvil_hammer"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "46AB855AC37F6C52"
 				item: { count: 1, id: "minecraft:anvil" }
@@ -989,6 +1093,9 @@
 			]
 			dependency_requirement: "one_completed"
 			hide_dependency_lines: true
+			icon: {
+				id: "anvilcraft:stamping_platform"
+			}
 			id: "61EEB1D080CE06EE"
 			rewards: [{
 				id: "0CB571A1C38212B1"
@@ -998,16 +1105,34 @@
 				}
 				type: "item"
 			}]
-			tasks: [{
-				id: "6958AE38F59DF43A"
-				item: { count: 1, id: "anvilcraft:sifting_table" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "573B575C08A5A686"
+					item: { count: 1, id: "anvilcraft:stamping_platform" }
+					type: "item"
+				}
+				{
+					id: "3E60BE345B3D0619"
+					item: { count: 1, id: "minecraft:scaffolding" }
+					type: "item"
+				}
+				{
+					id: "6958AE38F59DF43A"
+					item: { count: 1, id: "anvilcraft:sifting_table" }
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: -2.5d
 			y: 3.5d
 		}
 		{
 			id: "60670962E21C311B"
+			rewards: [{
+				id: "5D53CF3A3013B352"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			tasks: [{
 				id: "4CE029FF28BBEE0A"
 				item: { count: 1, id: "rtsbuilding:chain_break_plugin" }
@@ -1018,6 +1143,11 @@
 		}
 		{
 			id: "0890A3B092841128"
+			rewards: [{
+				id: "428C144D08E51E84"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			tasks: [{
 				id: "3AE96E19EA554491"
 				item: { count: 1, id: "rtsbuilding:range_culling_plugin" }
@@ -1091,6 +1221,11 @@
 		}
 		{
 			id: "3A7A90B4A861209D"
+			rewards: [{
+				id: "704F605A97F4504A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			size: 2.0d
 			tasks: [{
 				id: "3B8F171C03B352CE"
@@ -1103,14 +1238,24 @@
 			dependencies: ["18B2453192FD189B"]
 			hide_dependency_lines: true
 			id: "2DC01AD54BFA7682"
-			rewards: [{
-				id: "72CFA6670C69077E"
-				item: {
-					count: 1
-					id: "just_sink:sink"
+			rewards: [
+				{
+					id: "72CFA6670C69077E"
+					item: {
+						count: 1
+						id: "just_sink:sink"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "7EC32E3C1D1E3D62"
+					item: {
+						count: 1
+						id: "anvilcraft_pigsplus:brass_sink"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "090EB18E4B49FD06"
 				item: { count: 1, id: "anvilcraft:fish_tank" }
@@ -1343,6 +1488,11 @@
 		{
 			dependencies: ["08864DC3056BD3CA"]
 			id: "2D62EC5414C21B57"
+			rewards: [{
+				id: "740F855F817C0D9B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			size: 1.0d
 			tasks: [{
 				id: "760D33892F4A9E3F"
@@ -1355,6 +1505,11 @@
 		{
 			dependencies: ["08864DC3056BD3CA"]
 			id: "42C5DE58BDE9A4F5"
+			rewards: [{
+				id: "5245B502EAF2BCEA"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			size: 1.0d
 			tasks: [{
 				id: "7EE2C52DD1CD6D66"

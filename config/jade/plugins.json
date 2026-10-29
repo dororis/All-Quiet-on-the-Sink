@@ -64,6 +64,9 @@
   "entangled": {
     "entangled_block_component": true
   },
+  "astralsorcery": {
+    "lumen": true
+  },
   "ftbquests": {
     "barrier": true
   },
@@ -148,6 +151,19 @@
     "installed_upgrades": true,
     "mineral_extractor_status": true
   },
+  "replication_addon_tiers": {
+    "matter_tank_tier_1": true,
+    "matter_tank_tier_2": true,
+    "matter_tank_tier_3": true,
+    "matter_tank_tier_4": true,
+    "matter_tank_tier_5": true,
+    "matter_tank_tier_6": true,
+    "matter_tank_tier_7": true,
+    "matter_tank_tier_8": true
+  },
+  "replication": {
+    "matter_tank": true
+  },
   "dimstorage": {
     "dim_block_base": true,
     "dim_tank": true
@@ -186,7 +202,9 @@
     "adventure": true
   },
   "anvilcraft_pigsplus": {
+    "beam_heat_converter": true,
     "celestial_reformer": true,
+    "soulbound_campfire": true,
     "precision_magnetic_pivot": true,
     "electric_enchanting_table": true,
     "wireless_transmitter": true

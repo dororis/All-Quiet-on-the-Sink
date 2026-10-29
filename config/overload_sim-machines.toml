@@ -1,0 +1,218 @@
+#普通模拟仓
+[simulation]
+	#FE storage capacity. Reenter the world to apply.
+	# Default: 2000000
+	# Range: > 1
+	energyCapacity = 2000000
+	#FE received per capability call. Reenter the world to apply.
+	# Default: 2000000
+	# Range: > 0
+	receivePerCall = 2000000
+	#Maximum operations in a batch. Reenter the world to apply.
+	# Default: 128
+	# Range: 1 ~ 256
+	maxParallel = 128
+	#Parallel operations supplied by each matrix. Reenter the world to apply.
+	# Default: 4
+	# Range: 1 ~ 256
+	parallelPerMatrix = 4
+	#Ticks between new batch checks. Reenter the world to apply.
+	# Default: 10
+	# Range: 1 ~ 400
+	startIntervalTicks = 10
+	#Items exported per output cycle. Reenter the world to apply.
+	# Default: 64
+	# Range: > 0
+	ejectPerCycle = 64
+	#Recipe time percentage; new batches only. Reenter the world to apply.
+	# Default: 100
+	# Range: 1 ~ 20000
+	timePercent = 100
+	#Recipe FE percentage; new batches only. Reenter the world to apply.
+	# Default: 100
+	# Range: 0 ~ 20000
+	energyCostPercent = 100
+	#Recipe lightning percentage; new batches only. Reenter the world to apply.
+	# Default: 100
+	# Range: 0 ~ 20000
+	lightningCostPercent = 100
+
+#模拟室
+[multiblock]
+	#FE storage capacity. Reenter the world to apply.
+	# Default: 2000000
+	# Range: > 1
+	energyCapacity = 2000000
+	#FE received per capability call. Reenter the world to apply.
+	# Default: 2000000
+	# Range: > 0
+	receivePerCall = 2000000
+	#FE drawn from Applied Flux storage per tick. Reenter the world to apply.
+	# Default: 10000
+	# Range: > 0
+	networkFePerTick = 10000
+	#Maximum crystals participating in new batches; storage is retained. Reenter the world to apply.
+	# Default: 49
+	# Range: 1 ~ 49
+	maxCrystals = 49
+	#Items per bulk output slot; existing goods are retained. Reenter the world to apply.
+	# Default: 1024
+	# Range: > 1
+	outputSlotLimit = 1024
+	#Ticks between automatic export attempts. Reenter the world to apply.
+	# Default: 5
+	# Range: 1 ~ 400
+	exportIntervalTicks = 5
+	#Recipe time percentage; new batches only. Reenter the world to apply.
+	# Default: 100
+	# Range: 1 ~ 20000
+	timePercent = 100
+	#Recipe FE percentage; new batches only. Reenter the world to apply.
+	# Default: 100
+	# Range: 0 ~ 20000
+	energyCostPercent = 100
+	#Recipe lightning percentage; new batches only. Reenter the world to apply.
+	# Default: 100
+	# Range: 0 ~ 20000
+	lightningCostPercent = 100
+
+#共振线圈
+[coil]
+	#Base FE capacity. Reenter the world to apply.
+	# Default: 10000000
+	# Range: 1 ~ 40000000000
+	baseCapacity = 10000000
+	#Maximum module FE capacity; existing FE is retained. Reenter the world to apply.
+	# Default: 20000000000
+	# Range: 1 ~ 40000000000
+	capacityLimit = 20000000000
+	#Selected lightning voltage consumed per strike. Reenter the world to apply.
+	# Default: 10
+	# Range: 1 ~ 2000000
+	lightningCost = 10
+	#Effective efficiency level limit. Reenter the world to apply.
+	# Default: 10
+	# Range: 0 ~ 10
+	efficiencyLimit = 10
+	#Effective fortune level limit. Reenter the world to apply.
+	# Default: 5
+	# Range: 0 ~ 5
+	fortuneLimit = 5
+	#Base mining speed before efficiency. Reenter the world to apply.
+	# Default: 9.0
+	# Range: 0.1 ~ 2000.0
+	baseMiningSpeed = 9.0
+
+#特斯拉超限水晶配方
+[tesla]
+	#FE per crystal in the addon Tesla recipe. Native five-tick processing remains fixed. Reenter the world to apply.
+	# Default: 500000
+	# Range: 5 ~ 16000000
+	crystalFe = 500000
+	#Extreme voltage output per crystal. Frozen for an already-started batch. Reenter the world to apply.
+	# Default: 64
+	# Range: 1 ~ 2000000
+	crystalEhv = 64
+
+#强能工作站
+[workstation]
+	#Incoming 20-tick laser energy must be strictly greater than this threshold. Reenter the world to apply.
+	# Default: 1000000000
+	# Range: 0 ~ 1000000000000000
+	laserThreshold = 1000000000
+	#Maximum recipe operations per batch. Reenter the world to apply.
+	# Default: 1024
+	# Range: 1 ~ 2097152
+	maxParallel = 1024
+	#Ticks needed for one successful batch. Reenter the world to apply.
+	# Default: 2
+	# Range: 1 ~ 144000
+	cycleTicks = 2
+	#Items per input/output slot; existing goods are retained. Reenter the world to apply.
+	# Default: 1000000
+	# Range: > 1
+	slotCapacity = 1000000
+	#mB per fluid tank; existing fluid is retained. Reenter the world to apply.
+	# Default: 1024000000
+	# Range: > 1
+	tankCapacity = 1024000000
+	#Total automatic item export per tick, shared by AE and adjacent containers. Zero disables export. Reenter the world to apply.
+	# Default: 2147483647
+	# Range: > 0
+	itemExportLimit = 2147483647
+	#Total automatic fluid export mB per tick, shared by AE and adjacent containers. Zero disables export. Reenter the world to apply.
+	# Default: 2147483647
+	# Range: > 0
+	fluidExportLimit = 2147483647
+
+#激光网络
+[laser]
+	#Maximum beam FE per 20-tick batch. An over-limit source emits nothing and pays nothing. An over-limit modifier pays no modifier cost; upstream emitted costs remain paid. Reenter the world to apply.
+	# Default: 1000000000000000
+	# Range: 1 ~ 1000000000000000
+	maxBeamFe = 1000000000000000
+	#FE capacity of laser matrices and emitters; existing FE is retained. Reenter the world to apply.
+	# Default: 1000000000
+	# Range: 1 ~ 2048000000000000000
+	energyCapacity = 1000000000
+	#Emitter output travel distance in blocks. Reenter the world to apply.
+	# Default: 6
+	# Range: 1 ~ 64
+	emitterRange = 6
+	#Constraint matrix output travel distance in blocks. Reenter the world to apply.
+	# Default: 6
+	# Range: 1 ~ 64
+	constraintRange = 6
+	#Deflector output travel distance in blocks. Reenter the world to apply.
+	# Default: 6
+	# Range: 1 ~ 64
+	deflectorRange = 6
+	#Minimum selectable enhancement FE. Effective minimum is clamped to maximum. Reenter the world to apply.
+	# Default: 100000
+	# Range: 1 ~ 2000000000
+	boostMinimum = 100000
+	#Maximum selectable enhancement FE. Reenter the world to apply.
+	# Default: 9000000
+	# Range: 1 ~ 2000000000
+	boostMaximum = 9000000
+	#Enhancement slider step in FE. Reenter the world to apply.
+	# Default: 100000
+	# Range: 1 ~ 2000000000
+	boostStep = 100000
+	#Beam multiplier of each burst matrix. Reenter the world to apply.
+	# Default: 2
+	# Range: 1 ~ 128
+	burstMultiplier = 2
+	#Ticks between beam damage checks. Reenter the world to apply.
+	# Default: 2
+	# Range: 1 ~ 400
+	damageIntervalTicks = 2
+	#Maximum damage per beam hit. Reenter the world to apply.
+	# Default: 1000000.0
+	# Range: 0.0 ~ 2000000.0
+	maxDamage = 1000000.0
+
+#坍缩核心
+[core]
+	#Minimum incoming 20-tick laser energy needed for particle production. Particle conversion cost remains fixed. Reenter the world to apply.
+	# Default: 1000000000
+	# Range: 1 ~ 1000000000000000
+	activationThreshold = 1000000000
+
+#粒子约束器
+[receiver]
+	#FE output storage capacity; existing FE is retained. Reenter the world to apply.
+	# Default: 1024000000000000000
+	# Range: 1 ~ 2048000000000000000
+	energyCapacity = 1024000000000000000
+	#Stored particle capacity; lowering preserves existing stock without an explosion. Reenter the world to apply.
+	# Default: 125000
+	# Range: 1 ~ 2000000000
+	particleCapacity = 125000
+
+#约束器爆炸
+[explosion]
+	#Spherical explosion radius in blocks; loaded chunks only. Explosion enable switch remains in overload_sim-laser.toml. Reenter the world to apply.
+	# Default: 12
+	# Range: 1 ~ 64
+	radius = 12

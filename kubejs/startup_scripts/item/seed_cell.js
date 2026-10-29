@@ -1,7 +1,7 @@
 StartupEvents.registry('item', event => {
     const attributes = ['water', 'fire', 'dirt']
 
-    event.create('infinities_WFD_cell', 'meinfinitycell:infinities_cell')
+    event.create('infinities_wfd_cell', 'meinfinitycell:infinities_cell')
         .setName(Text.literal('水火土种子'))
         .setKeys(KeyList.create().adds(keys => {
             attributes.forEach(attr => {

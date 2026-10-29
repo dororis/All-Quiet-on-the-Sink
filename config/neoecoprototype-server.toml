@@ -1,9 +1,3 @@
-#Enable the /prototypefumo command, which hands out a plushie wearing any player's skin.
-#Off by default: the command needs OP level 2 or creative mode as well, and the skin it
-#copies belongs to a named player. Turn this on and it answers again.
-#The dolls themselves are not switched off here: their worn effects, their creative tab
-#entries and the creepers that keep their distance from a placed one all ship on.
-fumo_command_enabled = false
 #Whether the structure expansion card eats the ticket it works from: one paper to
 #write a shortfall note, and one blank AE2 pattern to write an exchange pattern.
 #On by default - off, every shift-click prints either of them for nothing, and a
@@ -18,6 +12,12 @@ derive_processor_recipes_from_inscriber = true
 #Applies to the JSON recipes and the inscriber derivation alike, so removing a data
 #file alone is not enough to disable a recipe the inscriber still provides.
 disabled_processor_recipes = []
+#Wireless ME links: the link card, the level's rebuild pass and its chunk wake.
+#Off by default in this release - the feature works and is guarded, but what a
+#controller grant should buy is not settled. Turning it on lets a player join two
+#devices with no cable between them; links recorded while it was on stay in the
+#world's data and come back when it is switched on again.
+wireless_links = false
 
 [l1_storage]
 	#Additional eco storage-cell item IDs accepted by L1 drives despite tier.
@@ -95,3 +95,14 @@ disabled_processor_recipes = []
 	# Default: 0.1
 	# Range: 0.0 ~ 0.25
 	idle_power_saving = 0.1
+
+[fumo_dolls]
+	#AE per tick the wearing TedXenon plushie makes and feeds into the chargeable items
+	#in the wearer's inventory and armour slots, the held hotbar slot included.
+	#It is void-made, never drawn from the grid, and nothing is banked while there is
+	#nothing to charge. Zero switches the charging off; the tooltip line is static text
+	#either way, because a server config is not readable on a client.
+	#Default: 100.
+	# Default: 100.0
+	# Range: 0.0 ~ 1000000.0
+	charge_ae_per_tick = 100.0

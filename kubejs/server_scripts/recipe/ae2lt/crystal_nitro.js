@@ -192,4 +192,19 @@ ServerEvents.recipes(event => {
     "lightningCost": 1,
     "lightningTier": "high_voltage"
     })
+    event.custom(
+    {
+    "type": "ae2lt:crystal_catalyzer",
+    "catalyst": {
+    "item": "anvilcraft:multiphase_transcendium"
+    },
+    "catalystCount": 1,
+    "output": {
+    "id": "overload_sim:transcendent_crystal",
+    "count": 1
+    },
+    "energyPerCycle": 100000,
+    "lightningCost": 1,
+    "lightningTier": "high_voltage"
+    })
 })

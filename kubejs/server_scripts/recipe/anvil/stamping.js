@@ -135,4 +135,18 @@ ServerEvents.recipes(event => {
       }
     ]
   })
+  event.custom({
+    type: "anvilcraft:item_crush",
+    ingredients: [
+      {
+        items: "apotheosis:godforged_pearl"
+      }
+    ],
+    results: [
+      {
+        id: "ae2:matter_ball",
+        count: 64
+      }
+    ]
+  })
 })

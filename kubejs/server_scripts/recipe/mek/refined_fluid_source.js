@@ -103,3 +103,24 @@ ServerEvents.recipes(event => {
         }
     }).id('kubejs:rotary/primordial_matter')
 })
+ServerEvents.recipes(event => {
+    event.custom({
+        "type": "mekanism:rotary",      
+        "fluid_input": {
+            "amount": 1,
+            "fluid": "jdte:life_fluid_source"
+        },
+        "chemical_output": {
+            "amount": 1,
+            "id": "mekmm:nutrient_solution"
+        },       
+        "chemical_input": {
+            "amount": 1,
+            "chemical": "mekmm:nutrient_solution"
+        },
+        "fluid_output": {
+            "amount": 1,
+            "id": "jdte:life_fluid_source"
+        }
+    }).id('kubejs:rotary/life_fluid_source')
+})

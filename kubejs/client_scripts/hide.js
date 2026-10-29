@@ -6,8 +6,6 @@ RecipeViewerEvents.removeEntries('item', event => {
     event.remove('kubejs:3x3_output_assembly')
     event.remove('irons_spellbooks:scroll')
     event.remove('kubejs:apothsis_slayer_factory')
-    event.remove('kubejs:seed_breeder')
-    event.remove('kubejs:seed_breeder_2')
     event.remove('kubejs:amethyst_growth_accelerator')
     event.remove('kubejs:earth_blast_furnace_controller')
     event.remove('mbd2:fake_machine')

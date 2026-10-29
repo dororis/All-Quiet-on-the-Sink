@@ -540,16 +540,6 @@
 			y: 3.5d
 		}
 		{
-			id: "0E631679D0133170"
-			tasks: [{
-				id: "09F012F35AFB5675"
-				item: { count: 1, id: "kubejs:infinities_WFD_cell" }
-				type: "item"
-			}]
-			x: 6.0d
-			y: 3.5d
-		}
-		{
 			id: "3244F8DB91363FBE"
 			size: 2.0d
 			tasks: [{
@@ -657,6 +647,16 @@
 			}]
 			x: 6.0d
 			y: 5.0d
+		}
+		{
+			id: "3FD821646D1D9445"
+			tasks: [{
+				id: "7DBEFC10704651CA"
+				item: { count: 1, id: "kubejs:infinities_wfd_cell" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.5d
 		}
 	]
 }

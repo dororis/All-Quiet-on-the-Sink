@@ -1,0 +1,16 @@
+#Maximum number of Replica Upgrades that can be installed in a single machine (0-8).
+#Setting to 0 disables installing Replica Upgrades.
+#Note: If Mekanism Tweaks is installed, the maximum upgrade limit will be expanded by Mekanism Tweaks settings unless this is set to 0.
+# Default: 8
+# Range: 0 ~ 8
+replicaUpgradeMaxStack = 8
+#Calculation formula for the Replica Upgrade production multiplier.
+#false = Linear scaling: Multiplier = (installed + 1)x (e.g. 1 installed -> x2, 2 installed -> x3 ... 8 installed -> x9).
+#true  = Exponential scaling: Multiplier = (2^installed)x (e.g. 1 installed -> x2, 2 installed -> x4 ... 8 installed -> x256).
+replicaUpgradeExponential = true
+#Capacity multiplier for the internal matter tanks of both Collapser (現実崩落機) and Imaginator (幻想具現化機).
+#Base capacity is determined by machine tier (Standard: 16,000 mB, Basic: 32,000 mB, Advanced: 64,000 mB, Elite: 128,000 mB, Ultimate: 256,000 mB).
+#Example: 10.0 increases internal tank capacities tenfold.
+# Default: 1.0
+# Range: 0.01 ~ 10000.0
+matterTankCapacityMultiplier = 1.0

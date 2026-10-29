@@ -3,10 +3,6 @@ ServerEvents.recipes(event => {
         {
   "type": "neoecoae:integrated_working_station",
   "energy": 1000000,
-  "itemOutput": {
-    "count": 1,
-    "id": "anvilcraft:multiphase_matter"
-  },
   "fluidOutput": {
     "amount": 1000,
     "id": "oritech:still_strange_matter"
@@ -43,6 +39,29 @@ ServerEvents.recipes(event => {
     {
       "count": 1,
       "item": "ae2lt:floating_matter"
+    }
+  ],
+})
+event.custom(
+        {
+  "type": "neoecoae:integrated_working_station",
+  "energy": 1000000,
+  "inputFluid": {
+    "amount": 1000,
+    "fluid": "oritech:still_strange_matter"
+  },
+  "itemOutput": {
+    "count": 1,
+    "id": "anvilcraft:multiphase_matter"
+  },
+  "inputItems": [
+    {
+      "count": 1,
+      "item": "anvilcraft:ember_metal_ingot"
+    },
+    {
+      "count": 1,
+      "item": "anvilcraft:frost_metal_ingot"
     }
   ],
 })

@@ -40,7 +40,12 @@
 		}
 	]
 	order_index: 2
-	quest_links: [ ]
+	quest_links: [{
+		id: "3FD725DF7CA301DA"
+		linked_quest: "68A04230EA3EC19D"
+		x: -8.0d
+		y: 2.0d
+	}]
 	quests: [
 		{
 			id: "2602805FAE15FE6B"
@@ -295,16 +300,6 @@
 			}]
 			x: 3.5d
 			y: -1.0d
-		}
-		{
-			id: "4A4BADB3626C8AD6"
-			tasks: [{
-				id: "61CDB39562713E96"
-				item: { count: 1, id: "apothic_enchanting:infused_breath" }
-				type: "item"
-			}]
-			x: -8.0d
-			y: 2.0d
 		}
 		{
 			id: "08BBEECEB0E72C7D"

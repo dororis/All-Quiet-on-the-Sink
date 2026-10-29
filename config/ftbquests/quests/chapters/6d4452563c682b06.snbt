@@ -8,7 +8,17 @@
 	}
 	id: "6D4452563C682B06"
 	images: [ ]
-	order_index: 16
+	order_index: 18
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "2E3B04238F005337"
+		size: 2.0d
+		tasks: [{
+			id: "1F7F113CEDB75751"
+			item: { count: 1, id: "astralsorcery:starmetal_ingot" }
+			type: "item"
+		}]
+		x: 0.0d
+		y: -0.5d
+	}]
 }

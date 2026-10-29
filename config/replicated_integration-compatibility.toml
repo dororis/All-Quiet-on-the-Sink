@@ -1,0 +1,7 @@
+[mekanism]
+	#Enable synthetic Mekanism nuclear conversions such as fissile fuel -> nuclear waste and polonium -> antimatter.
+	enableNuclearRecipe = false
+
+[notices]
+	#Whether the one-time compatibility summary notice has already been shown.
+	compatibilitySummaryNoticeShown = true

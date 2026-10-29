@@ -90,7 +90,6 @@
 				id: "ae2lt:lightning_collector"
 			}
 			id: "6C20CE341FBA6D38"
-			optional: true
 			size: 2.0d
 			tasks: [
 				{
@@ -268,7 +267,6 @@
 				type: "item"
 			}]
 			tasks: [{
-				consume_items: true
 				id: "6C162E27A6D4B0E0"
 				item: { count: 1, id: "ae2lt:rainbow_pigmee_fumo" }
 				type: "item"

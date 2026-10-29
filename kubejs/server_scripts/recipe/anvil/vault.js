@@ -72,5 +72,28 @@ event.custom(
       "id": "irons_spellbooks:pyrium_ingot"
     }
   ]
+})
+event.custom(
+        {
+  "type": "anvilcraft:item_inject",
+  "block_ingredient": {
+    "blocks": "justdirethings:gooblock_tier1"
+  },
+  "block_result": {
+    "block": "replication:raw_replica_block"
+  },
+  "ingredients": [
+    {
+      "count": 1,
+      "items": "extendedae_plus:oblivion_singularity"
+    }
+  ],
+  "results": [
+    {
+      "count": 6,
+      "id": "replication:raw_replica"
+    }
+  ]
 }
-)})
+)
+})

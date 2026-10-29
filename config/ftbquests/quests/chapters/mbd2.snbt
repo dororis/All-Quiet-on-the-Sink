@@ -69,24 +69,14 @@
 		}
 		{
 			id: "15AE1A0BA8447217"
-			rewards: [
-				{
-					id: "31C43361CD66B374"
-					item: {
-						count: 1
-						id: "mbd2:3x3input"
-					}
-					type: "item"
+			rewards: [{
+				id: "31C43361CD66B374"
+				item: {
+					count: 1
+					id: "mbd2:3x3input"
 				}
-				{
-					id: "3B90F3784D2259BC"
-					item: {
-						count: 1
-						id: "mbd2:3x3output"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "679653D9B3A6BED3"
 				type: "checkmark"
@@ -211,6 +201,14 @@
 		}
 		{
 			id: "70159AB550F524F3"
+			rewards: [{
+				id: "2F0BF2EE51BC21B4"
+				item: {
+					count: 1
+					id: "ars_nouveau:novice_spell_book"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3D936C0F7A748947"
 				type: "checkmark"
@@ -245,7 +243,7 @@
 				item: { count: 1, id: "mbd2:atomic_reconstructor" }
 				type: "item"
 			}]
-			x: 9.5d
+			x: 11.5d
 			y: 1.5d
 		}
 		{
@@ -277,6 +275,16 @@
 			}]
 			x: 11.5d
 			y: -0.5d
+		}
+		{
+			id: "72F05AA04F0FE626"
+			tasks: [{
+				id: "76AE90C915AB5F6E"
+				item: { count: 1, id: "mbd2:sourcegate" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.5d
 		}
 	]
 }

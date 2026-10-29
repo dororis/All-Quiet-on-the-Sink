@@ -90,4 +90,4 @@
 	#Define the size of the cache for the Throughput Monitor. Only affects "Per minute" and "Per 10 minutes" configurations. Higher values will increase precison, but will make the monitor react slower to changes.
 	# Default: 80
 	# Range: 40 ~ 400
-	throughputMonitorCacheSize = 80
+	throughputMonitorCacheSize = 40

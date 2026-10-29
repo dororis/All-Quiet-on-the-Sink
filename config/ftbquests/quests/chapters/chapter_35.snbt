@@ -12,41 +12,12 @@
 		{
 			click_action: "none:"
 			height: 1.0d
-			id: "53527B755833BF27"
-			image: "fancymenu:textures/layout_editor/widgets/layers/move_down.png"
-			rotation: -90.0d
-			width: 1.0d
-			x: -3.5d
-			y: -1.0d
-		}
-		{
-			click_action: "none:"
-			height: 1.0d
-			id: "0DFA1AB1CA21F709"
-			image: "fancymenu:textures/layout_editor/widgets/layers/move_down.png"
-			rotation: -90.0d
-			width: 1.0d
-			x: 0.5d
-			y: -1.0d
-		}
-		{
-			click_action: "none:"
-			height: 1.0d
 			id: "64F2F30BD6F9ED91"
 			image: "fancymenu:textures/layout_editor/widgets/layers/move_down.png"
 			rotation: -90.0d
 			width: 1.0d
-			x: -3.25d
+			x: 0.75d
 			y: -6.0d
-		}
-		{
-			height: 1.0d
-			id: "66826D324E76BBF9"
-			image: "ldlib2:textures/gui/icon/magnet.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -1.5d
-			y: 3.0d
 		}
 		{
 			height: 1.0d
@@ -54,8 +25,8 @@
 			image: "minecraft:block/grass_block_side"
 			rotation: 0.0d
 			width: 1.0d
-			x: 2.5d
-			y: -2.0d
+			x: 5.5d
+			y: 1.0d
 		}
 		{
 			height: 1.0d
@@ -63,8 +34,8 @@
 			image: "allthemodium:block/teleport_pad_top"
 			rotation: 0.0d
 			width: 1.0d
-			x: 2.5d
-			y: 0.0d
+			x: 7.5d
+			y: 1.0d
 		}
 		{
 			height: 1.0d
@@ -72,8 +43,8 @@
 			image: "ftbteams:textures/add.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 2.5d
-			y: -1.0d
+			x: 6.5d
+			y: 1.0d
 		}
 		{
 			click_action: "none:"
@@ -82,7 +53,7 @@
 			image: "fancymenu:textures/layout_editor/widgets/layers/move_down.png"
 			rotation: 90.0d
 			width: 1.0d
-			x: 0.25d
+			x: 4.25d
 			y: -6.0d
 		}
 		{
@@ -91,7 +62,7 @@
 			image: "minecraft:textures/gui/sprites/widget/locked_button.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 2.5d
+			x: 6.5d
 			y: -6.0d
 		}
 		{
@@ -100,16 +71,156 @@
 			image: "ftblibrary:icons/dropdown_out"
 			rotation: 0.0d
 			width: 1.0d
-			x: -4.5d
+			x: -1.0d
 			y: -7.5d
+		}
+		{
+			click_action: "none:"
+			height: 0.75d
+			id: "75D0792060B76B48"
+			image: "minecraft:block/sponge"
+			rotation: 0.0d
+			width: 0.75d
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			click_action: "none:"
+			height: 0.75d
+			id: "2E26E676B5CBAD6D"
+			image: "minecraft:block/sponge"
+			rotation: 0.0d
+			width: 0.75d
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			click_action: "none:"
+			height: 0.75d
+			id: "192F15E913B949E3"
+			image: "minecraft:block/sponge"
+			rotation: 0.0d
+			width: 0.75d
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			click_action: "none:"
+			height: 0.75d
+			id: "3FB2A8D7D9BDAB6B"
+			image: "minecraft:block/sponge"
+			rotation: 0.0d
+			width: 0.75d
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			click_action: "none:"
+			height: 0.75d
+			id: "734F5E886BFD59D8"
+			image: "minecraft:block/sponge"
+			rotation: 0.0d
+			width: 0.75d
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			click_action: "none:"
+			height: 0.75d
+			id: "3E9B461D552A0DCC"
+			image: "minecraft:block/sponge"
+			rotation: 0.0d
+			width: 0.75d
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			click_action: "none:"
+			height: 0.75d
+			id: "21F4232A2BBB264D"
+			image: "minecraft:block/sponge"
+			rotation: 0.0d
+			width: 0.75d
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			click_action: "none:"
+			height: 0.75d
+			id: "72F04F557BE65BFF"
+			image: "minecraft:block/sponge"
+			rotation: 0.0d
+			width: 0.75d
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "11D0682AFE30290E"
+			image: "fancymenu:textures/layout_editor/widgets/layers/move_down.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "4C18555E8085BA49"
+			image: "fancymenu:textures/layout_editor/widgets/layers/move_down.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "417299821A86E1AB"
+			image: "fancymenu:textures/layout_editor/widgets/layers/move_down.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "4EE6D8DFAD3C4487"
+			image: "fancymenu:textures/layout_editor/widgets/layers/move_down.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "1994B0C42D319628"
+			image: "fancymenu:textures/layout_editor/widgets/layers/move_down.png"
+			rotation: 180.0d
+			width: 1.0d
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "0B9AA54ED9773EC2"
+			image: "fancymenu:textures/layout_editor/widgets/layers/move_down.png"
+			rotation: 180.0d
+			width: 1.0d
+			x: -1.0d
+			y: -2.5d
 		}
 	]
 	order_index: 5
 	quest_links: [{
-		id: "4EA87F92051D2C83"
-		linked_quest: "1782014E0B3642BA"
-		x: -1.5d
-		y: -8.0d
+		id: "54C16816D1650F3B"
+		linked_quest: "44DAEB1ACB3069B8"
+		x: -1.0d
+		y: 1.5d
 	}]
 	quests: [
 		{
@@ -120,30 +231,8 @@
 				item: { count: 1, id: "anvilcraft:giant_anvil" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: -3.0d
-		}
-		{
-			id: "32B6CF7A6F6AF881"
-			size: 3.0d
-			tasks: [{
-				id: "24615E4E9468B21B"
-				item: { count: 1, id: "anvilcraft:acceleration_ring" }
-				type: "item"
-			}]
-			x: -1.5d
+			x: 2.5d
 			y: -6.0d
-		}
-		{
-			id: "45D49F9C1E75D865"
-			size: 3.0d
-			tasks: [{
-				id: "7FFCB871E75BA921"
-				item: { count: 1, id: "anvilcraft:acceleration_ring" }
-				type: "item"
-			}]
-			x: -1.5d
-			y: 1.0d
 		}
 		{
 			disable_toast: true
@@ -153,7 +242,7 @@
 				item: { count: 1, id: "anvilcraft:sifting_table" }
 				type: "item"
 			}]
-			x: -1.5d
+			x: 6.5d
 			y: -1.0d
 		}
 		{
@@ -164,7 +253,7 @@
 				item: { count: 1, id: "anvilcraft:sifting_table" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: 7.5d
 			y: -1.0d
 		}
 		{
@@ -175,7 +264,7 @@
 				item: { count: 1, id: "anvilcraft:sifting_table" }
 				type: "item"
 			}]
-			x: -2.5d
+			x: 5.5d
 			y: -1.0d
 		}
 		{
@@ -185,7 +274,7 @@
 				id: "44CCB472BAB3F89B"
 				type: "checkmark"
 			}]
-			x: -4.5d
+			x: -1.0d
 			y: -6.0d
 		}
 		{
@@ -195,7 +284,7 @@
 				item: { count: 1, id: "anvilcraft:space_overcompressor" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 5.5d
 			y: -6.0d
 		}
 		{
@@ -205,8 +294,8 @@
 				item: { count: 1, id: "allthemodium:vibranium_allthemodium_alloy_block" }
 				type: "item"
 			}]
-			x: -4.5d
-			y: -2.0d
+			x: 7.5d
+			y: -3.0d
 		}
 		{
 			id: "408721C8EF4530B4"
@@ -215,8 +304,8 @@
 				item: { count: 1, id: "allthemodium:unobtainium_allthemodium_alloy_block" }
 				type: "item"
 			}]
-			x: -4.5d
-			y: -1.0d
+			x: 6.5d
+			y: -3.0d
 		}
 		{
 			id: "7014F2314A965A13"
@@ -225,44 +314,8 @@
 				item: { count: 1, id: "allthemodium:unobtainium_vibranium_alloy_block" }
 				type: "item"
 			}]
-			x: -4.5d
-			y: 0.0d
-		}
-		{
-			id: "1143155291AA4145"
-			tasks: [{
-				id: "2DF360D9EA0B3837"
-				type: "checkmark"
-			}]
-			x: 1.5d
-			y: -2.0d
-		}
-		{
-			id: "78A57AE6D65D0806"
-			tasks: [{
-				id: "2C0AB312A15E378F"
-				type: "checkmark"
-			}]
-			x: 1.5d
-			y: -1.0d
-		}
-		{
-			id: "19EA2FF648835BAA"
-			tasks: [{
-				id: "62A186EB74B01751"
-				type: "checkmark"
-			}]
-			x: 1.5d
-			y: 0.0d
-		}
-		{
-			id: "2652440368CA758B"
-			tasks: [{
-				id: "2EF669055BD7DD37"
-				type: "checkmark"
-			}]
-			x: 1.5d
-			y: 1.5d
+			x: 5.5d
+			y: -3.0d
 		}
 		{
 			id: "29A2085251FF1AFB"
@@ -271,8 +324,103 @@
 				item: { count: 1, id: "kubejs:time_fluid_cell" }
 				type: "item"
 			}]
-			x: -4.5d
-			y: 1.5d
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			icon: {
+				id: "anvilcraft:spectral_anvil"
+			}
+			id: "775C1EE1CAA5722E"
+			tasks: [
+				{
+					id: "5D0DCF2E119B1F50"
+					type: "checkmark"
+				}
+				{
+					id: "7E292F7383551DFF"
+					item: { count: 1, id: "anvilcraft:spectral_anvil" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			id: "6D1B838392FA80EF"
+			tasks: [{
+				id: "4277CEE86A069409"
+				item: { count: 1, id: "justdynathings:paradox_mixer" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			icon: {
+				id: "anvilcraft:menger_sponge"
+			}
+			id: "519D88E797EE6122"
+			tasks: [
+				{
+					count: 20L
+					id: "070CDAB99FA89F41"
+					item: { count: 1, id: "anvilcraft:menger_sponge" }
+					type: "item"
+				}
+				{
+					id: "25E215B6BAB390E9"
+					item: { count: 1, id: "anvilcraft:fluid_tank" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			disable_toast: true
+			id: "0D7A64460B718AFB"
+			tasks: [{
+				id: "2800AD6F52322EAB"
+				item: { count: 1, id: "anvilcraft:transparent_crafting_table" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			disable_toast: true
+			id: "0F89563BE73B512C"
+			tasks: [{
+				id: "2E542FBB74385260"
+				item: { count: 1, id: "anvilcraft:transparent_crafting_table" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			disable_toast: true
+			id: "0E4C6F755E22B205"
+			tasks: [{
+				id: "7CEDA50783152B5C"
+				item: { count: 1, id: "anvilcraft:transparent_crafting_table" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			id: "25A03650E0B960C2"
+			size: 2.0d
+			tasks: [{
+				id: "4DDEC90886F8B0CD"
+				item: { count: 1, id: "anvilcraft:large_cauldron" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
 		}
 	]
 }

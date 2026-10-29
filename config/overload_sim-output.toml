@@ -1,0 +1,6 @@
+#Maximum same-dimension wireless range in blocks; 0 means unlimited. Target chunks are never forced to load.
+# Default: 128
+# Range: > 0
+wirelessRange = 128
+#Allow wireless output to other dimensions. Only loaded target chunks are eligible.
+allowCrossDimension = true

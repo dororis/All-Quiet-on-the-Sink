@@ -3,30 +3,30 @@
   "inputPattern": {
     "grid": [
       [
-        "010",
         "111",
-        "010"
+        "101",
+        "111"
       ],
       [
-        "010",
-        "111",
-        "010"
+        "101",
+        "020",
+        "101"
       ],
       [
-        "030",
-        "313",
-        "030"
+        "111",
+        "101",
+        "111"
       ]
     ],
     "mapping": {
       "0": {
-        "blocks": "mekanism:ultimate_chemical_tank"
+        "blocks": "minecraft:air"
       },
       "1": {
-        "blocks": "anvilcraft:polished_heavy_iron_block"
+        "blocks": "allthecompressed:sponge_3x"
       },
-      "3": {
-        "blocks": "anvilcraft:polished_heavy_iron_slab"
+      "2": {
+        "blocks": "justdynathings:paradox_mixer"
       }
     }
   },
@@ -38,22 +38,22 @@
         "111"
       ],
       [
-        "111",
-        "111",
-        "111"
+        "101",
+        "000",
+        "101"
       ],
       [
         "111",
-        "111",
+        "101",
         "111"
       ]
     ],
     "mapping": {
       "0": {
-        "blocks": "mekmm:large_gas_burning_generator"
+        "blocks": "minecraft:air"
       },
       "1": {
-        "blocks": "minecraft:air"
+        "blocks": "anvilcraft:menger_sponge"
       }
     }
   }

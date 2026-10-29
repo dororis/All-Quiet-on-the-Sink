@@ -17,7 +17,7 @@ ServerEvents.recipes(event => {
         }
         ],
         "output": {
-        "#": 64000,
+        "#": 16000,
         "#t": "ae2:f",
         "id": "justdirethings:time_fluid_source"
         }

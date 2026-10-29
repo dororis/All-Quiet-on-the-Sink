@@ -73,6 +73,11 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "5B982B9282E3271A"
+			rewards: [{
+				id: "6C984624AE02E7C0"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			size: 1.0d
 			tasks: [{
 				id: "7D0075D3E23C63FB"
@@ -92,6 +97,11 @@
 				id: "mekanism:rotary_condensentrator"
 			}
 			id: "575DBA70DABFFDC3"
+			rewards: [{
+				id: "7F1D75A4FA9C60F7"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			size: 1.0d
 			tasks: [
 				{
@@ -111,6 +121,11 @@
 		{
 			dependency_requirement: "one_completed"
 			id: "2E4B78360DE9BF82"
+			rewards: [{
+				id: "5F9B5452D4C8A230"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			tasks: [
 				{
 					id: "14A9D6C34A509425"
@@ -132,6 +147,11 @@
 		}
 		{
 			id: "1529431003562CD3"
+			rewards: [{
+				id: "72FB1E44FD6ADE92"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			size: 2.0d
 			tasks: [{
 				id: "6AD157749B63A763"
@@ -150,6 +170,11 @@
 				id: "ae2:singularity"
 			}
 			id: "1B891558E8D778A1"
+			rewards: [{
+				id: "37790F4CE08E0F47"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			tasks: [{
 				id: "10ACCE173FA51FE0"
 				item: { count: 1, id: "ae2:singularity" }
@@ -162,6 +187,11 @@
 			dependencies: ["4232C3FE5DCF5473"]
 			hide_lock_icon: true
 			id: "3596A8CEB0A4CEA2"
+			rewards: [{
+				id: "182EB1CE04760E9B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			size: 2.0d
 			tasks: [
 				{
@@ -435,19 +465,7 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["772C011D967C131F"]
-			id: "5DB3AD1FAA406216"
-			size: 1.0d
-			tasks: [{
-				id: "3991C790E27C44E3"
-				item: { count: 1, id: "mbd2:life_extractor" }
-				type: "item"
-			}]
-			x: -2.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["5DB3AD1FAA406216"]
+			dependencies: ["5D57D71EAE6F0CFD"]
 			icon: {
 				id: "jdte:loot_fabricator"
 			}
@@ -581,6 +599,11 @@
 			dependencies: ["3474B4E144C79CAB"]
 			id: "4232C3FE5DCF5473"
 			optional: true
+			rewards: [{
+				id: "56DFF8FD6430E9C5"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			tasks: [{
 				id: "4E73E06ACCC9A1E9"
 				type: "checkmark"
@@ -590,6 +613,11 @@
 		}
 		{
 			id: "5266844A48D08D8D"
+			rewards: [{
+				id: "39E60E45A78CEB32"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			size: 2.0d
 			tasks: [{
 				id: "4A24C5411F00C1B4"
@@ -600,11 +628,15 @@
 			y: -8.0d
 		}
 		{
-			dependencies: ["3E8269255530BB4D"]
+			dependencies: [
+				"3E8269255530BB4D"
+				"4EC5A235E30935F3"
+			]
 			id: "0DD9DAD16C801227"
 			rewards: [{
 				command: "/apoth set_world_tier @s pinnacle"
 				id: "38081E4C930814C5"
+				team_reward: true
 				type: "command"
 			}]
 			size: 2.0d
@@ -646,6 +678,11 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "3E8269255530BB4D"
+			rewards: [{
+				id: "735FDC376D97B4C2"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			size: 1.0d
 			tasks: [{
 				id: "13D290A5796A7F2A"
@@ -657,6 +694,11 @@
 		}
 		{
 			id: "3938F47B8C2B6758"
+			rewards: [{
+				id: "20251B6B39627663"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			tasks: [
 				{
 					id: "44F4730EE7505C03"
@@ -690,9 +732,9 @@
 			y: -2.0d
 		}
 		{
-			id: "28D081A6B6EC1D71"
+			id: "6175191FABF9B1AE"
 			rewards: [{
-				id: "47C451093B8095B7"
+				id: "38CC9F67C44230B7"
 				item: {
 					count: 1
 					id: "mekmm:ultimate_planting_factory"
@@ -700,12 +742,33 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "1612481952476033"
-				item: { count: 1, id: "kubejs:infinities_WFD_cell" }
+				id: "03EEA79803ABFC7A"
+				item: { count: 1, id: "kubejs:infinities_wfd_cell" }
 				type: "item"
 			}]
 			x: -7.0d
 			y: -2.0d
+		}
+		{
+			dependencies: ["772C011D967C131F"]
+			icon: {
+				id: "jdte:life_fluid_bucket"
+			}
+			id: "5D57D71EAE6F0CFD"
+			tasks: [
+				{
+					id: "2C21FDAD92CEB287"
+					type: "checkmark"
+				}
+				{
+					id: "1F5B682C7ED28D73"
+					item: { count: 1, id: "jdte:life_fluid_bucket" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -2.5d
 		}
 	]
 }

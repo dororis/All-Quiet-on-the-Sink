@@ -1,0 +1,32 @@
+{
+  "type": "molecularmanipulator:matter_fabrication",
+  "ingredients": [
+    {
+      "ingredient": {
+        "item": "advanced_ae:quantum_storage_256"
+      },
+      "count": 16
+    },
+    {
+      "ingredient": {
+        "item": "overload_sim:transcendent_crystal"
+      },
+      "count": 64
+    }
+  ],
+  "results": [
+    {
+      "id": "molecularmanipulator:infinite_crafting_storage",
+      "count": 4
+    }
+  ],
+  "processing_time": 200,
+  "ae_per_tick": 1024,
+  "requires_research": true,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "advanced_ae"
+    }
+  ]
+}

@@ -118,10 +118,10 @@
 			}
 			id: "2A76820E711B7666"
 			rewards: [{
-				id: "254D5B4F80C747BE"
+				id: "780FE8EAD1E3BD7B"
 				item: {
 					count: 1
-					id: "oritech:accelerator_sensor"
+					id: "minecraft:comparator"
 				}
 				type: "item"
 			}]
@@ -234,11 +234,18 @@
 		{
 			dependencies: ["7B2B015AB30EB402"]
 			id: "135C1CEF9C8DC231"
-			tasks: [{
-				id: "31106E25C025821A"
-				item: { count: 1, id: "anvilcraft:overheated_ember_metal_block" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "547C38FA96E66744"
+					type: "checkmark"
+				}
+				{
+					id: "31106E25C025821A"
+					item: { count: 1, id: "anvilcraft:overheated_ember_metal_block" }
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 4.0d
 			y: -5.0d
 		}

@@ -1,0 +1,5 @@
+{
+  "entity": "draconicevolution:draconic_guardian",
+  "point_cost": 10,
+  "results": [{ "item": "draconicevolution:chaos_shard", "count": 1 }]
+}

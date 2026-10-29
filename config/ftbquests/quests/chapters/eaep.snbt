@@ -51,7 +51,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 1.0d
+			y: 0.5d
 		}
 		{
 			id: "3728DDD434A85B7A"
@@ -61,7 +61,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -1.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["3F38FD693CA1E35C"]

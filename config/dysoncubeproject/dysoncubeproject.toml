@@ -1,4 +1,8 @@
 [Config]
+	#The power that the ray receiver can extract from the sphere every tick
+	# Default: 50000000
+	# Range: > 1
+	RAY_RECEIVER_EXTRACT_POWER = 50000000
 	#The maximum number of solar panels the Dyson Sphere can have
 	# Default: 50000000
 	# Range: > 1
@@ -13,10 +17,6 @@
 	POWER_PER_SAIL = 20
 	#Always show sphere at max progress
 	SHOW_AT_MAX_PROGRESS = false
-	#The power that the ray receiver can extract from the sphere every tick
-	# Default: 50000000
-	# Range: > 1
-	RAY_RECEIVER_EXTRACT_POWER = 50000000
 	#The power that the ray receiver buffer has
 	# Default: 100000000
 	# Range: > 1

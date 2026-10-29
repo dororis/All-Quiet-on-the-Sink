@@ -23,9 +23,6 @@ RecipeViewerEvents.addInformation('item', event => {
 	event.add('justdirethings:blazegold_ingot', [
 		'挖掘矿簇直接获得锭'
 	]),
-	event.add('justdirethings:eclipsealloy_ingot', [
-		'挖掘矿簇直接获得锭'
-	]),
 	event.add('allthemodium:allthemodium_upgrade_smithing_template', [
 		'大概率能从远古城市战利品箱中获得',
 		'包括时运5，熔炼5和精准采集',

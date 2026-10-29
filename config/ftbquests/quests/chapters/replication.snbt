@@ -1,0 +1,243 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "replication"
+	group: "0B022AD354D4F865"
+	icon: {
+		id: "replicatemekanism:replica_alloy"
+	}
+	id: "462D0D41EBD34E19"
+	images: [{
+		click_action: "none:"
+		height: 3.0d
+		id: "37FB504CBBB9D7F6"
+		image: "replicatemekanism:infuse_type/replica"
+		rotation: 0.0d
+		width: 3.0d
+		x: -0.5d
+		y: 0.0d
+	}]
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3F516F361D1CDD02"
+			rewards: [{
+				id: "1D266D4E569F2A1C"
+				item: {
+					count: 1
+					id: "replicated_integration:replication_index"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "58B23BCEFCAE9C17"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3F516F361D1CDD02"
+				"232B7B1D6C94633F"
+			]
+			id: "09E7BB2F93B74675"
+			tasks: [{
+				id: "704B0A5E1949ACAB"
+				item: { count: 1, id: "replication:raw_replica" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["09E7BB2F93B74675"]
+			id: "3835809013424D17"
+			tasks: [{
+				id: "62F38545D729FC63"
+				item: { count: 1, id: "kubejs:replicate_seed" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3835809013424D17"]
+			id: "62A9420D17F2F3AD"
+			tasks: [{
+				id: "5982B50777A11A65"
+				item: { count: 1, id: "replication:identification_chamber" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			id: "232B7B1D6C94633F"
+			tasks: [{
+				id: "3A3C5F56D904FEA3"
+				item: { count: 1, id: "extendedae_plus:oblivion_singularity" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"62A9420D17F2F3AD"
+				"67DE1E1B091DD6F0"
+			]
+			id: "3A8FE2A4C8787D21"
+			tasks: [{
+				id: "37CD0DE543C55BFB"
+				item: { count: 1, id: "replicatemekanism:forensic_chamber" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3835809013424D17"]
+			id: "7501DC324B006F17"
+			tasks: [{
+				id: "6D06ADA50CC0770F"
+				item: { count: 1, id: "replication:disintegrator" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7501DC324B006F17"]
+			id: "1C9AB5F959CD1CFA"
+			tasks: [{
+				id: "77DF2BC7EE2C4272"
+				item: { count: 1, id: "replicatemekanism:collapser_ultimate" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3835809013424D17"]
+			id: "7CD99E18FAEC6AEC"
+			tasks: [{
+				id: "26DB45DD58591ED6"
+				item: { count: 1, id: "replication:replicator" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7CD99E18FAEC6AEC"]
+			id: "5600A9F27637BA17"
+			tasks: [{
+				id: "18AA6136E0F73835"
+				item: { count: 1, id: "replicatemekanism:imaginator_ultimate" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			id: "67DE1E1B091DD6F0"
+			tasks: [{
+				id: "76B4237FE5F14AB6"
+				item: { count: 1, id: "replication:memory_chip" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3A8FE2A4C8787D21"]
+			id: "7A9CDEA212E27BC1"
+			tasks: [{
+				id: "56BE3344638A7523"
+				item: { count: 1, id: "replication:chip_storage" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7A9CDEA212E27BC1"]
+			id: "2053A34B8E023847"
+			tasks: [{
+				id: "2F98F16BAEBCB672"
+				item: { count: 1, id: "replication:replication_terminal" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1C9AB5F959CD1CFA"]
+			icon: {
+				id: "apprep:replication_connector"
+			}
+			id: "7E51AE7DEC259120"
+			tasks: [
+				{
+					id: "4B53257AFD42652E"
+					item: { count: 1, id: "apprep:replication_connector" }
+					type: "item"
+				}
+				{
+					id: "1A1B3DD9DE31608D"
+					item: { count: 1, id: "replication:matter_network_pipe" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5600A9F27637BA17"
+				"6AA8F9FD9E28B472"
+			]
+			id: "3E1901351BF3FAB5"
+			tasks: [{
+				id: "4F31F5BC8A687638"
+				item: { count: 1, id: "replicatemekanism:replica_upgrade" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			id: "30DE85691D3BD83C"
+			tasks: [{
+				id: "36675519E9322C3B"
+				item: { count: 1, id: "apprep:matter_cell_housing" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			id: "4E81703E52831A37"
+			tasks: [{
+				id: "23CE8D1F21C82F45"
+				item: { count: 1, id: "apprep:mega_matter_cell_housing" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			id: "6AA8F9FD9E28B472"
+			tasks: [{
+				id: "6DBC115B23F97669"
+				item: { count: 1, id: "mekanism:pellet_antimatter" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+	]
+}

@@ -42,11 +42,6 @@ ServerEvents.recipes(event => {
         '720x kubejs:unrefined_t2_fluid_source'                                                         
     )
     event.recipes.mekanism.metallurgic_infusing(                 
-        '9x appgen:ember_block',
-        '4x powah:nitro_crystal_block',         
-        '720x kubejs:unrefined_t2_fluid_source'                                                         
-    )
-    event.recipes.mekanism.metallurgic_infusing(                 
         'apothic_enchanting:infused_breath',
         'minecraft:dragon_breath',         
         '200x mekanism_extras:fluorinated_naquadah_uranium_fuel'                                                         

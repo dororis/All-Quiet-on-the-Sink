@@ -1,0 +1,16 @@
+{
+  "item.replicated_integration.replication_index": "复制索引",
+  "key.categories.replicated_integration": "复制联动",
+  "key.replicated_integration.open_replication_index": "打开复制索引",
+  "replicated_integration.chat.notice.config_path": "打开 %s 以调整可选的联动行为。",
+  "replicated_integration.chat.notice.configurable_integrations": "你可以在兼容性配置中微调这些联动：",
+  "replicated_integration.chat.notice.supported_integrations": "已针对这些已安装的模组进行了适配支持：",
+  "replicated_integration.chat.notice.title": "复制联动",
+  "replicated_integration.config.enable_nuclear_recipe": "启用通用机械反应堆配方支持",
+  "replicated_integration.config.notice.compatibility_summary_shown": "兼容性摘要提示已显示",
+  "replicated_integration.config.ui.matter_amount_notation": "物质数量显示格式",
+  "replicated_integration.index.tooltip.amount_display.exact": "物质数量显示时不进行复制模组的取整，具体精确数值将在数量提示框中显示",
+  "replicated_integration.index.tooltip.amount_display.replication": "物质数量显示方式与原版复制模组一致：向上取整并缩写",
+  "replicated_integration.index.tooltip.disintegratable": "仅显示可被分解的物品",
+  "replicated_integration.index.tooltip.replicatable": "仅显示可被复制的物品"
+}

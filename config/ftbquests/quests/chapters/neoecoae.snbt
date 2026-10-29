@@ -17,7 +17,7 @@
 		x: 1.0d
 		y: 2.0d
 	}]
-	order_index: 13
+	order_index: 15
 	quest_links: [ ]
 	quests: [
 		{
@@ -656,12 +656,23 @@
 				}
 				type: "item"
 			}]
-			tasks: [{
-				consume_items: true
-				id: "1BC68E5B84FFEC3C"
-				item: { count: 1, id: "neoecoprototype:fumo_doll_yang120" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1BC68E5B84FFEC3C"
+					item: { count: 1, id: "neoecoprototype:fumo_doll_yang120" }
+					type: "item"
+				}
+				{
+					id: "438BA72C87F3C8BB"
+					item: { count: 1, id: "neoecoprototype:fumo_doll_yang120_cpu" }
+					type: "item"
+				}
+				{
+					id: "55F8D07FD1324B7D"
+					item: { count: 1, id: "neoecoprototype:fumo_doll_yang120_giant" }
+					type: "item"
+				}
+			]
 			x: 19.5d
 			y: 2.0d
 		}

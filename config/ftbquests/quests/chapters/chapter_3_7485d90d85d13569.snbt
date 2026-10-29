@@ -606,6 +606,7 @@
 			dependencies: [
 				"7A8F4B6C0A91711C"
 				"3F2E0535640DB144"
+				"0D9A2A4BE5D4E4BA"
 			]
 			icon: {
 				id: "ad_astra:tier_1_rocket"
@@ -667,6 +668,9 @@
 		}
 		{
 			dependencies: ["21D6B7BB23744F2F"]
+			icon: {
+				id: "anvilcraft:corrupted_beacon"
+			}
 			id: "44DAEB1ACB3069B8"
 			rewards: [{
 				id: "2931438E22229BF1"
@@ -676,14 +680,22 @@
 				}
 				type: "item"
 			}]
-			tasks: [{
-				id: "02E57CFD61465CFF"
-				observation_type: "block"
-				observe_type: 0
-				timer: 0L
-				to_observe: "anvilcraft:corrupted_beacon"
-				type: "observation"
-			}]
+			tasks: [
+				{
+					id: "02E57CFD61465CFF"
+					observation_type: "block"
+					observe_type: 0
+					timer: 0L
+					to_observe: "anvilcraft:corrupted_beacon"
+					type: "observation"
+				}
+				{
+					id: "47486E462AF9A9E9"
+					item: { count: 1, id: "anvilcraft:corrupted_beacon" }
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 2.0d
 			y: -4.0d
 		}
@@ -816,6 +828,15 @@
 			}]
 			x: 8.0d
 			y: -4.0d
+		}
+		{
+			id: "0D9A2A4BE5D4E4BA"
+			tasks: [{
+				id: "489BCB9C848DB029"
+				type: "checkmark"
+			}]
+			x: 15.5d
+			y: 2.0d
 		}
 	]
 }
