@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	disable_toast: true
 	filename: "mbd2"
-	group: "3363CE859CE20561"
+	group: ""
 	icon: {
 		components: {
 			"mbd2:gadget_mode": "multiblock_debugger"
@@ -13,8 +13,13 @@
 	}
 	id: "5B71D32DBE6BFB5B"
 	images: [ ]
-	order_index: 4
-	quest_links: [ ]
+	order_index: 1
+	quest_links: [{
+		id: "69A38667605A9232"
+		linked_quest: "097AAB76D4DAAF50"
+		x: -2.0d
+		y: -4.5d
+	}]
 	quests: [
 		{
 			disable_toast: true
@@ -35,7 +40,7 @@
 				item: { count: 1, id: "mbd2:3x3output" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 3.5d
 			y: -2.5d
 		}
 		{
@@ -200,23 +205,6 @@
 			y: -0.5d
 		}
 		{
-			id: "70159AB550F524F3"
-			rewards: [{
-				id: "2F0BF2EE51BC21B4"
-				item: {
-					count: 1
-					id: "ars_nouveau:novice_spell_book"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "3D936C0F7A748947"
-				type: "checkmark"
-			}]
-			x: -2.0d
-			y: -4.5d
-		}
-		{
 			id: "5468575CE1E33CA9"
 			tasks: [{
 				id: "7773CBD46FEF0A4D"
@@ -253,7 +241,7 @@
 				item: { count: 1, id: "mbd2:meinput" }
 				type: "item"
 			}]
-			x: 3.5d
+			x: 1.5d
 			y: -2.5d
 		}
 		{

@@ -25,6 +25,18 @@ LootJS.lootTables(event => {
         .firstPool()
         .addEntry(
             LootEntry.of("minecraft:enchanted_book")
+                .withWeight(5)
+                .enchant(builder => {
+                    builder.withEnchantment("anvilcraft:disintegration", 1)
+                })
+        )
+})
+LootJS.lootTables(event => {
+    event
+        .getLootTable("minecraft:chests/ancient_city")
+        .firstPool()
+        .addEntry(
+            LootEntry.of("minecraft:enchanted_book")
                 .withWeight(10)
                 .enchant(builder => {
                     builder.withEnchantment("minecraft:fortune", 5)

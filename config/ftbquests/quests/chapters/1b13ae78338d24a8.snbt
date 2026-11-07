@@ -662,6 +662,9 @@
 		}
 		{
 			dependencies: ["5D62196F2C47719A"]
+			icon: {
+				id: "mekanism:basic_control_circuit"
+			}
 			id: "34E15D8E39194BD2"
 			rewards: [
 				{
@@ -685,21 +688,33 @@
 			]
 			tasks: [
 				{
-					id: "386863880CCDDC0B"
-					item: { count: 1, id: "mekanism:metallurgic_infuser" }
-					match_components: "fuzzy"
+					id: "3BAFF168E117EDA2"
+					item: { count: 1, id: "mekanism:basic_control_circuit" }
 					type: "item"
 				}
 				{
-					id: "6510DE4E6C2996ED"
-					item: { count: 1, id: "mekanism:enrichment_chamber" }
-					match_components: "fuzzy"
+					id: "2E3F4D8F4E3957BC"
+					item: { count: 1, id: "mekanism:basic_infusing_factory" }
 					type: "item"
 				}
 				{
-					id: "43C4C417D0940B13"
-					item: { count: 1, id: "mekanism:crusher" }
-					match_components: "fuzzy"
+					id: "70022CB645536CDA"
+					item: { count: 1, id: "mekanism:basic_enriching_factory" }
+					type: "item"
+				}
+				{
+					id: "5914F76197143EDA"
+					item: { count: 1, id: "mekanism:basic_crushing_factory" }
+					type: "item"
+				}
+				{
+					id: "0957ABE9C8BA7CD9"
+					item: { count: 1, id: "mekanism:upgrade_speed" }
+					type: "item"
+				}
+				{
+					id: "1F658106E2FFCC4F"
+					item: { count: 1, id: "mekanism:upgrade_energy" }
 					type: "item"
 				}
 			]
@@ -1179,7 +1194,7 @@
 					type: "item"
 				}
 				{
-					count: 64
+					count: 8
 					id: "75851DC0511E99AA"
 					item: {
 						count: 1
@@ -1238,24 +1253,14 @@
 			dependencies: ["18B2453192FD189B"]
 			hide_dependency_lines: true
 			id: "2DC01AD54BFA7682"
-			rewards: [
-				{
-					id: "72CFA6670C69077E"
-					item: {
-						count: 1
-						id: "just_sink:sink"
-					}
-					type: "item"
+			rewards: [{
+				id: "7EC32E3C1D1E3D62"
+				item: {
+					count: 1
+					id: "anvilcraft_pigsplus:brass_sink"
 				}
-				{
-					id: "7EC32E3C1D1E3D62"
-					item: {
-						count: 1
-						id: "anvilcraft_pigsplus:brass_sink"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "090EB18E4B49FD06"
 				item: { count: 1, id: "anvilcraft:fish_tank" }
@@ -1341,16 +1346,6 @@
 			}]
 			x: 0.0d
 			y: -0.5d
-		}
-		{
-			dependencies: ["310B1461CAD580D9"]
-			id: "6C29DF39D59EC961"
-			tasks: [{
-				id: "69FB3DA60843E56E"
-				type: "checkmark"
-			}]
-			x: -8.0d
-			y: -2.5d
 		}
 		{
 			dependencies: [
@@ -1494,11 +1489,24 @@
 				xp_levels: 5
 			}]
 			size: 1.0d
-			tasks: [{
-				id: "760D33892F4A9E3F"
-				item: { count: 1, id: "ae2cs:circuit_etcher" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1DB08E8DD1820B8E"
+					type: "checkmark"
+				}
+				{
+					id: "760D33892F4A9E3F"
+					item: { count: 1, id: "ae2cs:circuit_etcher" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "35E7699884DB8835"
+					item: { count: 1, id: "neoecoprototype:simplify_stonecutting_assembler" }
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 5.5d
 			y: 2.0d
 		}
@@ -1712,6 +1720,92 @@
 			}]
 			x: 4.5d
 			y: 3.5d
+		}
+		{
+			icon: {
+				id: "minecraft:budding_amethyst"
+			}
+			id: "651EBB229ACD31B5"
+			rewards: [{
+				id: "28960541FC7179F2"
+				item: {
+					count: 1
+					id: "anvilcraft_pigsplus:experience_interface"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1D564D051F90BDA9"
+					item: { count: 1, id: "minecraft:budding_amethyst" }
+					type: "item"
+				}
+				{
+					consume_fluid: "DEFAULT"
+					fluid: {
+						amount: 1000
+						id: "anvilcraft:exp_fluid"
+					}
+					id: "339D5AEC6096AAF9"
+					optional_task: true
+					type: "fluid"
+				}
+			]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["08864DC3056BD3CA"]
+			hide_dependency_lines: true
+			id: "2158512743FDA7C8"
+			tasks: [{
+				id: "622D3C5DE19702AA"
+				item: { count: 1, id: "ae2:4k_crafting_storage" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["08864DC3056BD3CA"]
+			hide_dependency_lines: true
+			id: "4FA4E24DF8111061"
+			tasks: [{
+				id: "5D3C602C26DF292F"
+				item: { count: 1, id: "extendedae_plus:4x_crafting_accelerator" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["310B1461CAD580D9"]
+			icon: {
+				id: "anvilcraft:heater"
+			}
+			id: "5489D14B1BCD1CD8"
+			rewards: [{
+				id: "1CC6096DA25C494E"
+				item: {
+					count: 1
+					id: "anvilcraft_pigsplus:adjustable_power_converter"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6E6C8DBDD822F2F7"
+					item: { count: 1, id: "anvilcraft:heater" }
+					type: "item"
+				}
+				{
+					id: "0CFBCD5813DB23C9"
+					item: { count: 1, id: "anvilcraft:fish_tank" }
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: -2.5d
 		}
 	]
 }

@@ -1,0 +1,18 @@
+{
+  "type": "anvilcraft:item_compress",
+  "ingredients": [
+    {
+      "count": 2,
+      "items": "minecraft:copper_block"
+    },
+    {
+      "count": 1,
+      "items": "ae2:energy_cell"
+    }
+  ],
+  "results": [
+    {
+      "id": "anvilcraft:supercapacitor_empty"
+    }
+  ]
+}

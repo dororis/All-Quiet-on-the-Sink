@@ -48,6 +48,16 @@
 			x: 10.0d
 			y: -2.75d
 		}
+		{
+			click_action: "none:"
+			height: 1.3d
+			id: "2C1EC549BD0D3DA2"
+			image: "enderio:block/cloud_seed_concentrated_flowing"
+			rotation: 0.0d
+			width: 1.3d
+			x: 1.0d
+			y: -1.5d
+		}
 	]
 	order_index: 16
 	quest_links: [ ]
@@ -57,6 +67,7 @@
 				"2F489BA8CE4A9E59"
 				"310EC320E1631779"
 			]
+			dependency_requirement: "one_completed"
 			id: "2A7EDC8FDC96246A"
 			size: 2.0d
 			tasks: [{
@@ -78,22 +89,28 @@
 				}
 				type: "item"
 			}]
-			tasks: [{
-				icon: {
-					components: {
-						"!ftbquests:icon": { }
-						"ftbquests:entity_face": "minecraft:bee"
-					}
-					id: "ftbquests:custom_icon"
+			tasks: [
+				{
+					id: "53AF26CCC6D08A24"
+					type: "checkmark"
 				}
-				id: "1FEA8EC4E37ABA17"
-				observation_type: "entity_type"
-				observe_type: 5
-				optional_task: true
-				timer: 0L
-				to_observe: "productivebees:myriadcreations"
-				type: "observation"
-			}]
+				{
+					icon: {
+						components: {
+							"!ftbquests:icon": { }
+							"ftbquests:entity_face": "minecraft:bee"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "1FEA8EC4E37ABA17"
+					observation_type: "entity_type"
+					observe_type: 5
+					optional_task: true
+					timer: 0L
+					to_observe: "productivebees:myriadcreations"
+					type: "observation"
+				}
+			]
 			x: 7.0d
 			y: -1.5d
 		}
@@ -224,6 +241,17 @@
 				type: "item"
 			}]
 			x: 10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["69F29ECE0ECADD70"]
+			id: "55706DA8850B8FB1"
+			tasks: [{
+				id: "4F825E37C049EFC8"
+				item: { count: 1, id: "anvilcraft:seeds_pack" }
+				type: "item"
+			}]
+			x: 1.0d
 			y: -1.5d
 		}
 	]

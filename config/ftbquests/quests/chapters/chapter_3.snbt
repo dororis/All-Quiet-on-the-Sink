@@ -366,6 +366,11 @@
 					type: "item"
 				}
 				{
+					id: "4B42EFE99F61A211"
+					item: { count: 1, id: "minecraft:lightning_rod" }
+					type: "item"
+				}
+				{
 					id: "4FCF2D8C7058D7A9"
 					item: { count: 1, id: "jdte:thunderstorm_upgrade" }
 					type: "item"

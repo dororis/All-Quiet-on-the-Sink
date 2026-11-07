@@ -138,39 +138,43 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"minecraft:armadillo": true
 			"minecraft:wolf": true
-			"productivebees:configurable_bee": true
-			"minecraft:cat": true
-			"minecraft:cow": true
-			"minecraft:sheep": true
-			"minecraft:pig": true
-			"minecraft:horse": true
-			"productivebees:mason_bee": true
-			"ars_nouveau:starbuncle": true
-			"minecraft:glow_squid": true
-			"minecraft:rabbit": true
-			"minecraft:iron_golem": true
-			"minecraft:donkey": true
-			"irons_spellbooks:cursed_armor_stand": true
-			"productivebees:yellow_black_carpenter_bee": true
-			"minecraft:salmon": false
-			"minecraft:bee": true
-			"irons_spellbooks:pyromancer": true
-			"minecraft:parrot": true
-			"minecraft:squid": true
-			"minecraft:bat": true
-			"productivebees:bumble_bee": true
 			"productivebees:green_carpenter_bee": true
+			"minecraft:hoglin": true
+			"minecraft:parrot": true
+			"minecraft:sheep": true
+			"minecraft:cow": true
+			"minecraft:tropical_fish": false
+			"minecraft:bee": true
+			"minecraft:fox": true
+			"productivebees:configurable_bee": true
+			"productivebees:mason_bee": true
+			"ars_nouveau:drygmy": true
+			"productivebees:bumble_bee": true
+			"cataclysm:the_prowler": true
+			"ars_nouveau:whirlisprig": true
+			"minecraft:squid": true
+			"productivebees:yellow_black_carpenter_bee": true
+			"irons_spellbooks:pyromancer": true
+			"productivebees:resin_bee": true
+			"ars_nouveau:starbuncle": true
+			"productivebees:chocolate_mining_bee": true
 			"minecraft:chicken": true
 			"cataclysm:the_harbinger": true
+			"minecraft:glow_squid": true
 			"minecraft:villager": true
-			"ars_nouveau:drygmy": true
-			"minecraft:hoglin": true
+			"minecraft:pig": true
+			"minecraft:iron_golem": true
+			"minecraft:donkey": true
+			"minecraft:axolotl": true
+			"irons_spellbooks:cursed_armor_stand": true
+			"minecraft:rabbit": true
+			"minecraft:armadillo": true
+			"minecraft:cat": true
+			"minecraft:horse": true
+			"minecraft:bat": true
+			"minecraft:salmon": false
 			"minecraft:llama": true
-			"cataclysm:the_prowler": true
-			"productivebees:chocolate_mining_bee": true
-			"ars_nouveau:whirlisprig": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)

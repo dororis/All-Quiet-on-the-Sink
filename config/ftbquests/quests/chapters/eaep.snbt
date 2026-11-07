@@ -79,7 +79,7 @@
 			dependencies: ["3F38FD693CA1E35C"]
 			id: "6101F957A29D6729"
 			tasks: [{
-				count: 272L
+				count: 632L
 				id: "01A4DA7A22CB902E"
 				item: { count: 1, id: "extendedae_plus:super_assembler_matrix_frame" }
 				type: "item"
@@ -91,7 +91,7 @@
 			dependencies: ["3F38FD693CA1E35C"]
 			id: "67D28F3F39490C27"
 			tasks: [{
-				count: 632L
+				count: 272L
 				id: "3EDE5F0B189D42F4"
 				item: { count: 1, id: "extendedae_plus:super_assembler_matrix_wall" }
 				type: "item"

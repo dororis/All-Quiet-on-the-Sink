@@ -136,6 +136,248 @@ ServerEvents.recipes(event => {
     ]
   })
   event.custom({
+    type: "anvilcraft:stamping",
+    ingredients: [
+      {
+        items: "minecraft:redstone"
+      },
+      {
+        items:"alltheores:osmium_ingot"
+      }
+    ],
+    results: [
+      {
+        id: "mekanism:basic_control_circuit",
+        count: 1
+      }
+    ]
+  })
+  event.custom({
+    type: "anvilcraft:stamping",
+    ingredients: [
+      {
+        items: "mekanism:steel_casing"
+      },
+      {
+        items:"mekanism:basic_control_circuit"
+      },
+      {
+        items:"minecraft:furnace"
+      }
+    ],
+    results: [
+      {
+        id: "mekanism:basic_infusing_factory",
+        count: 1
+      }
+    ]
+  })
+  event.custom({
+    type: "anvilcraft:stamping",
+    ingredients: [
+      {
+        items: "mekanism:steel_casing"
+      },
+      {
+        items:"mekanism:basic_control_circuit"
+      },
+      {
+        items:"minecraft:lava_bucket"
+      }
+    ],
+    results: [
+      {
+        id: "mekanism:basic_crushing_factory",
+        count: 1
+      }
+    ]
+  })
+  event.custom({
+    type: "anvilcraft:stamping",
+    ingredients: [
+      {
+        items: "mekanism:steel_casing"
+      },
+      {
+        items:"mekanism:basic_control_circuit"
+      },
+      {
+        items:"minecraft:redstone"
+      }
+    ],
+    results: [
+      {
+        id: "mekanism:basic_enriching_factory",
+        count: 1
+      }
+    ]
+  })
+  event.custom({
+    type: "anvilcraft:stamping",
+    ingredients: [
+      {
+        items: "sophisticatedstorage:upgrade_base"
+      },
+      {
+        items:"mekanism:alloy_infused"
+      },
+      {
+        items:"alltheores:osmium_dust"
+      }
+    ],
+    results: [
+      {
+        id: "mekanism:upgrade_speed",
+        count: 1
+      }
+    ]
+  }).id('kubejs:stamping_upgrade_speed')
+  event.custom({
+    type: "anvilcraft:stamping",
+    ingredients: [
+      {
+        items: "sophisticatedstorage:upgrade_base"
+      },
+      {
+        items:"mekanism:alloy_infused"
+      },
+      {
+        items:"alltheores:gold_dust"
+      }
+    ],
+    results: [
+      {
+        id: "mekanism:upgrade_energy",
+        count: 1
+      }
+    ]
+  }).id('kubejs:stamping_upgrade_energy')
+  event.custom({
+    type: "anvilcraft:stamping",
+    ingredients: [
+      {
+        items: "minecraft:redstone",
+        count: 8
+      }
+    ],
+    results: [
+      {
+        id: "mekanism:enriched_redstone",
+        count: 1
+      }
+    ]
+  })
+  event.custom({
+    type: "anvilcraft:stamping",
+    ingredients: [
+      {
+        items: "minecraft:diamond",
+        count: 8
+      }
+    ],
+    results: [
+      {
+        id: "mekanism:enriched_diamond",
+        count: 1
+      }
+    ]
+  })
+  event.custom({
+    type: "anvilcraft:stamping",
+    ingredients: [
+      {
+        items: "mekanism:dust_obsidian",
+        count: 4
+      },
+      {
+        items: "minecraft:diamond",
+        count: 4
+      }
+    ],
+    results: [
+      {
+        id: "mekanism:enriched_refined_obsidian",
+        count: 1
+      }
+    ]
+  })
+  event.custom({
+    type: "anvilcraft:stamping",
+    ingredients: [
+      {
+        items: "mekanism:enriched_redstone",
+        count: 1
+      },
+      {
+        items: "mekanism:basic_control_circuit",
+        count: 1
+      }
+    ],
+    results: [
+      {
+        id: "mekanism:advanced_control_circuit",
+        count: 1
+      }
+    ]
+  })
+  event.custom({
+    type: "anvilcraft:stamping",
+    ingredients: [
+      {
+        items: "mekanism:enriched_redstone",
+        count: 1
+      },
+      {
+        items: "minecraft:copper_ingot",
+        count: 8
+      }
+    ],
+    results: [
+      {
+        id: "mekanism:alloy_infused",
+        count: 8
+      }
+    ]
+  })
+  event.custom({
+    type: "anvilcraft:stamping",
+    ingredients: [
+      {
+        items: "mekanism:enriched_diamond",
+        count: 1
+      },
+      {
+        items: "mekanism:alloy_infused",
+        count: 4
+      }
+    ],
+    results: [
+      {
+        id: "mekanism:alloy_reinforced",
+        count: 4
+      }
+    ]
+  })
+  event.custom({
+    type: "anvilcraft:stamping",
+    ingredients: [
+      {
+        items: "mekanism:enriched_refined_obsidian",
+        count: 1
+      },
+      {
+        items: "mekanism:alloy_reinforced",
+        count: 2
+      }
+    ],
+    results: [
+      {
+        id: "mekanism:alloy_atomic",
+        count: 2
+      }
+    ]
+  })
+  event.custom({
     type: "anvilcraft:item_crush",
     ingredients: [
       {
@@ -146,6 +388,64 @@ ServerEvents.recipes(event => {
       {
         id: "ae2:matter_ball",
         count: 64
+      }
+    ]
+  })
+  event.custom({
+    type: "anvilcraft:item_crush",
+    ingredients: [
+      {
+        items: "minecraft:obsidian"
+      }
+    ],
+    results: [
+      {
+        id: "mekanism:dust_obsidian",
+        count: 4
+      }
+    ]
+  })
+  event.custom({
+    type: "anvilcraft:item_crush",
+    ingredients: [
+      {
+        items: "alltheores:osmium_ingot"
+      }
+    ],
+    results: [
+      {
+        id: "alltheores:osmium_dust",
+        count: 1
+      }
+    ]
+  })
+  event.custom({
+    type: "anvilcraft:item_crush",
+    ingredients: [
+      {
+        items: "alltheores:raw_osmium",
+        count: 3
+      }
+    ],
+    results: [
+      {
+        id: "alltheores:osmium_dust",
+        count: 4
+      }
+    ]
+  })
+  event.custom({
+    type: "anvilcraft:item_crush",
+    ingredients: [
+      {
+        items: "minecraft:raw_gold",
+        count: 3
+      }
+    ],
+    results: [
+      {
+        id: "alltheores:gold_dust",
+        count: 4
       }
     ]
   })

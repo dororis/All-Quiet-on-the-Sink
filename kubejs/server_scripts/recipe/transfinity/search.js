@@ -60,7 +60,7 @@ ServerEvents.recipes(event => {
   },
     ingredients: 
     [
-        {ingredient: {item: 'draconicevolution:draconic_capacitor'}, count: '16'},
+        {ingredient: {item: 'draconicevolution:chaotic_capacitor'}, count: '16'},
         {ingredient: {item: 'neoecoprototype:energized_energy_cell_512g'}, count: '16'},
         {ingredient: {item: 'ae2lt:energy_module_t3'}, count: '16'}
     ],

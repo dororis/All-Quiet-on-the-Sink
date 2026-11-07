@@ -13,7 +13,7 @@
 	grid_scale: 0.5d
 	hide_excluded_quests: false
 	icon: {
-		id: "just_sink:sink"
+		id: "anvilcraft_pigsplus:brass_sink"
 	}
 	lock_message: ""
 	loot_crate_no_drop: {

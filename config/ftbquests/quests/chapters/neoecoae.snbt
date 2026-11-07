@@ -716,5 +716,15 @@
 			x: -2.0d
 			y: 2.0d
 		}
+		{
+			id: "0DF01E729B649592"
+			tasks: [{
+				id: "6F2A68E5A1B2E834"
+				item: { count: 1, id: "neoecoae:integrated_working_station" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
 	]
 }

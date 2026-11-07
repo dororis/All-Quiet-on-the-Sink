@@ -39,8 +39,7 @@ RecipeViewerEvents.addInformation('item', event => {
 	event.add('ae2lt:creative_pigmee_fumo', [
 		'一个使用锻星砧锻造的天体',
 		'需注入正确的时间、空间、质量、能量',
-		'配方: M + O + AK + IEE',
-		'现在万事俱备,只差猪咪'
+		'再先后放入两种猪咪作为种子物品'
 	])
 	event.add('justdirethings:coal_t1', [
 		'无法通过原初煤炭获得之后的煤炭',

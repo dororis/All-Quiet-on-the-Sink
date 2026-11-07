@@ -198,7 +198,7 @@
 		{
 			dependencies: [
 				"5600A9F27637BA17"
-				"6AA8F9FD9E28B472"
+				"295C6B50B0A5382E"
 			]
 			id: "3E1901351BF3FAB5"
 			tasks: [{
@@ -230,9 +230,10 @@
 			y: 1.5d
 		}
 		{
-			id: "6AA8F9FD9E28B472"
+			disable_toast: true
+			id: "295C6B50B0A5382E"
 			tasks: [{
-				id: "6DBC115B23F97669"
+				id: "7C89099166D395D0"
 				item: { count: 1, id: "mekanism:pellet_antimatter" }
 				type: "item"
 			}]

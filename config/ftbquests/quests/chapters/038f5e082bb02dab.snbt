@@ -361,7 +361,7 @@
 			id: "5DA5D4250FE3ACD9"
 			tasks: [{
 				id: "5DD4F4D2A22F907F"
-				item: { components: { "minecraft:unbreakable": { } }, count: 1, id: "anvilcraft:celestial_forging_anvil_portal" }
+				item: { count: 1, id: "anvilcraft:celestial_forging_anvil_portal" }
 				type: "item"
 			}]
 			x: 11.0d

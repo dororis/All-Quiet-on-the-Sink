@@ -53,7 +53,13 @@
     "chiseled_bookshelf": true
   },
   "aqs": {
-    "apotheosis_slayer_status": true
+    "jade_mbd2_frame_sandblaster": true,
+    "jade_mbd2_sourcegate": true,
+    "jade_mbd2_smelting_furnace": true,
+    "jade_mbd2_atomic_reconstructor": true,
+    "jade_mbd2_dimensional_stabilimentum": true,
+    "apotheosis_slayer_status": true,
+    "jade_mbd2_rainbow_generator": true
   },
   "apothic_spawners": {
     "spawner": true
@@ -115,7 +121,7 @@
   },
   "mbd2": {
     "recipe_logic_provider": true,
-    "multiblock_provider": true
+    "multiblock_provider": false
   },
   "extendedae_plus": {
     "labeled_wireless_component": true,
@@ -130,6 +136,7 @@
   "ae2lt": {
     "frequency_card_wireless_node": true,
     "lightning_collector": true,
+    "wireless_energy": true,
     "firmament_conversion_core": true
   },
   "enderio": {
@@ -151,18 +158,11 @@
     "installed_upgrades": true,
     "mineral_extractor_status": true
   },
-  "replication_addon_tiers": {
-    "matter_tank_tier_1": true,
-    "matter_tank_tier_2": true,
-    "matter_tank_tier_3": true,
-    "matter_tank_tier_4": true,
-    "matter_tank_tier_5": true,
-    "matter_tank_tier_6": true,
-    "matter_tank_tier_7": true,
-    "matter_tank_tier_8": true
-  },
   "replication": {
     "matter_tank": true
+  },
+  "anvilcraftextrapower": {
+    "nuclear_collector": true
   },
   "dimstorage": {
     "dim_block_base": true,
@@ -196,7 +196,8 @@
   },
   "applied_oritech": {
     "grid_node_state": true,
-    "pattern_provider": true
+    "pattern_provider": true,
+    "auto_return": true
   },
   "apotheosis": {
     "adventure": true

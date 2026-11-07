@@ -3,8 +3,6 @@ const AQS_HIDDEN_ITEMS = [
     'kubejs:3x3_input_assembly',
     'kubejs:3x3_output_assembly',
     'kubejs:apothsis_slayer_factory',
-    'kubejs:seed_breeder',
-    'kubejs:seed_breeder_2',
     'kubejs:amethyst_growth_accelerator',
     'kubejs:earth_blast_furnace_controller'
 ]

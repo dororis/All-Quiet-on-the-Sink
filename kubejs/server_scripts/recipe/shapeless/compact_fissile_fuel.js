@@ -7,7 +7,7 @@ ServerEvents.recipes(event => {
             'mekanism_extras:absolute_dissolving_factory',
             'mekanism_extras:absolute_centrifuging_factory',
             'ae2lt:overloaded_interface',
-            'just_sink:sink',
+            'anvilcraft_pigsplus:brass_sink',
             'mekmm:large_chemical_infuser',
             'mekmm:large_rotary_condensentrator',
             'mekmm:large_electrolytic_separator'

@@ -10,7 +10,7 @@ ServerEvents.recipes(event => {
         },
         "input_items": [
         {
-        "amount": 64,
+        "amount": 1,
         "ingredient": {
         "item": "ae2cs:purified_meteor_crystal"
         }

@@ -5,46 +5,46 @@ ServerEvents.recipes(event => {
         "priority": 0,
         "inputFluid": {
             "id": "molecularmanipulator:singularity_sequence_matter",
-            "amount": 1024000
+            "amount": 256000
             },
         "inputs": [
     {
         "ingredient": {
         "item": "anvilcraft:transcendium_block",
     }, 
-        "count": 1024
+        "count": 256
     },
     
     {
         "ingredient": {
         "item": "anvilcraft:void_matter_block"
       },
-        "count": 1024
+        "count": 256
     },
     {
         "ingredient": {
         "item": "anvilcraft:negative_matter_block"
       },
-        "count": 1024
+        "count": 256
     },
     {
         "ingredient": {
         "item": "mekmm:uu_matter"
       },
-        "count": 1024
+        "count": 256
     },
     {
         "ingredient": {
         "item": "ae2lt:matter_warping_matrix_overload_main_core"
       },
-        "count": 1024
+        "count": 256
     },
     {
         "ingredient": {
         "item": "molecularmanipulator:miniature_supernova"
       },
-        "count": 1024
-    },
+        "count": 256
+    }
     ],
     "results": [
             {
@@ -52,8 +52,8 @@ ServerEvents.recipes(event => {
             "count": 1
             }
             ],
-            "totalEnergy": 6400000000,
-            "lightningCost": 640000,      
+            "totalEnergy": 25600000000,
+            "lightningCost": 2560000,      
             "lightningTier": "extreme_high_voltage"
    })
 })
@@ -64,38 +64,38 @@ ServerEvents.recipes(event => {
         "priority": 0,
         "inputFluid": {
             "id": "molecularmanipulator:singularity_sequence_matter",
-            "amount": 1024000
+            "amount": 256000
             },
         "inputs": [
     {
         "ingredient": {
         "item": "anvilcraft:transcendium_block",
     }, 
-        "count": 1024
+        "count": 256
     },
     {
         "ingredient": {
         "item": "neoecoae:computation_system_l9"
       },
-        "count": 1024
+        "count": 256
     },
     {
         "ingredient": {
         "item": "ae2lt:tianshu_overload_main_core"
       },
-        "count": 1024
+        "count": 256
     },
     {
         "ingredient": {
         "item": "molecularmanipulator:transfinite_compute_nexus"
       },
-        "count": 1024
+        "count": 256
     },
     {
         "ingredient": {
         "item": "molecularmanipulator:miniature_supernova"
       },
-        "count": 1024
+        "count": 256
     },
     ],
     "results": [
@@ -104,8 +104,8 @@ ServerEvents.recipes(event => {
             "count": 1
             }
             ],
-            "totalEnergy": 6400000000,
-            "lightningCost": 640000,      
+            "totalEnergy": 25600000000,
+            "lightningCost": 2560000,      
             "lightningTier": "extreme_high_voltage"
    })
 })

@@ -1,0 +1,117 @@
+[nuclear_collector]
+	#Maximum heat that the Nuclear Collector can withstand
+	# Default: 1024
+	# Range: 100 ~ 32768
+	base_heat_limit = 1024
+	#The power output of a uranium rod
+	# Default: 1500
+	# Range: 1 ~ 32768
+	power_output_of_a_uranium_rod = 1500
+	#The heat of a uranium rod
+	# Default: 5
+	# Range: 1 ~ 32768
+	heat_of_a_uranium_rod = 5
+	#The time interval between water searches
+	# Default: 100
+	# Range: 20 ~ 1024
+	the_time_of_checking_water = 100
+	#Heat dissipation provided per block of water
+	# Default: 5
+	# Range: 1 ~ 1024
+	the_cold_of_water = 5
+	#Minimum time interval between water searches
+	# Default: 40
+	# Range: 20 ~ 1024
+	the_minimum_time_of_checking_water = 40
+	#Maximum water surface area
+	# Default: 20
+	# Range: 20 ~ 64
+	the_maximum_water_surface_area = 20
+
+[nuclear_explosion]
+	#Explosion level
+	# Default: 18
+	# Range: 3 ~ 128
+	explosionlevel = 18
+
+[enchanted_generator]
+	#Maximum power for Overclocking Enchanted Generator
+	# Default: 32768
+	# Range: 0 ~ 128000000
+	max_overclocking_power = 32768
+	#Maximum power for Common Enchanted Generator
+	# Default: 1024
+	# Range: 0 ~ 128000000
+	max_common_power = 1024
+	#Power per enchantment's level
+	# Default: 2
+	# Range: 1 ~ 1000000
+	power_per_level = 2
+	#Overclocking amplification
+	# Default: 8
+	# Range: 1 ~ 100
+	overclocking_amplification = 8
+	#Minimum consume enchanted book cooldown
+	# Default: 10
+	# Range: 1 ~ 1000
+	min_consume_cooldown = 10
+
+[hydroelectric_generator]
+	#Base power per face with flowing water
+	# Default: 4
+	# Range: 0 ~ 128000000
+	base_power = 4
+	#Coefficient of the accumulated fluid level change
+	# Default: 1
+	# Range: 0 ~ 128000000
+	level_change_coefficient = 1
+	#Divisor applied to fluid density (vanilla water = 1000)
+	# Default: 1000
+	# Range: 1 ~ 1000
+	density_divisor = 1000
+	#Power ramp speed per tick when the output changes
+	# Default: 1
+	# Range: 1 ~ 100000
+	power_ramp_per_tick = 1
+	#Power multiplier for a nearby active conduit with 16-27 frames
+	# Default: 2
+	# Range: 1 ~ 100
+	conduit_multiplier_low = 2
+	#Power multiplier for a nearby active conduit with 28-41 frames
+	# Default: 3
+	# Range: 1 ~ 100
+	conduit_multiplier_mid = 3
+	#Power multiplier for a nearby active conduit with 42 frames
+	# Default: 4
+	# Range: 1 ~ 100
+	conduit_multiplier_high = 4
+
+[stress_generator]
+	#Generator mode: stress consumed per RPM = coefficient * this (1 RPM = coefficient * 16 SU)
+	# Default: 4
+	# Range: 1 ~ 1024
+	stress_per_rpm_multiplier = 4
+	#Generator mode: SU consumed per kW generated (power = consumed stress / this)
+	# Default: 64
+	# Range: 1 ~ 1000000
+	stress_per_kilowatt = 64
+	#Motor mode: fixed rotation speed
+	# Default: 32
+	# Range: 0 ~ 256
+	motor_rpm = 32
+	#Motor mode: stress provided = coefficient * this
+	# Default: 64
+	# Range: 0 ~ 100000
+	motor_su_per_value = 64
+	#Motor mode: power consumed = coefficient * this
+	# Default: 1
+	# Range: 0 ~ 1000000
+	motor_power_per_value = 1
+	#Coefficient of a newly placed stress generator
+	# Default: 1
+	# Range: 1 ~ 256
+	default_value = 1
+	#Maximum coefficient
+	# Default: 256
+	# Range: 1 ~ 256
+	max_value = 256

@@ -13,11 +13,48 @@ derive_processor_recipes_from_inscriber = true
 #file alone is not enough to disable a recipe the inscriber still provides.
 disabled_processor_recipes = []
 #Wireless ME links: the link card, the level's rebuild pass and its chunk wake.
-#Off by default in this release - the feature works and is guarded, but what a
-#controller grant should buy is not settled. Turning it on lets a player join two
-#devices with no cable between them; links recorded while it was on stay in the
-#world's data and come back when it is switched on again.
+#Off by default in this release. Everything a link costs is configured below - an energy
+#price per link, edges per device, distance, and whether it may cross dimensions - and a
+#join that would leave the merged network with no channels at all is refused outright.
+#Turn this on and set the four numbers to your pack, or leave them: the defaults price a
+#full hub of eight links at 4 AE/t, what two of our L1 components idle at. Links recorded
+#while it was on stay in the world's data and come back when it is switched on again.
 wireless_links = false
+#How many wireless edges one device may carry. Default 8. This is the structural
+#limit: a wireless edge costs no blocks, so without it one machine could be clicked
+#into the switch for every network in the world. 8 is not an arbitrary middle of the
+#range - AE2 gives a device with no dense capacity 8 channels per face at the lowest
+#channel mode (measured on 19.2.17: ChannelMode DEFAULT 8 / X2 16 / X3 24 / X4 32), and
+#each device behind a link occupies one of them, so a hub at this cap exactly fills the
+#cheapest face it can stand on. On a network with no controller AE2's own ceiling is 8
+#channel-consuming nodes with the hub counted among them, so a controllerless hub
+#reaches 7 links before that guard - not this number - refuses the 8th.
+# Default: 8
+# Range: 1 ~ 32
+wireless_max_links_per_device = 4
+#How far apart two devices may be to join, in blocks, measured between the squares.
+#0 = no distance limit (what shipped so far). Applied when a link is made; existing
+#links are never broken by lowering this, because a silent teardown after the fact is
+#worse than a refusal up front.
+# Default: 0
+# Range: 0 ~ 100000
+wireless_max_range_blocks = 0
+#Whether a link may join devices in different dimensions. Off by default - crossing
+#dimensions is the one thing no cable can do, so it is where a link stops being a free
+#cable and becomes its own machine.
+wireless_allow_cross_dimension = false
+#The energy price of one live link, in AE per tick, taken from the network the link's
+#own end stands on. 0 = links draw nothing. Default 0.5: a full hub of eight links then
+#costs 4 AE/t, which is what two of our L1 components idle at (an L1 casing reads 2.0).
+#AE2 bills a
+#controllerless network for a join by itself (its channel drain is grid size x channels
+#used, divided by 128), so this is the price for the link rather than a second charge
+#for traffic. A network too short of power keeps its links and the log says so once:
+#AE2 drops the whole grid offline when the store runs dry, so the price binds without
+#us tearing anything down.
+# Default: 0.5
+# Range: 0.0 ~ 1024.0
+wireless_ae_per_link_per_tick = 0.5
 
 [l1_storage]
 	#Additional eco storage-cell item IDs accepted by L1 drives despite tier.
@@ -106,3 +143,35 @@ wireless_links = false
 	# Default: 100.0
 	# Range: 0.0 ~ 1000000.0
 	charge_ae_per_tick = 100.0
+
+[superconductive_reactor]
+	#AE per tick each coil of a formed superconductive reactor pays. A complete cube
+	#holds 26 coils. Default 400, so the shipped cube pays 26 x 400 + 1000 = 11,400
+	#AE/t, against the 8,448 AE/t an L9 storage system idles at.
+	# Default: 400.0
+	# Range: 0.0 ~ 100000.0
+	coil_ae_per_tick = 400.0
+	#AE per tick the single core pays on top of the coils. Default 1000.
+	# Default: 1000.0
+	# Range: 0.0 ~ 100000.0
+	core_ae_per_tick = 1000.0
+	#Multiplier while the block above the cube can see the sky and the level is
+	#thundering. 1 turns the weather bonus off. Default 2.
+	# Default: 2.0
+	# Range: 1.0 ~ 16.0
+	storm_multiplier = 2.0
+
+[sky_stone_dust_cell]
+	#How often the meteorite-dust cell makes a batch, in ticks.
+	#Its defaults are the singularity cell's (600 ticks and 120 per batch), and they are
+	#separate entries on purpose: the two cells grow things four tiers apart in cost, so
+	#tuning one should not move the other.
+	#Clamped to at least 60 ticks.
+	# Default: 600
+	# Range: 60 ~ 16777216
+	ticks_per_batch = 600
+	#Meteorite dust one batch is worth. Same arithmetic and the same ceiling as the
+	#singularity cell: the bank jumps by this number once per interval, it does not drip.
+	# Default: 120
+	# Range: 1 ~ 9223372036854775807
+	amount_per_batch = 120

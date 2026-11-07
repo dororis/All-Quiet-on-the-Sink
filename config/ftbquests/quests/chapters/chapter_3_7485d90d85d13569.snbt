@@ -820,12 +820,32 @@
 			y: -4.0d
 		}
 		{
+			icon: {
+				components: {
+					"extrahnn:extra_data_model": [
+						"hostilenetworks:breeze"
+						"hostilenetworks:breeze"
+						"hostilenetworks:breeze"
+						"hostilenetworks:breeze"
+					]
+					"hostilenetworks:data": 22375
+					"hostilenetworks:iterations": 455
+				}
+				id: "extrahnn:extra_data_model"
+			}
 			id: "53D511B3ABF1C21B"
-			tasks: [{
-				id: "56A9D27A153A68CA"
-				item: { components: { "extrahnn:extra_data_model": [ "hostilenetworks:breeze", "hostilenetworks:breeze", "hostilenetworks:breeze", "hostilenetworks:breeze" ], "hostilenetworks:data": 22375, "hostilenetworks:iterations": 455 }, count: 1, id: "extrahnn:extra_data_model" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "56A9D27A153A68CA"
+					item: { components: { "extrahnn:extra_data_model": [ "hostilenetworks:breeze", "hostilenetworks:breeze", "hostilenetworks:breeze", "hostilenetworks:breeze" ], "hostilenetworks:data": 22375, "hostilenetworks:iterations": 455 }, count: 1, id: "extrahnn:extra_data_model" }
+					type: "item"
+				}
+				{
+					id: "2DDE3AE214996CE1"
+					item: { components: { "extrahnn:extra_data_model": [ "hostilenetworks:snow_golem", "hostilenetworks:snow_golem", "hostilenetworks:snow_golem", "hostilenetworks:snow_golem" ], "hostilenetworks:data": 22375, "hostilenetworks:iterations": 455 }, count: 1, id: "extrahnn:extra_data_model" }
+					type: "item"
+				}
+			]
 			x: 8.0d
 			y: -4.0d
 		}

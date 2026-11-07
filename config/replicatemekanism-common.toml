@@ -1,7 +1,7 @@
 #Maximum number of Replica Upgrades that can be installed in a single machine (0-8).
 #Setting to 0 disables installing Replica Upgrades.
 #Note: If Mekanism Tweaks is installed, the maximum upgrade limit will be expanded by Mekanism Tweaks settings unless this is set to 0.
-# Default: 8
+# Default: 1
 # Range: 0 ~ 8
 replicaUpgradeMaxStack = 8
 #Calculation formula for the Replica Upgrade production multiplier.
@@ -14,3 +14,7 @@ replicaUpgradeExponential = true
 # Default: 1.0
 # Range: 0.01 ~ 10000.0
 matterTankCapacityMultiplier = 1.0
+#Restricts the Replica Upgrade so it can only be installed and used in ReplicateMekanism machines (e.g. Imaginator, Reality Collapser, Forensic Chamber).
+#When enabled (true, default), vanilla Mekanism machines cannot accept or use Replica Upgrades.
+#Set to false if you want Replica Upgrades to work in all vanilla Mekanism machines.
+restrictReplicaUpgradeToModMachines = true

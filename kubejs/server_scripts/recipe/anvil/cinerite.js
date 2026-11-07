@@ -48,7 +48,7 @@ ServerEvents.recipes(event => {
       "count": {
         "type": "minecraft:binomial",
         "n": 1.0,
-        "p": 0.4
+        "p": 0.7
       },
       "id": "minecraft:lapis_lazuli"
     },
@@ -56,15 +56,15 @@ ServerEvents.recipes(event => {
       "count": {
         "type": "minecraft:binomial",
         "n": 1.0,
-        "p": 0.3
+        "p": 0.7
       },
-      "id": "minecraft:gunpowder"
+      "id": "anvilcraft:titanium_nugget"
     },
     {
       "count": {
         "type": "minecraft:binomial",
         "n": 1.0,
-        "p": 0.3
+        "p": 0.4
       },
       "id": "alltheores:peridot_dust"
     },
@@ -80,7 +80,7 @@ ServerEvents.recipes(event => {
       "count": {
         "type": "minecraft:binomial",
         "n": 1.0,
-        "p": 0.3
+        "p": 0.7
       },
       "id": "alltheores:tin_nugget"
     },
@@ -88,9 +88,9 @@ ServerEvents.recipes(event => {
       "count": {
         "type": "minecraft:binomial",
         "n": 1.0,
-        "p": 0.1
+        "p": 0.7
       },
-      "id": "allthemodium:allthemodium_nugget"
+      "id": "alltheores:lead_nugget"
     }
   ]
 }

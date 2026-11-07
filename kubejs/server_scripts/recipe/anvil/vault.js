@@ -94,6 +94,73 @@ event.custom(
       "id": "replication:raw_replica"
     }
   ]
-}
-)
+})
+event.custom(
+        {
+  "type": "anvilcraft:item_inject",
+  "block_ingredient": {
+    "blocks": "mbd2:configurable"
+  },
+  "block_result": {
+    "block": "mbd2:basic_configurable"
+  },
+  "ingredients": [
+    {
+      "count": 2,
+      "items": "mekanism:basic_control_circuit"
+    },
+    {
+      "count": 2,
+      "items": "apotheosis:gem_dust"
+    }
+  ]
+})
+event.custom(
+        {
+  "type": "anvilcraft:item_inject",
+  "block_ingredient": {
+    "blocks": "mbd2:basic_configurable"
+  },
+  "block_result": {
+    "block": "mbd2:advanced_configurable"
+  },
+  "ingredients": [
+    {
+      "count": 2,
+      "items": "mekanism:advanced_control_circuit"
+    },
+    {
+      "count": 1,
+      "items": "apotheosis:mysterious_scrap_metal"
+    },
+    {
+      "count": 1,
+      "items": "apotheosis:timeworn_fabric"
+    }
+  ]
+})
+event.custom(
+        {
+  "type": "anvilcraft:item_inject",
+  "block_ingredient": {
+    "blocks": "mbd2:advanced_configurable"
+  },
+  "block_result": {
+    "block": "mbd2:elite_configurable"
+  },
+  "ingredients": [
+    {
+      "count": 2,
+      "items": "mekanism:elite_control_circuit"
+    },
+    {
+      "count": 1,
+      "items": "apotheosis:luminous_crystal_shard"
+    },
+    {
+      "count": 1,
+      "items": "apotheosis:arcane_sands"
+    }
+  ]
+})
 })

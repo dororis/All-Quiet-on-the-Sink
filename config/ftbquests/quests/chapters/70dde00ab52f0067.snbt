@@ -451,13 +451,23 @@
 			]
 			disable_toast: true
 			hide_dependency_lines: true
+			icon: {
+				id: "anvilcraft:sifting_table"
+			}
 			id: "123A3007F3085B2F"
 			size: 2.0d
-			tasks: [{
-				id: "63132AF14ACD5DF5"
-				item: { count: 1, id: "anvilcraft:sifting_table" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "66B7A0E95601C1E4"
+					type: "checkmark"
+				}
+				{
+					id: "63132AF14ACD5DF5"
+					item: { count: 1, id: "anvilcraft:sifting_table" }
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: -4.0d
 			y: 1.5d
 		}

@@ -334,4 +334,63 @@ ServerEvents.recipes(event => {
     }
   ]
 })
+event.custom(
+        {
+  "type": "anvilcraft:mesh",
+  "ingredients": [
+    {
+      "items": "apotheosis:god_fused_pearl"
+    }
+  ],
+  "results": [
+    {
+      "count": {
+        "type": "minecraft:binomial",
+        "n": 8.0,
+        "p": 1.0
+      },
+      "id": "apotheosis:mysterious_scrap_metal"
+    },
+    {
+      "count": {
+        "type": "minecraft:binomial",
+        "n": 8.0,
+        "p": 1.0
+      },
+      "id": "apotheosis:timeworn_fabric"
+    },
+    {
+      "count": {
+        "type": "minecraft:binomial",
+        "n": 4.0,
+        "p": 1.0
+      },
+      "id": "apotheosis:luminous_crystal_shard"
+    },
+    {
+      "count": {
+        "type": "minecraft:binomial",
+        "n": 4.0,
+        "p": 1.0
+      },
+      "id": "apotheosis:arcane_sands"
+    },
+    {
+      "count": {
+        "type": "minecraft:binomial",
+        "n": 2.0,
+        "p": 1.0
+      },
+      "id": "apotheosis:godforged_pearl"
+    },
+    {
+      "count": {
+        "type": "minecraft:binomial",
+        "n": 1.0,
+        "p": 1.0
+      },
+      "id": "apotheosis:god_fused_pearl"
+    }
+  ]
+})
 })    
