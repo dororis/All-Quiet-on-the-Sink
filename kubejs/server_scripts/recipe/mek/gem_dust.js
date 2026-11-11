@@ -1,0 +1,67 @@
+ServerEvents.recipes(event => {
+
+    event.recipes.mekanismCrushing(
+        'apotheosis:gem_dust',           
+        'minecraft:amethyst_shard'       
+    ),
+    event.recipes.mekanismCrushing(
+        'mekanism:block_bio_fuel',
+        'minecraft:melon'
+    )
+    event.recipes.mekanismCrushing(
+        '4x mysticalagriculture:nature_essence',
+        'apotheosis:timeworn_fabric'
+    )
+    event.recipes.mekanismCrushing(
+        'ae2:ender_dust',
+        'ae2cs:purified_ender_quartz'
+    )
+    event.recipes.mekanismCrushing(
+        'minecraft:redstone',
+        'ae2cs:redstone_crystal_dust'
+    )
+    event.recipes.mekanismCrushing(
+        'allthecompressed:gravel_3x',
+        'allthecompressed:cobblestone_3x'
+    )
+    event.recipes.mekanismCrushing(
+        'allthecompressed:sand_3x',
+        'allthecompressed:gravel_3x'
+    )
+    event.recipes.mekanismCrushing(
+        'allthecompressed:gravel_2x',
+        'allthecompressed:cobblestone_2x'
+    )
+    event.recipes.mekanismCrushing(
+        'allthecompressed:sand_2x',
+        'allthecompressed:gravel_2x'
+    )
+    event.recipes.mekanismCrushing(
+        'allthecompressed:gravel_1x',
+        'allthecompressed:cobblestone_1x'
+    )
+    event.recipes.mekanismCrushing(
+        'allthecompressed:sand_1x',
+        'allthecompressed:gravel_1x'
+    )
+    event.recipes.mekanismCrushing(
+        'anvilcraft:gunpowder_block',
+        'allthecompressed:flint_block'
+    )
+    event.recipes.mekanismCrushing(
+        '3x mysticalagriculture:sculk_essence',
+        'minecraft:echo_shard'
+    )
+    event.recipes.mekanismCrushing(
+        '3x irons_spellbooks:ancient_knowledge_fragment',
+        'allthecompressed:bone_block_3x'
+    )
+    event.recipes.mekanismCrushing(
+        'extendedae:silicon_block',
+        'allthecompressed:sand_1x'
+    )
+    event.recipes.mekanismCrushing(
+        'minecraft:glowstone_dust',
+        'extendedae_plus:lattra_crystal'
+    )
+})

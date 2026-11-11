@@ -1,0 +1,186 @@
+#Whether the structure card consumes 1 paper and 1 blank pattern per click.
+#Default: true. Off, neither is consumed; a written exchange pattern stays a real recipe.
+#结构扩容卡点击时是否消耗 1 张纸与 1 张空白样板。默认 true。
+#关掉后两者都不消耗，但已写出的交换样板仍是留在世界里的真实配方。
+structure_card_consumes_items = true
+#Derive processor recipes from AE2 inscriber recipes. Default: true.
+#Note: with this on, deleting a data file alone does not disable a recipe; use the blacklist below.
+#是否接受从 AE2 压印器推导的处理器配方。默认 true。
+#注：开启时仅删数据文件无法禁用配方，请用下方的黑名单。
+derive_processor_recipes_from_inscriber = true
+#Processor outputs the assembler must refuse, e.g. ["ae2:logic_processor"]. Default: [].
+#Note: applies to the JSON recipes and the inscriber derivation alike.
+#必须禁用的处理器配方输出 ID，例如 ["ae2:logic_processor"]。默认 []。
+#注：对 JSON 配方与压印器推导都生效。
+disabled_processor_recipes = []
+#Master switch for wireless ME links (the two cards, rebuild and wake).
+#Default: false. Off only disables the links; recorded links stay in the save.
+#无线 ME 链路系统总开关（含两张卡、重建与唤醒）。默认 false。
+#关闭仅停用功能，已记录的链路数据仍保留在存档中。
+wireless_links = false
+#Max wireless edges per device. Default: 8 | Range: 1~32.
+#Note: on a network without an AE2 controller the actual ceiling is 7.
+#单台设备最大承载的无线链路数。默认 8 | 范围 1~32。
+#注：无 AE2 控制器时，实际可用上限为 7 条。
+# Default: 8
+# Range: 1 ~ 32
+wireless_max_links_per_device = 4
+#Max distance between two devices, in blocks between the squares. Default: 0 (no limit) | Range: 0~100000.
+#Note: applied on bind; lowering it will not break existing links.
+#建立连接的最大距离（格对格）。默认 0（不限）| 范围 0~100000。
+#注：仅对新建链路生效，调小不会断开已有链路。
+# Default: 0
+# Range: 0 ~ 100000
+wireless_max_range_blocks = 0
+#Whether links may join devices in different dimensions. Default: false.
+#Note: links already joined across dimensions stay until a player unbinds them.
+#是否允许跨维度建立无线链路。默认 false。
+#注：已跨维度连上的链路不受开关影响，会保留到玩家主动解除。
+wireless_allow_cross_dimension = false
+#AE/t one live link draws from the network at its own end. Default: 0.5 (8 links = 4 AE/t) | Range: 0~1024. 0 = free.
+#Note: charged live; a network that cannot pay keeps its links but stalls.
+#每条在线链路每刻消耗的网络 AE。默认 0.5（8 条 = 4 AE/t）| 范围 0~1024。0 = 免费。
+#注：每次扫描实时扣费；付不起的网络链路保留，但会停机。
+# Default: 0.5
+# Range: 0.0 ~ 1024.0
+wireless_ae_per_link_per_tick = 0.5
+
+[l1_storage]
+	#Additional eco storage-cell IDs an L1 drive may mount regardless of tier.
+	#Default: []. L1-native cells need no entry, e.g. ["neoecoae:eco_mega_long_bulk_cell"].
+	#额外允许 L1 驱动器挂载的 eco 存储单元 ID（无视档位限制）。默认 []。
+	#L1 原生单元无需填写，示例：["neoecoae:eco_mega_long_bulk_cell"]
+	additional_storage_cells = []
+
+[l1_computation]
+	#Crafting threads per L1 threading core. Default: 2 | Range: 1~1024.
+	#Note: a placed core must be replaced to pick up the new value.
+	#每只 L1 线程核心提供的合成线程数。默认 2 | 范围 1~1024。
+	#注：已放置的核心需拆除重放才会应用新值。
+	# Default: 2
+	# Range: 1 ~ 1024
+	cpu_threads = 2
+	#Co-processors per L1 parallel core (the panel shows it as 并行). Default: 24 | Range: 1~65536.
+	#Note: summed across the cluster, with no design cap.
+	#每只 L1 并行核心提供的协处理器数（面板显示的并行）。默认 24 | 范围 1~65536。
+	#注：集群按累加算，没有设计上限。
+	# Default: 24
+	# Range: 1 ~ 65536
+	cpu_accelerators = 24
+	#Crafting storage bytes per L1 computation cell. Default: 1572864 | Range: 1~1099511627776.
+	#Note: raising it leaves stored cells valid.
+	#每只 L1 计算单元提供的合成存储字节数。默认 1572864 | 范围 1~1099511627776。
+	#注：调大不影响已经存了东西的单元。
+	# Default: 1572864
+	# Range: 1 ~ 1099511627776
+	cpu_total_bytes = 1572864
+	#Crafting storage bytes per energized computation cell (CE1R). Default: 5242880 | Range: same as above.
+	#Note: raising it leaves stored cells valid.
+	#每只盈能计算单元（CE1R）提供的合成存储字节数。默认 5242880 | 范围同上。
+	#注：调大不影响已经存了东西的单元。
+	# Default: 5242880
+	# Range: 1 ~ 1099511627776
+	energized_cell_total_bytes = 5242880
+
+[cryotheum_ore]
+	#Dimensions the cryotheum ores generate in, by full ID. Default: [] (all off).
+	#Note: each entry switches one ore on; changing the host stone needs a datapack.
+	#极寒晶矿生成的维度完整 ID，加一条只开那一种。默认 []（全部关闭）。
+	#注：更换主岩需要数据包，此配置无法做到。
+	dimensions = []
+	#Freeze ticks per broken cryotheum ore. Default: 60 | Range: 0~600. 0 = off.
+	#Note: vanilla starts taking freeze damage at 140 ticks, so below that it only fills the meter.
+	#每挖掉一块极寒晶矿获得的冰冻刻数。默认 60 | 范围 0~600。0 = 关闭。
+	#注：原版需 140 刻才开始扣血，低于此值仅涨霜冻条。
+	# Default: 60
+	# Range: 0 ~ 600
+	freeze_ticks = 60
+
+[cryotheum_meteorite]
+	#Whether the floating End comet generates. Default: false.
+	#Note: read while chunks generate, so placed comets stay.
+	#末地漂浮陨石是否生成。默认 false。
+	#注：在区块生成时决定，关闭不影响已生成的陨石。
+	enabled = false
+
+[singularity_cell]
+	#Singularities per batch. Default: 120 | Range: 1~Long.MAX.
+	#每批产出的奇点数量。默认 120 | 范围 1~Long.MAX。
+	# Default: 120
+	# Range: 1 ~ 9223372036854775807
+	amount_per_batch = 512
+	#Ticks per batch. Default: 600 | Range: 60~16777216.
+	#奇点单元产出间隔（刻）。默认 600 | 范围 60~16777216。
+	# Default: 600
+	# Range: 60 ~ 16777216
+	ticks_per_batch = 60
+
+[machine_mind]
+	#Fraction of idle draw the machine mind saves. Default: 0.1 | Range: 0~0.25. 0 = off.
+	#Note: it only ever saves power, never costs more.
+	#“机魂”能够节省的待机功耗比例。默认 0.1 | 范围 0~0.25。0 = 关闭。
+	#注：只会省电，不会费电。
+	# Default: 0.1
+	# Range: 0.0 ~ 0.25
+	idle_power_saving = 0.1
+
+[fumo_dolls]
+	#AE/t the worn plushie charges items in the inventory and armour slots. Default: 100 | Range: 0~1000000. 0 = off.
+	#Note: the power is void-made, never drawn from the grid.
+	#穿戴中的玩偶每刻为背包物品充能的 AE 速度。默认 100 | 范围 0~1000000。0 = 关闭。
+	#注：电量凭空产生，不从电网抽取。
+	# Default: 100.0
+	# Range: 0.0 ~ 1000000.0
+	charge_ae_per_tick = 100.0
+
+[superconductive_reactor]
+	#AE/t per coil of a formed superconductive reactor (a full cube has 26). Default: 400 | Range: 0~100000.
+	#成型超导反应堆中，每根线圈每刻产出的 AE（满堆 26 根）。默认 400 | 范围 0~100000。
+	# Default: 400.0
+	# Range: 0.0 ~ 100000.0
+	coil_ae_per_tick = 400.0
+	#Extra AE/t generated by the core. Default: 1000 | Range: 0~100000.
+	#反应堆核心额外产出的 AE/刻。默认 1000 | 范围 0~100000。
+	# Default: 1000.0
+	# Range: 0.0 ~ 100000.0
+	core_ae_per_tick = 1000.0
+	#Output multiplier during a thunderstorm while the block above sees the sky. Default: 2 | Range: 1~16. 1 = off.
+	#雷雨且上方见天时的产出倍率。默认 2 | 范围 1~16。1 = 关闭。
+	# Default: 2.0
+	# Range: 1.0 ~ 16.0
+	storm_multiplier = 2.0
+
+[sky_stone_dust_cell]
+	#Ticks per batch for the meteorite-dust cell. Default: 600 | Range: 60~16777216.
+	#Note: independent from the singularity cell.
+	#陨石粉单元产出间隔（刻）。默认 600 | 范围 60~16777216。
+	#注：与奇点单元配置相互独立。
+	# Default: 600
+	# Range: 60 ~ 16777216
+	ticks_per_batch = 600
+	#Dust per batch. Default: 120 | Range: 1~Long.MAX.
+	#每批产出的陨石粉数量。默认 120 | 范围 1~Long.MAX。
+	# Default: 120
+	# Range: 1 ~ 9223372036854775807
+	amount_per_batch = 120
+
+[migration_drive]
+	#Whether a drive packs replaced blocks into one backup drive. Default: false.
+	#Note: a mounted cell and stored patterns are never affected by this switch.
+	#升格迁移驱动是否将换下的旧方块装进“备份驱动”返还。默认 false。
+	#注：机器内部的存储矩阵与样板无论开关均会保留。
+	refund_replaced_blocks = false
+
+[source_cell]
+	#Ticks per batch for the source cell. Default: 600 | Range: 60~16777216.
+	#Note: independent from the singularity and meteorite-dust cells.
+	#魔源单元产出间隔（刻）。默认 600 | 范围 60~16777216。
+	#注：与奇点单元、陨石粉单元的配置相互独立。
+	# Default: 600
+	# Range: 60 ~ 16777216
+	ticks_per_batch = 600
+	#Source per batch. Default: 120 | Range: 1~Long.MAX.
+	#每批产出的魔源数量。默认 120 | 范围 1~Long.MAX。
+	# Default: 120
+	# Range: 1 ~ 9223372036854775807
+	amount_per_batch = 120

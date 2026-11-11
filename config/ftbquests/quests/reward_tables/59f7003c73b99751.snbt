@@ -1,0 +1,9 @@
+{
+	id: "59F7003C73B99751"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ id: "6DA2605E0FF23EB8", item: { count: 1, id: "sophisticatedbackpacks:advanced_void_upgrade" } }
+		{ id: "6720509A7EB497A9", item: { count: 1, id: "sophisticatedstorage:advanced_void_upgrade" } }
+	]
+}

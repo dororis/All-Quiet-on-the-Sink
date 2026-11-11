@@ -1,0 +1,29 @@
+{
+  "server": {
+    "serverSupport": true,
+    "serverPort": 29690,
+    "serverPassword": "",
+    "modpackUrl": "",
+    "updateGithubRepo": ""
+  },
+  "ui": {
+    "isEnableAllButtonShown": true,
+    "isUpdateManagerOn": true,
+    "isSelfUpdateAutoCheckOn": true,
+    "isPresetFuncOn": true
+  },
+  "paths": {
+    "dlcRoot": "DLC",
+    "taczRoot": "tacz",
+    "resourcepackRoot": "resourcepacks",
+    "datapackRoot": "datapacks"
+  },
+  "downloads": {
+    "maxConcurrentDownloads": 5,
+    "maxSegmentsPerFile": 4,
+    "minSegmentMB": 20,
+    "maxRetryCount": 5,
+    "connectTimeoutSeconds": 10,
+    "taskTimeoutSeconds": 60
+  }
+}

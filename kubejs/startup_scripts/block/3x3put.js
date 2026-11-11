@@ -1,0 +1,17 @@
+StartupEvents.registry('block', event => {
+    // 1. 3x3 输入总成
+    event.create('3x3_input_assembly')
+        .displayName('3x3输入总成')
+        .hardness(3.5)                    
+        .resistance(6.0)                   
+        .tagBlock('minecraft:mineable/pickaxe')  
+        .requiresTool(true)
+        .texture('kubejs:block/3x3_input_assembly')                
+    event.create('3x3_output_assembly')
+        .displayName('3x3输出总成')
+        .hardness(3.5)
+        .resistance(6.0)
+        .tagBlock('minecraft:mineable/pickaxe')
+        .requiresTool(true)
+        .texture('kubejs:block/3x3_output_assembly')
+})

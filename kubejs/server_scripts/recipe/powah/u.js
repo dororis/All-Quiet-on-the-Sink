@@ -1,0 +1,22 @@
+ServerEvents.recipes(event => {
+  event.recipes.powah.energizing(
+    ['alltheores:uranium_block'], 
+    'powah:uraninite_block',
+     270000
+    )
+    event.recipes.powah.energizing(
+    ['allthecompressed:uranium_block_1x'], 
+    'allthecompressed:uraninite_block_1x',
+     2430000
+    )
+    event.recipes.powah.energizing(
+    ['allthecompressed:uranium_block_2x'], 
+    'allthecompressed:uraninite_block_2x',
+     7290000
+    )
+    event.recipes.powah.energizing(
+    ['allthecompressed:uranium_block_3x'], 
+    'allthecompressed:uraninite_block_3x',
+     21870000
+    )
+})

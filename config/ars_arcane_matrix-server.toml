@@ -1,0 +1,172 @@
+#Arcane Matrix Core gameplay settings. / 矩阵核心运行设置。
+[matrix_core]
+	#Maximum Source stored inside one Matrix Core. / 单个矩阵核心的魔源容量。
+	# Default: 10000000
+	# Range: > 1
+	sourceCapacity = 10000000
+	#Source output range in blocks, measured from the Matrix Core. Runtime keeps a minimum of 16 blocks so the multiblock frame does not consume most of the usable radius. / 以核心为中心的魔源输出范围，单位为格；实际最小为16格。
+	# Default: 16
+	# Range: 1 ~ 64
+	outputRange = 16
+	#Source generated per second at the minimum frame count. / 达到最低框架数量时，每秒产生的基础魔源。
+	# Default: 1000
+	# Range: > 0
+	baseGenerationPerSecond = 1000
+	#Additional Source generated per second for each frame above the minimum. / 超过最低要求后，每个额外框架增加的每秒魔源产量。
+	# Default: 250
+	# Range: > 0
+	generationPerAdditionalFrame = 250
+	#Configurable Source generation cap per Matrix Core. / 增幅器加成前的魔源产量上限；最终产量仍会乘以增幅倍率。
+	# Default: 100000
+	# Range: > 0
+	maxGenerationPerSecond = 100000
+	#Frames required to form the structure. At least one complete 5x5 ring is always required. / 启动所需的最低有效框架数量；仍必须至少完成一个5×5环。
+	#Runtime value is capped by maximumFrameBlocks. / 此值不能超过下方的最大有效框架数量。
+	# Default: 16
+	# Range: 1 ~ 42
+	minimumFrameBlocks = 16
+	#Maximum frames counted for generation. The physical structure has 42 valid positions. / 计入产量的最大框架数量；结构共有42个有效位置。
+	# Default: 42
+	# Range: 1 ~ 42
+	maximumFrameBlocks = 42
+	#Maximum Source transferred from one Matrix Core per second. / 单个矩阵核心每秒主动输出的魔源上限。
+	# Default: 100000
+	# Range: > 0
+	maxOutputPerSecond = 100000
+	#Generation multiplier added by each of the six valid Arcane Amplifier vertices. / 每个有效增幅器的产量加成，0.25表示增加25%；最多6个。
+	# Default: 0.25
+	# Range: 0.0 ~ 100.0
+	amplifierBonusPerBlock = 0.25
+
+#Arcane Mine structure settings. / 矿井结构设置。
+[arcane_mine]
+
+	[arcane_mine.structure]
+		#Odd, ascending square sizes above the core. Defaults to an inverted 3/5/7/9 beacon. / 核心上方各层的边长，必须是递增奇数；默认3、5、7、9。修改后需要重新进入世界。
+		layerSizes = [3, 5, 7, 9]
+		#Ticks between complete structure scans. / 完整结构检测间隔，单位为刻；20刻约为1秒。
+		# Default: 20
+		# Range: 5 ~ 200
+		structureCheckInterval = 20
+
+	#Arcane Mine operation settings. / 矿井运行设置。
+	[arcane_mine.operation]
+		#Range in blocks used to pull from Ars Nouveau Source providers, including Beyond Dimensions Source Pathways. / 矿井未完成全部层数时的取源范围，单位为格。
+		# Default: 5
+		# Range: 1 ~ 64
+		sourceInputRange = 5
+		#Expanded Source input range used when every configured Arcane Mine layer is complete. / 完成全部矿井层数后的扩大取源范围，单位为格。
+		#Loaded Matrix Cores inside this range are valid providers; this search never loads additional chunks. / 可使用范围内已加载的矩阵核心，不会主动加载其他区块。
+		# Default: 32
+		# Range: 1 ~ 64
+		fullStructureSourceInputRange = 32
+		#Extra ordinary ore blocks produced per Arcane Amplifier. / 每个增幅器额外增加的普通矿物产量。
+		# Default: 1
+		# Range: 0 ~ 64
+		outputBonusPerAmplifier = 1
+		#Source and material cost multiplier added by each Arcane Amplifier. / 每个增幅器增加的魔源与材料费用倍率；0.5表示额外增加50%。
+		# Default: 0.5
+		# Range: 0.0 ~ 100.0
+		costIncreasePerAmplifier = 0.5
+		#Arcane Amplifier chance per 128 material points consumed by a full four-layer mine. / 完整矿井每消耗128材料点的增幅器产出概率；0.01表示1%。
+		# Default: 0.01
+		# Range: 0.0 ~ 1.0
+		amplifierByproductChance = 0.01
+		#Guaranteed Arcane Amplifier after this many material points are consumed without one. / 未获得增幅器时累计消耗多少材料点必定产出；获得后重新累计。
+		# Default: 12800
+		# Range: 1 ~ 100000000
+		amplifierPityMaterialPoints = 12800
+		#Material points supplied by one item in the arcane_mine_material_sourcestone tag. / 每个魔源石类材料提供的材料点数。
+		# Default: 1
+		# Range: 1 ~ 1000000
+		sourcestonePoints = 1
+		#Material points supplied by one item in the arcane_mine_material_source_gem tag. / 每个魔源宝石类材料提供的材料点数。
+		# Default: 32
+		# Range: 1 ~ 1000000
+		sourceGemPoints = 32
+		#Material points supplied by one item in the arcane_mine_material_source_gem_block tag. / 每个魔源宝石块类材料提供的材料点数。
+		# Default: 128
+		# Range: 1 ~ 1000000
+		sourceGemBlockPoints = 128
+		#Source-equivalent cost per material point used only for full-amplifier pacing. / 仅用于满增幅矿井计算工作间隔：每材料点折算的魔源成本，不会额外扣除魔源。
+		#The default is based on 500 Source per Source Gem and 32 points per gem. / 默认按每个魔源宝石500魔源、提供32材料点折算。
+		# Default: 15.625
+		# Range: 0.0 ~ 1000000.0
+		materialPointSourceEquivalent = 15.625
+		#Normal converted-material buffer capacity. / 矿井材料点缓存的基础容量。
+		#Runtime capacity expands to the selected recipe cost to prevent impossible production. / 若单次配方费用更高，会自动扩展到足够完成一次配方。
+		# Default: 4096
+		# Range: 32 ~ 1000000
+		materialPointCapacity = 4096
+		#Maximum Dominion Wand material-container links. / 支配之杖最多可绑定的矿井材料输入容器数量。
+		# Default: 4
+		# Range: 1 ~ 16
+		maxMaterialContainers = 4
+		#Cooldown in ticks after production for each completed structure layer. / 各层生产冷却，单位为刻；默认依次20、15、10、5秒。满4个增幅器时使用单独的费用折算间隔。
+		cooldownTicksByLayer = [400, 300, 200, 100]
+		#Allow loaded containers in other dimensions to be linked. / 是否允许绑定其他维度已加载的容器；不会自动加载目标区块。
+		allowCrossDimension = true
+		#Create conservative default rules for unconfigured c:ores/* item tags. / 是否自动为其他模组的矿物生成默认规则；关闭后只使用数据包明确指定的矿物。
+		autoDiscoverOres = true
+
+	#Arcane Mine visual and sound effects. / 矿井特效的服务器发送设置，影响所有玩家；个人光束与投影显示请修改客户端配置。
+	[arcane_mine.effects]
+		#Send periodic mine particles. / 是否发送矿井运行与红石暂停的周期粒子；不影响完成时的粒子。
+		enableParticles = true
+		#Periodic particle interval in ticks. / 周期粒子发送间隔，20刻约1秒；越小越频繁。
+		# Default: 10
+		# Range: 2 ~ 200
+		particleIntervalTicks = 10
+		#Active particle density multiplier. / 运行粒子密度倍率；设为0仍有最低粒子量，关闭请使用enableParticles。
+		# Default: 1.0
+		# Range: 0.0 ~ 4.0
+		particleDensity = 1.0
+		#Send mine event sounds. / 是否向玩家播放矿井启动、停止与完成音效。
+		enableSounds = true
+
+#Arcane Imbuement Core settings. / 奥术灌注核心设置。
+[arcane_imbuement_core]
+	#Range used to pay Source directly from Ars Nouveau providers. / 直接从周围魔源提供者支付费用的范围，单位为格。
+	# Default: 5
+	# Range: 1 ~ 64
+	sourceInputRange = 5
+	#Maximum Lapis or Amethyst items/blocks processed in one cycle. / 每批最多处理的青金石或紫水晶材料数量，单件和方块均按一份输入计数。
+	# Default: 4
+	# Range: 1 ~ 7
+	maxCompressedInputsPerCycle = 4
+	#Duration of one bulk cycle. 100 ticks equals five seconds. / 单批工作时间，单位为刻；100刻约为5秒。
+	# Default: 100
+	# Range: 1 ~ 72000
+	cycleTicks = 100
+
+#Source Stone Generator settings. / 魔源造石机设置。
+[source_stone_generator]
+	#Progress required by the fallback 64 Cobblestone recipe. / 没有基座配方时，默认64圆石配方所需的工作进度。
+	# Default: 200
+	# Range: > 1
+	defaultProcessingCost = 200
+	#Free imbuement-style progress gained each second without external Source. / 没有外部魔源时每秒自然增加的进度；设为0则停止自然积累。
+	# Default: 20
+	# Range: > 0
+	passiveProgressPerSecond = 20
+
+#Arcane Hunting Grounds settings. / 奥术猎场设置。
+[drygmy_arena]
+	#Ticks per special-output cycle. 6000 ticks equals five minutes. / 每次猎场生产的工作时间，单位为刻；6000刻约为5分钟。
+	# Default: 6000
+	# Range: 20 ~ 1728000
+	cycleTicks = 6000
+	#Cycle speed divisor when the full point cost is paid with Condensed Summoning Cores. / 一次周期完全由凝魂召唤核心支付时的工作速度倍率。
+	# Default: 4
+	# Range: 1 ~ 64
+	condensedSpeedDivisor = 4
+	#Output multiplier when the full point cost is paid with Condensed Summoning Cores. / 一次周期完全由凝魂召唤核心支付时的产物倍率。
+	# Default: 4
+	# Range: 1 ~ 64
+	condensedOutputMultiplier = 4
+
+[creatures]
+	#Enable simulated structure exploration. Native archaeology is unaffected. / 启用探宝蟹模拟结构宝箱探险，不影响普通考古。
+	enableAlakarkinosExpeditions = true
+	#Enable Matrix pedestal weapon enhancements for Drygmy. / 启用矩阵提供的德格米基座武器强化，不影响其他模组自己的强化。
+	enableDrygmyToolEnhancements = true

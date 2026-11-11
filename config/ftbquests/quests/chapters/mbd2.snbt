@@ -1,0 +1,278 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "mbd2"
+	group: ""
+	icon: {
+		components: {
+			"mbd2:gadget_mode": "multiblock_debugger"
+			"mbd2:gadget_recipe": "mbd2:test/recipe_0"
+		}
+		id: "mbd2:mbd_gadgets"
+	}
+	id: "5B71D32DBE6BFB5B"
+	images: [ ]
+	order_index: 1
+	quest_links: [{
+		id: "69A38667605A9232"
+		linked_quest: "097AAB76D4DAAF50"
+		x: -2.0d
+		y: -4.5d
+	}]
+	quests: [
+		{
+			disable_toast: true
+			id: "2A7D958B704849D4"
+			tasks: [{
+				id: "12D07FF24F963E50"
+				item: { count: 1, id: "mbd2:3x3input" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			disable_toast: true
+			id: "5DED66336F18EC77"
+			tasks: [{
+				id: "624BC69697D4E255"
+				item: { count: 1, id: "mbd2:3x3output" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			disable_toast: true
+			id: "6F5759FD6167C0FB"
+			tasks: [{
+				id: "446AD2B84BD4F922"
+				item: { count: 1, id: "mbd2:rainbow_generator" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			id: "0E26E39C8C6DF510"
+			tasks: [{
+				id: "04673F6C6C2FCD89"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			id: "63FC1CC64113D865"
+			tasks: [{
+				id: "177C66572E2AC4EE"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			id: "15AE1A0BA8447217"
+			rewards: [{
+				id: "31C43361CD66B374"
+				item: {
+					count: 1
+					id: "mbd2:3x3input"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "679653D9B3A6BED3"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			disable_toast: true
+			id: "4B62099DE58E001A"
+			optional: true
+			tasks: [{
+				id: "55619710ABA652C1"
+				item: { count: 1, id: "mbd2:frame_sandblaster" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			disable_toast: true
+			icon: {
+				id: "mbd2:configurable"
+			}
+			id: "4B406D2CE896E9FB"
+			tasks: [
+				{
+					id: "6A42F40EB7DF2111"
+					item: { count: 1, id: "mbd2:configurable" }
+					type: "item"
+				}
+				{
+					id: "26F344A6F17A311A"
+					item: { count: 1, id: "mbd2:basic_configurable" }
+					type: "item"
+				}
+				{
+					id: "4FA8C9CDE5C44F2B"
+					item: { count: 1, id: "mbd2:advanced_configurable" }
+					type: "item"
+				}
+				{
+					id: "6042A32B25DBC17A"
+					item: { count: 1, id: "mbd2:elite_configurable" }
+					type: "item"
+				}
+				{
+					id: "0ECAD032027F39BB"
+					item: { count: 1, id: "mbd2:ultimate_configurable" }
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			disable_toast: true
+			id: "4F0C44937351914E"
+			tasks: [{
+				id: "6225234643991D52"
+				item: { count: 1, id: "mbd2:apotheosis_slayer_factory" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			disable_toast: true
+			id: "3FCE11A9EC7C77F9"
+			tasks: [{
+				id: "14D49EF54243FB46"
+				item: { count: 1, id: "mbd2:dimensional_stabilimentum" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			disable_toast: true
+			id: "6742BAE8CC9FB67E"
+			optional: true
+			tasks: [{
+				id: "49AD1CCEF5AC205D"
+				item: { count: 1, id: "mbd2:middle_wind_generate" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			disable_toast: true
+			id: "4260D5BF2D15D11B"
+			tasks: [{
+				id: "6CD682B42FB29B7C"
+				item: { count: 1, id: "mbd2:compact_fissile_fuel" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			disable_toast: true
+			id: "0C9C085682E352D4"
+			tasks: [{
+				id: "03A7F25FB9689477"
+				item: { count: 1, id: "mbd2:moon_mineral_extractor" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			disable_toast: true
+			id: "550D95CEEE0A6921"
+			tasks: [{
+				id: "4FEEABC53EBD3D7F"
+				item: { count: 1, id: "mbd2:compact_thermal" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -0.5d
+		}
+		{
+			id: "5468575CE1E33CA9"
+			tasks: [{
+				id: "7773CBD46FEF0A4D"
+				item: { count: 1, id: "mbd2:smelting_furnace" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			id: "14E4C1F5B6BC5DCB"
+			tasks: [{
+				id: "50770D20A30686B3"
+				item: { count: 1, id: "mbd2:compact_amethyst_growth" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			id: "30E5CFAC43BB6854"
+			tasks: [{
+				id: "7E21BC56B0EAA1BB"
+				item: { count: 1, id: "mbd2:atomic_reconstructor" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 1.5d
+		}
+		{
+			id: "5FFC9ECA4451B6AC"
+			tasks: [{
+				id: "45C17FA1DACAFCBA"
+				item: { count: 1, id: "mbd2:meinput" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			id: "48C1ED84CDDDB38D"
+			tasks: [{
+				id: "063F22E0A4FA84BC"
+				item: { count: 1, id: "mbd2:meoutput" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			id: "1B43A0BDB10B21A1"
+			tasks: [{
+				id: "4B807B454F1F3E22"
+				item: { count: 1, id: "mbd2:fusion_reaction_vessel" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: -0.5d
+		}
+		{
+			id: "72F05AA04F0FE626"
+			tasks: [{
+				id: "76AE90C915AB5F6E"
+				item: { count: 1, id: "mbd2:sourcegate" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.5d
+		}
+	]
+}

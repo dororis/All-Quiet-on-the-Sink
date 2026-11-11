@@ -1,0 +1,54 @@
+#Multiplier for Matter Tank Tier 1
+# Default: 2
+# Range: 1 ~ 32
+tankTier1 = 2
+#Multiplier for Matter Tank Tier 2
+# Default: 4
+# Range: 2 ~ 32
+tankTier2 = 4
+#Multiplier for Matter Tank Tier 3
+# Default: 8
+# Range: 3 ~ 32
+tankTier3 = 8
+#Multiplier for Matter Tank Tier 4
+# Default: 16
+# Range: 4 ~ 32
+tankTier4 = 16
+#Multiplier for Matter Tank Tier 5
+# Default: 32
+# Range: 5 ~ 1024
+tankTier5 = 32
+#Multiplier for Matter Tank Tier 6
+# Default: 64
+# Range: 6 ~ 1024
+tankTier6 = 64
+#Multiplier for Matter Tank Tier 7
+# Default: 128
+# Range: 7 ~ 1024
+tankTier7 = 128
+#Multiplier for Matter Tank Tier 8
+# Default: 256
+# Range: 8 ~ 1024
+tankTier8 = 256
+# number of ticks it takes for Replication task 
+# it takes twice the ticks mentioned in the config inside game.
+# Default: 4
+# Range: 1 ~ 100
+advancedReplicator = 4
+# number of ticks it takes for Replication task
+# it takes twice the ticks mentioned in the config inside game.
+# Default: 1
+# Range: 1 ~ 100
+eliteReplicator = 1
+#Advanced Matter Pipe Power Transfer Rate Multiplier
+# Default: 4
+# Range: 1 ~ 100
+advancedMatterPipe = 4
+#Elite Matter Pipe Power Transfer Rate Multiplier
+# Default: 16
+# Range: 1 ~ 100
+eliteMatterPipe = 16
+#Ultimate Matter Pipe Power Transfer Rate Multiplier
+# Default: 64
+# Range: 1 ~ 100
+ultimateMatterPipe = 64

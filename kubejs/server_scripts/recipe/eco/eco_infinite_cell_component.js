@@ -1,0 +1,55 @@
+ServerEvents.recipes(event => {
+    event.custom(
+        {
+  "type": "neoecoae:integrated_working_station",
+  "energy": 1000000000,
+  "inputFluid": {
+    "amount": 64000,
+    "fluid": "neoecoae:cryotheum_solution"
+  },
+  "inputItems": [
+    {
+      "count": 4,
+      "item": "ae2omnicells:omni_cell_component_256m"
+    },
+    {
+      "count": 4,
+      "item": "ae2omnicells:complex_omni_cell_component_256m"
+    },
+    {
+      "count": 4,
+      "item": "ae2omnicells:quantum_omni_cell_component_256m"
+    },
+    {
+      "count": 4,
+      "item": "appgen:generating_component_256m"
+    },
+    {
+      "count": 1,
+      "item": "neoecoprototype:fumo_doll_yang120_cpu"
+    },
+    {
+      "count": 4,
+      "item": "appflux:core_256m"
+    },
+    {
+      "count": 4,
+      "item": "neoecoae:eco_cell_component_256m"
+    },
+    {
+      "count": 4,
+      "item": "ae2lt:bulk_lightning_cell_component"
+    },
+    {
+      "count": 4,
+      "item": "megacells:cell_component_256m"
+    }
+  ],
+  "itemOutput": {
+    "count": 1,
+    "id": "neoecoae:eco_infinite_cell_component"
+  }
+}
+
+)      
+})        

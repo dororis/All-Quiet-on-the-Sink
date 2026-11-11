@@ -1,0 +1,405 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_5"
+	group: "4D3AA524F989001F"
+	icon: {
+		id: "ad_astra:mars_globe"
+	}
+	id: "586D1880049A3C11"
+	images: [
+		{
+			height: 1.0d
+			id: "33F385E91874516D"
+			image: "ftblibrary:icons/dropdown_out"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			click_action: "open_quest:771EA7A8EAC51882"
+			height: 1.0d
+			id: "2576A43653522EF3"
+			image: "brandonscore:textures/gui/dark/arrow_right.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 17.5d
+			y: -0.5d
+		}
+		{
+			click_action: "none:"
+			height: 3.0d
+			id: "0E10948D9571AA09"
+			image: "ad_astra:block/polished_venus_stone"
+			rotation: 0.0d
+			width: 3.0d
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			click_action: "none:"
+			height: 3.0d
+			id: "76B24579B7330193"
+			image: "ad_astra:textures/environment/glacio.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 13.5d
+			y: -0.5d
+		}
+		{
+			click_action: "show_recipe:kubejs:goat"
+			height: 1.0d
+			id: "7435FD4344BF3421"
+			image: "anvilcraft:item/negative_matter_nugget"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.0d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			id: "30CEC9BA5D932485"
+			image: "anvilcraft:block/spectral_anvil"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.0d
+			y: -2.5d
+		}
+	]
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3138DB55244B71DE"]
+			id: "58E24B18B047159F"
+			rewards: [{
+				id: "6CC21EFCA647308D"
+				item: {
+					count: 1
+					id: "ad_astra:mars_globe"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "636B38E42EACF5EC"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"63D7440B082F72EF"
+				"58E24B18B047159F"
+			]
+			id: "4E3A49B682F0F9EE"
+			tasks: [{
+				id: "2EF961E78B415980"
+				item: { count: 1, id: "ad_astra:ostrum_ingot" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			id: "63D7440B082F72EF"
+			tasks: [{
+				id: "4325A13AB514A5FE"
+				item: { count: 1, id: "neoecoae:cryotheum_crystal" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4E3A49B682F0F9EE"]
+			id: "5F115DACB73107D6"
+			tasks: [{
+				id: "160C28245D50CB51"
+				item: { count: 1, id: "anvilcraft:frost_metal_ingot" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5F115DACB73107D6"]
+			id: "136DF97DFDF0CCF3"
+			tasks: [{
+				id: "45B2D2E4E4C20937"
+				item: { count: 1, id: "anvilcraft:frost_metal_block" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"136DF97DFDF0CCF3"
+				"1F21D475289AC078"
+			]
+			id: "4CC8A0EC57BB4726"
+			rewards: [{
+				id: "3E5D02068D6683C7"
+				item: {
+					count: 1
+					id: "ad_astra:venus_globe"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "58412CBC9C0A9ADC"
+				item: { count: 1, id: "ad_astra:tier_3_rocket" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"4CC8A0EC57BB4726"
+				"5333B5E804774A3D"
+			]
+			id: "6ECA8BDBFC9ACA4F"
+			tasks: [{
+				id: "5AB5590C5FD95DF5"
+				item: { count: 1, id: "ad_astra:calorite_ingot" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			id: "5333B5E804774A3D"
+			tasks: [{
+				id: "3402AA72FE6DBB73"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6ECA8BDBFC9ACA4F"]
+			id: "47BCB434125E01D1"
+			tasks: [{
+				id: "08815F60963C70C4"
+				item: { count: 1, id: "anvilcraft:ember_metal_ingot" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6ECA8BDBFC9ACA4F"]
+			id: "570E4B1050FEED34"
+			tasks: [{
+				id: "6437901EB9758107"
+				item: { count: 1, id: "anvilcraft:ember_metal_block" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"570E4B1050FEED34"
+				"6F70887D6EDF6656"
+			]
+			id: "20E44A9CA4C976BF"
+			rewards: [{
+				id: "39F85F345DB70B07"
+				item: {
+					count: 1
+					id: "ad_astra:glacio_globe"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "698320EACF7B0B05"
+				item: { count: 1, id: "ad_astra:tier_4_rocket" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["20E44A9CA4C976BF"]
+			icon: {
+				components: {
+					"ars_nouveau:mob_jar": {
+						entity_tag: {
+							AbsorptionAmount: 0.0f
+							Age: 0
+							Air: 300s
+							ArmorDropChances: [
+								0.085f
+								0.085f
+								0.085f
+								0.085f
+							]
+							ArmorItems: [
+								{ }
+								{ }
+								{ }
+								{ }
+							]
+							Brain: {
+								memories: { }
+							}
+							CanPickUpLoot: 0b
+							DeathTime: 0s
+							FallDistance: 0.0f
+							FallFlying: 0b
+							Fire: -1s
+							ForcedAge: 0
+							HandDropChances: [
+								0.085f
+								0.085f
+							]
+							HandItems: [
+								{ }
+								{ }
+							]
+							Health: 16.0f
+							HurtByTimestamp: 0
+							HurtTime: 0s
+							InLove: 0
+							Invulnerable: 0b
+							LeftHanded: 1b
+							Motion: [
+								0.0d
+								-0.0784000015258789d
+								0.0d
+							]
+							NeoForgeData: { }
+							OnGround: 1b
+							PersistenceRequired: 0b
+							PortalCooldown: 0
+							Pos: [
+								-1650.5d
+								253.5d
+								-4057.5d
+							]
+							Rotation: [
+								146.77768f
+								-16.931032f
+							]
+							Sheared: 0b
+							UUID: [I;
+								813508251
+								1308773954
+								-1359693440
+								902928604
+							]
+							attributes: [
+								{
+									base: 16.0d
+									id: "minecraft:generic.follow_range"
+									modifiers: [{
+										amount: -0.008993221195185102d
+										id: "minecraft:random_spawn_bonus"
+										operation: "add_multiplied_base"
+									}]
+								}
+								{
+									base: 0.6d
+									id: "minecraft:generic.step_height"
+								}
+								{
+									base: 0.1d
+									id: "caelus:fall_flying"
+								}
+								{
+									base: 0.0d
+									id: "minecraft:generic.oxygen_bonus"
+								}
+								{
+									base: 0.20000000298023224d
+									id: "minecraft:generic.movement_speed"
+								}
+							]
+							id: "ad_astra:glacian_ram"
+							"neoforge:attachments": {
+								"apotheosis:tier_augments_applied": 1b
+							}
+							"neoforge:spawn_type": "SPAWN_EGG"
+						}
+					}
+				}
+				id: "ars_nouveau:mob_jar"
+			}
+			id: "7825003F03CFE197"
+			rewards: [{
+				id: "250E566F199A096E"
+				item: {
+					count: 1
+					id: "anvilcraft:multiphase_transcendium"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1BAEB4705EF98A68"
+					item: { count: 1, id: "anvilcraft:negative_matter_nugget" }
+					type: "item"
+				}
+				{
+					id: "637E04B066CDB157"
+					item: { components: { "ars_nouveau:mob_jar": { entity_tag: { AbsorptionAmount: 0.0f, Age: 0, Air: 300s, ArmorDropChances: [ 0.085f, 0.085f, 0.085f, 0.085f ], ArmorItems: [ { }, { }, { }, { } ], Brain: { memories: { } }, CanPickUpLoot: 0b, DeathTime: 0s, FallDistance: 0.0f, FallFlying: 0b, Fire: -1s, ForcedAge: 0, HandDropChances: [ 0.085f, 0.085f ], HandItems: [ { }, { } ], Health: 16.0f, HurtByTimestamp: 0, HurtTime: 0s, InLove: 0, Invulnerable: 0b, LeftHanded: 1b, Motion: [ 0.0d, -0.0784000015258789d, 0.0d ], NeoForgeData: { }, OnGround: 1b, PersistenceRequired: 0b, PortalCooldown: 0, Pos: [ -1650.5d, 253.5d, -4057.5d ], Rotation: [ 146.77768f, -16.931032f ], Sheared: 0b, UUID: [I; 813508251, 1308773954, -1359693440, 902928604 ], attributes: [ { base: 16.0d, id: "minecraft:generic.follow_range", modifiers: [{ amount: -0.008993221195185102d, id: "minecraft:random_spawn_bonus", operation: "add_multiplied_base" }] }, { base: 0.6d, id: "minecraft:generic.step_height" }, { base: 0.1d, id: "caelus:fall_flying" }, { base: 0.0d, id: "minecraft:generic.oxygen_bonus" }, { base: 0.20000000298023224d, id: "minecraft:generic.movement_speed" } ], id: "ad_astra:glacian_ram", "neoforge:attachments": { "apotheosis:tier_augments_applied": 1b }, "neoforge:spawn_type": "SPAWN_EGG" } } }, count: 1, id: "ars_nouveau:mob_jar" }
+					match_components: "strict"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: -0.5d
+		}
+		{
+			id: "6F70887D6EDF6656"
+			tasks: [{
+				count: 3L
+				id: "2C0A175BD8EF5703"
+				item: { count: 1, id: "anvilcraft:helium_bucket" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: -2.5d
+		}
+		{
+			id: "1F21D475289AC078"
+			tasks: [{
+				count: 3L
+				id: "67C1C8F793F98A81"
+				item: { count: 1, id: "neoecoae:cryotheum_solution_bucket" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			icon: {
+				id: "mbd2:atomic_reconstructor"
+			}
+			id: "7C2FE7223CD9A348"
+			tasks: [
+				{
+					id: "6501A6178116E3A8"
+					item: { count: 1, id: "mbd2:atomic_reconstructor" }
+					type: "item"
+				}
+				{
+					id: "46AC808317641290"
+					item: { count: 1, id: "ae2lt:overload_pattern_encoder" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.0d
+		}
+	]
+}

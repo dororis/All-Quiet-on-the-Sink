@@ -1,0 +1,37 @@
+{
+  "values": {
+    "kubejs:unrefined_t2_fluid_source": {
+      "burn_time": 40,
+      "energy": 2820
+    },
+    "kubejs:unrefined_t3_fluid_source": {
+      "burn_time": 80,
+      "energy": 5640
+    },
+    "kubejs:unrefined_t4_fluid_source": {
+      "burn_time": 120,
+      "energy": 11280
+    },
+    "mekanismelements:ammonia": {
+      "burn_time": 180,
+      "energy": 16920
+    },
+    "mekanism_extras:rich_uranium_fuel": {
+      "burn_time": 240,
+      "energy": 22560
+    },
+    "mekanism_extras:rich_naquadah_fuel": {
+      "burn_time": 480,
+      "energy": 45120
+    },
+    "mekanism_extras:naquadah_uranium_fuel": {
+      "burn_time": 960,
+      "energy": 90240
+    }
+    ,
+    "kubejs:dragon_breath": {
+      "burn_time": 1688,
+      "energy": 440625
+    }
+  }
+}

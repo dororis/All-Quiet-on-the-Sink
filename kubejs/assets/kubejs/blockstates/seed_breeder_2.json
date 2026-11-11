@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "kubejs:block/seed_breeder_2" },
+    "facing=south": { "model": "kubejs:block/seed_breeder_2", "y": 180 },
+    "facing=east": { "model": "kubejs:block/seed_breeder_2", "y": 90 },
+    "facing=west": { "model": "kubejs:block/seed_breeder_2", "y": 270 }
+  }
+}

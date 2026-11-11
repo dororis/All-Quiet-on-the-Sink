@@ -1,0 +1,12 @@
+{
+  "type": "overload_sim:simulation_mineral",
+  "material": "c:sky_stone",
+  "binding": {
+    "id": "ae2:sky_stone_block"
+  },
+  "priority": 100,
+  "item": "ae2:sky_dust",
+  "min": 1,
+  "max": 2,
+  "same_block": true
+}

@@ -1,0 +1,46 @@
+[api]
+apiEnabled = false
+apiPort = 10086
+apiToken = ""
+
+[paths]
+dlcRoot = "DLC"
+taczRoot = "tacz"
+resourcepackRoot = "resourcepacks"
+datapackRoot = "datapacks"
+
+[ui]
+isEnableAllButtonShown = true
+isConfigButtonShown = true
+isUButtomShown = true
+isUpdateManagerOn = true
+isSelfUpdateAutoCheckOn = false
+isPresetFuncOn = true
+ShowOnFirstRun = true
+WaitingTime = 0
+serverSupport = true
+titleAnchor = "auto"
+titleOffsetX = 0
+titleOffsetY = 0
+titleUpdateAnchor = "auto"
+titleUpdateOffsetX = 0
+titleUpdateOffsetY = 0
+noticeDisplayMode = "manager_button"
+noticeButtonAnchor = "bottom_right"
+noticeButtonOffsetX = 0
+noticeButtonOffsetY = 0
+noticePanelAnchor = "top_left"
+noticePanelOffsetX = 0
+noticePanelOffsetY = 0
+noticePanelWidth = 0
+noticePanelHeight = 0
+modpackUrl = ""
+updateGithubRepo = ""
+
+[downloads]
+maxConcurrentDownloads = 64
+maxSegmentsPerFile = 8
+minSegmentMB = 1
+maxRetryCount = 5
+connectTimeoutSeconds = 10
+taskTimeoutSeconds = 120

@@ -1,0 +1,4 @@
+#Maximum efficiency of in world recipes
+# Default: 64
+# Range: 1 ~ 128
+in_world_recipe_max_efficiency = 64

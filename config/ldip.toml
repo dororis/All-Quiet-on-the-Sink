@@ -1,0 +1,9 @@
+
+["Limited Damage Indicator Particle"]
+	#Range: > 0
+	MaximumNumberOfDamageIndicatorParticle = 5
+	#Range: 0.0 ~ 1.7976931348623157E308
+	DamageIndicatorParticleMultiplier = 1.0
+	#This will affect particles more widely and requires a restart to take effect
+	#This mode use different Mixin method, which may potentially address some compatibility issues
+	EnhanceMode = true

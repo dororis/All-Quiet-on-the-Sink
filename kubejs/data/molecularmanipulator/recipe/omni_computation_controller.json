@@ -1,0 +1,44 @@
+{
+  "type": "molecularmanipulator:matter_fabrication",
+  "ingredients": [
+    {
+      "ingredient": {
+        "item": "advanced_ae:quantum_core"
+      },
+      "count": 16
+    },
+    {
+      "ingredient": {
+        "item": "advanced_ae:data_entangler"
+      },
+      "count": 16
+    },
+    {
+      "ingredient": {
+        "item": "overload_sim:transcendent_crystal"
+      },
+      "count": 64
+    },
+    {
+      "ingredient": {
+        "item": "advanced_ae:quantum_crafter"
+      },
+      "count": 16
+    }
+  ],
+  "results": [
+    {
+      "id": "molecularmanipulator:omni_computation_controller",
+      "count": 1
+    }
+  ],
+  "processing_time": 400,
+  "ae_per_tick": 1024,
+  "requires_research": true,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "advanced_ae"
+    }
+  ]
+}

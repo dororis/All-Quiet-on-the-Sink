@@ -1,0 +1,265 @@
+#Adjusts settings related to sky, lighting, models, and world rendering
+[graphics]
+	#Controls the maximum render distance of the Heliostats' BER (in blocks)
+	# Default: 128
+	# Range: 32 ~ 512
+	heliostats_render_distance = 128
+	#Controls whether to render the sunflower head model for Heliostats in the Sunflower Plains biome
+	heliostats_sunflower_model = true
+	#Controls whether to render lines between Transmission Poles
+	render_power_transmitter_lines = true
+	#Controls whether to render the shared orbital rings in the Overworld-Like dimension
+	render_overworld_like_sky_rings = true
+	#Controls the quality of Mun lighting
+	#"Potato" uses Standard lighting and ambient occlusion without custom shadows, retaining vanilla entity shadows
+	#"Standard" adds terrain, animated entity, and colored translucent shadows
+	#"Vanilla" uses the vanilla rendering pipeline without Mun shaders, retaining the cloudless Mun sky, Overworld and moving stars
+	#Rendering failures will fall-back this setting to "Vanilla"
+	#Shadow range is limited by render distance
+	#Allowed Values: POTATO, STANDARD, OFF
+	mun_lighting_quality = "STANDARD"
+	#Controls the render mode of stellar emission
+	#"Vanilla" restores the original stellar surface and layered halos
+	#"Standard" enables temperature-based emission and smooth halos
+	#On rendering failure, it falls back to "Vanilla" without changing this setting until resources are reloaded
+	#Changes take effect immediately
+	#Allowed Values: VANILLA, STANDARD
+	stellar_render_mode = "STANDARD"
+	#Controls the render mode of the planet atmosphere
+	#"Vanilla" restores the original translucent atmosphere shell
+	#"Standard" enables a thicker volume atmosphere
+	#On rendering failure, it falls back to "Vanilla" without changing this setting until resources are reloaded
+	#Changes take effect immediately
+	#Allowed Values: VANILLA, STANDARD
+	planet_atmosphere_render_mode = "STANDARD"
+	#Controls whether to render block-state items in Sifting Tables and Unpacking Tables
+	#With the enlarged block model pick instead of regular scattered item rendering
+	render_block_model_in_sifting_and_unpacking = true
+	#Controls whether to always display items vertically in Item Frames on horizontal surfaces
+	render_vertical_models_in_horizontal_item_frame = false
+	#Controls the time the Affect Range outline stays visible after looking away (in ticks)
+	# Default: 100
+	# Range: 0 ~ 600
+	affect_range_outline_persist_ticks = 100
+	#Controls the maximum brightness of stellar coronas
+	# Default: 24.0
+	# Range: 1.0 ~ 64.0
+	stellar_max_exposure = 24.0
+	#Controls the sky darkening at the peak of a visual eclipse
+	# Default: 0.72
+	# Range: 0.0 ~ 1.0
+	overworld_like_eclipse_darken = 0.7200000286102295
+	#Controls the scale of the shared orbital rings in the Overworld-Like dimension
+	# Default: 1200.0
+	# Range: 100.0 ~ 10000.0
+	overworld_like_sky_ring_scale = 1200.0
+	#Show a fading beam at the block illuminated by a working Heliostat
+	heliostats_beam = false
+
+	#Adjusts settings related to the gravitational lensing effect of Black/White Holes
+	[graphics.gravitational_lens]
+		#Controls whether to render the gravitational lensing post-processing effect near Black/White Holes
+		enabled = false
+		#Controls the maximum number of Black/White Holes rendered (2-256)
+		#Higher values render more effects, lower values improve performance
+		# Default: 8
+		# Range: 2 ~ 256
+		max_hole_count = 8
+		#Controls the maximum distance at which Black/White Holes render gravitational lensing (in blocks)
+		# Default: 256
+		# Range: 16 ~ 512
+		max_distance = 256
+		#Controls the lens distortion strength around Black/White Holes (higher values distort light more; default: 0.002)
+		# Default: 0.001953125
+		# Range: -Infinity ~ Infinity
+		strength = 0.001953125
+		#Controls the event horizon radius of Black/White Holes in screen UV units (default: 0.083)
+		# Default: 0.08333333333333333
+		# Range: -Infinity ~ Infinity
+		event_horizon_radius = 0.08333333333333333
+		#Controls the reference distance for perspective scaling (in blocks)
+		#At this distance, effect = config size
+		#Closer = bigger
+		# Default: 10.0
+		# Range: -Infinity ~ Infinity
+		perspective_scale = 10.0
+		#Controls the lens direction
+		#>0 = convex (gravitational pull toward center), <0 = concave (push away)
+		#Magnitude scales strength
+		# Default: 1.0
+		# Range: -Infinity ~ Infinity
+		direction = 1.0
+
+#Adjusts settings related to particles, sound effects, and audio-visual feedback
+[effects]
+	#Controls whether to apply the bloom effect to Lasers and power transmission lines
+	render_bloom_effect = false
+	#Controls whether to apply the Scanline post-processing effect to 3D structure previews
+	render_scan_preview_extra_effect = true
+	#Controls whether to display the Ascending Block animation
+	display_anvil_animation = true
+	#Controls whether to display block bounce animation in the Giant Anvil's Shock
+	display_giant_anvil_shock_block_bounce_animation = true
+	#Controls whether to display particles in the Giant Anvil's Shock
+	display_giant_anvil_shock_particles = true
+	#Controls the number of particles spawned per block by the Giant Anvil's Shock
+	# Default: 1
+	# Range: 0 ~ 5
+	giant_anvil_shock_particles_count = 1
+	#Controls the probability that each block spawns particles from the Giant Anvil's Shock (0.0-1.0)
+	# Default: 0.8
+	# Range: 0.0 ~ 1.0
+	giant_anvil_shock_particles_chance = 0.8
+	#Controls whether to play sounds when the Giant Anvil triggers its Shock
+	play_giant_anvil_shock_sound = true
+	#Controls whether to display particles in the Redstone EMP
+	display_redstone_emp_particles = true
+	#Controls whether to display exhaust particles when flying with the Ionocraft Backpack
+	display_ionocraft_backpack_exhaust_particles = true
+	#Controls the preview mode when placing multipart blocks (Giant Anvil, Large Crate, etc.)
+	#Allowed Values: GHOST, OUTLINE, OFF
+	multi_part_preview_mode = "OUTLINE"
+	#Controls the opacity of the ghost (solid) preview when placing multipart blocks
+	# Default: 0.3
+	# Range: 0.0 ~ 1.0
+	multi_part_preview_ghost_opacity = 0.3
+	#Controls the opacity of the outline preview when placing multipart blocks
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	multi_part_preview_outline_opacity = 0.5
+	#Controls the volume of Energy Weapons' firing sounds (multiplier)
+	# Default: 1.0
+	# Range: 0.0 ~ 2.0
+	energy_weapon_sound_volume = 1.0
+	#Controls the maximum number of particles per ring in the Redstone EMP
+	# Default: 48
+	# Range: 8 ~ 64
+	redstone_emp_max_ring_particles = 48
+	#Controls the duration of the block bounce animation in the Giant Anvil's Shock (in ticks)
+	# Default: 16
+	# Range: 1 ~ 100
+	giant_anvil_shock_bounce_duration_ticks = 16
+	#Controls the maximum bounce height of blocks in the Giant Anvil's Shock (in blocks)
+	# Default: 0.85
+	# Range: 0.0 ~ 2.0
+	giant_anvil_shock_bounce_amplitude = 0.8500000238418579
+	#Controls the shortest silence before the first Mun music track (in seconds)
+	# Default: 30
+	# Range: 0 ~ 3600
+	mun_music_first_silence_min_seconds = 30
+	#Controls the longest silence before the first Mun music track (in seconds)
+	# Default: 90
+	# Range: 0 ~ 3600
+	mun_music_first_silence_max_seconds = 90
+	#Controls the shortest silence between Mun music tracks (in seconds)
+	# Default: 60
+	# Range: 0 ~ 3600
+	mun_music_next_silence_min_seconds = 60
+	#Controls the longest silence between Mun music tracks (in seconds)
+	# Default: 180
+	# Range: 0 ~ 3600
+	mun_music_next_silence_max_seconds = 180
+
+#Adjusts settings related to the interface, HUD elements, and tooltips
+[ui]
+	#Controls the Goggle info activation mode
+	#Allowed Values: ALWAYS_SHOW, WEARING_HAMMER, HOLDING_HAMMER, WEARING_OR_HOLDING_HAMMER, TOGGLE_WITH_KEY
+	goggle_info_activation_mode = "WEARING_OR_HOLDING_HAMMER"
+	#Controls whether to render Goggle tooltips when Jade is present
+	show_goggle_tooltip_when_jade_present = true
+	#Controls the scale of the Anvil Hammer wheel
+	# Default: 1.0
+	# Range: 0.5 ~ 2.0
+	anvil_hammer_wheel_scale = 1.0
+	#Controls whether to add a tooltip line that shows the stored Storage ID
+	show_storage_stored_id = false
+	#Controls whether to use the legacy flat creative inventory layout instead of the sectioned layout with banners
+	#Requires restart to take effect
+	use_legacy_creative_tab = false
+	#Controls whether to fold 16-color item families into one representative item with a right-click variant picker
+	#Applies to both creative inventory layouts (requires restart)
+	enable_creative_variant_picker = false
+	#Controls the maximum liquid enchantment level (included) displayed as Roman numerals in Auto Enchanting Table's Liquid Enchantment mode
+	# Default: 10
+	# Range: 0 ~ 255
+	liquid_enchantment_level_roman_numeral_limit = 10
+	#Controls whether to display charged Capacitor counts in HUD
+	display_capacitor_count_in_hud = true
+	#Controls the display cycle of recipe preview animations (in milliseconds)
+	# Default: 1500
+	# Range: 200 ~ 10000
+	recipe_preview_cycle_millis = 1500
+	#Controls the time the Storage Screen's missing workbench flyout stays visible (in ticks)
+	# Default: 25
+	# Range: 0 ~ 100
+	storage_flyout_hold_ticks = 25
+	#Controls the speed at which the Filter item cycles through its stored items (in milliseconds)
+	# Default: 1000
+	# Range: 100 ~ 5000
+	filter_item_display_interval_millis = 1000
+	#Controls the number of item types a storage's tooltip shows at once
+	# Default: 9
+	# Range: 1 ~ 64
+	storage_tooltip_max_visible_types = 9
+	#Controls the number of fluids the Fluid Tank tooltip shows at once
+	# Default: 5
+	# Range: 1 ~ 64
+	fluid_tank_tooltip_max_visible_fluids = 5
+	#Controls the speed at which 3D Building Rod previews follow the player view
+	# Default: 18.0
+	# Range: 1.0 ~ 100.0
+	building_rod_preview_follow_rate = 18.0
+	#Controls the maximum time a Thought tooltip stays visible (in seconds)
+	# Default: 1.0
+	# Range: 0.1 ~ 10.0
+	thought_max_seconds = 1.0
+	#Controls the action when a category settings screen is closed
+	#"Apply Changes" saves the changes, "Discard Changes" reverts them
+	#Allowed Values: CONFIRM, CANCEL
+	exit_category_setting_behaviour = "CANCEL"
+	#Controls whether to show Overseer loaded chunks on Xaero's World Map and Minimap
+	show_overseer_map_highlights = true
+	#Controls the fade-in time of the Storage Screen's flyout (in ticks)
+	# Default: 4
+	# Range: 0 ~ 10
+	storage_flyout_fade_in_ticks = 4
+	#Controls the fade-out time of the Storage Screen's flyout (in ticks)
+	# Default: 4
+	# Range: 0 ~ 10
+	storage_flyout_fade_out_ticks = 4
+
+	#Adjusts settings related to the Weatherproof Chestplate HUD
+	[ui.weatherproof_chestplate_hud]
+		#Controls whether to display Weatherproof Chestplate current power in HUD
+		enabled = true
+		#Controls the HUD scale
+		# Default: 0.75
+		# Range: 0.0 ~ 8.0
+		scale = 0.75
+		#Controls the HUD x position (in pixels)
+		# Default: 8
+		# Range: > -2147483648
+		x = 8
+		#Controls the HUD y position (in pixels)
+		# Default: 8
+		# Range: > -2147483648
+		y = 8
+
+#Adjusts settings related to key inversion, interaction methods, and control habits
+[controls]
+	#Controls whether to swap insert/collect to left-click and keep extract/place on right-click (Left Collect, Right Place)
+	invert_mouse_override_actions = false
+	#Controls whether to swap the Storage Fluid Port bucket actions so that left-click stores and right-click pours
+	invert_fluid_port_bucket_actions = false
+	#Controls the mouse sensitivity when rotating 3D structure previews
+	# Default: 0.5
+	# Range: 0.1 ~ 2.0
+	preview_rotation_sensitivity = 0.5
+	#Controls the key set type used by the Building Rod blueprint mode
+	#Allowed Values: TRADITIONAL, OPTIMIZED
+	building_rod_key_set = "OPTIMIZED"
+	#Whether the Charged Jump keeps its progress after releasing sneak. When disabled, releasing sneak clears the charge immediately
+	keep_charged_jump_charge = false
+	#Controls the key for storing matching items, taking eight stacks or buckets, and crafting eight stacks. Defaults to Alt; Space or both keys can also be enabled
+	#Allowed Values: ALT, SPACE, ALT_OR_SPACE
+	storage_bulk_action_key = "ALT"

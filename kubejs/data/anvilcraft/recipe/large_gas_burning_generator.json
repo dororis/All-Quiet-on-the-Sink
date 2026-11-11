@@ -1,0 +1,60 @@
+{
+  "type": "anvilcraft:multiblock_conversion",
+  "inputPattern": {
+    "grid": [
+      [
+        "111",
+        "101",
+        "111"
+      ],
+      [
+        "101",
+        "020",
+        "101"
+      ],
+      [
+        "111",
+        "101",
+        "111"
+      ]
+    ],
+    "mapping": {
+      "0": {
+        "blocks": "minecraft:air"
+      },
+      "1": {
+        "blocks": "allthecompressed:sponge_3x"
+      },
+      "2": {
+        "blocks": "justdynathings:paradox_mixer"
+      }
+    }
+  },
+  "outputPattern": {
+    "grid": [
+      [
+        "111",
+        "101",
+        "111"
+      ],
+      [
+        "101",
+        "000",
+        "101"
+      ],
+      [
+        "111",
+        "101",
+        "111"
+      ]
+    ],
+    "mapping": {
+      "0": {
+        "blocks": "minecraft:air"
+      },
+      "1": {
+        "blocks": "anvilcraft:menger_sponge"
+      }
+    }
+  }
+}

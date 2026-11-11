@@ -1,0 +1,853 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tier2"
+	group: "4D3AA524F989001F"
+	icon: {
+		id: "advanced_ae:reaction_chamber"
+	}
+	id: "6D0C19B1BFEA215E"
+	images: [
+		{
+			click_action: "open_quest:61575C4AF2015193"
+			height: 1.0d
+			id: "1CF0242FE3FCE868"
+			image: "brandonscore:textures/gui/dark/arrow_right.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			height: 1.0d
+			id: "45FE53B6316CAEB9"
+			image: "ftblibrary:icons/dropdown_out"
+			rotation: 0.0d
+			width: 1.0d
+			x: -17.5d
+			y: -7.5d
+		}
+		{
+			click_action: "none:"
+			height: 3.0d
+			id: "0E5A771C7FDC1D2D"
+			image: "minecraft:textures/gui/sprites/hud/effect_background_ambient.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			click_action: "none:"
+			height: 3.0d
+			id: "31E419420A1BF832"
+			image: "minecraft:textures/gui/sprites/hud/effect_background.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.5d
+			y: -9.75d
+		}
+		{
+			click_action: "none:"
+			height: 3.5d
+			id: "254E045F2C984588"
+			image: "ae2omnicells:item/quantum_effect"
+			rotation: 0.0d
+			width: 3.5d
+			x: -9.5d
+			y: -6.0d
+		}
+	]
+	order_index: 2
+	quest_links: [{
+		id: "4EC5A235E30935F3"
+		linked_quest: "15AE1A0BA8447217"
+		x: -15.0d
+		y: -8.5d
+	}]
+	quests: [
+		{
+			dependencies: [
+				"41E5564BA20331F5"
+				"3938F47B8C2B6758"
+			]
+			dependency_requirement: "one_completed"
+			id: "5B982B9282E3271A"
+			rewards: [{
+				id: "6C984624AE02E7C0"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "7D0075D3E23C63FB"
+				item: { count: 1, id: "apotheosis:god_fused_pearl" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"2E4B78360DE9BF82"
+				"3938F47B8C2B6758"
+				"3E8269255530BB4D"
+				"0E14C6DC18073912"
+			]
+			icon: {
+				id: "mekanism:rotary_condensentrator"
+			}
+			id: "575DBA70DABFFDC3"
+			rewards: [{
+				id: "7F1D75A4FA9C60F7"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.0d
+			tasks: [
+				{
+					id: "50E3B358FF90EE0E"
+					type: "checkmark"
+				}
+				{
+					id: "62BE761543E6E639"
+					item: { count: 1, id: "mekanism:rotary_condensentrator" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -13.0d
+			y: -6.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			id: "2E4B78360DE9BF82"
+			rewards: [{
+				id: "5F9B5452D4C8A230"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					id: "14A9D6C34A509425"
+					type: "checkmark"
+				}
+				{
+					consume_fluid: "DEFAULT"
+					fluid: {
+						amount: 1000
+						id: "allthemodium:soul_lava"
+					}
+					id: "2589480BBDA22C32"
+					optional_task: true
+					type: "fluid"
+				}
+			]
+			x: -13.0d
+			y: -7.5d
+		}
+		{
+			id: "1529431003562CD3"
+			rewards: [{
+				id: "72FB1E44FD6ADE92"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "6AD157749B63A763"
+				type: "checkmark"
+			}]
+			x: -17.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"5B982B9282E3271A"
+				"2E4B78360DE9BF82"
+			]
+			dependency_requirement: "one_completed"
+			icon: {
+				id: "ae2:singularity"
+			}
+			id: "1B891558E8D778A1"
+			rewards: [{
+				id: "37790F4CE08E0F47"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "10ACCE173FA51FE0"
+				item: { count: 1, id: "ae2:singularity" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["4232C3FE5DCF5473"]
+			hide_lock_icon: true
+			id: "3596A8CEB0A4CEA2"
+			rewards: [{
+				id: "182EB1CE04760E9B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 2.0d
+			tasks: [
+				{
+					id: "6EB4A024395479F3"
+					type: "checkmark"
+				}
+				{
+					consume_fluid: "DEFAULT"
+					fluid: {
+						amount: 1000
+						id: "irons_spellbooks:blood"
+					}
+					id: "140791696FD46D0A"
+					optional_task: true
+					type: "fluid"
+				}
+			]
+			x: -4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3596A8CEB0A4CEA2"]
+			id: "523FB44F1C1292CF"
+			tasks: [{
+				id: "708677AAAEE032E5"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["3596A8CEB0A4CEA2"]
+			id: "6F8404FD408D2B2B"
+			rewards: [{
+				id: "0C2B3A6293DAE0EA"
+				item: {
+					count: 1
+					id: "minecraft:melon_seeds"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E4329653CF416A4"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["523FB44F1C1292CF"]
+			id: "25F8AA9C35B2B1E3"
+			tasks: [
+				{
+					id: "57B06B7BF9C62E5E"
+					type: "checkmark"
+				}
+				{
+					consume_fluid: "DEFAULT"
+					fluid: {
+						amount: 1000
+						id: "justdirethings:refined_t3_fluid_source"
+					}
+					id: "36BD5BF092618553"
+					optional_task: true
+					type: "fluid"
+				}
+			]
+			x: -4.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["25F8AA9C35B2B1E3"]
+			id: "7579AC7B6D608FB6"
+			tasks: [
+				{
+					id: "2B9B8A334D08113B"
+					type: "checkmark"
+				}
+				{
+					consume_fluid: "DEFAULT"
+					fluid: {
+						amount: 1000
+						id: "justdirethings:refined_t4_fluid_source"
+					}
+					id: "14D1E14E263E058D"
+					optional_task: true
+					type: "fluid"
+				}
+			]
+			x: -3.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["25F8AA9C35B2B1E3"]
+			icon: {
+				id: "irons_spellbooks:mithril_scrap"
+			}
+			id: "4552D4A4782F78B1"
+			tasks: [
+				{
+					id: "1D19947B2279388C"
+					item: { count: 1, id: "irons_spellbooks:mithril_scrap" }
+					type: "item"
+				}
+				{
+					consume_fluid: "DEFAULT"
+					fluid: {
+						amount: 1000
+						id: "alltheores:molten_silver"
+					}
+					id: "0F4D2339199799E2"
+					optional_task: true
+					type: "fluid"
+				}
+			]
+			x: -4.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["4552D4A4782F78B1"]
+			id: "2D97D7DF6142F5D0"
+			tasks: [{
+				id: "4CE6DBC9029DF861"
+				item: { count: 1, id: "irons_spellbooks:cooldown_upgrade_orb" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"7579AC7B6D608FB6"
+				"2D97D7DF6142F5D0"
+			]
+			id: "3C4D82C8BEBF26D9"
+			size: 1.0d
+			tasks: [
+				{
+					id: "3AF5981BC2B0BE17"
+					type: "checkmark"
+				}
+				{
+					consume_fluid: "DEFAULT"
+					fluid: {
+						amount: 1000
+						id: "justdirethings:time_fluid_source"
+					}
+					id: "49CEE922CACB6C31"
+					optional_task: true
+					type: "fluid"
+				}
+			]
+			x: -1.5d
+			y: -9.75d
+		}
+		{
+			disable_toast: true
+			id: "601E5EBFB1551B8A"
+			tasks: [{
+				id: "1E513899D3D1A208"
+				item: { count: 1, id: "apotheosis:luminous_crystal_shard" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["601E5EBFB1551B8A"]
+			id: "4BCC1A3B7D27D4AA"
+			tasks: [{
+				id: "0C3C759FC79280AE"
+				item: { count: 1, id: "minecraft:echo_shard" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["4BCC1A3B7D27D4AA"]
+			id: "15B0C303C716E93D"
+			tasks: [{
+				id: "4E8A7C063A88A3B8"
+				item: { count: 1, id: "justdirethings:time_crystal" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"3C4D82C8BEBF26D9"
+				"15B0C303C716E93D"
+			]
+			icon: {
+				id: "jdte:ultimate_time_wand"
+			}
+			id: "215A7E111F7BB2D0"
+			rewards: [{
+				id: "670351905D9A548E"
+				item: {
+					count: 1
+					id: "ae2importexportcard:export_card"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "36BB74BE0AF46506"
+				item: { count: 1, id: "jdte:ultimate_time_wand" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -9.75d
+		}
+		{
+			id: "26BB6CA0023C3A3E"
+			tasks: [{
+				id: "40661F285C41B03F"
+				item: { count: 1, id: "minecraft:melon" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["26BB6CA0023C3A3E"]
+			id: "52D45A349EDE7308"
+			tasks: [{
+				id: "56F86BBB575A7D72"
+				item: { count: 1, id: "mekanism:block_bio_fuel" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"6F8404FD408D2B2B"
+				"52D45A349EDE7308"
+			]
+			id: "772C011D967C131F"
+			tasks: [{
+				id: "70B65CECA75764C4"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"15B0C303C716E93D"
+				"68E551C0D33923C8"
+			]
+			id: "018390147085379B"
+			rewards: [{
+				id: "4537C1D2E052E6A0"
+				item: {
+					count: 1
+					id: "cataclysm:chitin_claw"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "4A4B8D7CF9E715C8"
+				item: { count: 1, id: "irons_spellbooks:divine_soulshard" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5D57D71EAE6F0CFD"]
+			icon: {
+				id: "jdte:loot_fabricator"
+			}
+			id: "1E25B1D960DB36FC"
+			optional: true
+			tasks: [
+				{
+					id: "7B9DF3AD4062DD1E"
+					item: { count: 1, id: "jdte:loot_fabricator" }
+					type: "item"
+				}
+				{
+					id: "2F82F97E18C6FFE9"
+					item: { count: 1, id: "jdte:greenhouse" }
+					type: "item"
+				}
+				{
+					id: "24AE46ABDBB146E8"
+					item: { count: 1, id: "jdte:large_greenhouse" }
+					type: "item"
+				}
+				{
+					id: "08E923CAC486F3D3"
+					item: { count: 1, id: "jdte:bio_factory" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			icon: {
+				id: "mbd2:smelting_furnace"
+			}
+			id: "7937616AD97BEF7B"
+			size: 2.0d
+			tasks: [{
+				id: "582ED036737EAD8E"
+				item: { count: 1, id: "mbd2:smelting_furnace" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7937616AD97BEF7B"]
+			id: "68E551C0D33923C8"
+			tasks: [
+				{
+					id: "0F5E5A522D5B6ACD"
+					type: "checkmark"
+				}
+				{
+					consume_fluid: "DEFAULT"
+					fluid: {
+						amount: 1000
+						id: "irons_spellbooks:timeless_slurry"
+					}
+					id: "16F7101231AFBBA1"
+					optional_task: true
+					type: "fluid"
+				}
+			]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["220EE0BE424260E3"]
+			id: "22320BFC667531AE"
+			tasks: [
+				{
+					id: "7CE5F6B0368D3CD5"
+					type: "checkmark"
+				}
+				{
+					consume_fluid: "DEFAULT"
+					fluid: {
+						amount: 1
+						id: "anvilcraft:melt_gem"
+					}
+					id: "4136620D9765F9E6"
+					optional_task: true
+					type: "fluid"
+				}
+			]
+			x: -11.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7937616AD97BEF7B"]
+			hide_dependency_lines: true
+			id: "220EE0BE424260E3"
+			tasks: [
+				{
+					id: "4F26D0289CEFDB33"
+					item: { count: 1, id: "alltheores:ruby" }
+					type: "item"
+				}
+				{
+					id: "1A1F52269A549B54"
+					item: { count: 1, id: "alltheores:sapphire" }
+					type: "item"
+				}
+				{
+					id: "35BE641D219D1054"
+					item: { count: 1, id: "alltheores:peridot" }
+					type: "item"
+				}
+				{
+					id: "526026CA537E1649"
+					item: { count: 1, id: "anvilcraft:topaz" }
+					type: "item"
+				}
+			]
+			x: -10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["22320BFC667531AE"]
+			id: "2F6FDB97B27F4D52"
+			optional: true
+			tasks: [{
+				id: "41E5564BA20331F5"
+				item: { count: 1, id: "apotheosis:godforged_pearl" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3474B4E144C79CAB"]
+			id: "4232C3FE5DCF5473"
+			optional: true
+			rewards: [{
+				id: "56DFF8FD6430E9C5"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "4E73E06ACCC9A1E9"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: -6.0d
+		}
+		{
+			id: "5266844A48D08D8D"
+			rewards: [{
+				id: "39E60E45A78CEB32"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "4A24C5411F00C1B4"
+				item: { count: 1, id: "mbd2:dimensional_stabilimentum" }
+				type: "item"
+			}]
+			x: -15.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["3E8269255530BB4D"]
+			id: "0DD9DAD16C801227"
+			rewards: [{
+				command: "/apoth set_world_tier @s pinnacle"
+				id: "38081E4C930814C5"
+				team_reward: true
+				type: "command"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "40BAC240EE636A8D"
+				item: { count: 1, id: "mbd2:apotheosis_slayer_factory" }
+				type: "item"
+			}]
+			x: -14.5d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"1B891558E8D778A1"
+				"5B982B9282E3271A"
+			]
+			id: "3474B4E144C79CAB"
+			rewards: [{
+				id: "01DB47A874AFA524"
+				item: {
+					count: 1
+					id: "irons_spellbooks:cooldown_upgrade_orb"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "1DCE38DFF1E17224"
+				item: { count: 1, id: "mbd2:ultimate_configurable" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"1529431003562CD3"
+				"5266844A48D08D8D"
+			]
+			dependency_requirement: "one_completed"
+			icon: {
+				id: "advanced_ae:reaction_chamber"
+			}
+			id: "3E8269255530BB4D"
+			rewards: [{
+				id: "735FDC376D97B4C2"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.0d
+			tasks: [
+				{
+					id: "343C89848EB2A90C"
+					type: "checkmark"
+				}
+				{
+					id: "13D290A5796A7F2A"
+					item: { count: 1, id: "advanced_ae:reaction_chamber" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -15.0d
+			y: -6.5d
+		}
+		{
+			id: "3938F47B8C2B6758"
+			rewards: [{
+				id: "20251B6B39627663"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					id: "44F4730EE7505C03"
+					type: "checkmark"
+				}
+				{
+					consume_fluid: "DEFAULT"
+					fluid: {
+						amount: 1000
+						id: "justdirethings:refined_t2_fluid_source"
+					}
+					id: "11291160D339974D"
+					optional_task: true
+					type: "fluid"
+				}
+			]
+			x: -13.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2D97D7DF6142F5D0"]
+			hide_dependency_lines: true
+			id: "2CFADEF017CCAF3B"
+			optional: true
+			tasks: [{
+				id: "78DDE1483AABE780"
+				item: { count: 1, id: "anvilcraft:exp_gem" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: -2.0d
+		}
+		{
+			id: "6175191FABF9B1AE"
+			rewards: [{
+				id: "38CC9F67C44230B7"
+				item: {
+					count: 1
+					id: "mekmm:ultimate_planting_factory"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "03EEA79803ABFC7A"
+				item: { count: 1, id: "kubejs:infinities_wfd_cell" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["772C011D967C131F"]
+			icon: {
+				id: "jdte:life_fluid_bucket"
+			}
+			id: "5D57D71EAE6F0CFD"
+			tasks: [
+				{
+					id: "2C21FDAD92CEB287"
+					type: "checkmark"
+				}
+				{
+					id: "1F5B682C7ED28D73"
+					item: { count: 1, id: "jdte:life_fluid_bucket" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			id: "17868E3A8E539772"
+			rewards: [{
+				id: "6E4FC9BA124A0BA6"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "747E2C9B41D32403"
+				item: { components: { "minecraft:potion_contents": { potion: "apothic_attributes:strong_knowledge" } }, count: 1, id: "apotheosis:potion_charm" }
+				type: "item"
+			}]
+			x: -15.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"1529431003562CD3"
+				"17868E3A8E539772"
+				"089C15223DBFC3C0"
+			]
+			dependency_requirement: "one_completed"
+			icon: {
+				id: "rftoolsbase:dimensionalshard"
+			}
+			id: "0E14C6DC18073912"
+			tasks: [
+				{
+					id: "27D253D06EA673A3"
+					item: { count: 1, id: "rftoolsbase:dimensionalshard" }
+					type: "item"
+				}
+				{
+					id: "4AA2A5976C217FA8"
+					item: { count: 1, id: "anvilcraft:exp_gem" }
+					type: "item"
+				}
+			]
+			x: -15.0d
+			y: -5.5d
+		}
+		{
+			icon: {
+				id: "anvilcraft_pigsplus:soulbound_campfire"
+			}
+			id: "089C15223DBFC3C0"
+			rewards: [{
+				count: 64
+				id: "0627B584D270C3C8"
+				item: {
+					count: 1
+					id: "minecraft:bone_meal"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "097A6D5AFC1639CB"
+					item: { count: 1, id: "anvilcraft_pigsplus:soulbound_campfire" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6747BD24E3504176"
+					item: { count: 1, id: "rftoolsbase:dimensionalshard" }
+					type: "item"
+				}
+			]
+			x: -14.5d
+			y: -4.5d
+		}
+	]
+}

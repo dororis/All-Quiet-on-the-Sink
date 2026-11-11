@@ -1,0 +1,413 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_3"
+	group: "4D3AA524F989001F"
+	icon: {
+		id: "ae2lt:lightning_collector"
+	}
+	id: "510B5A80D695ECAA"
+	images: [
+		{
+			click_action: "none:"
+			height: 5.0d
+			id: "3A4AD7E0BB9EF455"
+			image: "ae2lt:block/firmament_conversion_core_flash"
+			rotation: 0.0d
+			width: 5.0d
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			click_action: "none:"
+			height: 2.0d
+			id: "67A3E2A498A2E85E"
+			image: "ae2lt:textures/gui/easter_egg.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			click_action: "none:"
+			height: 2.0d
+			id: "60133C14F7CEBA61"
+			image: "ae2lt:item/high_voltage_lightning"
+			rotation: 0.0d
+			width: 2.0d
+			x: -8.0d
+			y: -1.0d
+		}
+		{
+			click_action: "none:"
+			height: 3.0d
+			id: "2C88A7EEEF32CC6B"
+			image: "ae2lt:block/lightning_assembler/lightnings"
+			rotation: 0.0d
+			width: 3.0d
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			id: "67A9C11F7AB531A3"
+			image: "ftblibrary:icons/dropdown_out"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: -1.5d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "767DD7FC0B583E79"
+			rewards: [{
+				id: "02E5BEBC34F5B370"
+				item: {
+					count: 1
+					id: "anvilcraft:topaz_amulet"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "066745628CEE996B"
+				type: "checkmark"
+			}]
+			x: -11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"767DD7FC0B583E79"
+				"1D70E5874CBF5B42"
+				"684BE1B0F9B48A46"
+			]
+			dependency_requirement: "one_started"
+			icon: {
+				id: "ae2lt:lightning_collector"
+			}
+			id: "6C20CE341FBA6D38"
+			size: 2.0d
+			tasks: [
+				{
+					id: "7DC298B1D14FBAAE"
+					item: { count: 1, id: "ae2lt:lightning_collector" }
+					type: "item"
+				}
+				{
+					id: "4C42D3AD70E10A83"
+					item: { count: 1, id: "minecraft:lightning_rod" }
+					type: "item"
+				}
+				{
+					id: "59FBEBF3A36E52CE"
+					item: { count: 1, id: "ae2lt:electro_chime_crystal" }
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1257ABF846F89DCA"]
+			dependency_requirement: "one_started"
+			id: "0AC75CF3CA724096"
+			size: 1.0d
+			tasks: [{
+				id: "67C517ACAA9C850A"
+				item: { count: 1, id: "ae2lt:tesla_coil" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2D054B453126BAD3"]
+			disable_toast: true
+			id: "47A4FE76628F3F2D"
+			tasks: [{
+				id: "5C1DA86B9507F187"
+				item: { count: 1, id: "ae2lt:overloaded_pattern_provider" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2D054B453126BAD3"]
+			disable_toast: true
+			id: "57CAD5805D1523C9"
+			tasks: [{
+				id: "5BB6BEA0DA858CB4"
+				item: { count: 1, id: "ae2lt:overloaded_interface" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2D054B453126BAD3"]
+			id: "520A56FBA77AE00C"
+			tasks: [{
+				id: "3CEBBF542222EABD"
+				item: { count: 1, id: "ae2lt:overloaded_power_supply" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["27B69BF2EB42573E"]
+			id: "623D6254772F6798"
+			rewards: [{
+				count: 2
+				id: "2F02EAED9440C219"
+				item: {
+					count: 1
+					id: "ae2lt:lightning_collapse_matrix"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "0FC81CAE3149CD80"
+				item: { count: 1, id: "ae2lt:lightning_collapse_matrix" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2D054B453126BAD3"]
+			dependency_requirement: "all_started"
+			id: "27B69BF2EB42573E"
+			shape: "rsquare"
+			tasks: [{
+				id: "31FE2386E2B9F2BB"
+				item: { count: 1, id: "ae2lt:overload_processing_factory" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C20CE341FBA6D38"]
+			id: "1257ABF846F89DCA"
+			tasks: [{
+				id: "5D4A395DA2894B94"
+				item: { count: 1, id: "ae2lt:lightning_simulation_room" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1257ABF846F89DCA"]
+			id: "2D054B453126BAD3"
+			size: 2.0d
+			tasks: [{
+				id: "1BBE1FD358640536"
+				item: { count: 1, id: "ae2lt:lightning_assembly_chamber" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			id: "03A621C6C70CE245"
+			tasks: [{
+				id: "152E0FE274815A04"
+				item: { count: 1, id: "ae2lt:lightning_item_cell_housing" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0FC81CAE3149CD80"]
+			id: "5173A9725FBC8539"
+			optional: true
+			size: 0.7d
+			tasks: [{
+				id: "4433C805AFC91C64"
+				item: { components: { "minecraft:custom_data": { CellType: 1b } }, count: 1, id: "ae2lt:mysterious_cell" }
+				type: "item"
+			}]
+			x: 5.75d
+			y: -0.2d
+		}
+		{
+			dependencies: ["0FC81CAE3149CD80"]
+			id: "44E1B15C1965DE11"
+			optional: true
+			size: 0.7d
+			tasks: [{
+				id: "2FC6EEC6928F328B"
+				item: { components: { "minecraft:custom_data": { CellType: 3b } }, count: 1, id: "ae2lt:mysterious_cell" }
+				type: "item"
+			}]
+			x: 6.35d
+			y: -0.2d
+		}
+		{
+			dependencies: ["623D6254772F6798"]
+			hide_dependency_lines: true
+			id: "164E2C0857E93F1B"
+			optional: true
+			rewards: [{
+				count: 64
+				id: "1E960E11F365DF80"
+				item: {
+					count: 1
+					id: "ae2lt:lightning_collapse_matrix"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C162E27A6D4B0E0"
+				item: { count: 1, id: "ae2lt:rainbow_pigmee_fumo" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "3BFDA8E09DC14274"
+			tasks: [{
+				id: "6B5BC9FE6C9DEA8E"
+				item: { count: 1, id: "ae2lt:pigmee_crystal_catalyzer" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3BFDA8E09DC14274"]
+			id: "0CEBF678EDD4E80D"
+			tasks: [{
+				id: "0AC6EA3149193B64"
+				item: { count: 1, id: "ae2lt:crystal_catalyzer" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			id: "6219E28283A43FD0"
+			tasks: [{
+				id: "7C576DE2500756D9"
+				item: { count: 1, id: "ae2lt:mining_factory" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			id: "47083800B5F1904B"
+			tasks: [{
+				id: "2C5C0779784494C6"
+				item: { count: 1, id: "ae2lt:overloaded_io_port" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			icon: {
+				id: "meplacementtool:me_placement_tool"
+			}
+			id: "34B2CBF38326AEA8"
+			rewards: [{
+				id: "17FED3FB0C8700A6"
+				item: {
+					count: 1
+					id: "meplacementtool:key_of_spectrum"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6D1813AF5390952C"
+					item: { count: 1, id: "meplacementtool:me_placement_tool" }
+					type: "item"
+				}
+				{
+					id: "1FA16B52FFDE2B06"
+					item: { count: 1, id: "meplacementtool:multiblock_placement_tool" }
+					type: "item"
+				}
+				{
+					id: "39C0FB678E3321F9"
+					item: { count: 1, id: "meplacementtool:me_cable_placement_tool" }
+					type: "item"
+				}
+				{
+					id: "6A83A959A0477950"
+					item: { count: 1, id: "anvilcraft:monolith" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			icon: {
+				id: "jdte:charged_lightning_rod"
+			}
+			id: "684BE1B0F9B48A46"
+			tasks: [
+				{
+					id: "7A3230240ADA2F79"
+					item: { count: 1, id: "jdte:charged_lightning_rod" }
+					type: "item"
+				}
+				{
+					id: "4B42EFE99F61A211"
+					item: { count: 1, id: "minecraft:lightning_rod" }
+					type: "item"
+				}
+				{
+					id: "4FCF2D8C7058D7A9"
+					item: { count: 1, id: "jdte:thunderstorm_upgrade" }
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			icon: {
+				components: {
+					"industrialforegoing:infinity_can_charge": 1b
+					"industrialforegoing:infinity_item_power": 480000000L
+					"industrialforegoing:infinity_item_selected_tier": "epic"
+					"industrialforegoing:infinity_item_special": 0b
+					"industrialforegoing:infinity_trident_channeling": 0b
+					"industrialforegoing:infinity_trident_loyalty": 0
+					"industrialforegoing:infinity_trident_riptide": 0
+				}
+				id: "industrialforegoing:infinity_trident"
+			}
+			id: "1D70E5874CBF5B42"
+			tasks: [
+				{
+					id: "19E5780202D1D3FC"
+					item: { components: { "industrialforegoing:infinity_can_charge": 1b, "industrialforegoing:infinity_item_power": 480000000L, "industrialforegoing:infinity_item_selected_tier": "epic", "industrialforegoing:infinity_item_special": 0b, "industrialforegoing:infinity_trident_channeling": 0b, "industrialforegoing:infinity_trident_loyalty": 0, "industrialforegoing:infinity_trident_riptide": 0 }, count: 1, id: "industrialforegoing:infinity_trident" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "267735F1BE6E76AE"
+					item: { count: 1, id: "draconicevolution:celestial_manipulator" }
+					type: "item"
+				}
+			]
+			x: -8.5d
+			y: -1.5d
+		}
+	]
+}

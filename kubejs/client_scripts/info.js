@@ -1,0 +1,58 @@
+RecipeViewerEvents.addInformation('item', event => {
+	event.add('mekmm:large_gas_burning_generator', [
+		'乙烯4.62M/t',
+		'烈焰燃液18.48M/t',
+		'虚炎燃液36.96M/t',
+		'蚀空燃液73.92M/t',
+		'1倍 → 4倍 → 8倍 → 16倍',
+		'富铀燃料147.84M/t',
+		'富硅岩燃料295.68M/t',
+		'硅岩铀燃料591.36M/t',
+		'32倍 → 64倍 → 128倍',
+		'§d龙息 1.41G/t'
+	]),
+	event.add('mysticalagriculture:infusion_altar', [
+		'这份力量'
+	]),
+	event.add('productivebees:centrifuge', [
+		'并不属于你'
+	]),
+	event.add('justdirethings:ferricore_ingot', [
+		'挖掘矿簇直接获得锭'
+	]),
+	event.add('justdirethings:blazegold_ingot', [
+		'挖掘矿簇直接获得锭'
+	]),
+	event.add('allthemodium:allthemodium_upgrade_smithing_template', [
+		'大概率能从远古城市战利品箱中获得',
+		'包括时运5，熔炼5和精准采集',
+		'甚至大地恩惠5',
+		'（因为监守者今天不在家）'
+	]),
+	event.add('ae2lt:pigmee_fumo', [
+		'使用§k神圣灵魂碎片§r尝试召唤§k猪巫妖'	
+	]),
+	event.add('ae2lt:overload_tnt', [
+		'你不会想用这个的',
+		'对吧？'
+	])
+	event.add('ae2lt:creative_pigmee_fumo', [
+		'一个使用锻星砧锻造的天体',
+		'需注入正确的时间、空间、质量、能量',
+		'再先后放入两种猪咪作为种子物品'
+	])
+	event.add('justdirethings:coal_t1', [
+		'无法通过原初煤炭获得之后的煤炭',
+		'再无套娃？'	
+	])
+	event.add('anvilcraft:supercapacitor', [
+		'铜块+树脂的物品压缩配方为jei显示错误',
+		'实际上是两个铜块+不死图腾电容',
+		'配方有50%概率失败引发爆炸'	
+	])
+})
+RecipeViewerEvents.addInformation('fluid', event => {
+	event.add('allthemodium:soul_lava', [
+		'已无法从异界获取'
+	])
+})

@@ -1,0 +1,144 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "34ce508fe134d63f"
+	group: ""
+	icon: {
+		components: {
+			"!ftbquests:icon": { }
+			"ftbquests:entity_face": "minecraft:pig"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "34CE508FE134D63F"
+	images: [
+		{
+			height: 1.0d
+			id: "380ABA1B33D7FE2B"
+			image: "ftblibrary:icons/up"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			click_action: "none:"
+			height: 7.0d
+			id: "7E7B9F5CEA10F95C"
+			image: "aqs:textures/minecraft_title.png"
+			rotation: 0.0d
+			width: 24.0d
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			click_action: "none:"
+			height: 30.0d
+			id: "175913378CF75795"
+			image: "minecraft:textures/gui/title/background/panorama_4.png"
+			order: -1
+			rotation: 0.0d
+			width: 35.0d
+			x: 0.5d
+			y: 2.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["749134B191E50F5C"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "ae2lt:pigmee_fumo"
+			}
+			id: "1A083FF9C0B83E1F"
+			rewards: [
+				{
+					id: "3241B12893A66992"
+					item: {
+						components: {
+							"minecraft:custom_data": {
+								wand_options: { }
+							}
+						}
+						count: 1
+						id: "constructionwand:infinity_wand"
+					}
+					type: "item"
+				}
+				{
+					id: "4F16D11D506DED7B"
+					item: {
+						count: 1
+						id: "constructionwand:core_destruction"
+					}
+					type: "item"
+				}
+				{
+					id: "0CA524373216C13C"
+					item: {
+						count: 1
+						id: "justdirethings:blazejet_wand"
+					}
+					type: "item"
+				}
+				{
+					id: "2EC9157E65922E05"
+					item: {
+						count: 1
+						id: "oritech:exo_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "2EE3CFA6DC5BC363"
+					item: {
+						count: 1
+						id: "oritech:exo_boots"
+					}
+					type: "item"
+				}
+			]
+			shape: "heart"
+			size: 3.0d
+			tasks: [{
+				id: "4087D57475CDB1A1"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["749134B191E50F5C"]
+			hide_until_deps_complete: true
+			id: "7077A63EE9EA6035"
+			tasks: [{
+				id: "5ABEB0F8474AC37D"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["749134B191E50F5C"]
+			hide_until_deps_complete: true
+			id: "33EC04375AED8171"
+			tasks: [{
+				id: "199AAF23839725B4"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			id: "749134B191E50F5C"
+			tasks: [{
+				id: "47EBCB0700BBB0DB"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+	]
+}

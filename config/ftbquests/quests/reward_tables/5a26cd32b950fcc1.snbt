@@ -1,0 +1,23 @@
+{
+	id: "5A26CD32B950FCC1"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{
+			count: 2
+			id: "6FECFA57F7AAF8EC"
+			item: {
+				count: 1
+				id: "sophisticatedbackpacks:stack_upgrade_tier_3"
+			}
+		}
+		{
+			count: 2
+			id: "332EADD6CFD64CAB"
+			item: {
+				count: 1
+				id: "sophisticatedstorage:stack_upgrade_tier_4"
+			}
+		}
+	]
+}

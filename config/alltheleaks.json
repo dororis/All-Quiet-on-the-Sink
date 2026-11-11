@@ -1,0 +1,16 @@
+{
+  "preventSearchIgnoredItems": false,
+  "ingredientDedupe": false,
+  "resourceLocationDedupe": false,
+  "debugItemStackModifications": false,
+  "logIntervalInMinutes": 10,
+  "showSummaryOnDebugScreen": true,
+  "memoryUsageWarningPercentage": 90,
+  "debugThreadsStuck": false,
+  "version": 1,
+  "debugNativeImage": false,
+  "disableSearchTree": false,
+  "debugChunkLoading": false,
+  "disableEternalStarlightProgress": false,
+  "skipTickingUnloadedFluxNetworks": false
+}

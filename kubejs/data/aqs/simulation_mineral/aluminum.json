@@ -1,0 +1,7 @@
+{
+  "material": "c:aluminum",
+  "binding": {"id": "alltheores:raw_aluminum_block"},
+  "priority": 100,
+  "item": "alltheores:raw_aluminum", "min": 1, "max": 1,
+  "same_block": true
+}

@@ -1,0 +1,828 @@
+[DLC]
+  ["mod:DLC|Z-Client-side-server/farmcollisionless-1.20.1-1.1.2.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/ScalableLux-neoforge-0.3.0-alpha.0.6-all.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/farmcollisionless-1.21.1-1.1.2.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/redirected-forge-1.0.0-1.20.1.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side/acceleratedrendering-1.0.14-1.21.1-alpha.jar"]
+    enabled = true
+    appliedTargets = ["mods\\acceleratedrendering-1.0.14-1.21.1-alpha.jar"]
+
+  ["mod:DLC|Z-Client-side-server/CraftTweaker-forge-1.20.1-14.0.60.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/starlight-1.1.5+forge.c562a3a.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/txnilib-forge-1.0.24-1.20.1.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/alternate_current-mc1.20-1.7.0.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["unknown:DLC|config/fml.toml"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side/obe+1.21.1-neoforge-1.1.17-hotfix.1.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side/acceleratedrendering-1.0.14-1.20.1-alpha.jar"]
+    enabled = false
+    appliedTargets = ["mods\\acceleratedrendering-1.0.14-1.20.1-alpha.jar"]
+
+  ["mod:DLC|Z-Client-side-server/doespotatotick-1.20.1-5.6.3.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/MemorySweep-1.21.1-neoforge-2.0.3-fix.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/c2me-neoforge-mc1.21.1-0.4.0-alpha.0.115.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/deuf-1.20.1-1.3.jar"]
+    enabled = false
+    appliedTargets = ["mods\\deuf-1.20.1-1.3.jar"]
+
+  ["mod:DLC|Z-Client-side/obe+1.20.1-forge-1.1.17-hotfix.1-srg.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side/fism+1.20.1-forge-1.0.6.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Special/k_multi_threading-1.0.5.12.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side/Ixeris-4.5.1+1.20.1-forge.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side/gbf-1.0.1.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Y-Prerequisite library/OctoLib-FORGE-0.5.0.1+1.20.1.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side/AsyncParticles-20.1.0b-beta.1+1.20.1.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/randomoptimization-1.3.0-all.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Y-Prerequisite library/fzzy_config-0.7.6+1.20.1+forge.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/staaaaaaaaaaaack-neoforge-1.21.1-1.8.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Special/vanillin-neoforge-1.21.1-1.1.3.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/nebl-20.1.01-forge+1.20.1.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/modernfix-neoforge-5.27.15+mc1.21.1.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Y-Prerequisite library/resourcefulconfig-forge-1.20.1-2.1.3.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/Not Enough Recipe Book-FORGE-0.4.1+1.20.1.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side/Fastquit-3.0.1+1.21.1neoforge.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/byepregen-1.0.2.2.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/ldip-1.0.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side/vmdcache-1.0.0.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Create-Optimization-6.0.6/colorwheel-forge-1.2.9+mc1.20.1.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["unknown:DLC|config/modernfix-mixins.properties"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side/gpushift-universal-1.20.1-1.2.2.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side/AsyncParticles-21.1.2.0+1.21.1.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Y-Prerequisite library/kotlinforforge-5.12.0-all.jar"]
+    enabled = true
+    appliedTargets = ["mods\\kotlinforforge-5.12.0-all.jar"]
+
+  ["mod:DLC|Z-Client-side-server/asynclogger-2.1.2+1.20.1-forge.jar"]
+    enabled = false
+    appliedTargets = ["mods\\asynclogger-2.1.2+1.20.1-forge.jar"]
+
+  ["mod:DLC|Z-Client-side-server/c2meF-0.2.0+alpha.12-all.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/HariPlayer-mc1.20.1-2.0-all.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/lmft-1.1.1+1.21.9-neoforge.jar"]
+    enabled = true
+    appliedTargets = ["mods\\lmft-1.1.1+1.21.9-neoforge.jar"]
+
+  ["mod:DLC|Z-Client-side-server/logbegone-neoforge-1.21.1-1.0.3.jar"]
+    enabled = true
+    appliedTargets = ["mods\\logbegone-neoforge-1.21.1-1.0.3.jar"]
+
+  ["mod:DLC|Z-Client-side/particle_core-0.3.3+1.20.1+forge.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Y-Prerequisite library/Almanac-1.21.1-2-neoforge-1.5.2.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/radium-mc1.20.1-0.12.4+git.26c9d8e.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["unknown:DLC|config/acceleratedrendering-client.toml"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side/Kerria-1.3.2+1.21.1-neoforge.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side/acceleratedrecoiling-21.1.13-alpha.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Create-Optimization-6.0.6/CreateFastSchematicCannon-1.4.1-neoforge-1.21.1.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Y-Prerequisite library/almanac-1.20.x-forge-1.0.2.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side/CullLessLeaves-Reforged-1.20.1-1.0.5.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side/entityculling-neoforge-1.10.5-mc1.21.1.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/redirector-5.0.0.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side/obe+1.20.1-forge-1.1.23-srg.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Y-Prerequisite library/coroutil-neoforge-1.21.0-1.3.9.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Y-Prerequisite library/Placebo-1.20.1-8.6.3.jar"]
+    enabled = false
+    appliedTargets = ["mods\\Placebo-1.20.1-8.6.3.jar"]
+
+  ["mod:DLC|Z-Client-side-server/asynclogger-1.1.2+1.20.1-forge.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/configured-forge-1.20.1-2.2.3.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/Not Enough Recipe Book-NEOFORGE-0.4.3+1.21.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/despawntweaks-forge-1.0.0-1.20.1.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/tt20-0.8.3+mc1.21.1-neoforge.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side/Fastquit-3.0.1+1.20.1forge.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side/Ixeris-4.5.2+1.21.1-neoforge.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side/betterbiomeblend-forge-1.20.1-1.4.0.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side/threatengl-forge-2.0.4-release.10.jar"]
+    enabled = false
+    appliedTargets = ["mods\\threatengl-forge-2.0.4-release.10.jar"]
+
+  ["mod:DLC|Z-Client-side/entityculling-forge-1.10.2-mc1.20.1.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/Quick Boot-mc1.20.1-1.0.1.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Y-Prerequisite library/kotlinforforge-4.12.0-all.jar"]
+    enabled = false
+    appliedTargets = ["mods\\kotlinforforge-4.12.0-all.jar"]
+
+  ["mod:DLC|Z-Client-side-server/packetfixer-3.3.2-1.18-1.20.4-merged.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side/yeetusexperimentus-neoforge-87.0.0.jar"]
+    enabled = true
+    appliedTargets = ["mods\\yeetusexperimentus-neoforge-87.0.0.jar"]
+
+  ["mod:DLC|Z-Client-side-server/starlight-1.1.2+forge.1cda73c.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/alternate_current-mc1.21-1.9.0.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side/flerovium-forge-1.20.1-1.2.19-all.jar"]
+    enabled = false
+    appliedTargets = ["mods\\flerovium-forge-1.20.1-1.2.19-all.jar"]
+
+  ["mod:DLC|Z-Client-side/betterbiomeblend-neoforge-1.21.1-1.4.1.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/Krypton Reno-forge-1.20.1-26.1.1-1.20.1.jar"]
+    enabled = false
+    appliedTargets = ["mods\\Krypton Reno-forge-1.20.1-26.1.1-1.20.1.jar"]
+
+  ["mod:DLC|Y-Prerequisite library/duplicationless-1.21.1-1.2.0.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Create-Optimization-6.0.6/colorwheel_patcher-forge-1.0.5+mc1.20.1.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Special/syncfix-0.0.9.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side/fism+1.21.1-neoforge-1.0.5.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/krypton_fnp-neoforge-1.21.1-0.2.28.1-1.21.1.jar"]
+    enabled = true
+    appliedTargets = ["mods\\krypton_fnp-neoforge-1.21.1-0.2.28.1-1.21.1.jar"]
+
+  ["mod:DLC|Z-Client-side-server/FastWorkbench-1.20.1-8.0.4.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side/super_resolution-neoforge-1.21..1.21.1-0.8.3-alpha.6+opengl.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/fix_attack_lag-1.2.0-1.20.1.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Y-Prerequisite library/resourcefulconfig-neoforge-1.21-3.0.11.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side/particle_core-0.3.3+1.21+neoforge.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/servercore-neoforge-1.5.19+1.21.1.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/zstdnet-1.21.1-neoforge-1.4.7.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Create-Optimization-6.0.6/oculus-flywheel-compat-Forge-2.0.3.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Create-Optimization-6.0.6/createthreadedtrains-forge-1.20.1-1.0.0.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/fastrecipes-forge-1.0.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side/BadOptimizations-2.4.1-1.20.1.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Special/fastloading-0.0.3-1.20.1.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/Harium-mc1.20.1-2.0-pactched-v5.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/lmft-1.0.4+1.20.1-forge.jar"]
+    enabled = false
+    appliedTargets = ["mods\\lmft-1.0.4+1.20.1-forge.jar"]
+
+  ["mod:DLC|Z-Client-side-server/modernfix-forge-5.27.40+mc1.20.1.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Y-Prerequisite library/ShadowConfig-Forge 1.2-1.20.1.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Y-Prerequisite library/forgified-fabric-api-0.116.14+2.3.0+1.21.1.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Y-Prerequisite library/jsonate-1.0.1.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/fast-ip-ping-v1.0.11-mc1.21.1-neoforge.jar"]
+    enabled = true
+    appliedTargets = ["mods\\fast-ip-ping-v1.0.11-mc1.21.1-neoforge.jar"]
+
+  ["mod:DLC|Z-Client-side-server/modernfix-forge-5.27.58+mc1.20.1.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/sweeper_maid-1.1.2.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side/betterfpsdist-1.20.1-6.0.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/spark-1.10.124-neoforge.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/letmedespawn-1.20.x-forge-1.5.0.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/packetfixer-3.3.1-1.20.5-1.21.X-merged.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/ldip-2.1.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side/entityculling-forge-1.10.5-mc1.20.1.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Create-Optimization-6.0.6/createthreadedtrains-neoforge-1.21.1-1.0.0.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/zfastnoise-1.0.11+1.20+forge.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side/ImmediatelyFast-Forge-1.5.4+1.20.4.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Y-Prerequisite library/cupboard-1.20.1-3.7.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/efficient_hashing-forge-1.0.0+1.20.1-mod.jar"]
+    enabled = false
+    appliedTargets = ["mods\\efficient_hashing-forge-1.0.0+1.20.1-mod.jar"]
+
+  ["mod:DLC|Z-Client-side/acceleratedrecoiling-20.1.12-alpha-all.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Create-Optimization-6.0.6/iris-flywheel-compat-NeoForge-2.4.0.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/biomespy-1.3.3-all.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Special/vanillin-forge-1.20.1-1.1.3.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side/acceleratedrendering-1.0.12-1.20.1-alpha.jar"]
+    enabled = false
+    appliedTargets = ["mods\\acceleratedrendering-1.0.12-1.20.1-alpha.jar"]
+
+  ["mod:DLC|Z-Client-side/dynamic-fps-3.11.4+minecraft-1.21.0-neoforge.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/zstdnet-1.20.1-forge-1.4.2.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/biomespy-neoforge-1.21.1-1.3.3.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side/Ixeris-4.4.1+1.20.1-forge.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Y-Prerequisite library/coroutil-forge-1.20.1-1.3.7.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side/flerovium-neoforge-1.21.1-1.1.2-all.jar"]
+    enabled = true
+    appliedTargets = ["mods\\flerovium-neoforge-1.21.1-1.1.2-all.jar"]
+
+  ["mod:DLC|Z-Client-side-server/lazyyyyy-lexforge-core-0.14.19.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/FastEvent-1.20.1-1.1.1.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/asynclogger-2.1.2+1.21.1-neoforge.jar"]
+    enabled = true
+    appliedTargets = ["mods\\asynclogger-2.1.2+1.21.1-neoforge.jar"]
+
+  ["mod:DLC|Z-Client-side/YeetusExperimentus-Forge-2.3.0-build.4+mc1.20.1.jar"]
+    enabled = false
+    appliedTargets = ["mods\\YeetusExperimentus-Forge-2.3.0-build.4+mc1.20.1.jar"]
+
+  ["mod:DLC|Z-Client-side/oculus-mc1.20.1-1.8.1.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Special/modfixer-0.0.7.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/Kerria-1.0.7+1.20.1-forge.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/efficient_hashing-neoforge-1.0.0+1.21.1-mod.jar"]
+    enabled = true
+    appliedTargets = ["mods\\efficient_hashing-neoforge-1.0.0+1.21.1-mod.jar"]
+
+  ["mod:DLC|Z-Client-side-server/FastFurnace-1.20.1-8.0.2.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/Icterine-forge-1.20.0-1-1.3.0.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/structure_layout_optimizer-forge-1.0.11.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side/ImmediatelyFast-NeoForge-1.6.11+1.21.1.jar"]
+    enabled = true
+    appliedTargets = ["mods\\ImmediatelyFast-NeoForge-1.6.11+1.21.1.jar"]
+
+  ["mod:DLC|Z-Client-side-server/tfthreadsafetyaddon-forge-1.20.1-1.1.0.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/fluidium-1.20.1-1.4.0.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/fluidium-1.21.1-1.4.0.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side/mekalus-mc1.20.1-1.8.0.1.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/zstdnet-1.20.1-forge-1.4.6.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/fix_attack_lag-1.2.0-1.21.1-Neoforge.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Create-Optimization-6.0.6/CreateFastSchematicCannon-1.4.1-6.0.x-forge-1.20.1.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side/super_resolution-forge-1.20.1-0.8.3-alpha.4+opengl.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side/BetterF3-7.0.2-Forge-1.20.1.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Create-Optimization-6.0.6/colorwheel_patcher-neoforge-1.0.5+mc1.21.1.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side/stop_rendering-forge-1.0.3.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side/dynamic-fps-3.11.4+minecraft-1.20.0-forge.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/fast-ip-ping-v1.0.11-mc1.20.4-forge.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Create-Optimization-6.0.6/createbetterfps-1.21.1-1.1.4.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Special/dimthread-FORGE-mc1.20.1-v1.2.1.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side/fastnbt-1.20.1-1.3-forge.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Create-Optimization-6.0.6/colorwheel-neoforge-1.2.9+mc1.21.1.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/servercore-forge-1.5.2+1.20.1.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/tt20-0.8.0+mc1.20.1-forge.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/deuf-1.21.1-1.0.jar"]
+    enabled = true
+    appliedTargets = ["mods\\deuf-1.21.1-1.0.jar"]
+
+  ["mod:DLC|Z-Client-side/chloride-FORGE-mc1.20.1-v1.7.7.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/configured-neoforge-1.21.1-2.6.3.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/MCreatorMemFix-1.0.4.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/structure_layout_optimizer-neoforge-1.0.12.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/cerulean-forge-1.0.0-1.20.1.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side/AsyncParticles-20.1.0b-beta.6+1.20.1.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Y-Prerequisite library/OctoLib-NEOFORGE-0.6.2+1.21.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/doespotatotick-1.21.1-5.6.4.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/CraftTweaker-neoforge-1.21.1-21.0.38.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/FastFurnace-1.21.1-9.0.1.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Special/acedium-0.2.7-beta.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/lithium-neoforge-0.15.4+mc1.21.1.jar"]
+    enabled = true
+    appliedTargets = ["mods\\lithium-neoforge-0.15.4+mc1.21.1.jar"]
+
+  ["mod:DLC|Z-Create-Optimization-6.0.6/createbetterfps-1.20.1-1.1.2.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side/acceleratedrendering-1.0.11.1-1.20.1-alpha.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side/acceleratedrendering-1.0.10.1-1.20.1-alpha.jar"]
+    enabled = false
+    appliedTargets = ["mods\\acceleratedrendering-1.0.10.1-1.20.1-alpha.jar"]
+
+  ["mod:DLC|Z-Client-side-server/ModernUI-Forge-1.20.1-3.12.0.1-universal.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Y-Prerequisite library/duplicationless-1.20.1-1.2.0.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/harimt-forge-1.20.1-2.0-all.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/tt20-0.8.3+mc1.20.1-forge.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Special/[1.20.1]slashblade_acceleratedrendering-1.0.1.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/memorysweep-1.20.1-2.0.3-forge.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Create-Optimization-6.0.6/CreateLazyTick-2.4.9-0.5.1.j-forge-1.20.1.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/letmedespawn-1.21.x-neoforge-1.5.0.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side/ImmediatelyFast-Forge-1.5.5+1.20.4.jar"]
+    enabled = false
+    appliedTargets = ["mods\\ImmediatelyFast-Forge-1.5.5+1.20.4.jar"]
+
+  ["mod:DLC|Z-Client-side-server/byepregen-1.0.8.3.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Special/adaptiveoptimization-8.5.5.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/server_expansion-1.1.1-neoforge-1.21.1.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/Krypton Reno-forge-1.20.1-26.1.0-1.20.1.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side/threatengl-neoforge-2.0.4-release.10.jar"]
+    enabled = true
+    appliedTargets = ["mods\\threatengl-neoforge-2.0.4-release.10.jar"]
+
+  ["mod:DLC|Z-Client-side-server/FastSuite-1.20.1-5.1.2.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["unknown:DLC|config/lithium.properties"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Create-Optimization-6.0.6/CreateLazyTick-2.4.9-6.0.x-neoforge-1.21.1.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["unknown:DLC|config/immediatelyfast.json"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Y-Prerequisite library/fabric-api-0.92.6+1.11.14+1.20.1.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side/BetterF3-11.0.3-NeoForge-1.21.1.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/Log-Begone-Forge-1.20.1-1.0.8.jar"]
+    enabled = false
+    appliedTargets = ["mods\\Log-Begone-Forge-1.20.1-1.0.8.jar"]
+
+  ["mod:DLC|Y-Prerequisite library/fzzy_config-0.7.6+1.21+neoforge.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side/oculus-mc1.20.1-1.8.0.jar"]
+    enabled = false
+    appliedTargets = ["mods\\oculus-mc1.20.1-1.8.0.jar"]
+
+  ["mod:DLC|Z-Client-side-server/FastSuite-1.21.1-6.0.7.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/Kerria-1.3.2+1.20.1-forge.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/spark-1.10.53-forge.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side/flerovium-forge-1.20.1-1.2.18-all.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/smoothchunk-1.20.1-4.1.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/staaaaaaaaaaaack-forge-1.20.1-1.5-71.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/NoChatReports-FORGE-1.20.1-v2.2.2.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/fastrecipesearch-1.20.1-26.1-forge.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Y-Prerequisite library/Placebo-1.21.1-9.9.1.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/chunksending-1.20.1-2.8.jar"]
+    enabled = false
+    appliedTargets = []
+
+  ["mod:DLC|Z-Client-side-server/zfastnoise-1.0.13+1.21.1+neoforge.jar"]
+    enabled = false
+    appliedTargets = []

@@ -1,0 +1,56 @@
+
+#Shirium Client Configuration - 100% Client-Side Only
+[general]
+	#Performance preset. Set to CUSTOM to use individual settings below.
+	#Allowed Values: ULTRA_PERFORMANCE, BALANCED, HIGH_QUALITY, CUSTOM
+	performancePreset = "BALANCED"
+	#Target FPS for the adaptive GPU upload system.
+	#Range: 30 ~ 240
+	targetFps = 60
+	#FPS display: OFF, SIMPLE (just FPS), DETAILED (full performance stats).
+	#Allowed Values: OFF, SIMPLE, DETAILED
+	fpsDisplay = "SIMPLE"
+
+#Entity & Block Entity Rendering (client-side only, render culling)
+[rendering]
+	#Maximum distance (in blocks) to render entities. Lower = better performance.
+	#Range: 16 ~ 256
+	entityRenderDistance = 64
+	#Maximum distance (in blocks) to render block entities (chests, signs, etc).
+	#Range: 16 ~ 128
+	blockEntityRenderDistance = 48
+	#Enable distance and angle-based entity render culling. Players/projectiles always render.
+	enableEntityRenderCulling = true
+	#Enable block entity render distance and frame-skip optimization.
+	enableBlockEntityOptimization = true
+
+#Chunk Culling (client-side visual optimization)
+[chunk_culling]
+	#Enable vertical culling: skip rendering underground sections when on surface. Huge FPS gain.
+	enableVerticalCulling = true
+	#How many sections (16 blocks each) below the player to render. Lower = more culled = better FPS.
+	#Range: 1 ~ 16
+	verticalCullingRange = 4
+	#Enable distant chunk culling: skip underground sections of far-away chunks.
+	enableDistantChunkCulling = true
+	#Chunk distance (in chunks) at which underground sections are culled. Lower = more aggressive.
+	#Range: 2 ~ 32
+	distantChunkThreshold = 6
+	#Skip rendering distant sections behind the camera. Reduces GPU work when exploring.
+	enableDirectionalCulling = true
+	#Maximum visible sections per frame. Hard cap prevents frametime spikes. Lower = smoother.
+	#Range: 256 ~ 4096
+	maxVisibleSections = 1500
+
+#Particles & Animations (client-side visual only)
+[particles]
+	#Particle density level. DECREASED and MINIMAL give significant FPS gains.
+	#Allowed Values: ALL, DECREASED, MINIMAL, NONE
+	particleDensity = "ALL"
+	#Animation quality multiplier. 1.0 = full, 0.5 = half updates, 0.25 = quarter.
+	#Range: 0.25 ~ 1.0
+	animationQuality = 0.75
+	#Explosion visual optimization: OFF, BALANCED (limit per tick), AGGRESSIVE (strict limit).
+	#Allowed Values: OFF, BALANCED, AGGRESSIVE
+	explosionOptimization = "BALANCED"
+

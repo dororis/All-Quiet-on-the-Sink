@@ -1,0 +1,258 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4838fe84417c66b8"
+	group: "0B022AD354D4F865"
+	icon: {
+		id: "molecularmanipulator:miniature_supernova"
+	}
+	id: "4838FE84417C66B8"
+	images: [
+		{
+			click_action: "none:"
+			height: 1.3d
+			id: "315F0D63629BC215"
+			image: "productivebeesgenesis:block/infinitycreation_comb_block"
+			rotation: 0.0d
+			width: 1.3d
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			click_action: "none:"
+			height: 3.0d
+			id: "41388AA09500FD77"
+			image: "molecularmanipulator:block/singularity_sequence_matter_still"
+			rotation: 0.0d
+			width: 3.0d
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "0FDB71500E577A31"
+			image: "fancymenu:textures/layout_editor/widgets/layers/move_down.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: -5.25d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "4DB970242C394780"
+			image: "fancymenu:textures/layout_editor/widgets/layers/move_down.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: -2.75d
+		}
+		{
+			click_action: "none:"
+			height: 1.3d
+			id: "2C1EC549BD0D3DA2"
+			image: "enderio:block/cloud_seed_concentrated_flowing"
+			rotation: 0.0d
+			width: 1.3d
+			x: 1.0d
+			y: -1.5d
+		}
+	]
+	order_index: 16
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"2F489BA8CE4A9E59"
+				"310EC320E1631779"
+			]
+			dependency_requirement: "one_completed"
+			id: "2A7EDC8FDC96246A"
+			size: 2.0d
+			tasks: [{
+				id: "5B632C794D846160"
+				item: { count: 1, id: "molecularmanipulator:matter_fabrication_controller" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["69F29ECE0ECADD70"]
+			id: "2FDEA41B9124BB06"
+			rewards: [{
+				id: "2D7A668AA63DB619"
+				item: {
+					count: 1
+					id: "kubejs:infinities_bee_upgrade_cell"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "53AF26CCC6D08A24"
+					type: "checkmark"
+				}
+				{
+					icon: {
+						components: {
+							"!ftbquests:icon": { }
+							"ftbquests:entity_face": "minecraft:bee"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "1FEA8EC4E37ABA17"
+					observation_type: "entity_type"
+					observe_type: 5
+					optional_task: true
+					timer: 0L
+					to_observe: "productivebees:myriadcreations"
+					type: "observation"
+				}
+			]
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["414A3DC2D4CA1ADD"]
+			id: "69F29ECE0ECADD70"
+			rewards: [
+				{
+					id: "729DD9617B23A85A"
+					item: {
+						count: 1
+						id: "kubejs:infinities_factory_cell"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2AACECF93D38717F"
+					item: {
+						count: 1
+						id: "minecraft:bee_spawn_egg"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "63D83D034767EB73"
+					item: {
+						count: 1
+						id: "productivebees:bee_cage"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "332EA994B1763B68"
+				item: { count: 1, id: "molecularmanipulator:transfinite_compute_nexus" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			id: "5F77085C4C591347"
+			optional: true
+			size: 2.0d
+			tasks: [{
+				id: "00EA30A08590289E"
+				item: { count: 1, id: "molecularmanipulator:molecular_center_controller" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2A7EDC8FDC96246A"]
+			id: "414A3DC2D4CA1ADD"
+			size: 2.0d
+			tasks: [{
+				id: "5C31C33EB0C0AAB1"
+				item: { count: 1, id: "molecularmanipulator:omni_computation_controller" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["414A3DC2D4CA1ADD"]
+			icon: {
+				id: "molecularmanipulator:event_horizon_singularity_hub"
+			}
+			id: "59A9F50F92518F7A"
+			size: 2.0d
+			tasks: [
+				{
+					id: "5478DCCF00407D8A"
+					item: { count: 1, id: "molecularmanipulator:event_horizon_singularity_hub" }
+					type: "item"
+				}
+				{
+					dimension: "allthemodium:the_beyond"
+					id: "6D17C7AC68645FEE"
+					optional_task: true
+					type: "dimension"
+				}
+			]
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			id: "310EC320E1631779"
+			size: 2.0d
+			tasks: [{
+				id: "6B6F35A48FBDE747"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			id: "03AB847855EAAEF4"
+			size: 2.0d
+			tasks: [{
+				id: "25BFD166D4807494"
+				item: { count: 1, id: "ae2lt:tianshu_multidimensional_main_core" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -6.5d
+		}
+		{
+			id: "18A0BDDC52949906"
+			size: 2.0d
+			tasks: [{
+				id: "76490BC68FC947F3"
+				item: { count: 1, id: "ae2lt:matter_warping_matrix_multidimensional_main_core" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			id: "617469A48AB9ADA1"
+			size: 2.0d
+			tasks: [{
+				id: "5C505AEA76BBDF4A"
+				item: { count: 1, id: "molecularmanipulator:compact_singularity_hub" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["69F29ECE0ECADD70"]
+			id: "55706DA8850B8FB1"
+			tasks: [{
+				id: "4F825E37C049EFC8"
+				item: { count: 1, id: "anvilcraft:seeds_pack" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+	]
+}

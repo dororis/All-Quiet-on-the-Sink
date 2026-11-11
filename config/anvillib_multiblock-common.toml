@@ -1,0 +1,16 @@
+#The interval of checking unformed multiblock (in ticks)
+# Default: 10
+# Range: 5 ~ 100
+unformed_multiblock_check_interval = 10
+#The interval of checking formed multiblock (in ticks)
+# Default: 20
+# Range: 5 ~ 100
+formed_multiblock_check_interval = 20
+#Thread pool size for async multiblock checking
+# Default: 4
+# Range: 1 ~ 16
+async_thread_pool_size = 4
+#Maximum number of multiblock checks submitted per tick
+# Default: 128
+# Range: 1 ~ 512
+max_checks_per_tick = 128

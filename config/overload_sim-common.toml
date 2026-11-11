@@ -1,0 +1,32 @@
+#Effective installed matrix limit; existing matrices are retained. Hard maximum is 32.
+# Default: 32
+# Range: 1 ~ 32
+matrixLimit = 32
+# Default: 4
+# Range: 0 ~ 4
+accelerationCardLimit = 4
+# Default: 10
+# Range: 1 ~ 400
+autoEjectIntervalTicks = 10
+#Maximum FE drawn from Applied Flux FE storage in an online ME grid per server tick, including while idle. 0 disables new ME FE withdrawals.
+# Default: 10000
+# Range: 0 ~ 4000000
+networkFeChargePerTick = 10000
+
+[resonanceCoil]
+	# Default: 32
+	# Range: 1 ~ 256
+	lightningRange = 32
+	# Default: 30
+	# Range: 1 ~ 400
+	selfStrikeChargeTicks = 30
+	# Default: 10
+	# Range: 1 ~ 400
+	lightningCooldownTicks = 10
+	#FE per mined block or melee hit; lightning separately consumes the configured amount of the selected voltage.
+	# Default: 200
+	# Range: 0 ~ 2000000
+	miningEnergyFe = 200
+	# Default: 10000
+	# Range: 0 ~ 2000000
+	chargeFePerTick = 10000

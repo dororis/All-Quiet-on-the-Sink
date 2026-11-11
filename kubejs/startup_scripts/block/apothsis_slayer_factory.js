@@ -1,0 +1,10 @@
+StartupEvents.registry('block', event => {
+    event.create('apothsis_slayer_factory')
+        .displayName('神化屠宰厂')
+        .parentModel('kubejs:block/apotheosis_slayer_factory')
+        .renderType('cutout')
+        .hardness(5.0)
+        .resistance(12.0)
+        .tagBlock('minecraft:mineable/pickaxe')
+        .requiresTool(true)
+})

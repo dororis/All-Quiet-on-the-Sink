@@ -1,0 +1,89 @@
+MaxEntityEntities = 320
+qualityModes = "CRITICAL"
+RenderWeather = "LOW"
+FastItemRender = true
+RenderDisplayItem = false
+blackListedEntities = ["ak:dragon_entity", "ak:crazy_windy_eyes", "ak:fire_drive_entity", "ak:heal_slash_entity", "ak:kungunier_entity", "ak:liuli_fan_city", "ak:ruins", "ak:shiva_dance", "ak:sword", "ak:the_emperorof_ice", "ak:zenith12th_sword", "legendblade:bullet_entity", "legendblade:demon_blade_fragments", "legendblade:drive_summon_entity", "legendblade:drive_summon_fire", "legendblade:drive_summon_one", "legendblade:moon_drive_e_x", "legendblade:moon_drive_entity", "legendblade:no_end", "legendblade:seven_skill_field", "legendblade:sp_sumon_sword_entity", "legendblade:sumon_sword_e_x", "legendblade:sumon_sword_e_x_seven", "legendblade:sumon_sword_entity", "legendblade:sumon_sword_entityfly", "legendblade:sumon_sword_flaxy", "legendblade:sumon_sword_neo", "legendblade:sumon_sword_neo_forever", "legendblade:sword_rain_entity", "prinegorerouse:countable_sword", "prinegorerouse:drive_ex", "prinegorerouse:enchanted_sword", "prinegorerouse:explosion_sword", "prinegorerouse:fire_drive", "prinegorerouse:line_drive", "prinegorerouse:n_r_blistering_sword", "prinegorerouse:nr_drive", "prinegorerouse:nr_judgement_cut", "prinegorerouse:nrs_drive", "prinegorerouse:shiny_drive", "rough_blade:drive_plus", "rough_blade:fa_zhen_base", "rough_blade:fa_zhen_under", "rough_blade:fallen_star_entity", "rough_blade:laser_under", "rough_blade:sakura_attack_effect_entity", "rough_blade:sakura_explosion_entity", "rough_blade:sakura_slash_entity", "rough_blade:shine_core_item_entity", "rough_blade:starry_sky_slash", "rough_blade:storm_swords_plus", "rough_blade:summon_sword_p_r_o_entity", "rough_blade:summoned_sword_plus", "rough_blade:the_break_sword_plus", "rough_blade:track_tail_entity", "rough_blade:zhen_li_entity", "slashblade:abstract_summoned_sword", "slashblade:blade_item_entity", "moonstone:sword", "slashblade:blistering_swords", "slashblade:drive", "slashblade:heavy_rain_swords", "slashblade:judgement_cut", "slashblade:slash_effect", "slashblade:spiral_swords", "slashblade:storm_swords", "srelic:big_drive_enity", "srelic:black_hole", "srelic:bullet_galaxy", "srelic:neo_drive_enity", "srelic:rappa_enity", "srelic:s_r_blistering_sword", "srelic:summon_blade", "srelic:wither_breaker_entity", "srelic:yun_li_entity", "starsource:dying_dimension", "starsource:moving_drive", "starsource:super_dimension", "starsource:tracking_storm_swords", "yakumoblade:big_drive_enity", "yakumoblade:black_slash_entity", "yakumoblade:dragon_hex_gram_entity", "yakumoblade:dragon_hex_gram_star", "yakumoblade:dragon_hex_gram_star", "yakumoblade:fox_hex_gram_ex_entity", "yakumoblade:fox_sumon_sword_entity", "yakumoblade:gigantjudgement_cut", "yakumoblade:hex_gram_sumon_sword_entity", "yakumoblade:laser_circle_entity", "yakumoblade:n_r_blistering_sword", "yakumoblade:soul_edge_buterfly", "yakumoblade:soul_edge_entity", "yakumoblade:spiral_swords", "yakumoblade:star_drive_enity", "yakumoblade:star_fox", "yakumoblade:star_rider_entity", "yakumoblade:summon_sword_entity", "yakumoblade:wither_attack_entity", "yakumoblade:wither_summon_sword_entity", "yakumoblade:yu_yu_ko_spiral_swords_entity", "yakumoblade:yukari_entity", "", "slashblade:slash_effect", "slashBlade:Resharped", "yakumoblade:souLedge_buterfly", "slashblade:rapid_slash", "moonstone:as_sword_entity", "moonstone:suddenrain", "moonstone:flysword", "moonstone:axe", "malum:pneuma_void", "", "", "", "", "", "", "", "", "", "", "", "slashblade_addon:water_drive", "slashblade_addon:lighting_swords", "slashblade_addon:blistering_swords_entity", "slashblade_addon:spiral_edge_swords_entity", "slashblade_addon:gale_swords_entity"]
+whiteListedEntities = []
+BlackTagListEntity = []
+WhiteTagListEntity = []
+isAlwaysShowItemCount = false
+startTime = 60.626
+Hud = true
+HudRXTX = false
+HudFPS = true
+HudCPU = false
+HudGPU = false
+HudRAM = false
+HudPlayerPos = false
+HudServer = false
+HudCameraTarget = false
+Mood = false
+MaxParticleDistance = 64
+WhiteListedParticle = []
+BlackListedParticle = []
+GuiEasyRamMode = false
+GuiDisplayRamUsage = false
+UseAui = true
+TextBackground = false
+TextureAnimatedSprites = true
+SoundDevicesMonitor = false
+SetParticleMaxAge = true
+ParticleMaxAge = 100
+MinDistance = 2
+EntityDistance = 120
+ParticlePerformance = false
+ParticleCountLimit = 8192
+BlockBreakParticle = true
+AsyncCompute = true
+SoftCull = false
+DynamicEntityBudget = false
+BlackBlockEntities = []
+WhiteBlockEntities = []
+MaxBlockEntityCount = 120
+BlockEntityDistance = 64
+onCull = true
+VisibleCulling = false
+EntityRenderPerformance = false
+CullMode = "FAST"
+ParticleFastCollision = true
+ParticleLazyBrightness = true
+CullBlockEntity = true
+CullEntity = true
+CullParticle = true
+
+[[HudTextConfig]]
+key = "ruok.options.hud.fps.info"
+x = 4
+y = 4
+enabled = true
+
+[[HudTextConfig]]
+key = "ruok.options.hud.system.info"
+x = 4
+y = 17
+enabled = false
+
+[[HudTextConfig]]
+key = "ruok.options.hud.playerpos.info"
+x = 4
+y = 30
+enabled = false
+
+[[HudTextConfig]]
+key = "ruok.options.hud.server.info"
+x = 4
+y = 43
+enabled = false
+
+[[HudTextConfig]]
+key = "ruok.options.hud.cameratarget.info"
+x = 4
+y = 56
+enabled = false
+
+[[HudTextConfig]]
+key = "ruok.options.hud.rtxt.info"
+x = 4
+y = 69
+enabled = false

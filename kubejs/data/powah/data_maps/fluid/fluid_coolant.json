@@ -1,0 +1,10 @@
+{
+  "values": {
+    "justdirethings:polymorphic_fluid_source": {
+      "temperature": -4
+    },
+    "justdirethings:time_fluid_source": {
+      "temperature": -273
+    }
+  }
+}

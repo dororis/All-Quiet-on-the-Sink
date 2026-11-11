@@ -1,0 +1,23 @@
+ServerEvents.recipes(event => {
+    event.custom(
+            {
+  "type": "anvilcraft:time_warp",
+  "consume": 1000,
+  "fluid": "minecraft:powder_snow",
+  "ingredients": [
+    {
+      "count": 3,
+      "items": "anvilcraft:royal_steel_ingot"
+    },
+    {
+      "items": "alltheores:silver_ingot"
+    }
+  ],
+  "results": [
+    {
+      "count": 4,
+      "id": "anvilcraft:frost_metal_ingot"
+    }
+  ]
+}
+)})
